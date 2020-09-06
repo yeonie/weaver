@@ -1,5 +1,5 @@
 //
-//  SplashChoiceViewController.swift
+//  SignUpViewController.swift
 //  ios
 //
 //  Created by 이동연 on 06/09/2020.
@@ -8,25 +8,15 @@
 
 import UIKit
 
-class SplashChoiceViewController: BaseViewController {
+class SignUpViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        UINavigationBar.appearance().barTintColor = UIColor.blue
-        UINavigationBar.appearance().tintColor = UIColor.white
-        
 
-    }
-    override func viewWillAppear(_ animated: Bool) {
-        
-        self.navigationController!.navigationBar.isHidden = true
-
+        // Do any additional setup after loading the view.
     }
 
-    @IBAction func SignUpBtn(_ sender: UIButton) {
-        navigationController!.pushViewController(SignUpViewController(), animated: true)
-    }
-    
+
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashChoiceViewController" customModule="ios" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashChoiceBackground" translatesAutoresizingMaskIntoConstraints="NO" id="HD8-7R-FUF">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBx-ye-xKf">
+                    <rect key="frame" x="30" y="552" width="354" height="290"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-9F-vSy">
+                            <rect key="frame" x="0.0" y="125" width="354" height="85"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="85" id="rSr-Wk-QIy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <state key="normal" title="로그인" backgroundImage="SignInBtn">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKj-ub-cSv">
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="85"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="85" id="nXH-UG-gCc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <state key="normal" title="가입하기" backgroundImage="SignUpBtn">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNT-Xy-q0O">
+                            <rect key="frame" x="-10" y="246" width="374" height="0.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.69999999999999996" id="tAd-8d-FHH"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGN-HH-pc7">
+                            <rect key="frame" x="20" y="260" width="300" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="300" id="EbE-Wk-FOl"/>
+                                <constraint firstAttribute="height" constant="22" id="Y9p-IB-wNB"/>
+                            </constraints>
+                            <state key="normal" title="         카카오로 로그인" image="kakaoLoginBtn">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="dNT-Xy-q0O" secondAttribute="trailing" constant="-10" id="1vm-48-dlf"/>
+                        <constraint firstItem="NKj-ub-cSv" firstAttribute="top" secondItem="pBx-ye-xKf" secondAttribute="top" id="2Nj-5e-u2s"/>
+                        <constraint firstAttribute="bottom" secondItem="aGN-HH-pc7" secondAttribute="bottom" constant="8" id="6C7-mM-vwO"/>
+                        <constraint firstItem="aGN-HH-pc7" firstAttribute="centerX" secondItem="pBx-ye-xKf" secondAttribute="centerX" constant="-7" id="Cpe-GB-YZM"/>
+                        <constraint firstItem="NKj-ub-cSv" firstAttribute="leading" secondItem="pBx-ye-xKf" secondAttribute="leading" id="F4l-3f-Alx"/>
+                        <constraint firstAttribute="trailing" secondItem="Bgm-9F-vSy" secondAttribute="trailing" id="OK4-Cs-BfS"/>
+                        <constraint firstItem="Bgm-9F-vSy" firstAttribute="top" secondItem="NKj-ub-cSv" secondAttribute="bottom" constant="40" id="QuY-rf-gal"/>
+                        <constraint firstItem="Bgm-9F-vSy" firstAttribute="leading" secondItem="pBx-ye-xKf" secondAttribute="leading" id="V52-XJ-Ew6"/>
+                        <constraint firstAttribute="height" constant="290" id="a7w-TB-qoh"/>
+                        <constraint firstAttribute="trailing" secondItem="NKj-ub-cSv" secondAttribute="trailing" id="bqk-8v-i9U"/>
+                        <constraint firstItem="dNT-Xy-q0O" firstAttribute="top" secondItem="aGN-HH-pc7" secondAttribute="bottom" constant="-36" id="jXX-5Q-94l"/>
+                        <constraint firstItem="dNT-Xy-q0O" firstAttribute="leading" secondItem="pBx-ye-xKf" secondAttribute="leading" constant="-10" id="oOI-BN-gVd"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-N6-lur">
+                    <rect key="frame" x="30" y="89" width="255" height="310"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGJ-kQ-EPT">
+                            <rect key="frame" x="8" y="38" width="213" height="214"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">우리끼리
+얘기하고 싶을 땐
+
+
+위버와 함께해요.</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pBx-ye-xKf" secondAttribute="trailing" constant="30" id="8wZ-1P-VDN"/>
+                <constraint firstItem="HD8-7R-FUF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Afg-nQ-dVt"/>
+                <constraint firstItem="HD8-7R-FUF" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="M5I-Lb-Wjw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pBx-ye-xKf" secondAttribute="bottom" constant="20" id="fDH-8K-4PP"/>
+                <constraint firstItem="HD8-7R-FUF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ggw-Q5-pwG"/>
+                <constraint firstAttribute="bottom" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="mIQ-MQ-lWJ"/>
+                <constraint firstItem="pBx-ye-xKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ohw-vg-Yso"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SignInBtn" width="302" height="75"/>
+        <image name="SignUpBtn" width="302" height="75"/>
+        <image name="kakaoLoginBtn" width="24" height="24"/>
+        <image name="splashChoiceBackground" width="375" height="812"/>
+    </resources>
+</document>

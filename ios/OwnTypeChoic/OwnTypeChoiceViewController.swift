@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.swift
+//  OwnTypeChoiceViewController.swift
 //  ios
 //
 //  Created by 이동연 on 06/09/2020.
@@ -8,17 +8,19 @@
 
 import UIKit
 
-class SignUpViewController: BaseViewController {
+class OwnTypeChoiceViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let myText = expanation.text!
+        let myParagraphStyle = NSMutableParagraphStyle()
+        myParagraphStyle.lineSpacing = 5
+                // Do any additional setup after loading the view.
     }
 
-    @IBAction func SginUpBtn(_ sender: UIButton) {
-        navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
-    }
+    @IBOutlet weak var expanation: UILabel!
+    
+    
     
     /*
     // MARK: - Navigation

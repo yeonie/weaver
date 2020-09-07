@@ -76,6 +76,9 @@
                         <constraint firstAttribute="height" constant="75" id="yFo-H7-PTA"/>
                     </constraints>
                     <state key="normal" image="blackRect"/>
+                    <connections>
+                        <action selector="skipBtnPressed:" destination="-1" eventType="touchUpInside" id="QQG-sJ-Ecm"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vi-th-LdH">
                     <rect key="frame" x="94.5" y="635" width="225" height="75"/>

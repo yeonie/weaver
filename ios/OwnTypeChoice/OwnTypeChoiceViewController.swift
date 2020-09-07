@@ -12,14 +12,17 @@ class OwnTypeChoiceViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myText = expanation.text!
-        let myParagraphStyle = NSMutableParagraphStyle()
-        myParagraphStyle.lineSpacing = 5
+//        let myText = expanation.text!
+//        let myParagraphStyle = NSMutableParagraphStyle()
+//        myParagraphStyle.lineSpacing = 5
                 // Do any additional setup after loading the view.
     }
 
     @IBOutlet weak var expanation: UILabel!
     
+    @IBAction func skipBtnPressed(_ sender: UIButton) {
+        navigationController!.pushViewController(ThemeChoiceViewController(), animated: true)
+    }
     
     
     /*

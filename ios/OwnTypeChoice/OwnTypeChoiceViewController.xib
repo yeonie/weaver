@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OwnTypeChoiceViewController" customModule="ios" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splashChoiceBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mzv-kv-NIe">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d84-ha-VQx">
+                    <rect key="frame" x="31" y="141" width="303" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="5qa-uZ-kGI"/>
+                        <constraint firstAttribute="width" constant="303" id="xau-YP-Xej"/>
+                    </constraints>
+                    <string key="text">자신의 유형을 알고있다면
+선택해주세요.
+</string>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg3-aA-ULl">
+                    <rect key="frame" x="35" y="223" width="303" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="303" id="RRB-fc-Cm5"/>
+                        <constraint firstAttribute="height" constant="57" id="cU0-9v-HZi"/>
+                    </constraints>
+                    <string key="text">유형 설정은 우리끼리 만나기 쉽게 합니다.
+이후 언제든 수정할 수 있어요.
+유형을 모른다면 위버에서 검사가 가능합니다.</string>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQK-YE-rHy">
+                    <rect key="frame" x="20" y="65" width="24" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="8kL-Ox-KdM"/>
+                        <constraint firstAttribute="height" constant="26" id="Kj2-39-Lrn"/>
+                    </constraints>
+                    <state key="normal" image="dismissBtn"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qIX-hU-kfr">
+                    <rect key="frame" x="20" y="303" width="374" height="280"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jI6-Re-aia">
+                            <rect key="frame" x="8" y="8" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-eY-BGR">
+                    <rect key="frame" x="96" y="731" width="222" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="222" id="EaE-Wv-gr3"/>
+                        <constraint firstAttribute="height" constant="75" id="yFo-H7-PTA"/>
+                    </constraints>
+                    <state key="normal" image="blackRect"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vi-th-LdH">
+                    <rect key="frame" x="94.5" y="635" width="225" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="225" id="kul-mY-r7C"/>
+                        <constraint firstAttribute="height" constant="75" id="vhJ-xk-r05"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <state key="normal" image="greyRec">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="다음으로" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shi-Ea-Pc1">
+                    <rect key="frame" x="172" y="756" width="70" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나중에 하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ey-NS-Lg9">
+                    <rect key="frame" x="162" y="660" width="91" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qIX-hU-kfr" secondAttribute="trailing" constant="20" id="3y7-Hl-fMb"/>
+                <constraint firstItem="yg3-aA-ULl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="35" id="43T-hI-8hs"/>
+                <constraint firstItem="qIX-hU-kfr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="N5t-FN-7eF"/>
+                <constraint firstItem="Wpa-eY-BGR" firstAttribute="top" secondItem="4vi-th-LdH" secondAttribute="bottom" constant="21" id="NDL-OG-lNR"/>
+                <constraint firstItem="4vi-th-LdH" firstAttribute="top" secondItem="qIX-hU-kfr" secondAttribute="bottom" constant="52" id="SLz-Gw-6Gh"/>
+                <constraint firstItem="d84-ha-VQx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="31" id="aG6-U8-LjT"/>
+                <constraint firstItem="aQK-YE-rHy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="21" id="bPL-XE-zAk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Wpa-eY-BGR" secondAttribute="bottom" constant="56" id="ekM-VA-lv3"/>
+                <constraint firstItem="Wpa-eY-BGR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gMo-1l-SQ1"/>
+                <constraint firstItem="qIX-hU-kfr" firstAttribute="top" secondItem="yg3-aA-ULl" secondAttribute="bottom" constant="23" id="kpJ-VY-hww"/>
+                <constraint firstItem="d84-ha-VQx" firstAttribute="top" secondItem="aQK-YE-rHy" secondAttribute="bottom" constant="50" id="sk9-g4-l6q"/>
+                <constraint firstItem="4vi-th-LdH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uRt-i8-sTi"/>
+                <constraint firstItem="aQK-YE-rHy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ujF-yd-a86"/>
+                <constraint firstItem="yg3-aA-ULl" firstAttribute="top" secondItem="aQK-YE-rHy" secondAttribute="bottom" constant="132" id="xb2-sX-YLc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blackRect" width="222" height="75"/>
+        <image name="dismissBtn" width="24" height="26"/>
+        <image name="greyRec" width="222" height="75"/>
+        <image name="splashChoiceBackground" width="375" height="812"/>
+    </resources>
+</document>

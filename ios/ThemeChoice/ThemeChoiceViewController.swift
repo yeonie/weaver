@@ -20,9 +20,10 @@ class ThemeChoiceViewController: BaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = false
         
-        self.navigationController?.navigationBar.tintColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
-        self.navigationController?.navigationBar.backgroundColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
+//        self.navigationController?.navigationBar.tintColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
+//        self.navigationController?.navigationBar.backgroundColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
+//        self.navigationController?.navigationBar.barTintColor = UIColor(red: 110/255, green: 198/255, blue: 200/255, alpha: 0.1)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
     }
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true

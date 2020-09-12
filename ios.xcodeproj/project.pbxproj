@@ -13,6 +13,8 @@
 		845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */; };
 		845B2D352505A74400629DF3 /* ThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B2D332505A74400629DF3 /* ThemeChoiceViewController.swift */; };
 		845B2D362505A74400629DF3 /* ThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */; };
+		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
+		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */; };
 		84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */; };
 		BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */; };
@@ -47,6 +49,8 @@
 		845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OwnTypeChoiceViewController.xib; sourceTree = "<group>"; };
 		845B2D332505A74400629DF3 /* ThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeChoiceViewController.xib; sourceTree = "<group>"; };
+		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
+		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashChoiceViewController.swift; sourceTree = "<group>"; };
 		84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashChoiceViewController.xib; sourceTree = "<group>"; };
 		BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePopUp.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 			children = (
 				845B2D2E2504DE1E00629DF3 /* OwnTypeChoiceViewController.swift */,
 				845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */,
+				8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */,
+				8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */,
 			);
 			path = OwnTypeChoice;
 			sourceTree = "<group>";
@@ -128,6 +134,13 @@
 				845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */,
 			);
 			path = ThemeChoice;
+			sourceTree = "<group>";
+		};
+		8498F987250C8ED20039A25B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		84E7D3D7250483950033A1CF /* SplashChoice */ = {
@@ -229,6 +242,7 @@
 		BDEF322D22F9B7CB00FEF8BD /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				8498F987250C8ED20039A25B /* New Group */,
 				845B2D322505A71E00629DF3 /* ThemeChoice */,
 				845B2D2D2504DE0600629DF3 /* OwnTypeChoice */,
 				845B2D282504C59A00629DF3 /* SignUp */,
@@ -305,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
 				BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */,
 				BDEF323922F9B7CB00FEF8BD /* Assets.xcassets in Resources */,
@@ -366,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */,
 				84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */,
 				BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */,
 				845B2D352505A74400629DF3 /* ThemeChoiceViewController.swift in Sources */,

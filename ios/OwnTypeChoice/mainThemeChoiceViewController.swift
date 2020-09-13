@@ -8,7 +8,7 @@
 
 import UIKit
 
-class mainThemeChoiceViewController: UIViewController {
+class mainThemeChoiceViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +16,14 @@ class mainThemeChoiceViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func maybeNextTime(_ sender: UIButton) {
+        let window = UIApplication.shared.windows.first { $0.isKeyWindow }
+        window?.rootViewController = MainTabbarViewController()
+        
+//        navigationController!.pushViewController(BoardHomeViewController(), animated: true)
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
+    
+    
 
 }

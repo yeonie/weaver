@@ -15,6 +15,10 @@ class SplashChoiceViewController: BaseViewController {
 
     @IBOutlet weak var slideSignInView: UIView!
     
+    @IBAction func maybeNextTime(_ sender: UIButton) {
+        navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+
+    }
     @IBAction func slideOff(_ sender: Any) {
         slideoff = !slideoff
         
@@ -33,7 +37,6 @@ class SplashChoiceViewController: BaseViewController {
             UIView.animate(withDuration: 0.6, animations:({
                 
                 self.slideSignInView.transform = CGAffineTransform(translationX: 0, y: 0)
-                //                self.slideSignInView.layer.masksToBounds = false
                 self.slideSignInView.layer.shadowColor = UIColor.black.cgColor
                 self.slideSignInView.layer.shadowOffset = CGSize(width: 1, height: 2)
                 self.slideSignInView.layer.shadowOpacity = 1

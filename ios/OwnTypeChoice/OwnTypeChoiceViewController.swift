@@ -21,7 +21,7 @@ class OwnTypeChoiceViewController: BaseViewController {
     @IBOutlet weak var expanation: UILabel!
     
     @IBAction func skipBtnPressed(_ sender: UIButton) {
-        navigationController!.pushViewController(ThemeChoiceViewController(), animated: true)
+        navigationController!.pushViewController(mainThemeChoiceViewController(), animated: true)
     }
     
     

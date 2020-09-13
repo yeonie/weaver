@@ -16,6 +16,9 @@ class ThemeChoiceViewController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func maybeNextTime(_ sender: Any) {
+        
+    }
     //네비게이션 바 보이는 뷰에만 필요한 set
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = false
@@ -30,14 +33,5 @@ class ThemeChoiceViewController: BaseViewController {
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -13,8 +13,11 @@ class BoardHomeViewController: BaseViewController {
     @IBOutlet weak var attributedString: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()        
-        view.backgroundColor = .blue
+        super.viewDidLoad()
+        //바텀 탭바 모양 check
+        //view.backgroundColor = .blue
+        
+        
         //글꼴
         let attributedString = NSMutableAttributedString(string: "ESTJ는 지금", attributes: [
 //            .font: UIFont(name: "NotoSans-Bold", size: 20.0)!,

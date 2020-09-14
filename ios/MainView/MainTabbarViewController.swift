@@ -10,6 +10,8 @@ import UIKit
 
 class MainTabbarViewController: UITabBarController {
     
+    
+    //아이폰 6,7,8 경우인듯.
     private var device: CGFloat {
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
@@ -42,16 +44,32 @@ class MainTabbarViewController: UITabBarController {
         view.bringSubviewToFront(tabBar)
 
         let boardHomeVC = BoardHomeViewController()
-        let boardNaviVC = UINavigationController(rootViewController: boardHomeVC)
-        boardNaviVC.tabBarItem.image = #imageLiteral(resourceName: "bottomTapBarHomeBtn")
-        boardNaviVC.tabBarItem.title = "홈"
+        let boardHomeNaviVC = UINavigationController(rootViewController: boardHomeVC)
+        boardHomeNaviVC.tabBarItem.image = #imageLiteral(resourceName: "bottomTapBarHomeBtn")
+        boardHomeNaviVC.tabBarItem.title = "홈"
         
         let messageVC = messageViewController()
         let messageNaviVC = UINavigationController(rootViewController: messageVC)
         messageNaviVC.tabBarItem.image = #imageLiteral(resourceName: "bottomTapBarMsgBtnOn")
-        messageNaviVC.tabBarItem.title = "홈"
+        messageNaviVC.tabBarItem.title = "메세지"
         
-        viewControllers = [boardNaviVC, messageNaviVC]
+        let matchingVC = matchingHomeViewController()
+        let matchingNaviVC = UINavigationController(rootViewController: matchingVC)
+        matchingNaviVC.tabBarItem.image = .init(imageLiteralResourceName: "bottomTapBarWeavingBtn")
+        matchingNaviVC.tabBarItem.title = "친구찾기"
+        
+        let myPageVC = myPageViewController()
+        let myPageNaviVC = UINavigationController(rootViewController: myPageVC)
+        myPageNaviVC.tabBarItem.image = .init(imageLiteralResourceName: "bottomTapBarMyPageBtn")
+        myPageNaviVC.tabBarItem.title = "마이"
+        
+        let boardVC = boardViewController()
+        let boardNaviVC = UINavigationController(rootViewController: boardVC)
+        boardNaviVC.tabBarItem.image = .init(imageLiteralResourceName: "bottomTapBarBoardBtn")
+        boardNaviVC.tabBarItem.title = "게시판"
+        
+        
+        viewControllers = [boardHomeNaviVC, matchingNaviVC, boardNaviVC, messageNaviVC, myPageNaviVC]
         
         
     }

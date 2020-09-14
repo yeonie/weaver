@@ -39,12 +39,12 @@
                     <rect key="frame" x="30" y="552" width="315" height="290"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-9F-vSy">
-                            <rect key="frame" x="0.0" y="125" width="315" height="85"/>
+                            <rect key="frame" x="0.0" y="110" width="315" height="70"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="85" id="rSr-Wk-QIy"/>
+                                <constraint firstAttribute="height" constant="70" id="rSr-Wk-QIy"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                            <state key="normal" title="로그인" backgroundImage="SignInBtn">
+                            <state key="normal" backgroundImage="loginBtnNew">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
@@ -52,12 +52,12 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKj-ub-cSv">
-                            <rect key="frame" x="0.0" y="0.0" width="315" height="85"/>
+                            <rect key="frame" x="0.0" y="0.0" width="315" height="70"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="85" id="nXH-UG-gCc"/>
+                                <constraint firstAttribute="height" constant="70" id="nXH-UG-gCc"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                            <state key="normal" title="가입하기" backgroundImage="SignUpBtn">
+                            <state key="normal" backgroundImage="signinBtnNew">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
@@ -319,10 +319,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JlU-Yk-ii4">
-                    <rect key="frame" x="0.0" y="896" width="375" height="400"/>
+                    <rect key="frame" x="0.0" y="896" width="375" height="450"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle117" translatesAutoresizingMaskIntoConstraints="NO" id="74Q-gx-LRX">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="450"/>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oWK-of-Qwk">
                             <rect key="frame" x="26" y="91" width="323" height="95"/>
@@ -460,7 +460,7 @@
                         <constraint firstItem="Xlj-jc-mkW" firstAttribute="top" secondItem="oWK-of-Qwk" secondAttribute="bottom" id="dJr-xD-y0m"/>
                         <constraint firstAttribute="trailing" secondItem="74Q-gx-LRX" secondAttribute="trailing" id="dXM-P1-glC"/>
                         <constraint firstItem="JXO-Gr-ZTQ" firstAttribute="leading" secondItem="oWK-of-Qwk" secondAttribute="leading" constant="17" id="fVN-vq-uap"/>
-                        <constraint firstAttribute="height" constant="400" id="gGu-SD-r3l"/>
+                        <constraint firstAttribute="height" constant="450" id="gGu-SD-r3l"/>
                         <constraint firstItem="oWK-of-Qwk" firstAttribute="leading" secondItem="JlU-Yk-ii4" secondAttribute="leading" constant="26" id="l3K-6p-NFE"/>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="y9P-Ys-eVE"/>
                     </constraints>
@@ -492,12 +492,13 @@
         </view>
     </objects>
     <resources>
-        <image name="SignInBtn" width="302" height="75"/>
         <image name="SignUpBtn" width="302" height="75"/>
         <image name="emailIC" width="14" height="10"/>
         <image name="kakaoLoginBtn" width="24" height="24"/>
+        <image name="loginBtnNew" width="304.5" height="60"/>
         <image name="passwordIC" width="14" height="15"/>
         <image name="rectangle117" width="375" height="477"/>
+        <image name="signinBtnNew" width="303" height="60"/>
         <image name="splashChoiceBackground" width="375" height="812"/>
         <image name="userIC" width="16" height="16"/>
         <image name="userProfileDefault" width="68" height="68"/>

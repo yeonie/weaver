@@ -133,13 +133,13 @@
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krq-66-ZJt">
-                            <rect key="frame" x="42" y="378" width="330" height="85"/>
+                            <rect key="frame" x="42" y="378" width="330" height="70"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="330" id="7B7-cd-Hac"/>
-                                <constraint firstAttribute="height" constant="85" id="J7F-Tl-MLj"/>
+                                <constraint firstAttribute="height" constant="70" id="J7F-Tl-MLj"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
-                            <state key="normal" title="가입하기" backgroundImage="SignUpBtn">
+                            <state key="normal" backgroundImage="signinBtnNew">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
@@ -259,9 +259,9 @@
     <resources>
         <image name="SignUpBackground" width="375" height="812"/>
         <image name="SignUpBox" width="375" height="477"/>
-        <image name="SignUpBtn" width="302" height="75"/>
         <image name="emailIC" width="14" height="10"/>
         <image name="passwordIC" width="14" height="15"/>
+        <image name="signinBtnNew" width="303" height="60"/>
         <image name="userIC" width="16" height="16"/>
         <image name="userProfileDefault" width="68" height="68"/>
     </resources>

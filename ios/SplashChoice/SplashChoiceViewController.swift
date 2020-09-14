@@ -25,7 +25,7 @@ class SplashChoiceViewController: BaseViewController {
         
         if slideoffForSignIn{
             UIView.animate(withDuration: 0.5, animations:({
-                self.slideSginUpView.transform = CGAffineTransform(translationX: 0, y: -400)
+                self.slideSginUpView.transform = CGAffineTransform(translationX: 0, y: -450)
                 self.slideSginUpView.layer.shadowColor = UIColor.black.cgColor
                 self.slideSginUpView.layer.shadowOffset = CGSize(width: 1, height: 2)
                 self.slideSginUpView.layer.shadowOpacity = 1

@@ -94,6 +94,17 @@ class SplashChoiceViewController: BaseViewController {
         self.navigationController!.navigationBar.isHidden = true
 
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
+            , target: self, action: nil)
+        self.navigationController?.navigationBar.tintColor = .black
+        //네비게이션 바 그림자
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+
+    }
+
 
     
     //가입하기

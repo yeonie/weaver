@@ -36,19 +36,31 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내 프로필" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meI-vI-7tu">
-                                    <rect key="frame" x="175" y="8" width="63" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                <view contentMode="top" translatesAutoresizingMaskIntoConstraints="NO" id="vpI-gx-kWm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내 프로필" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meI-vI-7tu">
+                                            <rect key="frame" x="176" y="23" width="63" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="65" id="jfF-A4-9D8"/>
+                                    </constraints>
+                                </view>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="vpI-gx-kWm" secondAttribute="trailing" id="99x-tz-7Fb"/>
+                                <constraint firstItem="vpI-gx-kWm" firstAttribute="leading" secondItem="7LF-Xe-SQl" secondAttribute="leading" id="AZY-yp-8Ka"/>
                                 <constraint firstItem="9HY-ih-Dyv" firstAttribute="leading" secondItem="7LF-Xe-SQl" secondAttribute="leading" constant="186" id="CK6-tj-QQs"/>
                                 <constraint firstAttribute="bottom" secondItem="9HY-ih-Dyv" secondAttribute="bottom" constant="100" id="G7E-Ir-IjC"/>
                                 <constraint firstAttribute="height" constant="1000" id="Tlx-UZ-rer"/>
+                                <constraint firstItem="vpI-gx-kWm" firstAttribute="top" secondItem="7LF-Xe-SQl" secondAttribute="top" id="vwO-ym-cc2"/>
                             </constraints>
                         </view>
                     </subviews>

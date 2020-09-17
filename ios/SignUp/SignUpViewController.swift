@@ -13,12 +13,14 @@ class SignUpViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
-
+    
+    
     @IBAction func SginUpBtn(_ sender: UIButton) {
         navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
     }
+    
     
     /*
     // MARK: - Navigation

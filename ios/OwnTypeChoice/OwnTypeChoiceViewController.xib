@@ -70,14 +70,6 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQK-YE-rHy">
-                    <rect key="frame" x="20" y="65" width="24" height="26"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="24" id="8kL-Ox-KdM"/>
-                        <constraint firstAttribute="height" constant="26" id="Kj2-39-Lrn"/>
-                    </constraints>
-                    <state key="normal" image="dismissBtn"/>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다음으로" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shi-Ea-Pc1">
                     <rect key="frame" x="172" y="756.5" width="70" height="24"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
@@ -108,8 +100,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yg3-aA-ULl" secondAttribute="trailing" constant="80" id="J60-LK-qaq"/>
                 <constraint firstAttribute="bottom" secondItem="mzv-kv-NIe" secondAttribute="bottom" id="JGO-QP-eML"/>
                 <constraint firstItem="Wpa-eY-BGR" firstAttribute="top" secondItem="4vi-th-LdH" secondAttribute="bottom" constant="21" id="NDL-OG-lNR"/>
-                <constraint firstItem="d84-ha-VQx" firstAttribute="top" secondItem="aQK-YE-rHy" secondAttribute="bottom" constant="50" id="OSA-56-QB5"/>
-                <constraint firstItem="aQK-YE-rHy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="21" id="bPL-XE-zAk"/>
+                <constraint firstItem="yg3-aA-ULl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="150" id="You-hF-fmx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Wpa-eY-BGR" secondAttribute="bottom" constant="56" id="ekM-VA-lv3"/>
                 <constraint firstItem="932-4I-1eE" firstAttribute="centerX" secondItem="mzv-kv-NIe" secondAttribute="centerX" id="fXR-Ug-6LX"/>
                 <constraint firstItem="Wpa-eY-BGR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gMo-1l-SQ1"/>
@@ -119,7 +110,6 @@
                 <constraint firstItem="8Ey-NS-Lg9" firstAttribute="centerX" secondItem="4vi-th-LdH" secondAttribute="centerX" id="lHJ-M2-AMc"/>
                 <constraint firstItem="8Ey-NS-Lg9" firstAttribute="centerY" secondItem="4vi-th-LdH" secondAttribute="centerY" id="stB-vl-fny"/>
                 <constraint firstItem="4vi-th-LdH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uRt-i8-sTi"/>
-                <constraint firstItem="aQK-YE-rHy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="ujF-yd-a86"/>
                 <constraint firstItem="932-4I-1eE" firstAttribute="top" secondItem="yg3-aA-ULl" secondAttribute="bottom" constant="21" id="x0e-x8-f2P"/>
                 <constraint firstItem="yg3-aA-ULl" firstAttribute="leading" secondItem="d84-ha-VQx" secondAttribute="leading" id="xqr-V0-lJZ"/>
                 <constraint firstItem="yg3-aA-ULl" firstAttribute="top" secondItem="d84-ha-VQx" secondAttribute="bottom" constant="-21" id="zaF-eL-Ntf"/>
@@ -130,7 +120,6 @@
     </objects>
     <resources>
         <image name="blackRect" width="222" height="75"/>
-        <image name="dismissBtn" width="24" height="26"/>
         <image name="greyRec" width="222" height="75"/>
         <image name="splashChoiceBackground" width="375" height="812"/>
     </resources>

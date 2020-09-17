@@ -20,7 +20,9 @@ class messageViewController: BaseViewController {
         //첨에 매칭 메세지가 떠야해서 게시판건 지워준다.
         self.boardBar.isHidden = true
         self.matchingBar.isHidden=false
+        navigationController?.navigationBar.isHidden = true
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

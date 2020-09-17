@@ -55,7 +55,6 @@ class SplashChoiceViewController: BaseViewController {
         
     }
     
-    
     //슬라이드 내려뿌기
     @IBAction func slideOff(_ sender: UIButton) {
         

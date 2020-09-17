@@ -15,7 +15,7 @@ class BoardHomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //바텀 탭바 모양 check
-        //view.backgroundColor = .blue
+//        view.backgroundColor = .blue
         
         
         //글꼴

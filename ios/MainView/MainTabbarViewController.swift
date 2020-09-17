@@ -30,6 +30,12 @@ class MainTabbarViewController: UITabBarController {
         view.backgroundColor = .white
         tabBar.backgroundImage = UIImage.from(.clear)
         tabBar.shadowImage = UIImage()
+//        self.tabBar.layer.shadowColor = UIColor.black.cgColor
+//        self.tabBar.layer.shadowOffset = CGSize(width: 1, height: 2)
+//        self.tabBar.layer.shadowOpacity = 1
+//        self.tabBar.layer.shadowRadius = 100
+
+        
         
         let tabbarBackgroundView = RoundShadowView(frame: tabBar.frame)
         tabbarBackgroundView.layer.cornerRadius = 25

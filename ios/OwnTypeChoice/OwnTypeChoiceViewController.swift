@@ -20,7 +20,8 @@ class OwnTypeChoiceViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.navigationBar.isHidden = false
+        navigationController?.navigationBar.isHidden = true
+        
 //        self.navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 0/255, green: 0/255, blue: 0/255, alpha: 0.01)
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         

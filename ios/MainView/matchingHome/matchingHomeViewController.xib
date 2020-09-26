@@ -20,19 +20,26 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="친구찾기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5l-dI-DNl">
-                    <rect key="frame" x="167" y="94" width="80" height="28"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sK3-kZ-OcZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVY-NR-2nv">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="761"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="d5l-dI-DNl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="oOE-rw-dQq"/>
-                <constraint firstItem="d5l-dI-DNl" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="u7c-1P-srt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="sK3-kZ-OcZ" secondAttribute="bottom" id="Bpe-oU-eYf"/>
+                <constraint firstItem="sK3-kZ-OcZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Hs9-Ai-9Gw"/>
+                <constraint firstItem="sK3-kZ-OcZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XoW-lo-05f"/>
+                <constraint firstItem="sK3-kZ-OcZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="elS-zq-dUj"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
         </view>
     </objects>
 </document>

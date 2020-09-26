@@ -19,9 +19,9 @@ open class CustomIndicatorView {
         
         self.containerView.frame = window.frame
         self.containerView.center = window.center
-        self.containerView.backgroundColor = UIColor(hex: 0x000000, alpha: 0.8)
+        self.containerView.backgroundColor = UIColor.clear
         
-        self.activityIndicator.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
+        self.activityIndicator.frame = CGRect(x: 0, y: 0, width: 40, height: 50)
         self.activityIndicator.style = .whiteLarge
         self.activityIndicator.color = UIColor(hex: ColorPalette.grayDarkMain, alpha: 1.0)
         self.activityIndicator.center = self.containerView.center

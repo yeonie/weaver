@@ -30,13 +30,12 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="481" id="Hf8-LB-IwQ"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
                     <connections>
                         <action selector="slideOff:" destination="-1" eventType="touchUpInside" id="SNh-ad-piL"/>
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBx-ye-xKf">
-                    <rect key="frame" x="30" y="618" width="354" height="224"/>
+                    <rect key="frame" x="30" y="613" width="354" height="224"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgm-9F-vSy">
                             <rect key="frame" x="0.0" y="104" width="354" height="70"/>
@@ -59,7 +58,7 @@
                             </connections>
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNT-Xy-q0O">
-                            <rect key="frame" x="-10" y="180" width="374" height="0.5"/>
+                            <rect key="frame" x="-10" y="184" width="374" height="0.5"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="0.69999999999999996" id="tAd-8d-FHH"/>
@@ -89,7 +88,7 @@
                         <constraint firstAttribute="bottom" secondItem="Bgm-9F-vSy" secondAttribute="bottom" constant="50" id="WOM-eD-wra"/>
                         <constraint firstAttribute="trailing" secondItem="dNT-Xy-q0O" secondAttribute="trailing" constant="-10" id="WrG-hK-IeQ"/>
                         <constraint firstAttribute="trailing" secondItem="NKj-ub-cSv" secondAttribute="trailing" id="bqk-8v-i9U"/>
-                        <constraint firstItem="dNT-Xy-q0O" firstAttribute="top" secondItem="Bgm-9F-vSy" secondAttribute="bottom" constant="6" id="cQI-qq-on5"/>
+                        <constraint firstItem="dNT-Xy-q0O" firstAttribute="top" secondItem="Bgm-9F-vSy" secondAttribute="bottom" constant="10" id="cQI-qq-on5"/>
                         <constraint firstItem="dNT-Xy-q0O" firstAttribute="leading" secondItem="pBx-ye-xKf" secondAttribute="leading" constant="-10" id="oOI-BN-gVd"/>
                         <constraint firstAttribute="bottom" secondItem="aGN-HH-pc7" secondAttribute="bottom" constant="8" id="ujT-ij-z8g"/>
                     </constraints>
@@ -473,7 +472,7 @@
                 <constraint firstItem="HD8-7R-FUF" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="M5I-Lb-Wjw"/>
                 <constraint firstItem="pGJ-kQ-EPT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="QFk-NZ-A26"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gmX-JR-q7I" secondAttribute="trailing" id="VzD-uh-Pgc"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pBx-ye-xKf" secondAttribute="bottom" constant="20" id="fDH-8K-4PP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pBx-ye-xKf" secondAttribute="bottom" constant="25" id="fDH-8K-4PP"/>
                 <constraint firstItem="gmX-JR-q7I" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fGz-yO-Ms0"/>
                 <constraint firstItem="HD8-7R-FUF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ggw-Q5-pwG"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JlU-Yk-ii4" secondAttribute="trailing" id="hwf-Ju-i4E"/>

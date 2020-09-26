@@ -84,10 +84,9 @@ class SplashChoiceViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UINavigationBar.appearance().barTintColor = UIColor.white
-        UINavigationBar.appearance().tintColor = UIColor.white
+        
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.isTranslucent = true
         
 
     }
@@ -114,7 +113,7 @@ class SplashChoiceViewController: BaseViewController {
         slided = !slided
         
         if slided{
-            UIView.animate(withDuration: 0.6, animations:({
+            UIView.animate(withDuration: 0.4, animations:({
                 
                 self.slideSignInView.transform = CGAffineTransform(translationX: 0, y: 0)
                 self.slideSignInView.layer.shadowOffset = CGSize(width: 0, height: 0)
@@ -132,7 +131,7 @@ class SplashChoiceViewController: BaseViewController {
             
         }
         else{
-            UIView.animate(withDuration: 0.5, animations:({
+            UIView.animate(withDuration: 0.3, animations:({
                 self.slideSignInView.transform = CGAffineTransform(translationX: 0, y: -520)
                 self.slideSignInView.layer.shadowColor = UIColor.black.cgColor
                 self.slideSignInView.layer.shadowOffset = CGSize(width: 1, height: 2)

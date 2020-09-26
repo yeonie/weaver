@@ -15,22 +15,6 @@ class matchingHomeViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
     }
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        navigationController?.navigationBar.isHidden = false
-//        navigationController?.navigationItem.titleView?.isHidden = false
-//        navigationController?.navigationItem.title = "친구찾기"
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-//
-//        //        self.navigationController?.navigationItem.backBarButtonItem = UIBarButtonItem(image: UIImage(named: "dismissBtn"), style: .plain, target: nil, action: nil)
-//
-//        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")
-//        //        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIColor.black
-//        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "dismissBtn")
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
-//            , target: nil, action: nil)
-//
-//    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
@@ -52,9 +36,10 @@ class matchingHomeViewController: BaseViewController {
         
         
         self.navigationController?.navigationBar.isTranslucent = false
+        UINavigationBar.appearance().barTintColor = UIColor.white
         
-        
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24),NSAttributedString.Key.foregroundColor: UIColor.black]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
+
 
         
         //        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage()

@@ -11,8 +11,6 @@
 		845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2A2504C5B200629DF3 /* SignUpViewController.xib */; };
 		845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B2D2E2504DE1E00629DF3 /* OwnTypeChoiceViewController.swift */; };
 		845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */; };
-		845B2D352505A74400629DF3 /* ThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B2D332505A74400629DF3 /* ThemeChoiceViewController.swift */; };
-		845B2D362505A74400629DF3 /* ThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -62,8 +60,6 @@
 		845B2D2A2504C5B200629DF3 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		845B2D2E2504DE1E00629DF3 /* OwnTypeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnTypeChoiceViewController.swift; sourceTree = "<group>"; };
 		845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OwnTypeChoiceViewController.xib; sourceTree = "<group>"; };
-		845B2D332505A74400629DF3 /* ThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChoiceViewController.swift; sourceTree = "<group>"; };
-		845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -155,15 +151,6 @@
 				8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */,
 			);
 			path = OwnTypeChoice;
-			sourceTree = "<group>";
-		};
-		845B2D322505A71E00629DF3 /* ThemeChoice */ = {
-			isa = PBXGroup;
-			children = (
-				845B2D332505A74400629DF3 /* ThemeChoiceViewController.swift */,
-				845B2D342505A74400629DF3 /* ThemeChoiceViewController.xib */,
-			);
-			path = ThemeChoice;
 			sourceTree = "<group>";
 		};
 		8498F987250C8ED20039A25B /* MainPage */ = {
@@ -336,7 +323,6 @@
 			isa = PBXGroup;
 			children = (
 				8498F998250CFCB30039A25B /* MainView */,
-				845B2D322505A71E00629DF3 /* ThemeChoice */,
 				845B2D2D2504DE0600629DF3 /* OwnTypeChoice */,
 				845B2D282504C59A00629DF3 /* SignUp */,
 				84E7D3D7250483950033A1CF /* SplashChoice */,
@@ -418,7 +404,6 @@
 				BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */,
 				BDEF323922F9B7CB00FEF8BD /* Assets.xcassets in Resources */,
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
-				845B2D362505A74400629DF3 /* ThemeChoiceViewController.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
 				8498F995250CECAB0039A25B /* BoardViewController.xib in Resources */,
@@ -484,7 +469,6 @@
 				8498F9A2250F08E70039A25B /* matchingHomeViewController.swift in Sources */,
 				84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */,
 				BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */,
-				845B2D352505A74400629DF3 /* ThemeChoiceViewController.swift in Sources */,
 				845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */,
 				BD9BF18722F9DCC7009E47EB /* MainViewController.swift in Sources */,
 				BD9BF17822F9C6CF009E47EB /* UIColor.swift in Sources */,

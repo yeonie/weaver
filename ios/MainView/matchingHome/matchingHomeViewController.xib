@@ -24,7 +24,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dVY-NR-2nv">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TOo-QZ-Yqw">
                                     <rect key="frame" x="19" y="82" width="376" height="76"/>
@@ -107,7 +107,7 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="y67-La-7aj" firstAttribute="centerX" secondItem="hCQ-ug-pzA" secondAttribute="centerX" id="2LX-ll-Lo9"/>
-                                <constraint firstAttribute="height" constant="1000" id="2WF-iG-qQc"/>
+                                <constraint firstAttribute="height" constant="1300" id="2WF-iG-qQc"/>
                                 <constraint firstItem="2nJ-Yu-K9A" firstAttribute="leading" secondItem="rqU-Zb-ucR" secondAttribute="leading" id="3e9-RR-YN9"/>
                                 <constraint firstItem="2nJ-Yu-K9A" firstAttribute="top" secondItem="rqU-Zb-ucR" secondAttribute="bottom" constant="11" id="4tz-1u-Pv6"/>
                                 <constraint firstItem="y67-La-7aj" firstAttribute="leading" secondItem="hCQ-ug-pzA" secondAttribute="leading" id="9AZ-Of-LdL"/>

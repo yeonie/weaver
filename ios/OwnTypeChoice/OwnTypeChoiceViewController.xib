@@ -34,34 +34,34 @@
                             <rect key="frame" x="0.0" y="-100" width="414" height="1036"/>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg3-aA-ULl" userLabel="우리끼리 만날 수 있게 위버가 도와드릴게요. 이후 마이페이지에서도 정할 수 있어요.">
-                            <rect key="frame" x="25" y="95" width="240" height="57"/>
+                            <rect key="frame" x="25" y="95" width="260" height="57"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="57" id="7dl-Js-onz"/>
-                                <constraint firstAttribute="width" constant="240" id="dyZ-gX-S1H"/>
+                                <constraint firstAttribute="width" constant="260" id="dyZ-gX-S1H"/>
                             </constraints>
                             <string key="text">우리끼리 만날 수 있게 위버가 도와드릴게요.
 이후 마이페이지에서도 정할 수 있어요.</string>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="열정적인 중재자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-rb-8zt">
-                            <rect key="frame" x="134.5" y="268" width="145" height="28"/>
+                            <rect key="frame" x="138" y="268" width="138" height="28"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="28" id="WYy-OB-jsF"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="l9h-xd-fto"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPA-Sa-TNV">
-                            <rect key="frame" x="305" y="716" width="109" height="59"/>
+                            <rect key="frame" x="305" y="705" width="109" height="59"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="59" id="Icm-on-REc"/>
                                 <constraint firstAttribute="width" constant="109" id="qGh-s4-fpR"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                             <state key="normal" title="다음으로">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
@@ -70,7 +70,7 @@
                             </connections>
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acz-Rs-6kf">
-                            <rect key="frame" x="25" y="303.5" width="364" height="1.5"/>
+                            <rect key="frame" x="15" y="303.5" width="384" height="1.5"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1.5" id="bgr-83-W87"/>
@@ -78,12 +78,12 @@
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wa-0J-rhB">
-                            <rect key="frame" x="0.0" y="716" width="99" height="49"/>
+                            <rect key="frame" x="10" y="705" width="100" height="49"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="99" id="7KM-bv-3o4"/>
+                                <constraint firstAttribute="width" constant="100" id="7KM-bv-3o4"/>
                                 <constraint firstAttribute="height" constant="49" id="hh3-2W-luR"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                             <state key="normal" title="나중에 하기">
                                 <color key="titleColor" red="0.99676792510000001" green="0.99676792510000001" blue="0.99676792510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </state>
@@ -101,17 +101,296 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hF-b3-9cc">
-                            <rect key="frame" x="25" y="329" width="364" height="300"/>
+                            <rect key="frame" x="30" y="339" width="354" height="228"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhT-d3-dgW">
-                                    <rect key="frame" x="97" y="49" width="46" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
+                                <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohr-4U-giT">
+                                    <rect key="frame" x="0.0" y="186" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="OBC-zX-o87"/>
+                                        <constraint firstAttribute="width" constant="84" id="tSn-Am-IDu"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
                                 </button>
+                                <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMZ-ID-LYl">
+                                    <rect key="frame" x="0.0" y="15" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="Jxs-8e-q3E"/>
+                                        <constraint firstAttribute="width" constant="84" id="as0-Oq-sLQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                    <state key="normal" image="INFP"/>
+                                    <connections>
+                                        <action selector="ISTJ:" destination="-1" eventType="touchUpInside" id="glV-A2-UhP"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07O-Cz-UsY">
+                                    <rect key="frame" x="0.0" y="72" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="2cg-Pm-9Ea"/>
+                                        <constraint firstAttribute="width" constant="84" id="dhP-jc-EAM"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAA-HQ-bBG">
+                                    <rect key="frame" x="0.0" y="129" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="YO0-ZN-ZZd"/>
+                                        <constraint firstAttribute="height" constant="42" id="ej3-aY-qfJ"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU9-pU-J3B">
+                                    <rect key="frame" x="276" y="186" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="Yrg-U4-U1U"/>
+                                        <constraint firstAttribute="height" constant="42" id="q8W-I7-cRr"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-u5-g2N">
+                                    <rect key="frame" x="276" y="15" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="7Cc-eL-zBK"/>
+                                        <constraint firstAttribute="width" constant="84" id="IYr-c3-ein"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hek-7F-ATm">
+                                    <rect key="frame" x="276" y="72" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="8vb-Q5-V7K"/>
+                                        <constraint firstAttribute="width" constant="84" id="uXJ-3y-qbE"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnX-va-Ghh">
+                                    <rect key="frame" x="276" y="129" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="U2l-o7-VHl"/>
+                                        <constraint firstAttribute="height" constant="42" id="qXW-td-5B7"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3af-JQ-ekK">
+                                    <rect key="frame" x="184" y="186" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="5wc-zv-hKa"/>
+                                        <constraint firstAttribute="width" constant="84" id="Hep-4T-H1a"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-tX-gAd">
+                                    <rect key="frame" x="184" y="15" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="4c2-by-dvg"/>
+                                        <constraint firstAttribute="width" constant="84" id="kig-Ey-82J"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0u-kj-tNW">
+                                    <rect key="frame" x="184" y="72" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="O4h-MT-ULR"/>
+                                        <constraint firstAttribute="height" constant="42" id="mjE-5J-2ka"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxl-On-3x0">
+                                    <rect key="frame" x="180" y="121" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="THD-FR-UQf"/>
+                                        <constraint firstAttribute="width" constant="84" id="vTU-jP-4cu"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si1-9h-yqn">
+                                    <rect key="frame" x="92" y="186" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="42" id="TxI-gl-8R6"/>
+                                        <constraint firstAttribute="width" constant="84" id="jxQ-38-pjt"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hm-pB-WyI">
+                                    <rect key="frame" x="92" y="15" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="fiu-gN-MlT"/>
+                                        <constraint firstAttribute="height" constant="42" id="wyO-zM-g5O"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                    <connections>
+                                        <action selector="ISFJ:" destination="-1" eventType="touchUpInside" id="Mh3-Jw-WaG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ML0-Gm-bdo">
+                                    <rect key="frame" x="92" y="72" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="0CT-7h-3jP"/>
+                                        <constraint firstAttribute="height" constant="42" id="qrb-hV-GB2"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwC-ny-MWi">
+                                    <rect key="frame" x="92" y="129" width="84" height="42"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="5QK-XT-55l"/>
+                                        <constraint firstAttribute="height" constant="42" id="InQ-jq-zsv"/>
+                                    </constraints>
+                                    <state key="normal" image="INFP"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-Fr-j7q">
+                                    <rect key="frame" x="24.5" y="23.5" width="35" height="25"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMs-4P-Ew3">
+                                    <rect key="frame" x="25" y="81" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXc-As-4Qb">
+                                    <rect key="frame" x="117" y="81" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-et-T8i">
+                                    <rect key="frame" x="117" y="138" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heR-Cz-gFH">
+                                    <rect key="frame" x="209" y="81" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-FC-7PG">
+                                    <rect key="frame" x="209" y="129" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nk4-Gf-s5g">
+                                    <rect key="frame" x="209" y="195" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7H-dd-G1d">
+                                    <rect key="frame" x="301" y="81" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLI-ZI-iBZ">
+                                    <rect key="frame" x="301" y="141" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utT-qJ-Y0w">
+                                    <rect key="frame" x="301" y="195" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbf-aB-xU4">
+                                    <rect key="frame" x="25" y="138" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdg-Z3-FVQ">
+                                    <rect key="frame" x="25" y="195" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ok9-UR-eTj">
+                                    <rect key="frame" x="301" y="24" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmZ-gX-1nA">
+                                    <rect key="frame" x="209" y="24" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yx-rf-NZ3">
+                                    <rect key="frame" x="117" y="23" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDY-sq-gJF">
+                                    <rect key="frame" x="117" y="195" width="35" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="300" id="qWv-P9-CZN"/>
+                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="2p8-mA-GmZ"/>
+                                <constraint firstAttribute="trailing" secondItem="hek-7F-ATm" secondAttribute="trailing" constant="-6" id="4w1-nV-Z6G"/>
+                                <constraint firstItem="uxl-On-3x0" firstAttribute="top" secondItem="V0u-kj-tNW" secondAttribute="bottom" constant="15" id="5QY-jY-8qR"/>
+                                <constraint firstItem="DnX-va-Ghh" firstAttribute="top" secondItem="hek-7F-ATm" secondAttribute="bottom" constant="15" id="9ME-iu-4fg"/>
+                                <constraint firstItem="V0u-kj-tNW" firstAttribute="leading" secondItem="ML0-Gm-bdo" secondAttribute="trailing" constant="8" id="AVG-pt-3Ke"/>
+                                <constraint firstItem="ohr-4U-giT" firstAttribute="top" secondItem="ZAA-HQ-bBG" secondAttribute="bottom" constant="15" id="BHZ-7H-dZF"/>
+                                <constraint firstAttribute="trailing" secondItem="nU9-pU-J3B" secondAttribute="trailing" constant="-6" id="DMR-PB-WQg"/>
+                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="FKA-l3-Hg1"/>
+                                <constraint firstItem="nU9-pU-J3B" firstAttribute="top" secondItem="DnX-va-Ghh" secondAttribute="bottom" constant="15" id="IMr-NA-1d1"/>
+                                <constraint firstAttribute="bottom" secondItem="ohr-4U-giT" secondAttribute="bottom" id="Jdk-0z-5d7"/>
+                                <constraint firstAttribute="trailing" secondItem="DnX-va-Ghh" secondAttribute="trailing" constant="-6" id="KzN-N4-tUK"/>
+                                <constraint firstItem="uxl-On-3x0" firstAttribute="leading" secondItem="OwC-ny-MWi" secondAttribute="trailing" constant="8" id="MrB-bz-ovJ"/>
+                                <constraint firstItem="2hm-pB-WyI" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="OMG-5s-dUJ"/>
+                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="centerY" secondItem="yg7-Fr-j7q" secondAttribute="centerY" id="Ona-T9-Bsm"/>
+                                <constraint firstItem="kdH-tX-gAd" firstAttribute="leading" secondItem="2hm-pB-WyI" secondAttribute="trailing" constant="8" id="PIS-NE-rcB"/>
+                                <constraint firstItem="uxl-On-3x0" firstAttribute="top" secondItem="V0u-kj-tNW" secondAttribute="bottom" constant="15" id="SM3-ai-10n"/>
+                                <constraint firstItem="kdH-tX-gAd" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="Vuj-XR-O84"/>
+                                <constraint firstItem="07O-Cz-UsY" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="XRm-Bw-f93"/>
+                                <constraint firstItem="V0u-kj-tNW" firstAttribute="top" secondItem="kdH-tX-gAd" secondAttribute="bottom" constant="15" id="ZsY-G4-IWd"/>
+                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="centerX" secondItem="yg7-Fr-j7q" secondAttribute="centerX" id="bM6-Ka-g2l"/>
+                                <constraint firstItem="ohr-4U-giT" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="e3Y-EJ-a4e"/>
+                                <constraint firstItem="OwC-ny-MWi" firstAttribute="top" secondItem="ML0-Gm-bdo" secondAttribute="bottom" constant="15" id="f3U-jd-mNa"/>
+                                <constraint firstItem="OwC-ny-MWi" firstAttribute="top" secondItem="ML0-Gm-bdo" secondAttribute="bottom" constant="15" id="ghO-fB-mO2"/>
+                                <constraint firstItem="ZAA-HQ-bBG" firstAttribute="top" secondItem="07O-Cz-UsY" secondAttribute="bottom" constant="15" id="grk-iQ-9tQ"/>
+                                <constraint firstItem="ZAA-HQ-bBG" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="icR-9E-HVb"/>
+                                <constraint firstItem="ZBc-u5-g2N" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="iyX-rk-zxr"/>
+                                <constraint firstItem="nU9-pU-J3B" firstAttribute="top" secondItem="DnX-va-Ghh" secondAttribute="bottom" constant="15" id="jCd-Ez-ybI"/>
+                                <constraint firstAttribute="bottom" secondItem="nU9-pU-J3B" secondAttribute="bottom" id="jGw-0e-kmj"/>
+                                <constraint firstItem="Si1-9h-yqn" firstAttribute="leading" secondItem="ohr-4U-giT" secondAttribute="trailing" constant="8" id="lGZ-Ed-OBF"/>
+                                <constraint firstItem="3af-JQ-ekK" firstAttribute="leading" secondItem="Si1-9h-yqn" secondAttribute="trailing" constant="8" id="lmE-Y6-nII"/>
+                                <constraint firstItem="DnX-va-Ghh" firstAttribute="top" secondItem="hek-7F-ATm" secondAttribute="bottom" constant="15" id="ote-iD-FEr"/>
+                                <constraint firstAttribute="height" constant="228" id="qWv-P9-CZN"/>
+                                <constraint firstAttribute="trailing" secondItem="ZBc-u5-g2N" secondAttribute="trailing" constant="-6" id="reV-ir-XRL"/>
+                                <constraint firstItem="3af-JQ-ekK" firstAttribute="top" secondItem="uxl-On-3x0" secondAttribute="bottom" constant="15" id="v93-Jy-B1A"/>
+                                <constraint firstItem="ML0-Gm-bdo" firstAttribute="leading" secondItem="07O-Cz-UsY" secondAttribute="trailing" constant="8" id="vFN-pf-Un5"/>
+                                <constraint firstItem="ML0-Gm-bdo" firstAttribute="top" secondItem="2hm-pB-WyI" secondAttribute="bottom" constant="15" id="vd4-tD-Doi"/>
+                                <constraint firstItem="Si1-9h-yqn" firstAttribute="top" secondItem="OwC-ny-MWi" secondAttribute="bottom" constant="15" id="wKq-rO-lyI"/>
+                                <constraint firstItem="2hm-pB-WyI" firstAttribute="leading" secondItem="SMZ-ID-LYl" secondAttribute="trailing" constant="8" id="xL3-iP-3ng"/>
+                                <constraint firstItem="OwC-ny-MWi" firstAttribute="leading" secondItem="ZAA-HQ-bBG" secondAttribute="trailing" constant="8" id="yQc-tu-3A5"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -120,27 +399,27 @@
                         <constraint firstItem="yg3-aA-ULl" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="25" id="0zK-oS-Eqz"/>
                         <constraint firstItem="OtK-3M-wKF" firstAttribute="top" secondItem="tiy-Tx-AEG" secondAttribute="top" id="1T5-sE-DFy"/>
                         <constraint firstItem="OtK-3M-wKF" firstAttribute="width" secondItem="tiy-Tx-AEG" secondAttribute="width" id="3me-HF-wKz"/>
-                        <constraint firstItem="sPA-Sa-TNV" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="87" id="DFF-vs-iKt"/>
+                        <constraint firstItem="sPA-Sa-TNV" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="138" id="DFF-vs-iKt"/>
                         <constraint firstItem="acz-Rs-6kf" firstAttribute="top" secondItem="E0n-rb-8zt" secondAttribute="bottom" constant="7.4000000000000004" id="DNy-DM-bbg"/>
-                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="87" id="EUP-Qr-uvE"/>
+                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="138" id="EUP-Qr-uvE"/>
                         <constraint firstItem="yg3-aA-ULl" firstAttribute="top" secondItem="d84-ha-VQx" secondAttribute="bottom" constant="-29" id="I4b-11-xaJ"/>
                         <constraint firstAttribute="bottom" secondItem="OtK-3M-wKF" secondAttribute="bottom" id="IXp-ZT-4zF"/>
                         <constraint firstItem="sPA-Sa-TNV" firstAttribute="trailing" secondItem="OtK-3M-wKF" secondAttribute="trailing" id="K3C-wn-UXS"/>
-                        <constraint firstItem="0hF-b3-9cc" firstAttribute="leading" secondItem="acz-Rs-6kf" secondAttribute="leading" id="Ldi-Hv-ivD"/>
+                        <constraint firstItem="0hF-b3-9cc" firstAttribute="leading" secondItem="acz-Rs-6kf" secondAttribute="leading" constant="15" id="Ldi-Hv-ivD"/>
                         <constraint firstItem="mzv-kv-NIe" firstAttribute="leading" secondItem="OtK-3M-wKF" secondAttribute="leading" id="MhV-VJ-z85"/>
                         <constraint firstItem="d84-ha-VQx" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="25" id="TAZ-ar-YgP"/>
-                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="leading" secondItem="OtK-3M-wKF" secondAttribute="leading" id="Vii-as-ABr"/>
+                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="leading" secondItem="OtK-3M-wKF" secondAttribute="leading" constant="10" id="Vii-as-ABr"/>
                         <constraint firstAttribute="trailing" secondItem="OtK-3M-wKF" secondAttribute="trailing" id="aHE-pU-7no"/>
                         <constraint firstItem="mzv-kv-NIe" firstAttribute="bottom" secondItem="OtK-3M-wKF" secondAttribute="bottom" constant="40" id="csR-td-b86"/>
                         <constraint firstItem="mzv-kv-NIe" firstAttribute="top" secondItem="OtK-3M-wKF" secondAttribute="top" constant="-100" id="e1s-aK-ZgW"/>
-                        <constraint firstItem="0hF-b3-9cc" firstAttribute="top" secondItem="acz-Rs-6kf" secondAttribute="bottom" constant="24" id="iKC-5U-lhT"/>
+                        <constraint firstItem="0hF-b3-9cc" firstAttribute="top" secondItem="acz-Rs-6kf" secondAttribute="bottom" constant="34" id="iKC-5U-lhT"/>
                         <constraint firstItem="E0n-rb-8zt" firstAttribute="centerX" secondItem="tiy-Tx-AEG" secondAttribute="centerX" id="o1J-ch-mTi"/>
                         <constraint firstItem="d84-ha-VQx" firstAttribute="top" secondItem="OtK-3M-wKF" secondAttribute="top" constant="50" id="oko-Nl-Vt9"/>
                         <constraint firstItem="mzv-kv-NIe" firstAttribute="trailing" secondItem="OtK-3M-wKF" secondAttribute="trailing" id="uAB-rL-iBj"/>
-                        <constraint firstItem="acz-Rs-6kf" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="25" id="uYw-UD-afO"/>
-                        <constraint firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" constant="25" id="wXY-G9-jlC"/>
+                        <constraint firstItem="acz-Rs-6kf" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="15" id="uYw-UD-afO"/>
+                        <constraint firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" constant="15" id="wXY-G9-jlC"/>
                         <constraint firstItem="E0n-rb-8zt" firstAttribute="top" secondItem="yg3-aA-ULl" secondAttribute="bottom" constant="116" id="xNc-8O-fLa"/>
-                        <constraint firstItem="0hF-b3-9cc" firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" id="yqd-KY-UIc"/>
+                        <constraint firstItem="0hF-b3-9cc" firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" constant="-15" id="yqd-KY-UIc"/>
                     </constraints>
                 </scrollView>
             </subviews>
@@ -156,6 +435,7 @@
         </view>
     </objects>
     <resources>
+        <image name="INFP" width="70" height="35"/>
         <image name="splashChoiceBackground" width="375" height="812"/>
     </resources>
 </document>

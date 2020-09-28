@@ -9,6 +9,17 @@
 import UIKit
 
 class OwnTypeChoiceViewController: BaseViewController {
+    
+    
+    
+    @IBAction func ISTJ(_ sender: UIButton) {
+    }
+    
+    @IBAction func ISFJ(_ sender: Any) {
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

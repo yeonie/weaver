@@ -28,6 +28,7 @@
 		8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F9A7250F0EE10039A25B /* myPageViewController.xib */; };
 		8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F9AA250F0EF40039A25B /* boardViewController.swift */; };
 		8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F9AB250F0EF40039A25B /* boardViewController.xib */; };
+		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */; };
 		84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */; };
 		BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */; };
@@ -48,7 +49,6 @@
 		BD9BF18822F9DCC7009E47EB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9BF18622F9DCC7009E47EB /* MainViewController.xib */; };
 		BDEF322F22F9B7CB00FEF8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEF322E22F9B7CB00FEF8BD /* AppDelegate.swift */; };
 		BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDEF323522F9B7CB00FEF8BD /* ios.xcdatamodeld */; };
-		BDEF323922F9B7CB00FEF8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEF323822F9B7CB00FEF8BD /* Assets.xcassets */; };
 		BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEF323A22F9B7CB00FEF8BD /* LaunchScreen.storyboard */; };
 		C7B0F461A33E2BA70527A7F9 /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13293A0F781AAAF1DC9C8A /* Pods_ios.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +77,7 @@
 		8498F9A7250F0EE10039A25B /* myPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageViewController.xib; sourceTree = "<group>"; };
 		8498F9AA250F0EF40039A25B /* boardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardViewController.swift; sourceTree = "<group>"; };
 		8498F9AB250F0EF40039A25B /* boardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardViewController.xib; sourceTree = "<group>"; };
+		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashChoiceViewController.swift; sourceTree = "<group>"; };
 		84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashChoiceViewController.xib; sourceTree = "<group>"; };
 		BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePopUp.swift; sourceTree = "<group>"; };
@@ -98,7 +99,6 @@
 		BDEF322B22F9B7CB00FEF8BD /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEF322E22F9B7CB00FEF8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDEF323622F9B7CB00FEF8BD /* ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios.xcdatamodel; sourceTree = "<group>"; };
-		BDEF323822F9B7CB00FEF8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDEF323B22F9B7CB00FEF8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDEF323D22F9B7CB00FEF8BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52E2D8320870120DBBF4DF3 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 				BD9BF17022F9C318009E47EB /* Splash */,
 				BD9BF16F22F9C314009E47EB /* Main */,
 				BDEF322E22F9B7CB00FEF8BD /* AppDelegate.swift */,
-				BDEF323822F9B7CB00FEF8BD /* Assets.xcassets */,
+				84D6E2052521A9CC00B33ADD /* Assets.xcassets */,
 				BDEF323A22F9B7CB00FEF8BD /* LaunchScreen.storyboard */,
 				BDEF323D22F9B7CB00FEF8BD /* Info.plist */,
 				BDEF323522F9B7CB00FEF8BD /* ios.xcdatamodeld */,
@@ -402,7 +402,7 @@
 				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
 				BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */,
-				BDEF323922F9B7CB00FEF8BD /* Assets.xcassets in Resources */,
+				84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */,
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,

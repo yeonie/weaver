@@ -12,6 +12,22 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OwnTypeChoiceViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ENFJ" destination="3af-JQ-ekK" id="zt9-lV-ztG"/>
+                <outlet property="ENFP" destination="uxl-On-3x0" id="uZJ-7N-wcC"/>
+                <outlet property="ENTJ" destination="nU9-pU-J3B" id="yC8-aw-Czq"/>
+                <outlet property="ENTP" destination="DnX-va-Ghh" id="KN0-pP-mer"/>
+                <outlet property="ESFJ" destination="Si1-9h-yqn" id="II5-gk-cHh"/>
+                <outlet property="ESFP" destination="OwC-ny-MWi" id="agR-sv-GSo"/>
+                <outlet property="ESTJ" destination="ohr-4U-giT" id="v3d-Hg-STh"/>
+                <outlet property="ESTP" destination="ZAA-HQ-bBG" id="W7o-lW-plw"/>
+                <outlet property="INFJ" destination="kdH-tX-gAd" id="vsw-IL-DCM"/>
+                <outlet property="INFP" destination="V0u-kj-tNW" id="Cel-1H-Mxm"/>
+                <outlet property="INTJ" destination="ZBc-u5-g2N" id="2r0-hR-HH1"/>
+                <outlet property="INTP" destination="hek-7F-ATm" id="vjt-d9-bgO"/>
+                <outlet property="ISFJ" destination="2hm-pB-WyI" id="23O-Zr-pl6"/>
+                <outlet property="ISFP" destination="ML0-Gm-bdo" id="IiV-tX-4Ep"/>
+                <outlet property="ISTJ" destination="SMZ-ID-LYl" id="35E-Lf-wMD"/>
+                <outlet property="ISTP" destination="07O-Cz-UsY" id="FVd-Xa-dRT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -109,16 +125,19 @@
                                         <constraint firstAttribute="height" constant="42" id="OBC-zX-o87"/>
                                         <constraint firstAttribute="width" constant="84" id="tSn-Am-IDu"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="estj60Off"/>
+                                    <connections>
+                                        <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="qQ1-2C-Rq4"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMZ-ID-LYl">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMZ-ID-LYl">
                                     <rect key="frame" x="0.0" y="15" width="84" height="42"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="42" id="Jxs-8e-q3E"/>
                                         <constraint firstAttribute="width" constant="84" id="as0-Oq-sLQ"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="istjOff"/>
                                     <connections>
                                         <action selector="ISTJ:" destination="-1" eventType="touchUpInside" id="glV-A2-UhP"/>
                                     </connections>
@@ -129,7 +148,10 @@
                                         <constraint firstAttribute="height" constant="42" id="2cg-Pm-9Ea"/>
                                         <constraint firstAttribute="width" constant="84" id="dhP-jc-EAM"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="istp60Off"/>
+                                    <connections>
+                                        <action selector="ISTP:" destination="-1" eventType="touchUpInside" id="Isx-6c-Lkg"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAA-HQ-bBG">
                                     <rect key="frame" x="0.0" y="129" width="84" height="42"/>
@@ -137,7 +159,10 @@
                                         <constraint firstAttribute="width" constant="84" id="YO0-ZN-ZZd"/>
                                         <constraint firstAttribute="height" constant="42" id="ej3-aY-qfJ"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="estp60Off"/>
+                                    <connections>
+                                        <action selector="ESTP:" destination="-1" eventType="touchUpInside" id="8JJ-TL-6fX"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nU9-pU-J3B">
                                     <rect key="frame" x="276" y="186" width="84" height="42"/>
@@ -145,7 +170,10 @@
                                         <constraint firstAttribute="width" constant="84" id="Yrg-U4-U1U"/>
                                         <constraint firstAttribute="height" constant="42" id="q8W-I7-cRr"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="entj60Off"/>
+                                    <connections>
+                                        <action selector="ENTJ:" destination="-1" eventType="touchUpInside" id="mO7-SN-EzJ"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBc-u5-g2N">
                                     <rect key="frame" x="276" y="15" width="84" height="42"/>
@@ -153,7 +181,10 @@
                                         <constraint firstAttribute="height" constant="42" id="7Cc-eL-zBK"/>
                                         <constraint firstAttribute="width" constant="84" id="IYr-c3-ein"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="intj60Off"/>
+                                    <connections>
+                                        <action selector="INTJ:" destination="-1" eventType="touchUpInside" id="Uv4-we-GLr"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hek-7F-ATm">
                                     <rect key="frame" x="276" y="72" width="84" height="42"/>
@@ -161,7 +192,10 @@
                                         <constraint firstAttribute="height" constant="42" id="8vb-Q5-V7K"/>
                                         <constraint firstAttribute="width" constant="84" id="uXJ-3y-qbE"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="intp60Off"/>
+                                    <connections>
+                                        <action selector="INTP:" destination="-1" eventType="touchUpInside" id="1Tz-3z-9Op"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DnX-va-Ghh">
                                     <rect key="frame" x="276" y="129" width="84" height="42"/>
@@ -169,7 +203,10 @@
                                         <constraint firstAttribute="width" constant="84" id="U2l-o7-VHl"/>
                                         <constraint firstAttribute="height" constant="42" id="qXW-td-5B7"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="entp60Off"/>
+                                    <connections>
+                                        <action selector="ENTP:" destination="-1" eventType="touchUpInside" id="7Kn-Hw-5JD"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3af-JQ-ekK">
                                     <rect key="frame" x="184" y="186" width="84" height="42"/>
@@ -177,7 +214,10 @@
                                         <constraint firstAttribute="height" constant="42" id="5wc-zv-hKa"/>
                                         <constraint firstAttribute="width" constant="84" id="Hep-4T-H1a"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="enfj60Off"/>
+                                    <connections>
+                                        <action selector="ENFJ:" destination="-1" eventType="touchUpInside" id="Ig1-Ec-31c"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-tX-gAd">
                                     <rect key="frame" x="184" y="15" width="84" height="42"/>
@@ -185,23 +225,32 @@
                                         <constraint firstAttribute="height" constant="42" id="4c2-by-dvg"/>
                                         <constraint firstAttribute="width" constant="84" id="kig-Ey-82J"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="infj60Off"/>
+                                    <connections>
+                                        <action selector="INFJ:" destination="-1" eventType="touchUpInside" id="Zac-3H-uoc"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0u-kj-tNW">
+                                <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0u-kj-tNW">
                                     <rect key="frame" x="184" y="72" width="84" height="42"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="84" id="O4h-MT-ULR"/>
                                         <constraint firstAttribute="height" constant="42" id="mjE-5J-2ka"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="ENFJoff"/>
+                                    <connections>
+                                        <action selector="INFP:" destination="-1" eventType="touchUpInside" id="AEi-rF-pQa"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxl-On-3x0">
-                                    <rect key="frame" x="180" y="121" width="84" height="42"/>
+                                <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxl-On-3x0">
+                                    <rect key="frame" x="184" y="129" width="84" height="42"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="42" id="THD-FR-UQf"/>
                                         <constraint firstAttribute="width" constant="84" id="vTU-jP-4cu"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="enfp60Off"/>
+                                    <connections>
+                                        <action selector="ENFP:" destination="-1" eventType="touchUpInside" id="f6K-b3-GEv"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Si1-9h-yqn">
                                     <rect key="frame" x="92" y="186" width="84" height="42"/>
@@ -209,7 +258,10 @@
                                         <constraint firstAttribute="height" constant="42" id="TxI-gl-8R6"/>
                                         <constraint firstAttribute="width" constant="84" id="jxQ-38-pjt"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="esfj60Off"/>
+                                    <connections>
+                                        <action selector="ESFJ:" destination="-1" eventType="touchUpInside" id="vPY-Fc-627"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hm-pB-WyI">
                                     <rect key="frame" x="92" y="15" width="84" height="42"/>
@@ -217,7 +269,7 @@
                                         <constraint firstAttribute="width" constant="84" id="fiu-gN-MlT"/>
                                         <constraint firstAttribute="height" constant="42" id="wyO-zM-g5O"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="isfj60Off"/>
                                     <connections>
                                         <action selector="ISFJ:" destination="-1" eventType="touchUpInside" id="Mh3-Jw-WaG"/>
                                     </connections>
@@ -228,7 +280,10 @@
                                         <constraint firstAttribute="width" constant="84" id="0CT-7h-3jP"/>
                                         <constraint firstAttribute="height" constant="42" id="qrb-hV-GB2"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="isfp60Off"/>
+                                    <connections>
+                                        <action selector="ISFP:" destination="-1" eventType="touchUpInside" id="KiT-Ae-rYe"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OwC-ny-MWi">
                                     <rect key="frame" x="92" y="129" width="84" height="42"/>
@@ -236,119 +291,11 @@
                                         <constraint firstAttribute="width" constant="84" id="5QK-XT-55l"/>
                                         <constraint firstAttribute="height" constant="42" id="InQ-jq-zsv"/>
                                     </constraints>
-                                    <state key="normal" image="INFP"/>
+                                    <state key="normal" image="esfp60Off"/>
+                                    <connections>
+                                        <action selector="ESFP:" destination="-1" eventType="touchUpInside" id="xdv-ry-nMY"/>
+                                    </connections>
                                 </button>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-Fr-j7q">
-                                    <rect key="frame" x="24.5" y="23.5" width="35" height="25"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMs-4P-Ew3">
-                                    <rect key="frame" x="25" y="81" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXc-As-4Qb">
-                                    <rect key="frame" x="117" y="81" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdD-et-T8i">
-                                    <rect key="frame" x="117" y="138" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heR-Cz-gFH">
-                                    <rect key="frame" x="209" y="81" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5H-FC-7PG">
-                                    <rect key="frame" x="209" y="129" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nk4-Gf-s5g">
-                                    <rect key="frame" x="209" y="195" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7H-dd-G1d">
-                                    <rect key="frame" x="301" y="81" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLI-ZI-iBZ">
-                                    <rect key="frame" x="301" y="141" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utT-qJ-Y0w">
-                                    <rect key="frame" x="301" y="195" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbf-aB-xU4">
-                                    <rect key="frame" x="25" y="138" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdg-Z3-FVQ">
-                                    <rect key="frame" x="25" y="195" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ok9-UR-eTj">
-                                    <rect key="frame" x="301" y="24" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmZ-gX-1nA">
-                                    <rect key="frame" x="209" y="24" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yx-rf-NZ3">
-                                    <rect key="frame" x="117" y="23" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDY-sq-gJF">
-                                    <rect key="frame" x="117" y="195" width="35" height="25"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -365,13 +312,11 @@
                                 <constraint firstAttribute="trailing" secondItem="DnX-va-Ghh" secondAttribute="trailing" constant="-6" id="KzN-N4-tUK"/>
                                 <constraint firstItem="uxl-On-3x0" firstAttribute="leading" secondItem="OwC-ny-MWi" secondAttribute="trailing" constant="8" id="MrB-bz-ovJ"/>
                                 <constraint firstItem="2hm-pB-WyI" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="OMG-5s-dUJ"/>
-                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="centerY" secondItem="yg7-Fr-j7q" secondAttribute="centerY" id="Ona-T9-Bsm"/>
                                 <constraint firstItem="kdH-tX-gAd" firstAttribute="leading" secondItem="2hm-pB-WyI" secondAttribute="trailing" constant="8" id="PIS-NE-rcB"/>
                                 <constraint firstItem="uxl-On-3x0" firstAttribute="top" secondItem="V0u-kj-tNW" secondAttribute="bottom" constant="15" id="SM3-ai-10n"/>
                                 <constraint firstItem="kdH-tX-gAd" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="Vuj-XR-O84"/>
                                 <constraint firstItem="07O-Cz-UsY" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="XRm-Bw-f93"/>
                                 <constraint firstItem="V0u-kj-tNW" firstAttribute="top" secondItem="kdH-tX-gAd" secondAttribute="bottom" constant="15" id="ZsY-G4-IWd"/>
-                                <constraint firstItem="SMZ-ID-LYl" firstAttribute="centerX" secondItem="yg7-Fr-j7q" secondAttribute="centerX" id="bM6-Ka-g2l"/>
                                 <constraint firstItem="ohr-4U-giT" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="e3Y-EJ-a4e"/>
                                 <constraint firstItem="OwC-ny-MWi" firstAttribute="top" secondItem="ML0-Gm-bdo" secondAttribute="bottom" constant="15" id="f3U-jd-mNa"/>
                                 <constraint firstItem="OwC-ny-MWi" firstAttribute="top" secondItem="ML0-Gm-bdo" secondAttribute="bottom" constant="15" id="ghO-fB-mO2"/>
@@ -435,7 +380,22 @@
         </view>
     </objects>
     <resources>
-        <image name="INFP" width="70" height="35"/>
+        <image name="ENFJoff" width="70" height="35"/>
+        <image name="enfj60Off" width="70" height="35"/>
+        <image name="enfp60Off" width="70" height="35"/>
+        <image name="entj60Off" width="70" height="35"/>
+        <image name="entp60Off" width="70" height="35"/>
+        <image name="esfj60Off" width="70" height="35"/>
+        <image name="esfp60Off" width="70" height="35"/>
+        <image name="estj60Off" width="70" height="35"/>
+        <image name="estp60Off" width="70" height="35"/>
+        <image name="infj60Off" width="70" height="35"/>
+        <image name="intj60Off" width="70" height="35"/>
+        <image name="intp60Off" width="70" height="35"/>
+        <image name="isfj60Off" width="70" height="35"/>
+        <image name="isfp60Off" width="70" height="35"/>
+        <image name="istjOff" width="70" height="35"/>
+        <image name="istp60Off" width="70" height="35"/>
         <image name="splashChoiceBackground" width="375" height="812"/>
     </resources>
 </document>

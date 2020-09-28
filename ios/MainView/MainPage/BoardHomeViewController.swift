@@ -3,7 +3,7 @@
 //  ios
 //
 //  Created by 이동연 on 12/09/2020.
-//  Copyright © 2020 Jerry Jung. All rights reserved.
+//  Copyright © 2020 Jerry Jung. All  rights reserved.
 //
 
 import UIKit
@@ -12,10 +12,12 @@ class BoardHomeViewController: BaseViewController {
 
     @IBOutlet weak var attributedString: UILabel!
     
+    @IBOutlet weak var namedBoard: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         //바텀 탭바 모양 check
 //        view.backgroundColor = .blue
+        
         
         
         //글꼴
@@ -45,6 +47,9 @@ class BoardHomeViewController: BaseViewController {
 //        stackView.arrangedSubviews[0].heightAnchor.constraint(equalTo: stackView.arrangedSubviews[0].widthAnchor).isActive = true
         
     }
+    
+    
+        
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

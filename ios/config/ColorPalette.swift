@@ -23,4 +23,6 @@ struct ColorPalette {
     // rgb 237 237 237
     static let borderSoft: UInt = 0xededed
     
+    static let myprofileview: UInt = 0xFF848F
+    
 }

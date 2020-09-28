@@ -10,8 +10,22 @@ import UIKit
 
 class matchingHomeViewController: BaseViewController {
 
+    
+    @IBOutlet weak var myProfileView: UIView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.myProfileView.layer.cornerRadius=15
+        self.myProfileView.layer.shadowColor = UIColor.orange.cgColor // 검정색 사용
+        self.myProfileView.layer.masksToBounds = false
+        self.myProfileView.layer.shadowOffset = CGSize(width: 0, height: 4) // 반경에 대해서 너무 적용이 되어서 4point 정도 ㅐ림.
+        self.myProfileView.layer.shadowRadius = 8 // 반경?
+        self.myProfileView.layer.shadowOpacity = 0.3 // alpha값입니다.
+        
+
 
         // Do any additional setup after loading the view.
     }

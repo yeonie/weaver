@@ -368,12 +368,6 @@ class OwnTypeChoiceViewController: BaseViewController {
 
         }
     }
-    
-    
-    
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 //        let myText = expanation.text!

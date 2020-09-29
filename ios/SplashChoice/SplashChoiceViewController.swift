@@ -33,7 +33,7 @@ class SplashChoiceViewController: BaseViewController {
             }))
         }
         else{
-            UIView.animate(withDuration: 0.6, animations:({
+            UIView.animate(withDuration: 0.4, animations:({
                 
                 self.slideSginUpView.transform = CGAffineTransform(translationX: 0, y: 0)
                 

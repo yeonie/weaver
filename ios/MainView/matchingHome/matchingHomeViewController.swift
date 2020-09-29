@@ -60,7 +60,11 @@ class matchingHomeViewController: BaseViewController {
         //        self.navigationController?.navigationBar.backIndicatorImage = UIImage()
 
     }
+    @IBAction func myProfileSetBtnPressed(_ sender: UIButton) {
+        navigationController!.pushViewController(myPageFixViewController(), animated: true)
 
+    }
+    
 
     
 

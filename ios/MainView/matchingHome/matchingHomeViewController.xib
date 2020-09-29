@@ -53,9 +53,24 @@
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-Zb-ucR">
                                     <rect key="frame" x="19" y="111" width="376" height="90"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmn-YN-S9n">
+                                            <rect key="frame" x="341" y="0.0" width="35" height="35"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="35" id="TIz-rR-6jM"/>
+                                                <constraint firstAttribute="height" constant="35" id="mzI-vx-cSy"/>
+                                            </constraints>
+                                            <state key="normal" image="myProfileSetBtn"/>
+                                            <connections>
+                                                <action selector="myProfileSetBtnPressed:" destination="-1" eventType="touchUpInside" id="7Hm-KB-MAb"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="90" id="We8-us-WIA"/>
+                                        <constraint firstItem="xmn-YN-S9n" firstAttribute="top" secondItem="rqU-Zb-ucR" secondAttribute="top" id="fd7-qn-WLZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="xmn-YN-S9n" secondAttribute="trailing" id="lAl-wU-Cot"/>
                                         <constraint firstAttribute="width" constant="376" id="mGG-9e-pQZ"/>
                                     </constraints>
                                 </view>
@@ -162,6 +177,7 @@
         </view>
     </objects>
     <resources>
+        <image name="myProfileSetBtn" width="24" height="24"/>
         <image name="refresh" width="24" height="24"/>
     </resources>
 </document>

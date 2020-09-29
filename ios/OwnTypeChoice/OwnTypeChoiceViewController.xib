@@ -236,7 +236,7 @@
                                         <constraint firstAttribute="width" constant="84" id="O4h-MT-ULR"/>
                                         <constraint firstAttribute="height" constant="42" id="mjE-5J-2ka"/>
                                     </constraints>
-                                    <state key="normal" image="ENFJoff"/>
+                                    <state key="normal" image="infp60Off"/>
                                     <connections>
                                         <action selector="INFP:" destination="-1" eventType="touchUpInside" id="AEi-rF-pQa"/>
                                     </connections>
@@ -380,7 +380,6 @@
         </view>
     </objects>
     <resources>
-        <image name="ENFJoff" width="70" height="35"/>
         <image name="enfj60Off" width="70" height="35"/>
         <image name="enfp60Off" width="70" height="35"/>
         <image name="entj60Off" width="70" height="35"/>
@@ -390,6 +389,7 @@
         <image name="estj60Off" width="70" height="35"/>
         <image name="estp60Off" width="70" height="35"/>
         <image name="infj60Off" width="70" height="35"/>
+        <image name="infp60Off" width="70" height="35"/>
         <image name="intj60Off" width="70" height="35"/>
         <image name="intp60Off" width="70" height="35"/>
         <image name="isfj60Off" width="70" height="35"/>

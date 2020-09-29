@@ -27,6 +27,9 @@ class OwnTypeChoiceViewController: BaseViewController {
     @IBOutlet weak var ENFJ: UIButton!
     @IBOutlet weak var ENTJ: UIButton!
     
+    @IBOutlet weak var typeComment: UILabel!
+    
+    
     
     
     
@@ -48,6 +51,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ESFJ.setImage(UIImage(named: "esfj60Off"), for : .normal)
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
+            typeComment.text = "ISTJ"
         }
     }
     
@@ -370,11 +374,8 @@ class OwnTypeChoiceViewController: BaseViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let myText = expanation.text!
-//        let myParagraphStyle = NSMutableParagraphStyle()
-//        myParagraphStyle.lineSpacing = 5
-                // Do any additional setup after loading the view.
-
+        
+//        typeComment.text = "ISTJ"
     }
     
     override func viewWillAppear(_ animated: Bool) {

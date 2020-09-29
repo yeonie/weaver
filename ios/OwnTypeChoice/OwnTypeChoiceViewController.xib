@@ -28,6 +28,7 @@
                 <outlet property="ISFP" destination="ML0-Gm-bdo" id="IiV-tX-4Ep"/>
                 <outlet property="ISTJ" destination="SMZ-ID-LYl" id="35E-Lf-wMD"/>
                 <outlet property="ISTP" destination="07O-Cz-UsY" id="FVd-Xa-dRT"/>
+                <outlet property="typeComment" destination="E0n-rb-8zt" id="Ym2-Ih-Qy2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -61,11 +62,10 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="열정적인 중재자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-rb-8zt">
-                            <rect key="frame" x="138" y="268" width="138" height="28"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="어떤 타입일까요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0n-rb-8zt">
+                            <rect key="frame" x="132" y="268" width="150" height="28"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="28" id="WYy-OB-jsF"/>
-                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="l9h-xd-fto"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                             <nil key="textColor"/>

@@ -1,22 +1,68 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="boardViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="boardViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="boardSearchBar" destination="Bq0-fM-5X0" id="7Ai-Xx-JUY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8C8-Fi-KvD">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CO-l9-VTl">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <subviews>
+                                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Bq0-fM-5X0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="6kN-TV-P7j"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="bfr-RI-RUe"/>
+                                    </constraints>
+                                    <textInputTraits key="textInputTraits"/>
+                                </searchBar>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Bq0-fM-5X0" secondAttribute="trailing" id="6ig-ep-6TI"/>
+                                <constraint firstItem="Bq0-fM-5X0" firstAttribute="leading" secondItem="0CO-l9-VTl" secondAttribute="leading" id="Izi-C8-xkc"/>
+                                <constraint firstAttribute="height" constant="1000" id="dfJ-Fc-X5m"/>
+                                <constraint firstItem="Bq0-fM-5X0" firstAttribute="top" secondItem="0CO-l9-VTl" secondAttribute="top" id="v9p-Ax-ISd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="0CO-l9-VTl" firstAttribute="top" secondItem="8C8-Fi-KvD" secondAttribute="top" id="CGG-BH-NvI"/>
+                        <constraint firstItem="0CO-l9-VTl" firstAttribute="leading" secondItem="8C8-Fi-KvD" secondAttribute="leading" id="IDy-mO-Uy4"/>
+                        <constraint firstAttribute="trailing" secondItem="0CO-l9-VTl" secondAttribute="trailing" id="TZX-eq-wAy"/>
+                        <constraint firstItem="0CO-l9-VTl" firstAttribute="width" secondItem="8C8-Fi-KvD" secondAttribute="width" id="VhY-rj-6qC"/>
+                        <constraint firstAttribute="bottom" secondItem="0CO-l9-VTl" secondAttribute="bottom" id="X7Q-bW-dus"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8C8-Fi-KvD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Dfm-F4-EyF"/>
+                <constraint firstItem="8C8-Fi-KvD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="E6n-64-X3C"/>
+                <constraint firstItem="8C8-Fi-KvD" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="iIw-gc-XkU"/>
+                <constraint firstAttribute="bottom" secondItem="8C8-Fi-KvD" secondAttribute="bottom" id="zQb-lu-1Qx"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="169.56521739130437" y="35.491071428571423"/>
         </view>
     </objects>
 </document>

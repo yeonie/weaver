@@ -49,7 +49,10 @@ class BoardHomeViewController: BaseViewController {
     }
     
     
-        
+    @IBAction func typeTestMoreBtnPressed(_ sender: UIButton) {
+        navigationController!.pushViewController(typeTestViewController(), animated: true)
+    }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

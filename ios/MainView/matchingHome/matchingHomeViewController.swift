@@ -64,6 +64,10 @@ class matchingHomeViewController: BaseViewController {
         navigationController!.pushViewController(myPageFixViewController(), animated: true)
 
     }
+    @IBAction func someoneSelectPressed(_ sender: UIButton) {
+        navigationController!.pushViewController(othersProfileViewController(), animated: true)
+
+    }
     
 
     

@@ -3,16 +3,16 @@
     {
       "scale" : "1x",
       "idiom" : "universal",
-      "filename" : "myProfileSetBtn.png"
+      "filename" : "boardSearchIc.png"
     },
     {
+      "scale" : "2x",
       "idiom" : "universal",
-      "filename" : "myProfileSetBtn@2x.png",
-      "scale" : "2x"
+      "filename" : "boardSearchIc@2x.png"
     },
     {
       "scale" : "3x",
-      "filename" : "myProfileSetBtn@3x.png",
+      "filename" : "boardSearchIc@3x.png",
       "idiom" : "universal"
     }
   ],

@@ -9,10 +9,40 @@
 import UIKit
 
 class boardViewController: BaseViewController {
+    
+    @IBOutlet weak var boardSearchBar: UISearchBar!
+    
+    var searchBar = false
+    
+    
+    
+    lazy var rightButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(image: UIImage(named: "boardSearchIc"), style: .plain, target: self, action: #selector(buttonPressed(_:)))
+        self.navigationController?.navigationBar.tintColor = .black
+        return button
+        
+    }()
+
+    @objc private func buttonPressed(_ sender: Any) {
+        searchBar = !searchBar
+        
+        if searchBar{
+            
+            self.boardSearchBar.isHidden = false
+            
+        }
+        else{
+            
+            self.boardSearchBar.isHidden = true
+            
+        }
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.rightBarButtonItem = self.rightButton
+        self.boardSearchBar.isHidden = true
         
     }
 
@@ -21,31 +51,18 @@ class boardViewController: BaseViewController {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
         
-        //        self.navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 0/255, green: 0/255, blue: 0/255, alpha: 0.01)
         self.navigationItem.title = "게시판"
         
-        //        self.navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 0/255, green: 0/255, blue: 0/255, alpha: 0.01)
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        
-        //        self.navigationController?.navigationItem.backBarButtonItem = UIBarButtonItem(image: UIImage(named: "dismissBtn"), style: .plain, target: nil, action: nil)
-        
-        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: ".clear")
-        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: ".clear")
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
             , target: nil, action: nil)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         
-        UINavigationBar.appearance().barTintColor = UIColor.white
-        
-        self.navigationController?.navigationBar.isTranslucent = false
+//        UINavigationBar.appearance().barTintColor = UIColor.white
+//        self.navigationController?.navigationBar.isTranslucent = false
         
         
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
-        
-        
-        //        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage()
-        //        self.navigationController?.navigationBar.backIndicatorImage = UIImage()
-        
     }
     
     

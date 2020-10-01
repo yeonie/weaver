@@ -13,7 +13,9 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="messageViewController" customModule="ios" customModuleProvider="target">
             <connections>
                 <outlet property="boardBar" destination="G5D-hn-8Dx" id="5KI-JE-TBd"/>
+                <outlet property="boardChatSet" destination="6Yv-Im-iv8" id="m06-kF-6OV"/>
                 <outlet property="matchingBar" destination="FSm-8h-zOu" id="hWB-lK-dfd"/>
+                <outlet property="matchingChatSet" destination="QQY-C6-lG8" id="3x8-rN-Hks"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,6 +24,10 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQY-C6-lG8">
+                    <rect key="frame" x="0.0" y="174" width="414" height="688"/>
+                    <color key="backgroundColor" red="0.60169970989999999" green="0.8639054894" blue="0.79215139150000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메세지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zr5-oQ-xo2">
                     <rect key="frame" x="177" y="56" width="60" height="28"/>
                     <constraints>
@@ -32,6 +38,10 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yv-Im-iv8">
+                    <rect key="frame" x="0.0" y="174" width="414" height="688"/>
+                    <color key="backgroundColor" red="0.92688338319999997" green="1" blue="0.0059557591490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HTi-xS-KVM">
                     <rect key="frame" x="0.0" y="100" width="414" height="66"/>
                     <subviews>
@@ -127,9 +137,17 @@
             <constraints>
                 <constraint firstItem="Zr5-oQ-xo2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="B2f-Jn-qge"/>
                 <constraint firstItem="HTi-xS-KVM" firstAttribute="top" secondItem="Zr5-oQ-xo2" secondAttribute="bottom" constant="16" id="FQR-84-McU"/>
+                <constraint firstItem="6Yv-Im-iv8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="McU-Ej-ALR"/>
+                <constraint firstItem="6Yv-Im-iv8" firstAttribute="top" secondItem="HTi-xS-KVM" secondAttribute="bottom" constant="8" id="W8h-xL-NgJ"/>
+                <constraint firstItem="QQY-C6-lG8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="cQp-YB-EQz"/>
+                <constraint firstItem="QQY-C6-lG8" firstAttribute="top" secondItem="HTi-xS-KVM" secondAttribute="bottom" constant="8" id="cq0-N9-FwU"/>
+                <constraint firstItem="6Yv-Im-iv8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="dx6-wd-kci"/>
                 <constraint firstItem="HTi-xS-KVM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eKR-ZZ-YQS"/>
+                <constraint firstItem="QQY-C6-lG8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="loV-sb-p5q"/>
                 <constraint firstItem="Zr5-oQ-xo2" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="pOY-ET-zts"/>
                 <constraint firstItem="HTi-xS-KVM" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="sfp-X9-WeS"/>
+                <constraint firstItem="6Yv-Im-iv8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vdg-x3-Q1D"/>
+                <constraint firstItem="QQY-C6-lG8" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zBz-Si-brR"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="134.78260869565219" y="145.98214285714286"/>

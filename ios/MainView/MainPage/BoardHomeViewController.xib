@@ -95,15 +95,17 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-NH-KYa">
-                                    <rect key="frame" x="317" y="458" width="47" height="20"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-NH-KYa">
+                                    <rect key="frame" x="352" y="458" width="47" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="47" id="Elp-yH-SDj"/>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="47" id="Lg8-0Q-Nj8"/>
                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="srd-Fr-zF5"/>
                                         <constraint firstAttribute="height" constant="20" id="yak-4i-NV7"/>
                                     </constraints>
                                     <state key="normal" image="moreBtn"/>
+                                    <connections>
+                                        <action selector="typeTestMoreBtnPressed:" destination="-1" eventType="touchUpInside" id="VWB-g4-njk"/>
+                                    </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTJ는 지금" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8H-QE-gUf">
                                     <rect key="frame" x="8" y="618" width="101" height="30"/>
@@ -126,7 +128,7 @@
                                 <constraint firstItem="P8H-QE-gUf" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="LTi-9i-DzL"/>
                                 <constraint firstItem="mrh-SO-ZFs" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="Lwx-o1-x4N"/>
                                 <constraint firstItem="UEi-uB-CXI" firstAttribute="top" secondItem="bo0-j2-IXJ" secondAttribute="top" id="PHa-sV-LCc"/>
-                                <constraint firstAttribute="trailing" secondItem="I5r-NH-KYa" secondAttribute="trailing" constant="50" id="bsB-BO-uZ5"/>
+                                <constraint firstAttribute="trailing" secondItem="I5r-NH-KYa" secondAttribute="trailing" constant="15" id="bsB-BO-uZ5"/>
                                 <constraint firstItem="mrh-SO-ZFs" firstAttribute="top" secondItem="UEi-uB-CXI" secondAttribute="bottom" constant="13" id="ctT-yZ-PiH"/>
                                 <constraint firstItem="P8H-QE-gUf" firstAttribute="top" secondItem="mrh-SO-ZFs" secondAttribute="bottom" constant="135" id="frh-j0-g2H"/>
                                 <constraint firstItem="I5r-NH-KYa" firstAttribute="centerY" secondItem="mrh-SO-ZFs" secondAttribute="centerY" id="wPO-Rf-vhR"/>

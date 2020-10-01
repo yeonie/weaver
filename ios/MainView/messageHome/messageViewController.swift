@@ -13,6 +13,8 @@ class messageViewController: BaseViewController {
     @IBOutlet weak var matchingBar: UIView!
     @IBOutlet weak var boardBar: UIView!
     
+    @IBOutlet weak var matchingChatSet: UIView!
+    @IBOutlet weak var boardChatSet: UIView!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -20,6 +22,8 @@ class messageViewController: BaseViewController {
         //첨에 매칭 메세지가 떠야해서 게시판건 지워준다.
         self.boardBar.isHidden = true
         self.matchingBar.isHidden=false
+        self.boardChatSet.isHidden = true
+        self.matchingChatSet.isHidden = false
         navigationController?.navigationBar.isHidden = true
     }
     
@@ -35,12 +39,16 @@ class messageViewController: BaseViewController {
     @IBAction func matchinBtnClicked(_ sender: UIButton) {
         self.matchingBar.isHidden = false
         self.boardBar.isHidden=true
+        self.boardChatSet.isHidden = true
+        self.matchingChatSet.isHidden = false
     }
     
     @IBAction func boardBtnClicked(_ sender: UIButton) {
         self.matchingBar.isHidden=true
         self.boardBar.isHidden=false
-        
+        self.boardChatSet.isHidden = false
+        self.matchingChatSet.isHidden = true
+
     }
     /*
     // MARK: - Navigation

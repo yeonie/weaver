@@ -51,7 +51,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ESFJ.setImage(UIImage(named: "esfj60Off"), for : .normal)
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
-            typeComment.text = "ISTJ"
+            typeComment.text = "청렴결백한 논리주의자!"
         }
     }
     
@@ -73,6 +73,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "용감한 수호자?"
 
         }
     }
@@ -95,6 +96,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "선의의 옹호자!"
 
         }
     }
@@ -117,6 +119,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "용의주도한 전략가!"
 
         }
     }
@@ -138,7 +141,8 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
-
+            
+            typeComment.text = "만능 재주꾼!"
         }
     }
     @IBAction func ISFP(_ sender: Any) {
@@ -160,6 +164,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
 
+            typeComment.text = "호기심 많은 예술가!"
         }
     }
     @IBAction func INFP(_ sender: Any) {
@@ -180,6 +185,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "열정적인 중재자!"
 
         }
     }
@@ -201,7 +207,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
-
+            typeComment.text = "논리적인 사색가!"
         }
     }
     @IBAction func ESTP(_ sender: Any) {
@@ -222,6 +228,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "모함을 즐기는 사업가!"
 
         }
     }
@@ -243,6 +250,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "자유로운 영혼의 연예인!?"
 
         }
     }
@@ -264,6 +272,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "재기발랄한 활동가!"
 
         }
     }
@@ -285,6 +294,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "뜨거운 논쟁을 즐기는 변론가!"
 
         }
     }
@@ -306,6 +316,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "엄격한 관리자..!"
 
         }
     }
@@ -327,6 +338,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "사교적인 외교관!"
 
         }
     }
@@ -348,6 +360,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ESFJ.setImage(UIImage(named: "esfj60Off"), for : .normal)
             ENTJ.setImage(UIImage(named: "entj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "정의로운 사회운동가!"
 
         }
     }
@@ -369,6 +382,7 @@ class OwnTypeChoiceViewController: BaseViewController {
             ESFJ.setImage(UIImage(named: "esfj60Off"), for : .normal)
             ENFJ.setImage(UIImage(named: "enfj60Off"), for : .normal)
             ISTJ.setImage(UIImage(named: "istj60Off"), for: .normal)
+            typeComment.text = "대담한 통솔자!"
 
         }
     }

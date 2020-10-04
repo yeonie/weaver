@@ -12,6 +12,40 @@ class matchingHomeViewController: BaseViewController {
 
     
     @IBOutlet weak var myProfileView: UIView!
+    @IBOutlet weak var everyFriendBtn: UIButton!
+    @IBOutlet weak var sameSexFriendBtn: UIButton!
+    @IBOutlet weak var difSexFriendBtn: UIButton!
+    @IBOutlet weak var userProfileView: UIView!
+    
+    
+    @IBAction func everyFriendBtnPressed(_ sender: Any) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOn"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
+
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
+
+        
+    }
+    @IBAction func sameSexFriendBtnPressed(_ sender: UIButton) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOn"), for : .normal)
+        
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
+    }
+    @IBAction func difSexBtnPressed(_ sender: UIButton) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
+        
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOn"), for : .normal)
+
+    }
+    
+    
+    
+    
     
     
     
@@ -25,7 +59,8 @@ class matchingHomeViewController: BaseViewController {
         self.myProfileView.layer.shadowRadius = 8 // 반경?
         self.myProfileView.layer.shadowOpacity = 0.3 // alpha값입니다.
         
-
+        
+        self.userProfileView.layer.cornerRadius=15
 
         // Do any additional setup after loading the view.
     }

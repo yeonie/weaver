@@ -8,9 +8,20 @@
 
 import UIKit
 
+var images = ["banner1","boardHomeBackground","banner1", "banner1"]
+
+
 class boardViewController: BaseViewController {
     
     @IBOutlet weak var boardSearchBar: UISearchBar!
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    
+    @IBAction func pageChanged(_ sender: UIPageControl) {
+        imgView.image = UIImage(named: images[pageControl.currentPage])
+        
+    }
     
     var searchBar = false
     
@@ -44,7 +55,15 @@ class boardViewController: BaseViewController {
         self.navigationItem.rightBarButtonItem = self.rightButton
         self.boardSearchBar.isHidden = true
         
-    }
+        pageControl.numberOfPages = images.count
+        pageControl.currentPage = 0
+        pageControl.pageIndicatorTintColor = UIColor.white
+        pageControl.currentPageIndicatorTintColor = UIColor.lightGray
+        imgView.image = UIImage(named: images[0])
+        
+        
+        }
+    
 
 
     override func viewWillAppear(_ animated: Bool) {
@@ -71,3 +90,4 @@ class boardViewController: BaseViewController {
     
     
 }
+

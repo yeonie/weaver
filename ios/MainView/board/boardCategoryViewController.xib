@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="boardCategoryViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="feedTableView" destination="niD-8z-LAr" id="gZm-Lx-J8h"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,14 +21,42 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUx-bM-gzO">
-                    <rect key="frame" x="348" y="534" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
-                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pUp-oZ-0VN">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                    <color key="backgroundColor" red="0.93091040849685669" green="0.46359485387802124" blue="0.43919700384140015" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="bPu-jY-SgP"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ju6-3h-dPm">
+                    <rect key="frame" x="0.0" y="199" width="414" height="663"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="niD-8z-LAr">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="niD-8z-LAr" secondAttribute="trailing" id="7K2-tl-scA"/>
+                        <constraint firstAttribute="bottom" secondItem="niD-8z-LAr" secondAttribute="bottom" id="KM1-p3-YLF"/>
+                        <constraint firstItem="niD-8z-LAr" firstAttribute="top" secondItem="ju6-3h-dPm" secondAttribute="top" id="byh-mr-GzB"/>
+                        <constraint firstItem="niD-8z-LAr" firstAttribute="leading" secondItem="ju6-3h-dPm" secondAttribute="leading" id="mQl-aL-GpD"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ju6-3h-dPm" firstAttribute="top" secondItem="pUp-oZ-0VN" secondAttribute="bottom" constant="-1" id="6el-3T-HiP"/>
+                <constraint firstItem="pUp-oZ-0VN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bbt-J5-e3O"/>
+                <constraint firstItem="ju6-3h-dPm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="g6G-cz-FZm"/>
+                <constraint firstItem="pUp-oZ-0VN" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="hqq-tx-JJl"/>
+                <constraint firstItem="ju6-3h-dPm" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="sPR-kR-ies"/>
+                <constraint firstItem="pUp-oZ-0VN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="usN-ri-g4p"/>
+                <constraint firstItem="ju6-3h-dPm" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zgs-bq-CGs"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
 </document>

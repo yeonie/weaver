@@ -49,6 +49,8 @@
 		84D6E2682529B22400B33ADD /* putFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2662529B22400B33ADD /* putFeedViewController.xib */; };
 		84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */; };
 		84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */; };
+		84FFA349252D424D00960090 /* boardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFA347252D424D00960090 /* boardTableViewCell.swift */; };
+		84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FFA348252D424D00960090 /* boardTableViewCell.xib */; };
 		BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */; };
 		BD75ABDA2301B73400E0FC7A /* NoticePopUpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75ABD92301B73400E0FC7A /* NoticePopUpDelegate.swift */; };
 		BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD75ABDB2301B7B500E0FC7A /* NoticePopUp.storyboard */; };
@@ -116,6 +118,8 @@
 		84D6E2662529B22400B33ADD /* putFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = putFeedViewController.xib; sourceTree = "<group>"; };
 		84E7D3D8250483A90033A1CF /* SplashChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashChoiceViewController.swift; sourceTree = "<group>"; };
 		84E7D3D9250483A90033A1CF /* SplashChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashChoiceViewController.xib; sourceTree = "<group>"; };
+		84FFA347252D424D00960090 /* boardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardTableViewCell.swift; sourceTree = "<group>"; };
+		84FFA348252D424D00960090 /* boardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardTableViewCell.xib; sourceTree = "<group>"; };
 		BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePopUp.swift; sourceTree = "<group>"; };
 		BD75ABD92301B73400E0FC7A /* NoticePopUpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePopUpDelegate.swift; sourceTree = "<group>"; };
 		BD75ABDB2301B7B500E0FC7A /* NoticePopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoticePopUp.storyboard; sourceTree = "<group>"; };
@@ -258,6 +262,8 @@
 				8498F9AB250F0EF40039A25B /* boardViewController.xib */,
 				84D6E2592529B13600B33ADD /* boardCategoryViewController.swift */,
 				84D6E25A2529B13600B33ADD /* boardCategoryViewController.xib */,
+				84FFA347252D424D00960090 /* boardTableViewCell.swift */,
+				84FFA348252D424D00960090 /* boardTableViewCell.xib */,
 				84D6E25D2529B1A600B33ADD /* FeedViewController.swift */,
 				84D6E25E2529B1A600B33ADD /* FeedViewController.xib */,
 				84D6E2612529B1C800B33ADD /* putReplyViewController.swift */,
@@ -462,6 +468,7 @@
 				BD9BF18822F9DCC7009E47EB /* MainViewController.xib in Resources */,
 				84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */,
 				8498F990250CE56C0039A25B /* messageViewController.xib in Resources */,
+				84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */,
 				8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */,
 				BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */,
 				84D6E2502523237800B33ADD /* othersProfileViewController.xib in Resources */,
@@ -532,6 +539,7 @@
 				BD9BF18022F9CDEF009E47EB /* String.swift in Sources */,
 				845B2D2B2504C5B200629DF3 /* SignUpViewController.swift in Sources */,
 				8498F99A250CFDC40039A25B /* MainTabbarViewController.swift in Sources */,
+				84FFA349252D424D00960090 /* boardTableViewCell.swift in Sources */,
 				BD9BF17E22F9CD60009E47EB /* ColorPalette.swift in Sources */,
 				8498F99E250D05540039A25B /* UIImage.swift in Sources */,
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
@@ -703,7 +711,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.template.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litong.template.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -723,7 +731,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.softsquared.template.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litong.template.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -40,7 +40,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l53-zC-K3E">
                                     <rect key="frame" x="8" y="39" width="397" height="185"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OBh-Et-ggu">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OBh-Et-ggu">
                                             <rect key="frame" x="0.0" y="0.0" width="397" height="185"/>
                                         </imageView>
                                         <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="0dH-aF-gNC">
@@ -94,10 +94,20 @@
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IgO-O9-Kgx">
                                     <rect key="frame" x="20" y="380" width="373" height="230"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPI-Er-CQ3">
+                                            <rect key="frame" x="0.0" y="0.0" width="373" height="230"/>
+                                            <state key="normal" image="altBoard"/>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstItem="NPI-Er-CQ3" firstAttribute="top" secondItem="IgO-O9-Kgx" secondAttribute="top" id="AWi-wc-ijz"/>
                                         <constraint firstAttribute="width" constant="373" id="LMs-7W-3hg"/>
+                                        <constraint firstItem="NPI-Er-CQ3" firstAttribute="leading" secondItem="IgO-O9-Kgx" secondAttribute="leading" id="N2p-Ss-q7p"/>
                                         <constraint firstAttribute="height" constant="230" id="PMp-sC-dpT"/>
+                                        <constraint firstAttribute="bottom" secondItem="NPI-Er-CQ3" secondAttribute="bottom" id="YM7-GJ-08F"/>
+                                        <constraint firstAttribute="trailing" secondItem="NPI-Er-CQ3" secondAttribute="trailing" id="bho-bx-vhd"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3no-VS-JVu">
@@ -123,13 +133,12 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BN2-eF-mg3">
-                                            <rect key="frame" x="11" y="42" width="56" height="30"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BN2-eF-mg3">
+                                            <rect key="frame" x="10" y="42" width="393" height="280"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="30" id="8Df-ot-oIN"/>
-                                                <constraint firstAttribute="width" constant="56" id="ttu-d1-mmh"/>
+                                                <constraint firstAttribute="height" constant="280" id="PvJ-Sa-YAH"/>
                                             </constraints>
-                                            <state key="normal" title="게시판 글"/>
+                                            <state key="normal" image="altBoard"/>
                                             <connections>
                                                 <action selector="boardCategoryBtnPressed:" destination="-1" eventType="touchUpInside" id="9CJ-kg-Zgt"/>
                                             </connections>
@@ -137,12 +146,14 @@
                                     </subviews>
                                     <color key="backgroundColor" red="0.98192101720000002" green="0.90743178130000002" blue="0.5136409998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <constraints>
+                                        <constraint firstItem="BN2-eF-mg3" firstAttribute="top" secondItem="4KK-KW-pbF" secondAttribute="bottom" constant="8" id="8ea-ZY-vtx"/>
                                         <constraint firstItem="4KK-KW-pbF" firstAttribute="leading" secondItem="3no-VS-JVu" secondAttribute="leading" constant="8" id="QIL-um-md3"/>
                                         <constraint firstAttribute="height" constant="1000" id="Qk6-QS-XJH"/>
                                         <constraint firstItem="BN2-eF-mg3" firstAttribute="top" secondItem="4KK-KW-pbF" secondAttribute="bottom" constant="8" id="Y3G-fI-knz"/>
                                         <constraint firstItem="0OV-IA-mqr" firstAttribute="top" secondItem="4KK-KW-pbF" secondAttribute="bottom" constant="404" id="dLr-fk-VxW"/>
+                                        <constraint firstItem="BN2-eF-mg3" firstAttribute="leading" secondItem="3no-VS-JVu" secondAttribute="leading" constant="10" id="dOt-p2-ZgS"/>
                                         <constraint firstItem="0OV-IA-mqr" firstAttribute="leading" secondItem="3no-VS-JVu" secondAttribute="leading" constant="8" id="g9A-7G-6Q4"/>
-                                        <constraint firstItem="BN2-eF-mg3" firstAttribute="leading" secondItem="3no-VS-JVu" secondAttribute="leading" constant="11" id="iVW-QM-I0b"/>
+                                        <constraint firstAttribute="trailing" secondItem="BN2-eF-mg3" secondAttribute="trailing" constant="10" id="qnN-ho-IvJ"/>
                                         <constraint firstItem="4KK-KW-pbF" firstAttribute="top" secondItem="3no-VS-JVu" secondAttribute="top" constant="8" id="qua-da-tS5"/>
                                     </constraints>
                                 </view>
@@ -191,4 +202,7 @@
             <point key="canvasLocation" x="169.56521739130437" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="altBoard" width="724" height="528"/>
+    </resources>
 </document>

@@ -11,6 +11,7 @@ import UIKit
 class BoardHomeViewController: BaseViewController {
 
     @IBOutlet weak var attributedString: UILabel!
+    var queryText:String?
     
     @IBOutlet weak var namedBoard: UICollectionView!
     override func viewDidLoad() {

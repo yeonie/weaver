@@ -253,7 +253,6 @@
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
-                                <action selector="maybeNextTime:" destination="-1" eventType="touchUpInside" id="otD-w6-jcF"/>
                                 <action selector="signUpBtnPressed:" destination="-1" eventType="touchUpInside" id="7lh-J2-trM"/>
                             </connections>
                         </button>

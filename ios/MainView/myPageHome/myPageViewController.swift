@@ -12,6 +12,8 @@ class myPageViewController: BaseViewController {
     
     
     @IBOutlet weak var whatTestIDid: UIView!
+    @IBOutlet weak var mbtiColor1: UIView!
+    @IBOutlet weak var mbtiColor2: UIView!
     
 
 //   버튼 두개
@@ -36,10 +38,8 @@ class myPageViewController: BaseViewController {
         if let button = sender as? UIBarButtonItem {
             switch button.tag {
             case 1:
-                self.view.backgroundColor = .black
                 self.navigationController!.pushViewController(myAppFixViewController(), animated: true)
             case 2:
-                self.view.backgroundColor = .red
                 self.navigationController!.pushViewController(myPageFixViewController(), animated: true)
             default:
                 print("error")
@@ -49,13 +49,9 @@ class myPageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        여기가 추가한부분2
-        // Set the background color to Green.
-//        self.view.backgroundColor = .green
-        // Set the title of NavigationController.
-//        self.title = "navigationVC"
-        // Set it to the left of the navigation bar.
+        
+        mbtiColor1.layer.cornerRadius = mbtiColor1.bounds.size.width/2
+        mbtiColor2.layer.cornerRadius = mbtiColor1.bounds.size.width/2
         self.navigationItem.leftBarButtonItem = self.leftButton
         // Set it to the right of the navigation bar.
         self.navigationItem.rightBarButtonItem = self.rightButton

@@ -13,6 +13,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     var slided = true
     var slideoff = false
     var slideoffForSignIn = true
+    
 
     @IBOutlet weak var slideSignInView: UIView!
     @IBOutlet weak var slideSginUpView: UIView!
@@ -129,6 +130,9 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         emailBoxSU.delegate = self
         passwordBoxSU.delegate = self
         nicknameBoxSU.delegate = self
+//        수정
+//        self.loginBtn.isEnabled = false
+//        self.signUpBtn.isEnabled = false
 
         
         self.navigationController?.navigationBar.shadowImage = UIImage()

@@ -84,10 +84,11 @@ class boardViewController: BaseViewController {
         
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
     }
-    
-    @IBAction func boardCategoryBtnPressed(_ sender: UIButton) {
+    @IBAction func estjBoardPressed(_ sender: UIButton) {
         navigationController?.pushViewController(boardCategoryViewController(), animated: true)
     }
+    
+    
     
     
 }

@@ -9,6 +9,38 @@
 import UIKit
 
 class myAppFixViewController: UIViewController {
+    
+    
+    @IBOutlet weak var everyFriendBtn: UIButton!
+    @IBOutlet weak var sameSexFriendBtn: UIButton!
+    @IBOutlet weak var difSexFriendBtn: UIButton!
+    
+    
+    
+    @IBAction func everyFriendBtnPressed(_ sender: Any) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOn"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
+        
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
+        
+        
+    }
+    @IBAction func sameSexFriendBtnPressed(_ sender: UIButton) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOn"), for : .normal)
+        
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
+    }
+    @IBAction func difSexBtnPressed(_ sender: UIButton) {
+        
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
+        sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
+        
+        difSexFriendBtn.setImage(UIImage(named: "difSexFriendOn"), for : .normal)
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

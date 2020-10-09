@@ -134,7 +134,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSI-Ua-lju">
-                            <rect key="frame" x="39.5" y="210" width="335" height="100"/>
+                            <rect key="frame" x="39.5" y="203" width="335" height="100"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="닉네임" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvw-v5-YPw">
                                     <rect key="frame" x="12" y="8" width="45" height="21"/>
@@ -182,7 +182,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-nI-qEO">
-                            <rect key="frame" x="39.5" y="298" width="335" height="100"/>
+                            <rect key="frame" x="39.5" y="291" width="335" height="100"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifV-oK-uQW">
                                     <rect key="frame" x="12" y="8" width="59" height="21"/>
@@ -243,7 +243,7 @@
                             <state key="normal" image="userProfileDefault"/>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Db-QE-5aU">
-                            <rect key="frame" x="42" y="406" width="330" height="66"/>
+                            <rect key="frame" x="42" y="399" width="330" height="66"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="66" id="0Dv-wQ-Ror"/>
                                 <constraint firstAttribute="width" constant="330" id="Wzl-aS-RbF"/>
@@ -256,8 +256,8 @@
                                 <action selector="signUpBtnPressed:" destination="-1" eventType="touchUpInside" id="7lh-J2-trM"/>
                             </connections>
                         </button>
-                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QkN-N4-BER">
-                            <rect key="frame" x="40" y="115" width="335" height="100"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QkN-N4-BER">
+                            <rect key="frame" x="39.5" y="115" width="335" height="100"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이메일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRU-7u-M0x">
                                     <rect key="frame" x="12" y="8" width="45" height="21"/>
@@ -313,8 +313,8 @@
                         <constraint firstItem="US9-rq-LKj" firstAttribute="leading" secondItem="gmX-JR-q7I" secondAttribute="leading" constant="40" id="8WK-g3-akt"/>
                         <constraint firstItem="7Db-QE-5aU" firstAttribute="centerX" secondItem="gmX-JR-q7I" secondAttribute="centerX" id="Bbx-2U-XyW"/>
                         <constraint firstItem="IyY-nI-qEO" firstAttribute="top" secondItem="uSI-Ua-lju" secondAttribute="bottom" constant="-12" id="DuQ-1h-PJO"/>
-                        <constraint firstItem="QkN-N4-BER" firstAttribute="top" secondItem="mKY-9b-s4b" secondAttribute="bottom" constant="29" id="EIC-KF-0vV"/>
                         <constraint firstAttribute="height" constant="520" id="I4e-CT-zEU"/>
+                        <constraint firstItem="QkN-N4-BER" firstAttribute="top" secondItem="mKY-9b-s4b" secondAttribute="bottom" constant="22" id="VFm-6C-0kH"/>
                         <constraint firstItem="IyY-nI-qEO" firstAttribute="centerX" secondItem="gmX-JR-q7I" secondAttribute="centerX" id="XcO-8b-ZNZ"/>
                         <constraint firstItem="7Db-QE-5aU" firstAttribute="top" secondItem="x0I-Sx-OsU" secondAttribute="bottom" constant="10" id="gfy-iq-jbH"/>
                         <constraint firstItem="uSI-Ua-lju" firstAttribute="width" secondItem="IyY-nI-qEO" secondAttribute="width" id="jio-Nx-AKD"/>

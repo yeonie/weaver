@@ -59,9 +59,6 @@ class myPageViewController: BaseViewController {
         
         self.whatTestIDid.layer.cornerRadius = 25
         
-        
-
-        
     }
 
 
@@ -69,8 +66,7 @@ class myPageViewController: BaseViewController {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "내 프로필"
-        
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "whiteBackground"), for: .default)
+
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "dismissBtn")

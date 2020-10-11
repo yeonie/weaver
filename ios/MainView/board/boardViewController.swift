@@ -87,6 +87,22 @@ class boardViewController: BaseViewController {
     @IBAction func estjBoardPressed(_ sender: UIButton) {
         navigationController?.pushViewController(boardCategoryViewController(), animated: true)
     }
+    @IBAction func anonyBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(anonyBoardViewController(), animated: true)
+    }
+    
+    @IBAction func freeBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(freeBoardViewController(), animated: true)
+    }
+    @IBAction func teenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(teenBoardViewController(), animated: true)
+    }
+    @IBAction func twoTeenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(twoTeenBoardViewController(), animated: true)
+    }
+    @IBAction func threeTeenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(threeTeenBoardViewController(), animated: true)
+    }
     
     
     

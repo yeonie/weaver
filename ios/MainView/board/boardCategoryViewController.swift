@@ -38,10 +38,6 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     }
     
     
-    
-        
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "boardCell", for: indexPath) as! boardTableViewCell
@@ -74,7 +70,10 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     
 
     @IBOutlet weak var feedTableView: UITableView!
-    //   버튼 두개
+    
+    
+    
+    //네비게이션 바 버튼 두개
     //     Create right UIBarButtonItem.
     lazy var rightButton: UIBarButtonItem = {
         let button = UIBarButtonItem(image: UIImage(named: "boardSearchIc"), style: .plain, target: self, action: #selector(buttonPressed(_:)))
@@ -133,6 +132,7 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
             }
     override func viewWillAppear(_ animated: Bool) {
     }
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         

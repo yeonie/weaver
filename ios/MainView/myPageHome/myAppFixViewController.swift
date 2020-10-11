@@ -8,7 +8,7 @@
 
 import UIKit
 
-class myAppFixViewController: UIViewController {
+class myAppFixViewController: BaseViewController {
     
     
     @IBOutlet weak var everyFriendBtn: UIButton!

@@ -26,6 +26,26 @@
 		8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F9A7250F0EE10039A25B /* myPageViewController.xib */; };
 		8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F9AA250F0EF40039A25B /* boardViewController.swift */; };
 		8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F9AB250F0EF40039A25B /* boardViewController.xib */; };
+		84B04C5E2530633C008DCB74 /* anonyBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C5C2530633C008DCB74 /* anonyBoardViewController.swift */; };
+		84B04C5F2530633C008DCB74 /* anonyBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C5D2530633C008DCB74 /* anonyBoardViewController.xib */; };
+		84B04C6225306734008DCB74 /* freeBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C6025306734008DCB74 /* freeBoardViewController.swift */; };
+		84B04C6325306734008DCB74 /* freeBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C6125306734008DCB74 /* freeBoardViewController.xib */; };
+		84B04C66253067BF008DCB74 /* teenBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C64253067BF008DCB74 /* teenBoardViewController.swift */; };
+		84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C65253067BF008DCB74 /* teenBoardViewController.xib */; };
+		84B04C7E25306880008DCB74 /* twoTeenBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C7C25306880008DCB74 /* twoTeenBoardViewController.swift */; };
+		84B04C7F25306880008DCB74 /* twoTeenBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C7D25306880008DCB74 /* twoTeenBoardViewController.xib */; };
+		84B04C822530688D008DCB74 /* threeTeenBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C802530688D008DCB74 /* threeTeenBoardViewController.swift */; };
+		84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C812530688D008DCB74 /* threeTeenBoardViewController.xib */; };
+		84B04C892532D4C8008DCB74 /* nicknameCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C872532D4C8008DCB74 /* nicknameCallViewController.swift */; };
+		84B04C8A2532D4C8008DCB74 /* nicknameCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C882532D4C8008DCB74 /* nicknameCallViewController.xib */; };
+		84B04C8D2532E170008DCB74 /* commentFIxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C8B2532E170008DCB74 /* commentFIxViewController.swift */; };
+		84B04C8E2532E170008DCB74 /* commentFIxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C8C2532E170008DCB74 /* commentFIxViewController.xib */; };
+		84B04C912532E3B6008DCB74 /* typeFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C8F2532E3B6008DCB74 /* typeFixViewController.swift */; };
+		84B04C922532E3B6008DCB74 /* typeFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C902532E3B6008DCB74 /* typeFixViewController.xib */; };
+		84B04C952532EF66008DCB74 /* whoAmIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C932532EF66008DCB74 /* whoAmIViewController.swift */; };
+		84B04C962532EF66008DCB74 /* whoAmIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C942532EF66008DCB74 /* whoAmIViewController.xib */; };
+		84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C972532F3AB008DCB74 /* interestedInViewController.swift */; };
+		84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C982532F3AB008DCB74 /* interestedInViewController.xib */; };
 		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */; };
 		84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */; };
@@ -95,6 +115,26 @@
 		8498F9A7250F0EE10039A25B /* myPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageViewController.xib; sourceTree = "<group>"; };
 		8498F9AA250F0EF40039A25B /* boardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardViewController.swift; sourceTree = "<group>"; };
 		8498F9AB250F0EF40039A25B /* boardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardViewController.xib; sourceTree = "<group>"; };
+		84B04C5C2530633C008DCB74 /* anonyBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anonyBoardViewController.swift; sourceTree = "<group>"; };
+		84B04C5D2530633C008DCB74 /* anonyBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = anonyBoardViewController.xib; sourceTree = "<group>"; };
+		84B04C6025306734008DCB74 /* freeBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeBoardViewController.swift; sourceTree = "<group>"; };
+		84B04C6125306734008DCB74 /* freeBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = freeBoardViewController.xib; sourceTree = "<group>"; };
+		84B04C64253067BF008DCB74 /* teenBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teenBoardViewController.swift; sourceTree = "<group>"; };
+		84B04C65253067BF008DCB74 /* teenBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = teenBoardViewController.xib; sourceTree = "<group>"; };
+		84B04C7C25306880008DCB74 /* twoTeenBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoTeenBoardViewController.swift; sourceTree = "<group>"; };
+		84B04C7D25306880008DCB74 /* twoTeenBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = twoTeenBoardViewController.xib; sourceTree = "<group>"; };
+		84B04C802530688D008DCB74 /* threeTeenBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTeenBoardViewController.swift; sourceTree = "<group>"; };
+		84B04C812530688D008DCB74 /* threeTeenBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = threeTeenBoardViewController.xib; sourceTree = "<group>"; };
+		84B04C872532D4C8008DCB74 /* nicknameCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nicknameCallViewController.swift; sourceTree = "<group>"; };
+		84B04C882532D4C8008DCB74 /* nicknameCallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = nicknameCallViewController.xib; sourceTree = "<group>"; };
+		84B04C8B2532E170008DCB74 /* commentFIxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentFIxViewController.swift; sourceTree = "<group>"; };
+		84B04C8C2532E170008DCB74 /* commentFIxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = commentFIxViewController.xib; sourceTree = "<group>"; };
+		84B04C8F2532E3B6008DCB74 /* typeFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeFixViewController.swift; sourceTree = "<group>"; };
+		84B04C902532E3B6008DCB74 /* typeFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = typeFixViewController.xib; sourceTree = "<group>"; };
+		84B04C932532EF66008DCB74 /* whoAmIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whoAmIViewController.swift; sourceTree = "<group>"; };
+		84B04C942532EF66008DCB74 /* whoAmIViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = whoAmIViewController.xib; sourceTree = "<group>"; };
+		84B04C972532F3AB008DCB74 /* interestedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interestedInViewController.swift; sourceTree = "<group>"; };
+		84B04C982532F3AB008DCB74 /* interestedInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = interestedInViewController.xib; sourceTree = "<group>"; };
 		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageFixViewController.swift; sourceTree = "<group>"; };
 		84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageFixViewController.xib; sourceTree = "<group>"; };
@@ -245,6 +285,7 @@
 		8498F9A4250F0E280039A25B /* myPageHome */ = {
 			isa = PBXGroup;
 			children = (
+				84B04C862532D4B0008DCB74 /* myPageFIx */,
 				8498F9A6250F0EE10039A25B /* myPageViewController.swift */,
 				8498F9A7250F0EE10039A25B /* myPageViewController.xib */,
 				84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */,
@@ -258,6 +299,8 @@
 		8498F9A5250F0E320039A25B /* board */ = {
 			isa = PBXGroup;
 			children = (
+				84B04C8425306988008DCB74 /* boardTypeA */,
+				84B04C85253069B2008DCB74 /* boardTypeB */,
 				8498F9AA250F0EF40039A25B /* boardViewController.swift */,
 				8498F9AB250F0EF40039A25B /* boardViewController.xib */,
 				84D6E2592529B13600B33ADD /* boardCategoryViewController.swift */,
@@ -272,6 +315,47 @@
 				84D6E2662529B22400B33ADD /* putFeedViewController.xib */,
 			);
 			path = board;
+			sourceTree = "<group>";
+		};
+		84B04C8425306988008DCB74 /* boardTypeA */ = {
+			isa = PBXGroup;
+			children = (
+				84B04C5C2530633C008DCB74 /* anonyBoardViewController.swift */,
+				84B04C5D2530633C008DCB74 /* anonyBoardViewController.xib */,
+				84B04C6025306734008DCB74 /* freeBoardViewController.swift */,
+				84B04C6125306734008DCB74 /* freeBoardViewController.xib */,
+				84B04C64253067BF008DCB74 /* teenBoardViewController.swift */,
+				84B04C65253067BF008DCB74 /* teenBoardViewController.xib */,
+				84B04C7C25306880008DCB74 /* twoTeenBoardViewController.swift */,
+				84B04C7D25306880008DCB74 /* twoTeenBoardViewController.xib */,
+				84B04C802530688D008DCB74 /* threeTeenBoardViewController.swift */,
+				84B04C812530688D008DCB74 /* threeTeenBoardViewController.xib */,
+			);
+			path = boardTypeA;
+			sourceTree = "<group>";
+		};
+		84B04C85253069B2008DCB74 /* boardTypeB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = boardTypeB;
+			sourceTree = "<group>";
+		};
+		84B04C862532D4B0008DCB74 /* myPageFIx */ = {
+			isa = PBXGroup;
+			children = (
+				84B04C872532D4C8008DCB74 /* nicknameCallViewController.swift */,
+				84B04C882532D4C8008DCB74 /* nicknameCallViewController.xib */,
+				84B04C8B2532E170008DCB74 /* commentFIxViewController.swift */,
+				84B04C8C2532E170008DCB74 /* commentFIxViewController.xib */,
+				84B04C8F2532E3B6008DCB74 /* typeFixViewController.swift */,
+				84B04C902532E3B6008DCB74 /* typeFixViewController.xib */,
+				84B04C932532EF66008DCB74 /* whoAmIViewController.swift */,
+				84B04C942532EF66008DCB74 /* whoAmIViewController.xib */,
+				84B04C972532F3AB008DCB74 /* interestedInViewController.swift */,
+				84B04C982532F3AB008DCB74 /* interestedInViewController.xib */,
+			);
+			path = myPageFIx;
 			sourceTree = "<group>";
 		};
 		84E7D3D7250483950033A1CF /* SplashChoice */ = {
@@ -453,8 +537,10 @@
 				84D6E25C2529B13600B33ADD /* boardCategoryViewController.xib in Resources */,
 				84D6E24C252321A000B33ADD /* resetProfileViewController.xib in Resources */,
 				8498F9A3250F08E70039A25B /* matchingHomeViewController.xib in Resources */,
+				84B04C6325306734008DCB74 /* freeBoardViewController.xib in Resources */,
 				84D6E2542523250300B33ADD /* weavingViewController.xib in Resources */,
 				84D6E2642529B1C800B33ADD /* putReplyViewController.xib in Resources */,
+				84B04C8E2532E170008DCB74 /* commentFIxViewController.xib in Resources */,
 				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				84D6E2682529B22400B33ADD /* putFeedViewController.xib in Resources */,
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
@@ -462,18 +548,26 @@
 				84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */,
 				84D6E24825231D0800B33ADD /* typeTestViewController.xib in Resources */,
 				84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */,
+				84B04C7F25306880008DCB74 /* twoTeenBoardViewController.xib in Resources */,
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
+				84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
 				BD9BF18822F9DCC7009E47EB /* MainViewController.xib in Resources */,
 				84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */,
 				8498F990250CE56C0039A25B /* messageViewController.xib in Resources */,
 				84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */,
+				84B04C962532EF66008DCB74 /* whoAmIViewController.xib in Resources */,
+				84B04C922532E3B6008DCB74 /* typeFixViewController.xib in Resources */,
 				8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */,
 				BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */,
+				84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */,
+				84B04C8A2532D4C8008DCB74 /* nicknameCallViewController.xib in Resources */,
 				84D6E2502523237800B33ADD /* othersProfileViewController.xib in Resources */,
 				84D6E2582525C85800B33ADD /* myAppFixViewController.xib in Resources */,
+				84B04C5F2530633C008DCB74 /* anonyBoardViewController.xib in Resources */,
 				84D6E2602529B1A600B33ADD /* FeedViewController.xib in Resources */,
+				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,17 +623,21 @@
 			files = (
 				8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */,
 				8498F9A2250F08E70039A25B /* matchingHomeViewController.swift in Sources */,
+				84B04C822530688D008DCB74 /* threeTeenBoardViewController.swift in Sources */,
 				84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */,
 				84D6E2532523250300B33ADD /* weavingViewController.swift in Sources */,
+				84B04C66253067BF008DCB74 /* teenBoardViewController.swift in Sources */,
 				84D6E24F2523237800B33ADD /* othersProfileViewController.swift in Sources */,
 				BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */,
 				845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */,
 				BD9BF18722F9DCC7009E47EB /* MainViewController.swift in Sources */,
 				BD9BF17822F9C6CF009E47EB /* UIColor.swift in Sources */,
 				BD9BF18022F9CDEF009E47EB /* String.swift in Sources */,
+				84B04C892532D4C8008DCB74 /* nicknameCallViewController.swift in Sources */,
 				845B2D2B2504C5B200629DF3 /* SignUpViewController.swift in Sources */,
 				8498F99A250CFDC40039A25B /* MainTabbarViewController.swift in Sources */,
 				84FFA349252D424D00960090 /* boardTableViewCell.swift in Sources */,
+				84B04C912532E3B6008DCB74 /* typeFixViewController.swift in Sources */,
 				BD9BF17E22F9CD60009E47EB /* ColorPalette.swift in Sources */,
 				8498F99E250D05540039A25B /* UIImage.swift in Sources */,
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
@@ -548,20 +646,26 @@
 				8498F9A8250F0EE10039A25B /* myPageViewController.swift in Sources */,
 				8498F98F250CE56C0039A25B /* messageViewController.swift in Sources */,
 				BD75ABDA2301B73400E0FC7A /* NoticePopUpDelegate.swift in Sources */,
+				84B04C952532EF66008DCB74 /* whoAmIViewController.swift in Sources */,
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,
 				BD9BF17A22F9C6FF009E47EB /* UIButton.swift in Sources */,
 				84D6E2572525C85800B33ADD /* myAppFixViewController.swift in Sources */,
 				84D6E2672529B22400B33ADD /* putFeedViewController.swift in Sources */,
 				84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */,
+				84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */,
 				BD9BF17C22F9C737009E47EB /* UIViewController.swift in Sources */,
 				8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */,
 				BD75ABE02301BE8200E0FC7A /* TutorialResponse.swift in Sources */,
 				84D6E25F2529B1A600B33ADD /* FeedViewController.swift in Sources */,
 				84D6E24725231D0800B33ADD /* typeTestViewController.swift in Sources */,
 				8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */,
+				84B04C7E25306880008DCB74 /* twoTeenBoardViewController.swift in Sources */,
+				84B04C8D2532E170008DCB74 /* commentFIxViewController.swift in Sources */,
+				84B04C6225306734008DCB74 /* freeBoardViewController.swift in Sources */,
 				84D6E25B2529B13600B33ADD /* boardCategoryViewController.swift in Sources */,
 				84D6E24B252321A000B33ADD /* resetProfileViewController.swift in Sources */,
+				84B04C5E2530633C008DCB74 /* anonyBoardViewController.swift in Sources */,
 				BDEF322F22F9B7CB00FEF8BD /* AppDelegate.swift in Sources */,
 				BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */,
 				BD9BF18322F9D1A4009E47EB /* SplashViewController.swift in Sources */,

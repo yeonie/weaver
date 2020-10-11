@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="commentFIxViewController" customModule="ios" customModuleProvider="target">
+            <connections>
+                <outlet property="commentBox" destination="6cE-HT-I5j" id="U6o-Uf-LD5"/>
+                <outlet property="view" destination="jhY-IV-K3R" id="6MM-6n-MSy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jhY-IV-K3R">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKu-4x-TjF">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="18자 이내" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6cE-HT-I5j">
+                            <rect key="frame" x="0.0" y="218" width="414" height="68"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="PtL-3w-E3v"/>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sv-2b-RBg">
+                            <rect key="frame" x="80.5" y="417.5" width="253" height="61"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="61" id="Pag-W1-gJS"/>
+                                <constraint firstAttribute="width" constant="253" id="dNV-YP-Ee8"/>
+                            </constraints>
+                            <state key="normal" image="commentBoxBtn"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96614569429999997" green="0.89201962950000002" blue="0.46264624599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="6cE-HT-I5j" firstAttribute="centerX" secondItem="iKu-4x-TjF" secondAttribute="centerX" id="GIX-rn-mpZ"/>
+                        <constraint firstItem="6cE-HT-I5j" firstAttribute="leading" secondItem="iKu-4x-TjF" secondAttribute="leading" id="WYF-HY-qXL"/>
+                        <constraint firstAttribute="trailing" secondItem="6cE-HT-I5j" secondAttribute="trailing" id="YiL-Xe-uxI"/>
+                        <constraint firstItem="5Sv-2b-RBg" firstAttribute="centerY" secondItem="iKu-4x-TjF" secondAttribute="centerY" id="kz7-SU-4zf"/>
+                        <constraint firstItem="5Sv-2b-RBg" firstAttribute="centerX" secondItem="iKu-4x-TjF" secondAttribute="centerX" id="ld0-CV-FHf"/>
+                        <constraint firstItem="6cE-HT-I5j" firstAttribute="top" secondItem="iKu-4x-TjF" secondAttribute="top" constant="218" id="nCH-3Q-DGd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="iKu-4x-TjF" secondAttribute="bottom" id="2bJ-cC-rB7"/>
+                <constraint firstItem="y6Z-tw-iR8" firstAttribute="trailing" secondItem="iKu-4x-TjF" secondAttribute="trailing" id="FED-lq-ckR"/>
+                <constraint firstItem="iKu-4x-TjF" firstAttribute="top" secondItem="jhY-IV-K3R" secondAttribute="top" id="eIp-f8-C1X"/>
+                <constraint firstItem="iKu-4x-TjF" firstAttribute="leading" secondItem="y6Z-tw-iR8" secondAttribute="leading" id="gig-Mx-I4L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="y6Z-tw-iR8"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="commentBoxBtn" width="219" height="61"/>
+    </resources>
+</document>

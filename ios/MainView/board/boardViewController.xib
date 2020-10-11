@@ -153,6 +153,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCI-FF-II1">
                                                             <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
                                                             <state key="normal" image="freeBoard"/>
+                                                            <connections>
+                                                                <action selector="freeBoardPressed:" destination="-1" eventType="touchUpInside" id="hHR-Oo-C2k"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,6 +172,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANO-Q6-yXM">
                                                             <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
                                                             <state key="normal" image="anonyBoard"/>
+                                                            <connections>
+                                                                <action selector="anonyBoardPressed:" destination="-1" eventType="touchUpInside" id="CE7-61-Xhe"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -185,6 +191,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="td1-UE-e6H">
                                                             <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
                                                             <state key="normal" image="teenBoard"/>
+                                                            <connections>
+                                                                <action selector="teenBoardPressed:" destination="-1" eventType="touchUpInside" id="NRJ-fU-bY3"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -201,6 +210,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8Y-Nj-fef">
                                                             <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
                                                             <state key="normal" image="2teenBoard"/>
+                                                            <connections>
+                                                                <action selector="twoTeenBoardPressed:" destination="-1" eventType="touchUpInside" id="Xc5-dc-Ufg"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -217,6 +229,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oA-aH-MIK">
                                                             <rect key="frame" x="0.0" y="0.0" width="389" height="80"/>
                                                             <state key="normal" image="3teenBoard"/>
+                                                            <connections>
+                                                                <action selector="threeTeenBoardPressed:" destination="-1" eventType="touchUpInside" id="DnV-Ta-SUE"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -282,7 +297,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qh-HK-BqS">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icESFPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -298,7 +313,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT4-iG-xp7">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icESTPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -330,7 +345,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAJ-3o-fF3">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icESFJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -346,7 +361,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyE-SY-WhO">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icINFPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -362,7 +377,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfM-3w-TnN">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icENTPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -394,7 +409,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1i-Ya-n5O">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icISTJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -410,7 +425,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rx5-0b-WbY">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icENFJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -426,7 +441,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6I-HL-Naf">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icINFJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -458,7 +473,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGF-N5-GlC">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icISTPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -474,7 +489,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxC-9r-Czp">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icINTJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -490,7 +505,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-Y0-rgE">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icENTJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -522,7 +537,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA8-mp-7C0">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icESTJboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -538,7 +553,7 @@
                                                                     <subviews>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLK-KB-CVB">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
-                                                                            <state key="normal" image="icenfpboard"/>
+                                                                            <state key="normal" image="icISFPboard"/>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -681,6 +696,19 @@
         <image name="anonyBoard" width="343" height="70"/>
         <image name="estjBoard" width="343" height="70"/>
         <image name="freeBoard" width="343" height="70"/>
+        <image name="icENFJboard" width="104" height="70"/>
+        <image name="icENTJboard" width="104" height="70"/>
+        <image name="icENTPboard" width="104" height="70"/>
+        <image name="icESFJboard" width="104" height="70"/>
+        <image name="icESFPboard" width="104" height="70"/>
+        <image name="icESTJboard" width="104" height="70"/>
+        <image name="icESTPboard" width="104" height="70"/>
+        <image name="icINFJboard" width="104" height="70"/>
+        <image name="icINFPboard" width="104" height="70"/>
+        <image name="icINTJboard" width="104" height="70"/>
+        <image name="icISFPboard" width="104" height="70"/>
+        <image name="icISTJboard" width="104" height="70"/>
+        <image name="icISTPboard" width="104" height="70"/>
         <image name="icenfpboard" width="104" height="70"/>
         <image name="teenBoard" width="343" height="70"/>
     </resources>

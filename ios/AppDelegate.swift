@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //FirebaseApp.configure()
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let splashViewController = SplashChoiceViewController()
+        let splashViewController = onboardingViewController()
         self.window?.rootViewController = UINavigationController(rootViewController: splashViewController)
         self.window?.makeKeyAndVisible()
 

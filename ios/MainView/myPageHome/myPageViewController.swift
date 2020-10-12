@@ -68,6 +68,7 @@ class myPageViewController: BaseViewController {
         self.navigationItem.title = "내 프로필"
 
         //   프로필에 점점점 메뉴
+//        self.navigationController?.navigationBar.backItem = .black
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "dismissBtn")
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain

@@ -89,7 +89,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     @IBAction func slideOffSginIn(_ sender: UIButton) {
         
         if slideoffForSignIn{
-            UIView.animate(withDuration: 0.5, animations:({
+            UIView.animate(withDuration: 0.4, animations:({
                 self.slideSginUpView.transform = CGAffineTransform(translationX: 0, y: -450)
                 self.slideSginUpView.layer.shadowColor = UIColor.black.cgColor
                 self.slideSginUpView.layer.shadowOffset = CGSize(width: 1, height: 2)
@@ -109,10 +109,10 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     }
     //슬라이드 내려뿌기
     @IBAction func slideOff(_ sender: UIButton) {
-        UIView.animate(withDuration: 0.6, animations:({
+        UIView.animate(withDuration: 0.4, animations:({
             self.slideSignInView.transform = CGAffineTransform(translationX: 0, y: 0)
                             }))
-        UIView.animate(withDuration: 0.6, animations:({
+        UIView.animate(withDuration: 0.4, animations:({
             self.slideSginUpView.transform = CGAffineTransform(translationX: 0, y: 0)
             self.slideSignInView.layer.shadowColor = UIColor.black.cgColor
         }))
@@ -167,7 +167,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         slided = !slided
         
         if slided{
-            UIView.animate(withDuration: 0.4, animations:({
+            UIView.animate(withDuration: 0.3, animations:({
                 
                 self.slideSignInView.transform = CGAffineTransform(translationX: 0, y: 0)
                 self.slideSignInView.layer.shadowOffset = CGSize(width: 0, height: 0)

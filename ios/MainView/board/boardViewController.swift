@@ -8,7 +8,7 @@
 
 import UIKit
 
-var images = ["banner1","boardHomeBackground","banner1", "banner1"]
+var images = ["banner1","banner2","banner1", "banner2"]
 
 
 class boardViewController: BaseViewController {
@@ -16,6 +16,9 @@ class boardViewController: BaseViewController {
     @IBOutlet weak var boardSearchBar: UISearchBar!
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var whatIwrote: UIView!
+    @IBOutlet weak var whatIwrote2: UIView!
+    @IBOutlet weak var whatIwrote3: UIView!
     
     
     @IBAction func pageChanged(_ sender: UIPageControl) {
@@ -36,20 +39,13 @@ class boardViewController: BaseViewController {
 
     @objc private func buttonPressed(_ sender: Any) {
         searchBar = !searchBar
-        
         if searchBar{
-            
             self.boardSearchBar.isHidden = false
-            
         }
         else{
-            
             self.boardSearchBar.isHidden = true
-            
         }
     }
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.rightBarButtonItem = self.rightButton
@@ -57,15 +53,13 @@ class boardViewController: BaseViewController {
         
         pageControl.numberOfPages = images.count
         pageControl.currentPage = 0
-        pageControl.pageIndicatorTintColor = UIColor.white
-        pageControl.currentPageIndicatorTintColor = UIColor.lightGray
+        pageControl.pageIndicatorTintColor = UIColor.lightGray
+        pageControl.currentPageIndicatorTintColor = UIColor.darkGray
         imgView.image = UIImage(named: images[0])
-        
-        
+        whatIwrote.layer.cornerRadius = 10
+        whatIwrote2.layer.cornerRadius = 10
+        whatIwrote3.layer.cornerRadius = 10
         }
-    
-
-
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false

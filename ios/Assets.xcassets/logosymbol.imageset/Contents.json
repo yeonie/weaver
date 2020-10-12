@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "logosymbol.png",
+      "scale" : "1x"
+    },
+    {
+      "scale" : "2x",
+      "filename" : "logosymbol@2x.png",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "logosymbol@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

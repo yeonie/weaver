@@ -62,19 +62,19 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게시글 알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnG-CM-S2C">
-                            <rect key="frame" x="23" y="53" width="91" height="24"/>
+                            <rect key="frame" x="23" y="53" width="91" height="8.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.51020517070000004" green="0.51020517070000004" blue="0.51020517070000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="매칭알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puz-dn-acv">
-                            <rect key="frame" x="23" y="111" width="69.5" height="8.5"/>
+                            <rect key="frame" x="23" y="95.5" width="69.5" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.51020517070000004" green="0.51020517070000004" blue="0.51020517070000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Qq-QP-juB">
-                            <rect key="frame" x="336" y="99.5" width="60" height="32"/>
+                            <rect key="frame" x="336" y="91.5" width="60" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="32" id="06c-ZE-7LB"/>
                                 <constraint firstAttribute="width" constant="58" id="MCN-Yf-pnZ"/>
@@ -153,7 +153,7 @@
                             </constraints>
                         </view>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E43-AE-9kG">
-                            <rect key="frame" x="336" y="49" width="60" height="32"/>
+                            <rect key="frame" x="336" y="41.5" width="60" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="58" id="85h-TV-iEo"/>
                                 <constraint firstAttribute="height" constant="32" id="Efe-vM-JgW"/>

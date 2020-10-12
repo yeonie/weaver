@@ -118,7 +118,7 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "ESTJ"
         //        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "whiteBackground"), for: .default)
-        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 253/255, green: 110/255, blue: 115/255, alpha: 1.0)
+        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 255/255, green: 109/255, blue: 107/255, alpha: 1.0)
         //        self.navigationController?.navigationBar.backgroundColor = .black
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")

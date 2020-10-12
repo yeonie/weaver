@@ -72,7 +72,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPA-Sa-TNV">
-                            <rect key="frame" x="305" y="705" width="109" height="59"/>
+                            <rect key="frame" x="305" y="687" width="109" height="59"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="59" id="Icm-on-REc"/>
                                 <constraint firstAttribute="width" constant="109" id="qGh-s4-fpR"/>
@@ -94,7 +94,7 @@
                             </constraints>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Wa-0J-rhB">
-                            <rect key="frame" x="10" y="705" width="100" height="49"/>
+                            <rect key="frame" x="10" y="687" width="100" height="49"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="100" id="7KM-bv-3o4"/>
                                 <constraint firstAttribute="height" constant="49" id="hh3-2W-luR"/>
@@ -316,6 +316,7 @@
                                 <constraint firstItem="uxl-On-3x0" firstAttribute="top" secondItem="V0u-kj-tNW" secondAttribute="bottom" constant="15" id="SM3-ai-10n"/>
                                 <constraint firstItem="kdH-tX-gAd" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="top" constant="15" id="Vuj-XR-O84"/>
                                 <constraint firstItem="07O-Cz-UsY" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="XRm-Bw-f93"/>
+                                <constraint firstAttribute="width" constant="354" id="Zn5-nt-oNF"/>
                                 <constraint firstItem="V0u-kj-tNW" firstAttribute="top" secondItem="kdH-tX-gAd" secondAttribute="bottom" constant="15" id="ZsY-G4-IWd"/>
                                 <constraint firstItem="ohr-4U-giT" firstAttribute="leading" secondItem="0hF-b3-9cc" secondAttribute="leading" id="e3Y-EJ-a4e"/>
                                 <constraint firstItem="OwC-ny-MWi" firstAttribute="top" secondItem="ML0-Gm-bdo" secondAttribute="bottom" constant="15" id="f3U-jd-mNa"/>
@@ -344,14 +345,14 @@
                         <constraint firstItem="yg3-aA-ULl" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="25" id="0zK-oS-Eqz"/>
                         <constraint firstItem="OtK-3M-wKF" firstAttribute="top" secondItem="tiy-Tx-AEG" secondAttribute="top" id="1T5-sE-DFy"/>
                         <constraint firstItem="OtK-3M-wKF" firstAttribute="width" secondItem="tiy-Tx-AEG" secondAttribute="width" id="3me-HF-wKz"/>
-                        <constraint firstItem="sPA-Sa-TNV" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="138" id="DFF-vs-iKt"/>
+                        <constraint firstItem="sPA-Sa-TNV" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="120" id="DFF-vs-iKt"/>
                         <constraint firstItem="acz-Rs-6kf" firstAttribute="top" secondItem="E0n-rb-8zt" secondAttribute="bottom" constant="7.4000000000000004" id="DNy-DM-bbg"/>
-                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="138" id="EUP-Qr-uvE"/>
+                        <constraint firstItem="5Wa-0J-rhB" firstAttribute="top" secondItem="0hF-b3-9cc" secondAttribute="bottom" constant="120" id="EUP-Qr-uvE"/>
                         <constraint firstItem="yg3-aA-ULl" firstAttribute="top" secondItem="d84-ha-VQx" secondAttribute="bottom" constant="-29" id="I4b-11-xaJ"/>
                         <constraint firstAttribute="bottom" secondItem="OtK-3M-wKF" secondAttribute="bottom" id="IXp-ZT-4zF"/>
                         <constraint firstItem="sPA-Sa-TNV" firstAttribute="trailing" secondItem="OtK-3M-wKF" secondAttribute="trailing" id="K3C-wn-UXS"/>
-                        <constraint firstItem="0hF-b3-9cc" firstAttribute="leading" secondItem="acz-Rs-6kf" secondAttribute="leading" constant="15" id="Ldi-Hv-ivD"/>
                         <constraint firstItem="mzv-kv-NIe" firstAttribute="leading" secondItem="OtK-3M-wKF" secondAttribute="leading" id="MhV-VJ-z85"/>
+                        <constraint firstItem="0hF-b3-9cc" firstAttribute="centerX" secondItem="tiy-Tx-AEG" secondAttribute="centerX" id="Ngr-R3-PMl"/>
                         <constraint firstItem="d84-ha-VQx" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="25" id="TAZ-ar-YgP"/>
                         <constraint firstItem="5Wa-0J-rhB" firstAttribute="leading" secondItem="OtK-3M-wKF" secondAttribute="leading" constant="10" id="Vii-as-ABr"/>
                         <constraint firstAttribute="trailing" secondItem="OtK-3M-wKF" secondAttribute="trailing" id="aHE-pU-7no"/>
@@ -364,7 +365,6 @@
                         <constraint firstItem="acz-Rs-6kf" firstAttribute="leading" secondItem="tiy-Tx-AEG" secondAttribute="leading" constant="15" id="uYw-UD-afO"/>
                         <constraint firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" constant="15" id="wXY-G9-jlC"/>
                         <constraint firstItem="E0n-rb-8zt" firstAttribute="top" secondItem="yg3-aA-ULl" secondAttribute="bottom" constant="116" id="xNc-8O-fLa"/>
-                        <constraint firstItem="0hF-b3-9cc" firstAttribute="trailing" secondItem="acz-Rs-6kf" secondAttribute="trailing" constant="-15" id="yqd-KY-UIc"/>
                     </constraints>
                 </scrollView>
             </subviews>

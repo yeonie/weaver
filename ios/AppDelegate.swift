@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     //info test
     
+//    -> 권형 : mbti 본인 타입의 게시판에만 글을 쓸 수 있고, 타 타입의 게시판은 눈팅만 가능하다.
+//    마이페이지에서 더보기 image asset 없음
+
+    
     // Production 서버
 //    let baseUrl = "https://beluv.softsquared.com"
     // Dev 서버

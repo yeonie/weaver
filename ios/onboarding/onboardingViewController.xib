@@ -50,7 +50,7 @@
                         <action selector="pageChanged:" destination="-1" eventType="valueChanged" id="9IZ-Tp-XHJ"/>
                     </connections>
                 </pageControl>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mew-ye-m3t">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mew-ye-m3t">
                     <rect key="frame" x="328.5" y="746.5" width="77.5" height="45.5"/>
                     <state key="normal" image="onboardNextBtn"/>
                     <connections>

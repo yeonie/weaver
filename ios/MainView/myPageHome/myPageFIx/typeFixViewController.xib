@@ -42,7 +42,7 @@
                     <color key="backgroundColor" red="0.96614569429999997" green="0.89201962950000002" blue="0.46264624599999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나는..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74B-Cd-Lfd">
-                    <rect key="frame" x="10" y="196" width="394" height="28"/>
+                    <rect key="frame" x="10" y="186" width="394" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="28" id="I4n-uB-9VY"/>
                     </constraints>
@@ -51,14 +51,14 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-Yz-YSw">
-                    <rect key="frame" x="15" y="232" width="384" height="1.5"/>
+                    <rect key="frame" x="15" y="222" width="384" height="1.5"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1.5" id="kXz-Ef-F8O"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-t1-5g8">
-                    <rect key="frame" x="30" y="283.5" width="354" height="228"/>
+                    <rect key="frame" x="30" y="273.5" width="354" height="228"/>
                     <subviews>
                         <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fI-mL-G7u">
                             <rect key="frame" x="0.0" y="186" width="84" height="42"/>
@@ -281,17 +281,17 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u4I-zq-Zhv">
-                    <rect key="frame" x="0.0" y="596" width="414" height="60"/>
+                    <rect key="frame" x="0.0" y="586" width="414" height="70"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0g1-gR-Wtv">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
-                            <state key="normal" image="checkMBTI"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0g1-gR-Wtv">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                            <state key="normal" image="checkMyType"/>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="0g1-gR-Wtv" firstAttribute="leading" secondItem="u4I-zq-Zhv" secondAttribute="leading" id="4BD-dL-bgq"/>
-                        <constraint firstAttribute="height" constant="60" id="4nG-tx-Nyq"/>
+                        <constraint firstAttribute="height" constant="70" id="4nG-tx-Nyq"/>
                         <constraint firstAttribute="bottom" secondItem="0g1-gR-Wtv" secondAttribute="bottom" id="OPY-un-nt7"/>
                         <constraint firstAttribute="trailing" secondItem="0g1-gR-Wtv" secondAttribute="trailing" id="duh-6E-VqU"/>
                         <constraint firstItem="0g1-gR-Wtv" firstAttribute="top" secondItem="u4I-zq-Zhv" secondAttribute="top" id="qeo-5y-ePg"/>
@@ -331,7 +331,7 @@
         </view>
     </objects>
     <resources>
-        <image name="checkMBTI" width="750" height="142"/>
+        <image name="checkMyType" width="375" height="75"/>
         <image name="confirmBoxBtn" width="182" height="61"/>
         <image name="enfj60Off" width="70" height="35"/>
         <image name="enfp60Off" width="70" height="35"/>

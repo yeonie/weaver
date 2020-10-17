@@ -74,9 +74,7 @@ class MainTabbarViewController: UITabBarController {
         boardNaviVC.tabBarItem.image = .init(imageLiteralResourceName: "bottomTapBarBoardBtn")
         boardNaviVC.tabBarItem.title = "게시판"
         
-        
         viewControllers = [boardHomeNaviVC, matchingNaviVC, boardNaviVC, messageNaviVC, myPageNaviVC]
-        
         
     }
 

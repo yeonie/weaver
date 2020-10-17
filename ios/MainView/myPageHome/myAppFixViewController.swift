@@ -21,7 +21,6 @@ class myAppFixViewController: BaseViewController {
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOn"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
-        
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
         
         
@@ -30,14 +29,12 @@ class myAppFixViewController: BaseViewController {
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOn"), for : .normal)
-        
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
     }
     @IBAction func difSexBtnPressed(_ sender: UIButton) {
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
-        
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOn"), for : .normal)
         
     }
@@ -52,7 +49,6 @@ class myAppFixViewController: BaseViewController {
         super.viewWillAppear(true)
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "더보기"
-        
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "whiteBackground"), for: .default)
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "icExit")

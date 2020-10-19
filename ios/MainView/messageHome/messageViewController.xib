@@ -14,8 +14,10 @@
             <connections>
                 <outlet property="boardBar" destination="G5D-hn-8Dx" id="5KI-JE-TBd"/>
                 <outlet property="boardChatSet" destination="6Yv-Im-iv8" id="m06-kF-6OV"/>
+                <outlet property="boardMessageTableView" destination="m1j-at-xh8" id="nNV-nK-dma"/>
                 <outlet property="matchingBar" destination="FSm-8h-zOu" id="hWB-lK-dfd"/>
                 <outlet property="matchingChatSet" destination="QQY-C6-lG8" id="3x8-rN-Hks"/>
+                <outlet property="matchingMessageTableView" destination="omY-4H-djj" id="glJ-tn-km7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -26,7 +28,19 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQY-C6-lG8">
                     <rect key="frame" x="0.0" y="174" width="414" height="688"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="omY-4H-djj">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="688"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
                     <color key="backgroundColor" red="0.60169970989999999" green="0.8639054894" blue="0.79215139150000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="omY-4H-djj" secondAttribute="bottom" id="ZET-bc-iTw"/>
+                        <constraint firstAttribute="trailing" secondItem="omY-4H-djj" secondAttribute="trailing" id="lhj-98-lZi"/>
+                        <constraint firstItem="omY-4H-djj" firstAttribute="leading" secondItem="QQY-C6-lG8" secondAttribute="leading" id="nfl-OP-vkZ"/>
+                        <constraint firstItem="omY-4H-djj" firstAttribute="top" secondItem="QQY-C6-lG8" secondAttribute="top" id="xP3-Vr-HwQ"/>
+                    </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메세지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zr5-oQ-xo2">
                     <rect key="frame" x="177" y="56" width="60" height="28"/>
@@ -40,7 +54,19 @@
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yv-Im-iv8">
                     <rect key="frame" x="0.0" y="174" width="414" height="688"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="m1j-at-xh8">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="688"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
                     <color key="backgroundColor" red="0.92688338319999997" green="1" blue="0.0059557591490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="m1j-at-xh8" firstAttribute="top" secondItem="6Yv-Im-iv8" secondAttribute="top" id="AwU-V6-fez"/>
+                        <constraint firstAttribute="bottom" secondItem="m1j-at-xh8" secondAttribute="bottom" id="FuR-W1-NVi"/>
+                        <constraint firstAttribute="trailing" secondItem="m1j-at-xh8" secondAttribute="trailing" id="IMD-92-rh1"/>
+                        <constraint firstItem="m1j-at-xh8" firstAttribute="leading" secondItem="6Yv-Im-iv8" secondAttribute="leading" id="cMC-mg-pvt"/>
+                    </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HTi-xS-KVM">
                     <rect key="frame" x="0.0" y="100" width="414" height="66"/>

@@ -8,18 +8,57 @@
 
 import UIKit
 
-class BoardHomeViewController: BaseViewController {
+class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    var namedTitle = ["친구한테 싫은소리 해?", "아 지겹다", "행복 수비", "와 이거 진짜 존나 할거 많네"]
+    var content = ["응 하지", "근데 언젠가는 끝나겟지","이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?" ,"돈 다잃음"]
+    var userImageForBoard = ["defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png"]
+
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if collectionView == namedBoard{
+            return namedTitle.count
+        }
+        if collectionView == howAboutMyType{
+            return userImageForBoard.count
+        }
+        return namedTitle.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "namedBoardCell", for: indexPath) as! namedBoardCollectionViewCell
+        cell.namedBoardTitle.text = namedTitle[indexPath.row]
+        cell.namedBoardContent.text = content[indexPath.row]
+        
+        cell.namedBoardTitle.sizeToFit()
+        cell.namedBoardContent.sizeToFit()
+        return cell
+
+    }
+    
 
     @IBOutlet weak var attributedString: UILabel!
     var queryText:String?
     
+    @IBOutlet weak var howAboutMyType: UICollectionView!
     @IBOutlet weak var namedBoard: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         //바텀 탭바 모양 check
 //        view.backgroundColor = .blue
         
+        namedBoard.dataSource = self
+        namedBoard.delegate = self
+        let nibName = UINib(nibName: "namedBoardCollectionViewCell", bundle: nil)
+        namedBoard.register(nibName, forCellWithReuseIdentifier: "namedBoardCell")
         
+        howAboutMyType.dataSource = self
+        howAboutMyType.delegate = self
+        let nibNmae = UINib(nibName: "howAboutMyTypeCollectionViewCell", bundle: nil)
+        howAboutMyType.register(nibName, forCellWithReuseIdentifier: "howAboutMyTypeCell")
+
+
         
         //글꼴
         let attributedString = NSMutableAttributedString(string: "ESTJ는 지금", attributes: [

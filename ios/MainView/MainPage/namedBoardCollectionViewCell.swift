@@ -13,6 +13,7 @@ class namedBoardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var namedBoardTitle: UILabel!
     @IBOutlet weak var namedBoardContent: UILabel!
+    @IBOutlet weak var howAboutMyTypeImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

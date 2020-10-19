@@ -12,7 +12,7 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
     
     var namedTitle = ["친구한테 싫은소리 해?", "아 지겹다", "행복 수비", "와 이거 진짜 존나 할거 많네"]
     var content = ["응 하지", "근데 언젠가는 끝나겟지","이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?" ,"돈 다잃음"]
-    var userImageForBoard = ["defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png"]
+    var userImageForBoard = ["howAboutMyType2.png","howAboutMyType1.png","howAboutMyType1.png","howAboutMyType1.png","howAboutMyType2.png","howAboutMyType1.png","howAboutMyType2.png"]
 
     
     
@@ -27,6 +27,7 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "namedBoardCell", for: indexPath) as! namedBoardCollectionViewCell
         cell.namedBoardTitle.text = namedTitle[indexPath.row]
         cell.namedBoardContent.text = content[indexPath.row]
@@ -34,8 +35,8 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         cell.namedBoardTitle.sizeToFit()
         cell.namedBoardContent.sizeToFit()
         return cell
-
     }
+
     
 
     @IBOutlet weak var attributedString: UILabel!
@@ -47,16 +48,15 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         super.viewDidLoad()
         //바텀 탭바 모양 check
 //        view.backgroundColor = .blue
+        let nibName = UINib(nibName: "namedBoardCollectionViewCell", bundle: nil)
         
         namedBoard.dataSource = self
         namedBoard.delegate = self
-        let nibName = UINib(nibName: "namedBoardCollectionViewCell", bundle: nil)
         namedBoard.register(nibName, forCellWithReuseIdentifier: "namedBoardCell")
         
-        howAboutMyType.dataSource = self
-        howAboutMyType.delegate = self
-        let nibNmae = UINib(nibName: "howAboutMyTypeCollectionViewCell", bundle: nil)
-        howAboutMyType.register(nibName, forCellWithReuseIdentifier: "howAboutMyTypeCell")
+//        howAboutMyType.dataSource = self
+//        howAboutMyType.delegate = self
+//        howAboutMyType.register(nibName, forCellWithReuseIdentifier: "howAboutMyTypeCell")
 
 
         
@@ -67,24 +67,6 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         attributedString.addAttribute(.foregroundColor, value: UIColor.black, range: NSRange(location: 4, length: 4))
         
         
-        //스택뷰
-//        let stackView = UIStackView()
-//
-//        stackView.axis = .horizontal
-//        stackView.distribution = .fillEqually
-//        stackView.alignment = .fill
-//        stackView.spacing = 8
-//        stackView.translatesAutoresizingMaskIntoConstraints = false
-//
-//        // stackView에 View 추가
-//        stackView.addArrangedSubview(view)
-//        // UIStackView Constraints
-//        stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-//        stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-//        stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-//        stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-//
-//        stackView.arrangedSubviews[0].heightAnchor.constraint(equalTo: stackView.arrangedSubviews[0].widthAnchor).isActive = true
         
     }
     

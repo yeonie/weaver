@@ -77,8 +77,6 @@
 		84FBA5A8253D9BF300F5799B /* boardMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FBA5A6253D9BF300F5799B /* boardMessageTableViewCell.xib */; };
 		84FBA5AB253DB3E300F5799B /* namedBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBA5A9253DB3E300F5799B /* namedBoardCollectionViewCell.swift */; };
 		84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FBA5AA253DB3E300F5799B /* namedBoardCollectionViewCell.xib */; };
-		84FBA5AF253DE82000F5799B /* howAboutMyTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBA5AD253DE81F00F5799B /* howAboutMyTypeCollectionViewCell.swift */; };
-		84FBA5B0253DE82000F5799B /* howAboutMyTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FBA5AE253DE82000F5799B /* howAboutMyTypeCollectionViewCell.xib */; };
 		84FFA349252D424D00960090 /* boardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFA347252D424D00960090 /* boardTableViewCell.swift */; };
 		84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FFA348252D424D00960090 /* boardTableViewCell.xib */; };
 		BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */; };
@@ -176,8 +174,6 @@
 		84FBA5A6253D9BF300F5799B /* boardMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardMessageTableViewCell.xib; sourceTree = "<group>"; };
 		84FBA5A9253DB3E300F5799B /* namedBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namedBoardCollectionViewCell.swift; sourceTree = "<group>"; };
 		84FBA5AA253DB3E300F5799B /* namedBoardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = namedBoardCollectionViewCell.xib; sourceTree = "<group>"; };
-		84FBA5AD253DE81F00F5799B /* howAboutMyTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howAboutMyTypeCollectionViewCell.swift; sourceTree = "<group>"; };
-		84FBA5AE253DE82000F5799B /* howAboutMyTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = howAboutMyTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		84FFA347252D424D00960090 /* boardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardTableViewCell.swift; sourceTree = "<group>"; };
 		84FFA348252D424D00960090 /* boardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardTableViewCell.xib; sourceTree = "<group>"; };
 		BD75ABD72301B5F600E0FC7A /* NoticePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePopUp.swift; sourceTree = "<group>"; };
@@ -262,8 +258,6 @@
 				84D6E24625231D0800B33ADD /* typeTestViewController.xib */,
 				84FBA5A9253DB3E300F5799B /* namedBoardCollectionViewCell.swift */,
 				84FBA5AA253DB3E300F5799B /* namedBoardCollectionViewCell.xib */,
-				84FBA5AD253DE81F00F5799B /* howAboutMyTypeCollectionViewCell.swift */,
-				84FBA5AE253DE82000F5799B /* howAboutMyTypeCollectionViewCell.xib */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -609,7 +603,6 @@
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
-				84FBA5B0253DE82000F5799B /* howAboutMyTypeCollectionViewCell.xib in Resources */,
 				84FBA5A8253D9BF300F5799B /* boardMessageTableViewCell.xib in Resources */,
 				84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */,
 			);
@@ -692,7 +685,6 @@
 				8498F98F250CE56C0039A25B /* messageViewController.swift in Sources */,
 				BD75ABDA2301B73400E0FC7A /* NoticePopUpDelegate.swift in Sources */,
 				84B04C952532EF66008DCB74 /* whoAmIViewController.swift in Sources */,
-				84FBA5AF253DE82000F5799B /* howAboutMyTypeCollectionViewCell.swift in Sources */,
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
 				84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,

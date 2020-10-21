@@ -12,6 +12,7 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
     
     var rcvImg = ["rcv1.png","rcv2.png","rcv1.png","rcv2.png"]
     var etcvImg = ["etcv1.png","etcv2.png","etcv1.png","etcv2.png","etcv1.png","etcv2.png","etcv1.png","etcv2.png"]
+    var userImg = ["defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png"]
 
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -21,6 +22,9 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         if collectionView.tag == 2{
             return etcvImg.count
         }
+        if collectionView.tag == 3{
+            return userImg.count
+        }
         return 0
 
     }
@@ -28,29 +32,36 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         var firstcell : recommendationCollectionViewCell!
         var secondcell : equalTypeCollectionViewCell!
+        var thirdcell : recentlyCollectionViewCell!
         
         switch collectionView{
+            
         case self.recommendationCollectionView:
             
             firstcell = collectionView.dequeueReusableCell(withReuseIdentifier: "RCVcell", for: indexPath) as? recommendationCollectionViewCell
             firstcell.RCVimage.image = UIImage(named: rcvImg[indexPath.row])
             firstcell.RCVimage.sizeToFit()
-            
             return firstcell
             
         case self.equalTypeCollectionView:
             
             secondcell = collectionView.dequeueReusableCell(withReuseIdentifier: "ETCcell", for: indexPath)as? equalTypeCollectionViewCell
-            
             secondcell.ETCVimage.image = UIImage(named: etcvImg[indexPath.row])
             return secondcell
             
+        case self.recentlyCollectionView:
+            thirdcell = collectionView.dequeueReusableCell(withReuseIdentifier: "recentCell", for: indexPath) as? recentlyCollectionViewCell
+            thirdcell.userProfile.image = UIImage(named: userImg[indexPath.row])
+            return thirdcell
+            
         default:
             return UICollectionViewCell()
+            
         }
     }
     
 
+    @IBOutlet weak var recentlyCollectionView: UICollectionView!
     
     @IBOutlet weak var recommendationCollectionView: UICollectionView!
     
@@ -109,6 +120,7 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         
         let nibName1 = UINib(nibName: "recommendationCollectionViewCell", bundle: nil)
         let nibName2 = UINib(nibName: "equalTypeCollectionViewCell", bundle: nil)
+        let nibName3 = UINib(nibName: "recentlyCollectionViewCell", bundle: nil)
         
         
         recommendationCollectionView.dataSource = self
@@ -119,9 +131,16 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         equalTypeCollectionView.delegate = self
         equalTypeCollectionView.register(nibName2, forCellWithReuseIdentifier: "ETCcell")
         
+        recentlyCollectionView.dataSource = self
+        recentlyCollectionView.delegate = self
+        recentlyCollectionView.register(nibName3, forCellWithReuseIdentifier: "recentCell")
+        
+        
         
         recommendationCollectionView.tag = 1
         equalTypeCollectionView.tag = 2
+        recentlyCollectionView.tag = 3
+        
 
     }
     override func viewWillAppear(_ animated: Bool) {

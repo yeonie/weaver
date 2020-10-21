@@ -21,6 +21,8 @@
 		845D4B11254009D7001D682F /* recommendationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */; };
 		845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */; };
 		845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */; };
+		845D4B192540358A001D682F /* recentlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B172540358A001D682F /* recentlyCollectionViewCell.swift */; };
+		845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B182540358A001D682F /* recentlyCollectionViewCell.xib */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -126,6 +128,8 @@
 		845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recommendationCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = equalTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = equalTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		845D4B172540358A001D682F /* recentlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		845D4B182540358A001D682F /* recentlyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recentlyCollectionViewCell.xib; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -294,6 +298,8 @@
 				845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */,
 				845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */,
 				845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */,
+				845D4B172540358A001D682F /* recentlyCollectionViewCell.swift */,
+				845D4B182540358A001D682F /* recentlyCollectionViewCell.xib */,
 			);
 			path = matchingCell;
 			sourceTree = "<group>";
@@ -654,6 +660,7 @@
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
+				845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */,
 				845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */,
 				845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */,
 				84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */,
@@ -744,6 +751,7 @@
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
 				84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,
+				845D4B192540358A001D682F /* recentlyCollectionViewCell.swift in Sources */,
 				BD9BF17A22F9C6FF009E47EB /* UIButton.swift in Sources */,
 				84D6E2572525C85800B33ADD /* myAppFixViewController.swift in Sources */,
 				84D6E2672529B22400B33ADD /* putFeedViewController.swift in Sources */,

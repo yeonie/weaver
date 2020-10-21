@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "friendEverMet.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "friendEverMet@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "friendEverMet@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

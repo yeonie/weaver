@@ -8,15 +8,21 @@
 
 import UIKit
 
-class myPageViewController: BaseViewController {
+class myPageViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     
     @IBOutlet weak var whatTestIDid: UIView!
     @IBOutlet weak var mbtiColor1: UIView!
     @IBOutlet weak var mbtiColor2: UIView!
     
-
-//   버튼 두개
+    @IBOutlet weak var testFinishedCollectionView: UICollectionView!
+    
+    @IBOutlet weak var imposingView: UIView!
+    
+    @IBOutlet weak var statevw: UIView!
+    
+    
+    //   버튼 두개
 //     Create left UIBarButtonItem.
     lazy var leftButton: UIBarButtonItem = {
         let button = UIBarButtonItem(image: UIImage(named: "threeDots"), style: .plain, target: self, action: #selector(buttonPressed(_:)))
@@ -58,6 +64,14 @@ class myPageViewController: BaseViewController {
         // Add back button on view self.view.addSubview(self.backButton)
         
         self.whatTestIDid.layer.cornerRadius = 25
+        
+        self.stateView.layer.cornerRadius = 16
+        self.imposingView.layer.cornerRadius = 16
+        
+        self.statevw.layer.cornerRadius = 16
+        self.statevw.layer.borderColor = UIColor.lightGray.cgColor
+        
+        self.statevw.layer.borderWidth = 0.3
         
     }
 

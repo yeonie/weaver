@@ -8,8 +8,53 @@
 
 import UIKit
 
-class matchingHomeViewController: BaseViewController {
+class matchingHomeViewController: BaseViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    var rcvImg = ["rcv1.png","rcv2.png","rcv1.png","rcv2.png"]
+    var etcvImg = ["etcv1.png","etcv2.png","etcv1.png","etcv2.png","etcv1.png","etcv2.png","etcv1.png","etcv2.png"]
 
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if collectionView.tag == 1{
+            return 4
+        }
+        if collectionView.tag == 2{
+            return etcvImg.count
+        }
+        return 0
+
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        var firstcell : recommendationCollectionViewCell!
+        var secondcell : equalTypeCollectionViewCell!
+        
+        switch collectionView{
+        case self.recommendationCollectionView:
+            
+            firstcell = collectionView.dequeueReusableCell(withReuseIdentifier: "RCVcell", for: indexPath) as? recommendationCollectionViewCell
+            firstcell.RCVimage.image = UIImage(named: rcvImg[indexPath.row])
+            firstcell.RCVimage.sizeToFit()
+            
+            return firstcell
+            
+        case self.equalTypeCollectionView:
+            
+            secondcell = collectionView.dequeueReusableCell(withReuseIdentifier: "ETCcell", for: indexPath)as? equalTypeCollectionViewCell
+            
+            secondcell.ETCVimage.image = UIImage(named: etcvImg[indexPath.row])
+            return secondcell
+            
+        default:
+            return UICollectionViewCell()
+        }
+    }
+    
+
+    
+    @IBOutlet weak var recommendationCollectionView: UICollectionView!
+    
+    @IBOutlet weak var equalTypeCollectionView: UICollectionView!
     
     @IBOutlet weak var myProfileView: UIView!
     @IBOutlet weak var everyFriendBtn: UIButton!
@@ -61,8 +106,23 @@ class matchingHomeViewController: BaseViewController {
         
         
         self.userProfileView.layer.cornerRadius=15
+        
+        let nibName1 = UINib(nibName: "recommendationCollectionViewCell", bundle: nil)
+        let nibName2 = UINib(nibName: "equalTypeCollectionViewCell", bundle: nil)
+        
+        
+        recommendationCollectionView.dataSource = self
+        recommendationCollectionView.delegate = self
+        recommendationCollectionView.register(nibName1, forCellWithReuseIdentifier: "RCVcell")
+        
+        equalTypeCollectionView.dataSource = self
+        equalTypeCollectionView.delegate = self
+        equalTypeCollectionView.register(nibName2, forCellWithReuseIdentifier: "ETCcell")
+        
+        
+        recommendationCollectionView.tag = 1
+        equalTypeCollectionView.tag = 2
 
-        // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

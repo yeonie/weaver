@@ -15,6 +15,8 @@
                 <outlet property="attributedString" destination="P8H-QE-gUf" id="LiC-PW-38N"/>
                 <outlet property="howAboutMyType" destination="hHd-Kx-ogx" id="ESP-Ns-ehQ"/>
                 <outlet property="namedBoard" destination="mVm-AP-GtL" id="m1T-eO-Sfv"/>
+                <outlet property="nowTypeview" destination="XnF-mm-HEh" id="sfK-fM-sy0"/>
+                <outlet property="nowTypeview2" destination="cGf-P3-xKH" id="dzS-YY-iMP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -199,18 +201,102 @@
                                         <action selector="typeTestMoreBtnPressed:" destination="-1" eventType="touchUpInside" id="VWB-g4-njk"/>
                                     </connections>
                                 </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6hr-fd-D5A">
+                                    <rect key="frame" x="8" y="766" width="398" height="200"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-mm-HEh">
+                                            <rect key="frame" x="0.0" y="0.0" width="398" height="95"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wv0-P1-X9N">
+                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="95"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defalutImage" translatesAutoresizingMaskIntoConstraints="NO" id="IYo-eG-00P">
+                                                    <rect key="frame" x="15" y="26.5" width="42" height="42"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="42" id="6K5-b0-w8n"/>
+                                                        <constraint firstAttribute="height" constant="42" id="XVf-96-mtE"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="별 하나에 남은 아스라히 이국 내 있습니다. 가슴속에 토끼,x못 봅니다. 비둘기, 이름과, 위에   별 하나에 남은 아스라히 이국 내 있습니다. 가슴속에 토끼,x못 봅니다. 비둘기, 이름과, 위에   " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54b-Wl-W4y">
+                                                    <rect key="frame" x="65" y="26.5" width="313" height="35"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="35" id="B0i-Mr-HXP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="54b-Wl-W4y" secondAttribute="trailing" constant="20" id="5kH-uZ-sd1"/>
+                                                <constraint firstItem="54b-Wl-W4y" firstAttribute="leading" secondItem="IYo-eG-00P" secondAttribute="trailing" constant="8" id="Ckf-zf-vDe"/>
+                                                <constraint firstItem="Wv0-P1-X9N" firstAttribute="top" secondItem="XnF-mm-HEh" secondAttribute="top" id="DFf-I5-oXI"/>
+                                                <constraint firstAttribute="bottom" secondItem="Wv0-P1-X9N" secondAttribute="bottom" id="GRL-td-WNX"/>
+                                                <constraint firstItem="IYo-eG-00P" firstAttribute="leading" secondItem="XnF-mm-HEh" secondAttribute="leading" constant="15" id="Gh3-Fk-04v"/>
+                                                <constraint firstItem="IYo-eG-00P" firstAttribute="centerY" secondItem="Wv0-P1-X9N" secondAttribute="centerY" id="MIg-cc-H3o"/>
+                                                <constraint firstItem="54b-Wl-W4y" firstAttribute="top" secondItem="IYo-eG-00P" secondAttribute="top" id="aSg-d6-TUV"/>
+                                                <constraint firstItem="Wv0-P1-X9N" firstAttribute="leading" secondItem="XnF-mm-HEh" secondAttribute="leading" id="tot-0E-XZ2"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wv0-P1-X9N" secondAttribute="trailing" id="yjS-7Z-4CY"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGf-P3-xKH" userLabel="Now Typeview">
+                                            <rect key="frame" x="0.0" y="105" width="398" height="95"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQp-9z-g4v">
+                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="95"/>
+                                                </button>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defalutImage" translatesAutoresizingMaskIntoConstraints="NO" id="gWd-9C-WQu">
+                                                    <rect key="frame" x="15" y="26.5" width="42" height="42"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="42" id="daw-de-9zZ"/>
+                                                        <constraint firstAttribute="width" constant="42" id="ssy-2g-35a"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="별 하나에 남은 아스라히 이국 내 있습니다. 가슴속에 토끼,  못 봅니다. 비둘기, 이름과, 위에   " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Qm-bZ-gG3">
+                                                    <rect key="frame" x="65" y="26.5" width="313" height="31.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="UQp-9z-g4v" secondAttribute="bottom" id="079-ha-7vC"/>
+                                                <constraint firstAttribute="trailing" secondItem="UQp-9z-g4v" secondAttribute="trailing" id="4mD-41-bln"/>
+                                                <constraint firstItem="UQp-9z-g4v" firstAttribute="leading" secondItem="cGf-P3-xKH" secondAttribute="leading" id="CMS-NI-f1G"/>
+                                                <constraint firstItem="3Qm-bZ-gG3" firstAttribute="leading" secondItem="gWd-9C-WQu" secondAttribute="trailing" constant="8" id="Gns-y2-iJ2"/>
+                                                <constraint firstItem="UQp-9z-g4v" firstAttribute="leading" secondItem="cGf-P3-xKH" secondAttribute="leading" id="POr-NL-DG5"/>
+                                                <constraint firstAttribute="trailing" secondItem="UQp-9z-g4v" secondAttribute="trailing" id="Rfs-xU-Yrq"/>
+                                                <constraint firstAttribute="trailing" secondItem="3Qm-bZ-gG3" secondAttribute="trailing" constant="20" id="Rt1-r6-i0a"/>
+                                                <constraint firstItem="gWd-9C-WQu" firstAttribute="centerY" secondItem="UQp-9z-g4v" secondAttribute="centerY" id="ZZS-ZM-BTB"/>
+                                                <constraint firstAttribute="bottom" secondItem="UQp-9z-g4v" secondAttribute="bottom" id="cHQ-uV-BLW"/>
+                                                <constraint firstItem="gWd-9C-WQu" firstAttribute="leading" secondItem="cGf-P3-xKH" secondAttribute="leading" constant="15" id="hie-gZ-mf4"/>
+                                                <constraint firstItem="3Qm-bZ-gG3" firstAttribute="top" secondItem="gWd-9C-WQu" secondAttribute="top" id="nFx-T1-cMw"/>
+                                                <constraint firstItem="UQp-9z-g4v" firstAttribute="top" secondItem="cGf-P3-xKH" secondAttribute="top" id="oP3-9r-6n2"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="200" id="8qk-ug-NyI"/>
+                                        <constraint firstItem="cGf-P3-xKH" firstAttribute="height" secondItem="XnF-mm-HEh" secondAttribute="height" id="Hb8-bl-rNv"/>
+                                    </constraints>
+                                </stackView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstItem="hHd-Kx-ogx" firstAttribute="top" secondItem="DcY-KN-91K" secondAttribute="bottom" constant="8" id="13J-uv-KJ7"/>
                                 <constraint firstItem="SfV-0u-9Jq" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="24g-ZT-34d"/>
+                                <constraint firstItem="6hr-fd-D5A" firstAttribute="top" secondItem="P8H-QE-gUf" secondAttribute="bottom" constant="25" id="2K9-ay-9Pm"/>
                                 <constraint firstItem="P8H-QE-gUf" firstAttribute="top" secondItem="hHd-Kx-ogx" secondAttribute="bottom" constant="30" id="2kt-YR-QBp"/>
                                 <constraint firstItem="DcY-KN-91K" firstAttribute="top" secondItem="SfV-0u-9Jq" secondAttribute="bottom" constant="8" id="52g-2a-xx0"/>
                                 <constraint firstItem="DcY-KN-91K" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="5Pd-Cz-Jtt"/>
                                 <constraint firstAttribute="trailing" secondItem="UEi-uB-CXI" secondAttribute="trailing" id="61a-kT-9RY"/>
+                                <constraint firstItem="6hr-fd-D5A" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="6h4-Us-4UM"/>
                                 <constraint firstItem="UEi-uB-CXI" firstAttribute="top" secondItem="bo0-j2-IXJ" secondAttribute="top" constant="-44" id="8gq-qU-bf9"/>
                                 <constraint firstAttribute="height" constant="1000" id="BT4-yJ-9xy"/>
                                 <constraint firstAttribute="trailing" secondItem="I5r-NH-KYa" secondAttribute="trailing" constant="8" id="DDY-ZI-651"/>
+                                <constraint firstAttribute="trailing" secondItem="6hr-fd-D5A" secondAttribute="trailing" constant="8" id="Gxw-Vg-KDS"/>
                                 <constraint firstAttribute="trailing" secondItem="SfV-0u-9Jq" secondAttribute="trailing" constant="8" id="Hme-MV-VGB"/>
                                 <constraint firstItem="UEi-uB-CXI" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" id="KUu-1C-Yfd"/>
                                 <constraint firstItem="mrh-SO-ZFs" firstAttribute="leading" secondItem="bo0-j2-IXJ" secondAttribute="leading" constant="8" id="Lwx-o1-x4N"/>
@@ -245,6 +331,7 @@
     </objects>
     <resources>
         <image name="boardHomeBackground" width="375" height="497"/>
+        <image name="defalutImage" width="68" height="68"/>
         <image name="icAnonymousBoard" width="103" height="80"/>
         <image name="icFreeboard" width="103" height="80"/>
         <image name="icTeenboard" width="103" height="80"/>

@@ -17,6 +17,10 @@
 		845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B05253FB5DE001D682F /* boardMessageTableViewCell.xib */; };
 		845D4B0C253FCB15001D682F /* typeTestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B0A253FCB15001D682F /* typeTestCollectionViewCell.swift */; };
 		845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B0B253FCB15001D682F /* typeTestCollectionViewCell.xib */; };
+		845D4B10254009D7001D682F /* recommendationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B0E254009D7001D682F /* recommendationCollectionViewCell.swift */; };
+		845D4B11254009D7001D682F /* recommendationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */; };
+		845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */; };
+		845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -118,6 +122,10 @@
 		845D4B05253FB5DE001D682F /* boardMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardMessageTableViewCell.xib; sourceTree = "<group>"; };
 		845D4B0A253FCB15001D682F /* typeTestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeTestCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B0B253FCB15001D682F /* typeTestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = typeTestCollectionViewCell.xib; sourceTree = "<group>"; };
+		845D4B0E254009D7001D682F /* recommendationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendationCollectionViewCell.swift; sourceTree = "<group>"; };
+		845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recommendationCollectionViewCell.xib; sourceTree = "<group>"; };
+		845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = equalTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = equalTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -279,6 +287,17 @@
 			path = boardCell;
 			sourceTree = "<group>";
 		};
+		845D4B16254009E9001D682F /* matchingCell */ = {
+			isa = PBXGroup;
+			children = (
+				845D4B0E254009D7001D682F /* recommendationCollectionViewCell.swift */,
+				845D4B0F254009D7001D682F /* recommendationCollectionViewCell.xib */,
+				845D4B12254009E5001D682F /* equalTypeCollectionViewCell.swift */,
+				845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */,
+			);
+			path = matchingCell;
+			sourceTree = "<group>";
+		};
 		8498F987250C8ED20039A25B /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +347,7 @@
 				84D6E24E2523237800B33ADD /* othersProfileViewController.xib */,
 				84D6E2512523250300B33ADD /* weavingViewController.swift */,
 				84D6E2522523250300B33ADD /* weavingViewController.xib */,
+				845D4B16254009E9001D682F /* matchingCell */,
 			);
 			path = matchingHome;
 			sourceTree = "<group>";
@@ -601,6 +621,8 @@
 				84D6E2542523250300B33ADD /* weavingViewController.xib in Resources */,
 				84D6E2642529B1C800B33ADD /* putReplyViewController.xib in Resources */,
 				845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */,
+				845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */,
+				845D4B11254009D7001D682F /* recommendationCollectionViewCell.xib in Resources */,
 				84B04C8E2532E170008DCB74 /* commentFIxViewController.xib in Resources */,
 				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				84D6E2682529B22400B33ADD /* putFeedViewController.xib in Resources */,
@@ -709,6 +731,8 @@
 				BD9BF17E22F9CD60009E47EB /* ColorPalette.swift in Sources */,
 				8498F99E250D05540039A25B /* UIImage.swift in Sources */,
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
+				845D4B10254009D7001D682F /* recommendationCollectionViewCell.swift in Sources */,
+				845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */,
 				84D6E2632529B1C800B33ADD /* putReplyViewController.swift in Sources */,
 				845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */,
 				BD75ABDE2301BCE600E0FC7A /* MainDataManager.swift in Sources */,

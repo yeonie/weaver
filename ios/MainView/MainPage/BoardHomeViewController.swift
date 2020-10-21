@@ -10,6 +10,9 @@ import UIKit
 
 class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    @IBOutlet weak var nowTypeview: UIView!
+    @IBOutlet weak var nowTypeview2: UIView!
+    
     var namedTitle = ["친구한테 싫은소리 해?", "아 지겹다", "행복 수비", "와 이거 진짜 존나 할거 많네"]
     var content = ["응 하지", "근데 언젠가는 끝나겟지","이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?이번 학기 초부터 친해졌는데 친구한테 버릇하나가 있거든? 이게 가끔 빈정상하는데... 이제와서 말하기도 좀 그렇고 얘 infp라 상처받을듯?" ,"돈 다잃음"]
     var userImageForBoard = ["howAboutMyType2.png","howAboutMyType1.png","howAboutMyType1.png","howAboutMyType1.png","howAboutMyType2.png","howAboutMyType1.png","howAboutMyType2.png"]
@@ -79,6 +82,15 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         
         namedBoard.tag = 1
         howAboutMyType.tag = 2
+        
+        //는 지금 테두리
+        nowTypeview.layer.borderColor = UIColor.lightGray.cgColor
+        nowTypeview.layer.borderWidth = 0.5
+        nowTypeview.layer.cornerRadius = 15
+        nowTypeview2.layer.borderColor = UIColor.lightGray.cgColor
+        nowTypeview2.layer.borderWidth = 0.5
+        nowTypeview2.layer.cornerRadius = 15
+
 
         
         

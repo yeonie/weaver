@@ -14,10 +14,10 @@
             <connections>
                 <outlet property="boardBar" destination="G5D-hn-8Dx" id="5KI-JE-TBd"/>
                 <outlet property="boardChatSet" destination="6Yv-Im-iv8" id="m06-kF-6OV"/>
-                <outlet property="boardMessageTableView" destination="m1j-at-xh8" id="nNV-nK-dma"/>
+                <outlet property="boardMessageTableView" destination="m1j-at-xh8" id="QVE-Pg-ATd"/>
                 <outlet property="matchingBar" destination="FSm-8h-zOu" id="hWB-lK-dfd"/>
                 <outlet property="matchingChatSet" destination="QQY-C6-lG8" id="3x8-rN-Hks"/>
-                <outlet property="matchingMessageTableView" destination="omY-4H-djj" id="glJ-tn-km7"/>
+                <outlet property="matchingMessageTableView" destination="omY-4H-djj" id="fIP-zF-QyK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,7 +29,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQY-C6-lG8">
                     <rect key="frame" x="0.0" y="174" width="414" height="688"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="omY-4H-djj">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="74" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="omY-4H-djj">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="688"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
@@ -55,7 +55,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Yv-Im-iv8">
                     <rect key="frame" x="0.0" y="174" width="414" height="688"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="m1j-at-xh8">
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="74" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="m1j-at-xh8">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="688"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>

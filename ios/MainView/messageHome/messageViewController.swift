@@ -20,47 +20,55 @@ class messageViewController: BaseViewController, UITableViewDataSource, UITableV
     var userImageForMatching = ["defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png"]
     let messageAryForMatching = ["전에 네가 말한 영화 봤어!", "과몰입인팁 님과 친구가 되었어요!","우리 mbti 궁합봤는데 천생연분이다 ㅋㅋ","ㅇㅇ 굿나잇"]
     //게시판 하드코딩
-    let nickAryForBoard = ["동탄노인정쌀도둑","큐평이평알큐평","강화도조약","을씨발년","보헤민아 랩소디","곽두철","강하늘"]
-    var userImageForBoard = ["defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png"]
-    let messageAryForBoard = ["그건 아니지 ㅂ신아","정글 차이지 정글러들 다 ISTP임","탑신병자 망나니 수준 ㅋㅋㅋ","원딜왕자님들 특 estp임","너어는~ 번호가 뭐니","그냥 이체할때마다 쎄보이려고 이 이름으로 함","나 진짜 강하늘인데?"]
+    let nickAryForBoard = ["동탄노인정쌀도둑","큐평이평알큐평","강화도조약","을씨발년","보헤민아 랩소디","곽두철","강하늘","동탄노인정쌀도둑","큐평이평알큐평","강화도조약","을씨발년","보헤민아 랩소디","곽두철","강하늘"]
+    var userImageForBoard = ["defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png"]
+    let messageAryForBoard = ["그건 아니지 ㅂ신아","정글 차이지 정글러들 다 ISTP임","탑신병자 망나니 수준 ㅋㅋㅋ","원딜왕자님들 특 estp임","너어는~ 번호가 뭐니","그냥 이체할때마다 쎄보이려고 이 이름으로 함","나 진짜 강하늘인데?","그건 아니지 ㅂ신아","정글 차이지 정글러들 다 ISTP임","탑신병자 망나니 수준 ㅋㅋㅋ","원딜왕자님들 특 estp임","너어는~ 번호가 뭐니","그냥 이체할때마다 쎄보이려고 이 이름으로 함","나 진짜 강하늘인데?"]
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if tableView == matchingMessageTableView{
+        
+        if tableView.tag == 1{
             return nickAryForMatching.count
         }
-        else{
+        if tableView.tag == 2{
             return nickAryForBoard.count
         }
-    }
+        return 0
+        }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "matchingMessageCell", for: indexPath) as! matchingMessageTableViewCell
-        if tableView == matchingMessageTableView{
-            let cell = tableView.dequeueReusableCell(withIdentifier: "matchingMessageCell", for: indexPath) as! matchingMessageTableViewCell
-            cell.userNickname.text = nickAryForMatching[indexPath.row]
-            cell.userchat.text = messageAryForMatching[indexPath.row]
-            cell.userImage.image = UIImage(named: "userProfileDefault")
+        
+        var firstcell : matchingMessageTableViewCell!
+        var secondcell : boardMessageTableViewCell!
+        
+        switch tableView {
+        case self.matchingMessageTableView:
             
-            cell.userNickname.sizeToFit()
-            cell.userchat.sizeToFit()
-            cell.userImage.sizeToFit()
-            return cell
-        }
-        if tableView == boardMessageTableView{
-            let cell = tableView.dequeueReusableCell(withIdentifier: "boardMessageCell", for: indexPath) as!
-            boardMessageTableViewCell
-            cell.userNicknameFB.text = nickAryForBoard[indexPath.row]
-            cell.userChatFB.text = messageAryForBoard[indexPath.row]
-            cell.userImageFB.image = UIImage(named: "userProfileDefault")
+            firstcell = tableView.dequeueReusableCell(withIdentifier: "matchingMessageCell", for: indexPath) as? matchingMessageTableViewCell
+            firstcell.userNickname.text = nickAryForMatching[indexPath.row]
+            firstcell.userchat.text = messageAryForMatching[indexPath.row]
+            firstcell.userImage.image = UIImage(named: "userProfileDefault")
             
-            cell.userNicknameFB.sizeToFit()
-            cell.userChatFB.sizeToFit()
-            cell.userImageFB.sizeToFit()
-            return cell
+            firstcell.userNickname.sizeToFit()
+            firstcell.userchat.sizeToFit()
+            firstcell.userImage.sizeToFit()
+            return firstcell
+        case self.boardMessageTableView:
+            secondcell = tableView.dequeueReusableCell(withIdentifier: "boardMessageCell", for: indexPath) as? boardMessageTableViewCell
+            secondcell.userNicknameFB.text = nickAryForBoard[indexPath.row]
+            secondcell.userChatFB.text = messageAryForBoard[indexPath.row]
+            secondcell.userImageFB.image = UIImage(named: "userProfileDefault")
+            
+            secondcell.userNicknameFB.sizeToFit()
+            secondcell.userChatFB.sizeToFit()
+            secondcell.userImageFB.sizeToFit()
+            return secondcell
+        //            firstcell.howLbl.isHidden = true
+        default:
+            return UITableViewCell()
+
         }
-        return cell
-        }
+    }
     
     
     
@@ -84,17 +92,25 @@ class messageViewController: BaseViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let nibName1 = UINib(nibName: "matchingMessageTableViewCell", bundle: nil)
+        let nibName2 = UINib(nibName: "boardMessageTableViewCell", bundle: nil)
         
-        matchingMessageTableView.dataSource = self
         matchingMessageTableView.delegate = self
+        matchingMessageTableView.dataSource = self
         matchingMessageTableView.rowHeight = 74
-        let nibName = UINib(nibName: "matchingMessageTableViewCell", bundle: nil)
-        matchingMessageTableView.register(nibName, forCellReuseIdentifier: "matchingMessageCell")
-
+        matchingMessageTableView.register(nibName1, forCellReuseIdentifier: "matchingMessageCell")
+        matchingMessageTableView.register(UINib(nibName: "matchingMessageTableViewCell", bundle: nil),forCellReuseIdentifier: "matchingMessageCell")
         
-//        boardMessageTableView.dataSource = self
-//        boardMessageTableView.delegate = self
+        
+        boardMessageTableView.delegate = self
+        boardMessageTableView.dataSource = self
         boardMessageTableView.rowHeight = 74
+        boardMessageTableView.register(nibName2, forCellReuseIdentifier: "boardMessageCell")
+        boardMessageTableView.register(UINib(nibName: "boardMessageTableViewCell", bundle: nil),forCellReuseIdentifier: "boardMessageCell")
+        
+        matchingMessageTableView.tag = 1
+        boardMessageTableView.tag = 2
+        
 //        boardMessageTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         

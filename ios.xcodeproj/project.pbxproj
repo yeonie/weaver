@@ -15,6 +15,8 @@
 		845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */; };
 		845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */; };
 		845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B05253FB5DE001D682F /* boardMessageTableViewCell.xib */; };
+		845D4B0C253FCB15001D682F /* typeTestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B0A253FCB15001D682F /* typeTestCollectionViewCell.swift */; };
+		845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B0B253FCB15001D682F /* typeTestCollectionViewCell.xib */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -114,6 +116,8 @@
 		845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = howAboutMyTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardMessageTableViewCell.swift; sourceTree = "<group>"; };
 		845D4B05253FB5DE001D682F /* boardMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boardMessageTableViewCell.xib; sourceTree = "<group>"; };
+		845D4B0A253FCB15001D682F /* typeTestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typeTestCollectionViewCell.swift; sourceTree = "<group>"; };
+		845D4B0B253FCB15001D682F /* typeTestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = typeTestCollectionViewCell.xib; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +287,8 @@
 				84D6E24525231D0800B33ADD /* typeTestViewController.swift */,
 				84D6E24625231D0800B33ADD /* typeTestViewController.xib */,
 				845D4B09253FC28D001D682F /* boardCell */,
+				845D4B0A253FCB15001D682F /* typeTestCollectionViewCell.swift */,
+				845D4B0B253FCB15001D682F /* typeTestCollectionViewCell.xib */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -626,6 +632,7 @@
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
+				845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */,
 				845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */,
 				84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */,
 			);
@@ -720,6 +727,7 @@
 				84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */,
 				BD9BF17C22F9C737009E47EB /* UIViewController.swift in Sources */,
 				8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */,
+				845D4B0C253FCB15001D682F /* typeTestCollectionViewCell.swift in Sources */,
 				BD75ABE02301BE8200E0FC7A /* TutorialResponse.swift in Sources */,
 				84D6E25F2529B1A600B33ADD /* FeedViewController.swift in Sources */,
 				84D6E24725231D0800B33ADD /* typeTestViewController.swift in Sources */,

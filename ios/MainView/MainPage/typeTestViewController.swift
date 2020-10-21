@@ -8,10 +8,32 @@
 
 import UIKit
 
-class typeTestViewController: UIViewController {
+class typeTestViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+    
+    var typeTestImage = ["typeTest1.png","typeTest2.png","typeTest3.png","typeTest4.png","typeTest1.png","typeTest2.png","typeTest3.png","typeTest4.png","typeTest1.png","typeTest2.png","typeTest3.png","typeTest4.png"]
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return typeTestImage.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        var cell :typeTestCollectionViewCell!
+        cell = collectionView.dequeueReusableCell(withReuseIdentifier: "typeTestCell", for: indexPath) as? typeTestCollectionViewCell
+        cell.typeTestImg.image = UIImage(named: typeTestImage[indexPath.row])
+        
+        cell.typeTestImg.sizeToFit()
+        return cell
+    }
+    
 
+    @IBOutlet weak var typeTest: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let nibName = UINib(nibName: "typeTestCollectionViewCell", bundle: nil)
+        typeTest.register(nibName, forCellWithReuseIdentifier: "typeTestCell")
+        typeTest.dataSource = self
+        typeTest.delegate = self
 
         // Do any additional setup after loading the view.
     }

@@ -18,6 +18,7 @@ class matchingMessageTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        userImage.sizeToFit()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

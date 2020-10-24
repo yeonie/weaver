@@ -64,6 +64,8 @@
 		84BC38A92543BFDF0030935A /* testIveFinishedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */; };
 		84BC38AD2543CDF70030935A /* myProfilePicFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38AB2543CDF70030935A /* myProfilePicFixViewController.swift */; };
 		84BC38AE2543CDF70030935A /* myProfilePicFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38AC2543CDF70030935A /* myProfilePicFixViewController.xib */; };
+		84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */; };
+		84BC38B22543DA530030935A /* postingBoardChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38B02543DA530030935A /* postingBoardChoiceViewController.xib */; };
 		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */; };
 		84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */; };
@@ -175,6 +177,8 @@
 		84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testIveFinishedCollectionViewCell.xib; sourceTree = "<group>"; };
 		84BC38AB2543CDF70030935A /* myProfilePicFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myProfilePicFixViewController.swift; sourceTree = "<group>"; };
 		84BC38AC2543CDF70030935A /* myProfilePicFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myProfilePicFixViewController.xib; sourceTree = "<group>"; };
+		84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postingBoardChoiceViewController.swift; sourceTree = "<group>"; };
+		84BC38B02543DA530030935A /* postingBoardChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = postingBoardChoiceViewController.xib; sourceTree = "<group>"; };
 		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageFixViewController.swift; sourceTree = "<group>"; };
 		84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageFixViewController.xib; sourceTree = "<group>"; };
@@ -398,6 +402,8 @@
 				84D6E2622529B1C800B33ADD /* putReplyViewController.xib */,
 				84D6E2652529B22400B33ADD /* putFeedViewController.swift */,
 				84D6E2662529B22400B33ADD /* putFeedViewController.xib */,
+				84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */,
+				84BC38B02543DA530030935A /* postingBoardChoiceViewController.xib */,
 			);
 			path = board;
 			sourceTree = "<group>";
@@ -645,6 +651,7 @@
 				8498F9A3250F08E70039A25B /* matchingHomeViewController.xib in Resources */,
 				84B04C6325306734008DCB74 /* freeBoardViewController.xib in Resources */,
 				84D6E2542523250300B33ADD /* weavingViewController.xib in Resources */,
+				84BC38B22543DA530030935A /* postingBoardChoiceViewController.xib in Resources */,
 				84D6E2642529B1C800B33ADD /* putReplyViewController.xib in Resources */,
 				845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */,
 				845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */,
@@ -765,6 +772,7 @@
 				845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */,
 				84D6E2632529B1C800B33ADD /* putReplyViewController.swift in Sources */,
 				845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */,
+				84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */,
 				BD75ABDE2301BCE600E0FC7A /* MainDataManager.swift in Sources */,
 				8498F9A8250F0EE10039A25B /* myPageViewController.swift in Sources */,
 				8498F98F250CE56C0039A25B /* messageViewController.swift in Sources */,

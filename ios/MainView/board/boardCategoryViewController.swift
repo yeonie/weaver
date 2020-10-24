@@ -96,6 +96,9 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     
     //table View Function
     
+    @IBAction func postingBtnPressed(_ sender: UIButton) {
+        self.navigationController!.pushViewController(postingBoardChoiceViewController(), animated: true)
+    }
     
 
     override func viewDidLoad() {

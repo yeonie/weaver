@@ -39,6 +39,15 @@ class myPageFixViewController: BaseViewController {
         
         
     }
+    
+    
+    @IBAction func myProfilePicFix(_ sender: UIButton) {
+        navigationController?.pushViewController(myProfilePicFixViewController(), animated: true)
+    }
+    @IBAction func subProfilePicFixBtnPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(myProfilePicFixViewController(), animated: true)
+    }
+    
     @IBAction func nicknameFixBtnPressed(_ sender: UIButton) {
         navigationController?.pushViewController(nicknameCallViewController(), animated: true)
     }
@@ -52,6 +61,10 @@ class myPageFixViewController: BaseViewController {
     @IBAction func whoAmIPressed(_ sender: UIButton) {
         navigationController?.pushViewController(whoAmIViewController(), animated: true)
     }
+    @IBAction func interestedInFixPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(interestedInViewController(), animated: true)
+    }
+    
     @IBAction func logouBtnPressed(_ sender: UIButton) {
         let window = UIApplication.shared.windows.first { $0.isKeyWindow }
         window?.rootViewController = SplashChoiceViewController()

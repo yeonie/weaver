@@ -303,6 +303,9 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOM-sD-Hc0">
                                             <rect key="frame" x="296" y="21.5" width="99" height="30"/>
                                             <state key="normal" title="메인 프로필 변경"/>
+                                            <connections>
+                                                <action selector="profilePicFixBtnPressed:" destination="-1" eventType="touchUpInside" id="gsV-LX-vpN"/>
+                                            </connections>
                                         </button>
                                         <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68F-wY-tR3">
                                             <rect key="frame" x="19" y="197" width="354" height="96"/>

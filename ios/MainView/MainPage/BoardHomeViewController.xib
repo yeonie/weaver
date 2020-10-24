@@ -333,7 +333,7 @@
         <image name="boardHomeBackground" width="375" height="497"/>
         <image name="defalutImage" width="68" height="68"/>
         <image name="icAnonymousBoard" width="103" height="80"/>
-        <image name="icFreeboard" width="103" height="80"/>
+        <image name="icFreeboard" width="21" height="21"/>
         <image name="icTeenboard" width="103" height="80"/>
         <image name="mainLogowords" width="120" height="19"/>
         <image name="moreBtn" width="47" height="18"/>

@@ -2,14 +2,13 @@
 //  String.swift
 //  ios
 //
-//  Created by Jerry Jung on 07/08/2019.
-//  Copyright © 2019 Jerry Jung. All rights reserved.
+//  Created by litong on 07/08/2019.
+//  Copyright © 2019 litong. All rights reserved.
 //
 
 import UIKit
 
-// 참고 = https://hcn1519.github.io/articles/2017-03/iOS_LanguageSupport
-// 참고 = https://code.i-harness.com/ko-kr/q/2b73b26#3
+
 //StringExtension 사용 예제
 //editLabel.text = "Edit"
 //

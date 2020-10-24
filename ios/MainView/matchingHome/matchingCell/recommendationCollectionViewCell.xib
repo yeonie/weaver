@@ -28,6 +28,9 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svS-LR-lhL">
                                 <rect key="frame" x="0.0" y="0.0" width="156" height="156"/>
+                                <connections>
+                                    <action selector="recommendFriendPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="DIY-dp-Gah"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="간단한 소개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxj-Ds-BIy">
                                 <rect key="frame" x="12" y="126" width="56" height="15"/>

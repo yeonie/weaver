@@ -3,7 +3,7 @@
 //  ios
 //
 //  Created by 이동연 on 14/09/2020.
-//  Copyright © 2020 Jerry Jung. All rights reserved.
+//  Copyright © 2020 litong. All rights reserved.
 //
 
 import UIKit
@@ -78,7 +78,6 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOn"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
-
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
 
         
@@ -87,14 +86,12 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOn"), for : .normal)
-        
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOff"), for : .normal)
     }
     @IBAction func difSexBtnPressed(_ sender: UIButton) {
         
         everyFriendBtn.setImage(UIImage(named: "everyFriendOff"), for : .normal)
         sameSexFriendBtn.setImage(UIImage(named: "sameSexFriendOff"), for : .normal)
-        
         difSexFriendBtn.setImage(UIImage(named: "difSexFriendOn"), for : .normal)
 
     }
@@ -114,6 +111,7 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         self.myProfileView.layer.shadowOffset = CGSize(width: 0, height: 4) // 반경에 대해서 너무 적용이 되어서 4point 정도 ㅐ림.
         self.myProfileView.layer.shadowRadius = 8 // 반경?
         self.myProfileView.layer.shadowOpacity = 0.3 // alpha값입니다.
+        everyFriendBtn.setImage(UIImage(named: "everyFriendOn"), for : .normal)
         
         
         self.userProfileView.layer.cornerRadius=15
@@ -149,6 +147,7 @@ class matchingHomeViewController: BaseViewController, UICollectionViewDataSource
         
         //        self.navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 0/255, green: 0/255, blue: 0/255, alpha: 0.01)
         self.navigationItem.title = "친구찾기"
+        self.navigationItem.backBarButtonItem?.tintColor = .black
         
         //        self.navigationController?.navigationBar.barTintColor = UIColor(displayP3Red: 0/255, green: 0/255, blue: 0/255, alpha: 0.01)
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

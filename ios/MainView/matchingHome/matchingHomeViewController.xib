@@ -151,14 +151,14 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-7E-f7E">
                                             <rect key="frame" x="92" y="8" width="240" height="36"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5T-Sh-dX4">
-                                                    <rect key="frame" x="8" y="8" width="224" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFP와 이야기하고싶어" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5T-Sh-dX4">
+                                                    <rect key="frame" x="16" y="8" width="224" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="1PY-6W-nZm"/>
                                                         <constraint firstAttribute="width" constant="224" id="doH-bx-3DO"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -167,7 +167,7 @@
                                                 <constraint firstItem="P5T-Sh-dX4" firstAttribute="top" secondItem="AA7-7E-f7E" secondAttribute="top" constant="8" id="1NH-hT-Qca"/>
                                                 <constraint firstAttribute="width" constant="240" id="YKV-4w-jFH"/>
                                                 <constraint firstAttribute="height" constant="36" id="bwD-UD-ajR"/>
-                                                <constraint firstItem="P5T-Sh-dX4" firstAttribute="leading" secondItem="AA7-7E-f7E" secondAttribute="leading" constant="8" id="nDg-rJ-CHS"/>
+                                                <constraint firstItem="P5T-Sh-dX4" firstAttribute="leading" secondItem="AA7-7E-f7E" secondAttribute="leading" constant="16" id="nDg-rJ-CHS"/>
                                                 <constraint firstAttribute="bottom" secondItem="P5T-Sh-dX4" secondAttribute="bottom" constant="7" id="yas-MR-iYY"/>
                                             </constraints>
                                         </view>

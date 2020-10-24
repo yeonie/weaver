@@ -3,7 +3,7 @@
 //  ios
 //
 //  Created by 이동연 on 28/09/2020.
-//  Copyright © 2020 Jerry Jung. All rights reserved.
+//  Copyright © 2020 litong. All rights reserved.
 //
 
 import UIKit
@@ -26,6 +26,7 @@ class myPageFixViewController: BaseViewController {
         self.navigationItem.title = "프로필 수정"
         
 
+        
 
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.barTintColor = .white
@@ -33,6 +34,7 @@ class myPageFixViewController: BaseViewController {
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named: "dismissBtn")
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
             , target: nil, action: nil)
+        self.navigationItem.backBarButtonItem?.tintColor = .black
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]

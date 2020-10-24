@@ -32,19 +32,33 @@
                                 <constraint firstAttribute="height" constant="24" id="SAN-Y9-OgK"/>
                                 <constraint firstAttribute="width" constant="110" id="ked-f1-BXN"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YoE-K5-fXX">
                             <rect key="frame" x="8" y="66" width="398" height="128"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogg-zC-YA1">
-                                    <rect key="frame" x="0.0" y="0.0" width="398" height="51"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogg-zC-YA1">
+                                    <rect key="frame" x="0.0" y="0.0" width="398" height="59.5"/>
+                                    <state key="normal" image="matchingMainOff"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbi-2d-ey7">
+                                    <rect key="frame" x="0.0" y="68.5" width="398" height="59.5"/>
+                                    <state key="normal" image="boardMainOn"/>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ogg-zC-YA1" firstAttribute="leading" secondItem="YoE-K5-fXX" secondAttribute="leading" id="BhG-oB-Vrz"/>
+                                <constraint firstItem="ogg-zC-YA1" firstAttribute="top" secondItem="YoE-K5-fXX" secondAttribute="top" id="Jfu-3c-wZ2"/>
+                                <constraint firstAttribute="trailing" secondItem="ogg-zC-YA1" secondAttribute="trailing" id="TJm-6Q-hPA"/>
+                                <constraint firstItem="Vbi-2d-ey7" firstAttribute="leading" secondItem="YoE-K5-fXX" secondAttribute="leading" id="XDa-Sb-1go"/>
+                                <constraint firstAttribute="trailing" secondItem="Vbi-2d-ey7" secondAttribute="trailing" id="nq8-pM-kgK"/>
+                                <constraint firstAttribute="bottom" secondItem="Vbi-2d-ey7" secondAttribute="bottom" id="p3g-PA-9BQ"/>
+                                <constraint firstItem="Vbi-2d-ey7" firstAttribute="height" secondItem="ogg-zC-YA1" secondAttribute="height" id="pf8-OV-nBc"/>
+                                <constraint firstItem="ogg-zC-YA1" firstAttribute="height" secondItem="YoE-K5-fXX" secondAttribute="height" multiplier="1:2.15" id="yOs-jL-jL7"/>
+                            </constraints>
                         </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -68,19 +82,19 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="게시글 알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnG-CM-S2C">
-                            <rect key="frame" x="23" y="60" width="91" height="20.5"/>
+                            <rect key="frame" x="23" y="60" width="91" height="24"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.51020517070000004" green="0.51020517070000004" blue="0.51020517070000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="매칭알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puz-dn-acv">
-                            <rect key="frame" x="23" y="105.5" width="69.5" height="24"/>
+                            <rect key="frame" x="23" y="109" width="69.5" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <color key="textColor" red="0.51020517070000004" green="0.51020517070000004" blue="0.51020517070000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Qq-QP-juB">
-                            <rect key="frame" x="336" y="101.5" width="60" height="32"/>
+                            <rect key="frame" x="336" y="103.5" width="60" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="32" id="06c-ZE-7LB"/>
                                 <constraint firstAttribute="width" constant="58" id="MCN-Yf-pnZ"/>
@@ -159,7 +173,7 @@
                             </constraints>
                         </view>
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E43-AE-9kG">
-                            <rect key="frame" x="336" y="54.5" width="60" height="32"/>
+                            <rect key="frame" x="336" y="56" width="60" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="58" id="85h-TV-iEo"/>
                                 <constraint firstAttribute="height" constant="32" id="Efe-vM-JgW"/>
@@ -344,12 +358,14 @@
         </view>
     </objects>
     <resources>
+        <image name="boardMainOn" width="344" height="50"/>
         <image name="difSexFriendOff" width="103" height="44"/>
         <image name="everyFriendOff" width="103" height="44"/>
         <image name="icAppVer" width="105" height="96"/>
         <image name="icNextBtn" width="24" height="24"/>
         <image name="icNotice" width="105" height="96"/>
         <image name="icReview" width="105" height="96"/>
+        <image name="matchingMainOff" width="344" height="50"/>
         <image name="sameSexFriendOff" width="103" height="44"/>
     </resources>
 </document>

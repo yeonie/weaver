@@ -3,7 +3,7 @@
 //  ios
 //
 //  Created by 이동연 on 14/09/2020.
-//  Copyright © 2020 Jerry Jung. All rights reserved.
+//  Copyright © 2020 litong. All rights reserved.
 //
 
 import UIKit
@@ -121,6 +121,7 @@ class myPageViewController: BaseViewController, UICollectionViewDelegate, UIColl
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "내 프로필"
+        self.navigationItem.backBarButtonItem?.tintColor = .black
 
         //   프로필에 점점점 메뉴
 //        self.navigationController?.navigationBar.backItem = .black
@@ -131,6 +132,10 @@ class myPageViewController: BaseViewController, UICollectionViewDelegate, UIColl
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
+    }
+    @IBAction func profilePicFixBtnPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(myProfilePicFixViewController(), animated: true)
+
     }
     
     

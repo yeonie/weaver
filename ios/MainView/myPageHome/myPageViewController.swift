@@ -10,6 +10,24 @@ import UIKit
 
 class myPageViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    var finishedTestImg = ["testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png","testIveFinished.png"]
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return finishedTestImg.count
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        var cell : testIveFinishedCollectionViewCell!
+        
+        cell = collectionView.dequeueReusableCell(withReuseIdentifier: "finishedTestCell", for: indexPath)as? testIveFinishedCollectionViewCell
+        cell.testFinishedImg.image = UIImage(named: finishedTestImg[indexPath.row])
+        return cell
+
+    }
+    
+    
     
     @IBOutlet weak var whatTestIDid: UIView!
     @IBOutlet weak var mbtiColor1: UIView!
@@ -17,10 +35,19 @@ class myPageViewController: BaseViewController, UICollectionViewDelegate, UIColl
     
     @IBOutlet weak var testFinishedCollectionView: UICollectionView!
     
+    @IBOutlet weak var stateView: UIView!
     @IBOutlet weak var imposingView: UIView!
     
     @IBOutlet weak var statevw: UIView!
+    @IBOutlet weak var whoAmIView: UIView!
     
+    @IBOutlet weak var profile1: UIView!
+    
+    @IBOutlet weak var profile2: UIView!
+    
+    @IBOutlet weak var profile3: UIView!
+    
+    @IBOutlet weak var profile4: UIView!
     
     //   버튼 두개
 //     Create left UIBarButtonItem.
@@ -72,6 +99,20 @@ class myPageViewController: BaseViewController, UICollectionViewDelegate, UIColl
         self.statevw.layer.borderColor = UIColor.lightGray.cgColor
         
         self.statevw.layer.borderWidth = 0.3
+        
+        self.whoAmIView.layer.cornerRadius = 16
+        
+        self.profile1.layer.cornerRadius = 7
+        self.profile2.layer.cornerRadius = 7
+        self.profile3.layer.cornerRadius = 7
+        self.profile4.layer.cornerRadius = 7
+
+
+        
+        testFinishedCollectionView.dataSource = self
+        testFinishedCollectionView.delegate = self
+        let nibName = UINib(nibName: "testIveFinishedCollectionViewCell", bundle: nil)
+        testFinishedCollectionView.register(nibName, forCellWithReuseIdentifier: "finishedTestCell")
         
     }
 

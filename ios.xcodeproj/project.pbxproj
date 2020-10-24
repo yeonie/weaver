@@ -60,6 +60,8 @@
 		84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C982532F3AB008DCB74 /* interestedInViewController.xib */; };
 		84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B04C9C253343EA008DCB74 /* onboardingViewController.swift */; };
 		84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B04C9D253343EA008DCB74 /* onboardingViewController.xib */; };
+		84BC38A82543BFDF0030935A /* testIveFinishedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38A62543BFDF0030935A /* testIveFinishedCollectionViewCell.swift */; };
+		84BC38A92543BFDF0030935A /* testIveFinishedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */; };
 		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */; };
 		84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */; };
@@ -167,6 +169,8 @@
 		84B04C982532F3AB008DCB74 /* interestedInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = interestedInViewController.xib; sourceTree = "<group>"; };
 		84B04C9C253343EA008DCB74 /* onboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingViewController.swift; sourceTree = "<group>"; };
 		84B04C9D253343EA008DCB74 /* onboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = onboardingViewController.xib; sourceTree = "<group>"; };
+		84BC38A62543BFDF0030935A /* testIveFinishedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testIveFinishedCollectionViewCell.swift; sourceTree = "<group>"; };
+		84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testIveFinishedCollectionViewCell.xib; sourceTree = "<group>"; };
 		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageFixViewController.swift; sourceTree = "<group>"; };
 		84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageFixViewController.xib; sourceTree = "<group>"; };
@@ -361,13 +365,14 @@
 		8498F9A4250F0E280039A25B /* myPageHome */ = {
 			isa = PBXGroup;
 			children = (
-				84B04C862532D4B0008DCB74 /* myPageFIx */,
 				8498F9A6250F0EE10039A25B /* myPageViewController.swift */,
 				8498F9A7250F0EE10039A25B /* myPageViewController.xib */,
 				84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */,
 				84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */,
 				84D6E2552525C85800B33ADD /* myAppFixViewController.swift */,
 				84D6E2562525C85800B33ADD /* myAppFixViewController.xib */,
+				84BC38AA2543BFF90030935A /* myPageCell */,
+				84B04C862532D4B0008DCB74 /* myPageFIx */,
 			);
 			path = myPageHome;
 			sourceTree = "<group>";
@@ -441,6 +446,15 @@
 				84B04C9D253343EA008DCB74 /* onboardingViewController.xib */,
 			);
 			path = onboarding;
+			sourceTree = "<group>";
+		};
+		84BC38AA2543BFF90030935A /* myPageCell */ = {
+			isa = PBXGroup;
+			children = (
+				84BC38A62543BFDF0030935A /* testIveFinishedCollectionViewCell.swift */,
+				84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */,
+			);
+			path = myPageCell;
 			sourceTree = "<group>";
 		};
 		84E7D3D7250483950033A1CF /* SplashChoice */ = {
@@ -635,6 +649,7 @@
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
 				BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */,
 				84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */,
+				84BC38A92543BFDF0030935A /* testIveFinishedCollectionViewCell.xib in Resources */,
 				84D6E24825231D0800B33ADD /* typeTestViewController.xib in Resources */,
 				84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */,
 				84B04C7F25306880008DCB74 /* twoTeenBoardViewController.xib in Resources */,
@@ -719,6 +734,7 @@
 				8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */,
 				8498F9A2250F08E70039A25B /* matchingHomeViewController.swift in Sources */,
 				84FBA5A3253D9BE600F5799B /* matchingMessageTableViewCell.swift in Sources */,
+				84BC38A82543BFDF0030935A /* testIveFinishedCollectionViewCell.swift in Sources */,
 				84B04C822530688D008DCB74 /* threeTeenBoardViewController.swift in Sources */,
 				84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */,
 				84D6E2532523250300B33ADD /* weavingViewController.swift in Sources */,

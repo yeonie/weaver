@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="finishedTestCell" reuseIdentifier="finishedTestCell" id="gTV-IL-0wX" customClass="testIveFinishedCollectionViewCell" customModule="ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="104" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v1y-pY-M27">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="160"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeM-jT-ryM">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="160"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="테스트 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpr-gM-3Id">
+                                <rect key="frame" x="17.5" y="132" width="69" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="rIR-1M-eVq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.42482947339999999" green="0.42482947339999999" blue="0.42482947339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testIveFinished" translatesAutoresizingMaskIntoConstraints="NO" id="naA-c4-x7h">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="124"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="naA-c4-x7h" secondAttribute="trailing" id="3Tt-C7-Rgf"/>
+                            <constraint firstItem="Wpr-gM-3Id" firstAttribute="centerX" secondItem="CeM-jT-ryM" secondAttribute="centerX" id="Dvf-tZ-JYo"/>
+                            <constraint firstItem="CeM-jT-ryM" firstAttribute="leading" secondItem="v1y-pY-M27" secondAttribute="leading" id="FEU-1e-VQy"/>
+                            <constraint firstItem="naA-c4-x7h" firstAttribute="leading" secondItem="v1y-pY-M27" secondAttribute="leading" id="JVJ-W0-RUU"/>
+                            <constraint firstItem="naA-c4-x7h" firstAttribute="top" secondItem="v1y-pY-M27" secondAttribute="top" id="XZF-3b-b2p"/>
+                            <constraint firstItem="CeM-jT-ryM" firstAttribute="top" secondItem="v1y-pY-M27" secondAttribute="top" id="eqj-oU-dRK"/>
+                            <constraint firstAttribute="trailing" secondItem="CeM-jT-ryM" secondAttribute="trailing" id="jom-wG-w3Q"/>
+                            <constraint firstAttribute="bottom" secondItem="CeM-jT-ryM" secondAttribute="bottom" id="nj3-Y2-Sjc"/>
+                            <constraint firstItem="Wpr-gM-3Id" firstAttribute="bottom" secondItem="CeM-jT-ryM" secondAttribute="bottom" constant="-10" id="v8s-Ro-kgB"/>
+                            <constraint firstItem="Wpr-gM-3Id" firstAttribute="top" secondItem="naA-c4-x7h" secondAttribute="bottom" constant="8" id="yYN-EL-m6o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="v1y-pY-M27" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Eek-Ye-wWa"/>
+                <constraint firstAttribute="trailing" secondItem="v1y-pY-M27" secondAttribute="trailing" id="LFx-YG-HfS"/>
+                <constraint firstAttribute="bottom" secondItem="v1y-pY-M27" secondAttribute="bottom" id="Xs0-qB-5vg"/>
+                <constraint firstItem="v1y-pY-M27" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="csy-rd-5yo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="testFinishedImg" destination="naA-c4-x7h" id="B5n-e9-gyt"/>
+                <outlet property="testFinishedTitle" destination="Wpr-gM-3Id" id="4mx-cb-cil"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="testIveFinished" width="214" height="292"/>
+    </resources>
+</document>

@@ -35,11 +35,21 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SN-dV-a66">
+                            <rect key="frame" x="335" y="586" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="dKr-Aw-G4c"/>
+                                <constraint firstAttribute="width" constant="55" id="gae-1e-nH2"/>
+                            </constraints>
+                            <state key="normal" image="icwriteBtn"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstAttribute="bottom" secondItem="7SN-dV-a66" secondAttribute="bottom" constant="22" id="5M1-pj-8Fq"/>
                         <constraint firstAttribute="trailing" secondItem="niD-8z-LAr" secondAttribute="trailing" id="7K2-tl-scA"/>
                         <constraint firstAttribute="bottom" secondItem="niD-8z-LAr" secondAttribute="bottom" id="KM1-p3-YLF"/>
+                        <constraint firstAttribute="trailing" secondItem="7SN-dV-a66" secondAttribute="trailing" constant="24" id="Y5L-jB-Dy5"/>
                         <constraint firstItem="niD-8z-LAr" firstAttribute="top" secondItem="ju6-3h-dPm" secondAttribute="top" id="byh-mr-GzB"/>
                         <constraint firstItem="niD-8z-LAr" firstAttribute="leading" secondItem="ju6-3h-dPm" secondAttribute="leading" id="mQl-aL-GpD"/>
                     </constraints>
@@ -59,4 +69,7 @@
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
 </document>

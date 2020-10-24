@@ -34,9 +34,19 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2t-UW-ZPc">
+                            <rect key="frame" x="337" y="584" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="Khg-52-Kbq"/>
+                                <constraint firstAttribute="width" constant="55" id="UEa-AU-5Xd"/>
+                            </constraints>
+                            <state key="normal" image="icwriteBtn"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstAttribute="trailing" secondItem="b2t-UW-ZPc" secondAttribute="trailing" constant="22" id="0NQ-qD-xsB"/>
+                        <constraint firstAttribute="bottom" secondItem="b2t-UW-ZPc" secondAttribute="bottom" constant="24" id="3Yc-HU-gkP"/>
                         <constraint firstAttribute="bottom" secondItem="KRH-oa-ueS" secondAttribute="bottom" id="NJ7-Ff-Y75"/>
                         <constraint firstItem="KRH-oa-ueS" firstAttribute="top" secondItem="eiR-F7-bgG" secondAttribute="top" id="aCV-As-VcK"/>
                         <constraint firstItem="KRH-oa-ueS" firstAttribute="leading" secondItem="eiR-F7-bgG" secondAttribute="leading" id="jOW-DX-1UV"/>
@@ -58,4 +68,7 @@
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
 </document>

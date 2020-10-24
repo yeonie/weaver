@@ -43,19 +43,32 @@
                         <constraint firstItem="uJS-X8-9P5" firstAttribute="leading" secondItem="vLc-R1-jep" secondAttribute="leading" id="zFo-0h-TQU"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJL-Jq-dsX">
+                    <rect key="frame" x="337" y="783" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="js0-Jx-7ZM"/>
+                        <constraint firstAttribute="width" constant="55" id="zbz-rE-5PF"/>
+                    </constraints>
+                    <state key="normal" image="icwriteBtn"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vLc-R1-jep" firstAttribute="top" secondItem="FJu-Do-L6v" secondAttribute="bottom" constant="-1" id="1ob-eb-d4a"/>
                 <constraint firstItem="vLc-R1-jep" firstAttribute="bottom" secondItem="kfT-Ae-7ba" secondAttribute="bottom" id="4Bh-m7-vab"/>
                 <constraint firstItem="FJu-Do-L6v" firstAttribute="leading" secondItem="kfT-Ae-7ba" secondAttribute="leading" id="4cH-Fk-0ZG"/>
+                <constraint firstItem="kfT-Ae-7ba" firstAttribute="bottom" secondItem="dJL-Jq-dsX" secondAttribute="bottom" constant="24" id="D0o-BS-DBw"/>
                 <constraint firstItem="vLc-R1-jep" firstAttribute="trailing" secondItem="kfT-Ae-7ba" secondAttribute="trailing" id="H97-em-Cut"/>
                 <constraint firstItem="vLc-R1-jep" firstAttribute="leading" secondItem="kfT-Ae-7ba" secondAttribute="leading" id="NwG-QR-pQe"/>
                 <constraint firstItem="FJu-Do-L6v" firstAttribute="top" secondItem="a1G-7e-UB4" secondAttribute="top" id="cRI-bg-E2W"/>
+                <constraint firstItem="kfT-Ae-7ba" firstAttribute="trailing" secondItem="dJL-Jq-dsX" secondAttribute="trailing" constant="22" id="olm-SK-xDu"/>
                 <constraint firstItem="FJu-Do-L6v" firstAttribute="trailing" secondItem="kfT-Ae-7ba" secondAttribute="trailing" id="pOu-fq-Wjz"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="kfT-Ae-7ba"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
 </document>

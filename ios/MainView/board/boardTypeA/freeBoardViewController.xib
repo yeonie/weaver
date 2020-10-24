@@ -34,11 +34,21 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZe-Yh-4Vq">
+                            <rect key="frame" x="337" y="584" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="mDq-pk-fZn"/>
+                                <constraint firstAttribute="width" constant="55" id="x3R-qh-wFQ"/>
+                            </constraints>
+                            <state key="normal" image="icwriteBtn"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstAttribute="bottom" secondItem="lZe-Yh-4Vq" secondAttribute="bottom" constant="24" id="Le1-iq-op7"/>
                         <constraint firstAttribute="bottom" secondItem="aQe-j9-yFH" secondAttribute="bottom" id="TXF-fP-eKz"/>
                         <constraint firstAttribute="trailing" secondItem="aQe-j9-yFH" secondAttribute="trailing" id="U43-EG-nXh"/>
+                        <constraint firstAttribute="trailing" secondItem="lZe-Yh-4Vq" secondAttribute="trailing" constant="22" id="YyC-c0-7yV"/>
                         <constraint firstItem="aQe-j9-yFH" firstAttribute="top" secondItem="uGO-wU-Vz5" secondAttribute="top" id="isM-Xy-qld"/>
                         <constraint firstItem="aQe-j9-yFH" firstAttribute="leading" secondItem="uGO-wU-Vz5" secondAttribute="leading" id="l7Q-e9-jdx"/>
                     </constraints>
@@ -58,4 +68,7 @@
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
 </document>

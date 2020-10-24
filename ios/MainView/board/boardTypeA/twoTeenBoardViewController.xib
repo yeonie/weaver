@@ -34,13 +34,23 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0u-sR-kCq">
+                            <rect key="frame" x="337" y="584" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="T3B-fd-RDs"/>
+                                <constraint firstAttribute="width" constant="55" id="nvM-hz-1vl"/>
+                            </constraints>
+                            <state key="normal" image="icwriteBtn"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="PEm-mO-SAk" secondAttribute="bottom" id="Phk-AK-xQi"/>
+                        <constraint firstAttribute="trailing" secondItem="R0u-sR-kCq" secondAttribute="trailing" constant="22" id="YRa-vH-tIF"/>
                         <constraint firstAttribute="trailing" secondItem="PEm-mO-SAk" secondAttribute="trailing" id="exP-rw-gXa"/>
                         <constraint firstItem="PEm-mO-SAk" firstAttribute="leading" secondItem="7vF-hq-HnL" secondAttribute="leading" id="hjU-if-P4w"/>
                         <constraint firstItem="PEm-mO-SAk" firstAttribute="top" secondItem="7vF-hq-HnL" secondAttribute="top" id="uFg-TT-YZa"/>
+                        <constraint firstAttribute="bottom" secondItem="R0u-sR-kCq" secondAttribute="bottom" constant="24" id="wgF-XH-0ql"/>
                     </constraints>
                 </view>
             </subviews>
@@ -58,4 +68,7 @@
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
 </document>

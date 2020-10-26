@@ -10,6 +10,8 @@ import UIKit
 
 class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     
+    let picker = UIImagePickerController()
+    
     var slided = true
     var slideoff = false
     var slideoffForSignIn = true
@@ -22,7 +24,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     //    로그인 텍스트 박스
     @IBOutlet weak var emailBox: UITextField!
     @IBOutlet weak var passwordBox: UITextField!
-//    회원가입 텍스트 박스
+    //    회원가입 텍스트 박스
     @IBOutlet weak var emailBoxSU: UITextField!
     @IBOutlet weak var nicknameBoxSU: UITextField!
     @IBOutlet weak var passwordBoxSU: UITextField!
@@ -40,6 +42,25 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
 
     }
+    //프로필 사진 박기
+    @IBAction func profileBtnPressed(_ sender: UIButton) {
+        let alert =  UIAlertController(title: "원하는 타이틀", message: "원하는 메세지", preferredStyle: .actionSheet)
+        let library =  UIAlertAction(title: "사진앨범", style: .default)
+        {
+            (action) in self.openLibrary()
+        }
+        let camera =  UIAlertAction(title: "카메라", style: .default)
+        {
+            (action) in self.openCamera()
+        }
+        let cancel = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+        alert.addAction(library)
+        alert.addAction(camera)
+        alert.addAction(cancel)
+        present(alert, animated: true, completion: nil)
+
+    }
+    
     //    로그인형식
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 //        로그인part
@@ -121,6 +142,17 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         self.slideSignInView.layer.shadowOffset = CGSize(width: 0, height: 0)
         self.slideSginUpView.layer.shadowOffset = CGSize(width: 0, height: 0)
     }
+    
+    //카메라 라이브러리
+    func openLibrary(){
+        picker.sourceType = .photoLibrary
+        present(picker, animated: false, completion: nil)
+    }
+    func openCamera(){
+        picker.sourceType = .camera
+        present(picker, animated: false, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -139,7 +171,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         self.navigationController?.navigationBar.isTranslucent = true
         giveMeRightRex.isHidden = true
         giveMeRightRexSU.isHidden = true
-        
+        loginBtn.isEnabled = true
         
         
 

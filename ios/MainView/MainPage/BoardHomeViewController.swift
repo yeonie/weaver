@@ -115,13 +115,16 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         super.viewWillAppear(animated)
         navigationController?.navigationBar.isHidden = true
     }
+    @IBAction func freeBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(freeBoardViewController(), animated: true)
+    }
+    @IBAction func anonyBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(anonyBoardViewController(), animated: true)
+    }
+    @IBAction func teenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(teenBoardViewController(), animated: true)
+    }
     
-    //
-    //    @IBAction func bottomTabMessageClicked(_ sender: UIButton) {
-    //        navigationController!.pushViewController(messageViewController(), animated: true)
-    //    }
-    //    @IBAction func bottomTabBoardClicked(_ sender: UIButton) {
-    //        navigationController!.pushViewController(BoardViewController(), animated: true)
-    //    }
-    //
-}
+    
+    
+    }

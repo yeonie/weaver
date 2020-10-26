@@ -18,7 +18,7 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     
     let date = ["2020.09.25","2020.09.26","2020.09.26","2020.09.25","2020.09.25","2020.09.25"]
 
-    let totalContent = ["제가 사랑했던","오빠는 미친새끼야","찰떡궁합","estj의 오지는 계획성, 그리고 개새끼성","인프피만나본 썰","do you wanna build a snowman~"]
+    let totalContent = ["제가 사랑했던","오빠는 미친새끼야","찰떡궁합","estj의 오지는 계획성, 그리고 짜증나는 성향","인프피만나본 썰","do you wanna build a snowman~"]
     
     var contentImage = ["estjzzal.png", "feedEX.png","estjzzal.png","feedEX.png", "estjzzal.png"]
     

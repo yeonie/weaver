@@ -125,6 +125,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAb-qO-zQK">
                                                     <rect key="frame" x="0.0" y="0.0" width="132.5" height="110"/>
                                                     <state key="normal" image="icFreeboard"/>
+                                                    <connections>
+                                                        <action selector="freeBoardPressed:" destination="-1" eventType="touchUpInside" id="E0r-77-mSt"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -141,6 +144,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kB-d4-WvY">
                                                     <rect key="frame" x="0.0" y="0.0" width="133" height="110"/>
                                                     <state key="normal" image="icAnonymousBoard"/>
+                                                    <connections>
+                                                        <action selector="anonyBoardPressed:" destination="-1" eventType="touchUpInside" id="FbP-fv-SXf"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -157,6 +163,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkV-aC-ndU">
                                                     <rect key="frame" x="0.0" y="0.0" width="132.5" height="110"/>
                                                     <state key="normal" image="icTeenboard"/>
+                                                    <connections>
+                                                        <action selector="teenBoardPressed:" destination="-1" eventType="touchUpInside" id="SNE-Bd-Ea3"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -333,7 +342,7 @@
         <image name="boardHomeBackground" width="375" height="497"/>
         <image name="defalutImage" width="68" height="68"/>
         <image name="icAnonymousBoard" width="103" height="80"/>
-        <image name="icFreeboard" width="21" height="21"/>
+        <image name="icFreeboard" width="103" height="80"/>
         <image name="icTeenboard" width="103" height="80"/>
         <image name="mainLogowords" width="120" height="19"/>
         <image name="moreBtn" width="47" height="18"/>

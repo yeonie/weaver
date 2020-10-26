@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ESTJViewController" customModule="ios" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="nco-Ib-iEJ" id="aET-uo-eVr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nco-Ib-iEJ">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="67R-6J-ikj">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                    <color key="backgroundColor" red="0.41876477003097534" green="0.72573161125183105" blue="0.70588439702987671" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="0tS-9H-fLX"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ece-Jq-Bs6">
+                    <rect key="frame" x="0.0" y="199" width="414" height="663"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jpt-Du-Ai6">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWj-ht-vRb">
+                            <rect key="frame" x="337" y="584" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="DrO-B0-Onl"/>
+                                <constraint firstAttribute="width" constant="55" id="ZTT-Ou-J58"/>
+                            </constraints>
+                            <state key="normal" image="icwriteBtn"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="jpt-Du-Ai6" firstAttribute="leading" secondItem="Ece-Jq-Bs6" secondAttribute="leading" id="3Pd-2N-evx"/>
+                        <constraint firstAttribute="trailing" secondItem="jpt-Du-Ai6" secondAttribute="trailing" id="HZr-bQ-Io5"/>
+                        <constraint firstAttribute="bottom" secondItem="jpt-Du-Ai6" secondAttribute="bottom" id="JHQ-iA-V3a"/>
+                        <constraint firstAttribute="trailing" secondItem="AWj-ht-vRb" secondAttribute="trailing" constant="22" id="gOH-py-VrU"/>
+                        <constraint firstItem="jpt-Du-Ai6" firstAttribute="top" secondItem="Ece-Jq-Bs6" secondAttribute="top" id="pAS-yL-pzQ"/>
+                        <constraint firstAttribute="bottom" secondItem="AWj-ht-vRb" secondAttribute="bottom" constant="24" id="vKF-Mr-MKw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="67R-6J-ikj" firstAttribute="leading" secondItem="WG7-tl-ZY7" secondAttribute="leading" id="Dv8-1y-exc"/>
+                <constraint firstItem="Ece-Jq-Bs6" firstAttribute="leading" secondItem="WG7-tl-ZY7" secondAttribute="leading" id="GsG-gs-r2q"/>
+                <constraint firstItem="67R-6J-ikj" firstAttribute="top" secondItem="nco-Ib-iEJ" secondAttribute="top" id="Lgo-kC-TwS"/>
+                <constraint firstItem="Ece-Jq-Bs6" firstAttribute="bottom" secondItem="WG7-tl-ZY7" secondAttribute="bottom" id="RGg-eG-GHJ"/>
+                <constraint firstItem="Ece-Jq-Bs6" firstAttribute="trailing" secondItem="WG7-tl-ZY7" secondAttribute="trailing" id="Xgq-za-JAk"/>
+                <constraint firstItem="67R-6J-ikj" firstAttribute="trailing" secondItem="WG7-tl-ZY7" secondAttribute="trailing" id="uJm-LH-Oge"/>
+                <constraint firstItem="Ece-Jq-Bs6" firstAttribute="top" secondItem="67R-6J-ikj" secondAttribute="bottom" constant="-1" id="x1O-ku-mWE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="WG7-tl-ZY7"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icwriteBtn" width="63" height="62"/>
+    </resources>
+</document>

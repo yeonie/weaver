@@ -20,7 +20,7 @@ class messageViewController: BaseViewController, UITableViewDataSource, UITableV
     var userImageForMatching = ["defalutImage.png", "defalutImage.png", "defalutImage.png", "defalutImage.png"]
     let messageAryForMatching = ["전에 네가 말한 영화 봤어!", "과몰입인팁 님과 친구가 되었어요!","우리 mbti 궁합봤는데 천생연분이다 ㅋㅋ","ㅇㅇ 굿나잇"]
     //게시판 하드코딩
-    let nickAryForBoard = ["동탄노인정쌀도둑","큐평이평알큐평","강화도조약","을씨발년","보헤민아 랩소디","곽두철","강하늘","동탄노인정쌀도둑","큐평이평알큐평","강화도조약","을씨발년","보헤민아 랩소디","곽두철","강하늘"]
+    let nickAryForBoard = ["동탄노인정쌀도둑","큐평이평알큐평","강화도조약","응기엣","보헤민아 랩소디","곽두철","강하늘","동탄노인정쌀도둑","큐평이평알큐평","강화도조약","응기엣","보헤민아 랩소디","곽두철","강하늘"]
     var userImageForBoard = ["defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png","defalutImage.png"]
     let messageAryForBoard = ["그건 아니지 ㅂ신아","정글 차이지 정글러들 다 ISTP임","탑신병자 망나니 수준 ㅋㅋㅋ","원딜왕자님들 특 estp임","너어는~ 번호가 뭐니","그냥 이체할때마다 쎄보이려고 이 이름으로 함","나 진짜 강하늘인데?","그건 아니지 ㅂ신아","정글 차이지 정글러들 다 ISTP임","탑신병자 망나니 수준 ㅋㅋㅋ","원딜왕자님들 특 estp임","너어는~ 번호가 뭐니","그냥 이체할때마다 쎄보이려고 이 이름으로 함","나 진짜 강하늘인데?"]
     

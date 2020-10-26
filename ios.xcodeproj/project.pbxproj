@@ -66,6 +66,35 @@
 		84BC38AE2543CDF70030935A /* myProfilePicFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38AC2543CDF70030935A /* myProfilePicFixViewController.xib */; };
 		84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */; };
 		84BC38B22543DA530030935A /* postingBoardChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38B02543DA530030935A /* postingBoardChoiceViewController.xib */; };
+		84BC38B4254642100030935A /* loginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38B3254642100030935A /* loginResponse.swift */; };
+		84BC38B72546625F0030935A /* ENFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38B52546625F0030935A /* ENFPViewController.swift */; };
+		84BC38B82546625F0030935A /* ENFPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38B62546625F0030935A /* ENFPViewController.xib */; };
+		84BC38BB254662720030935A /* ESFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38B9254662720030935A /* ESFPViewController.swift */; };
+		84BC38BC254662720030935A /* ESFPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38BA254662720030935A /* ESFPViewController.xib */; };
+		84BC38C1254662950030935A /* ESFJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38BF254662950030935A /* ESFJViewController.swift */; };
+		84BC38C2254662950030935A /* ESFJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38C0254662950030935A /* ESFJViewController.xib */; };
+		84BC38C5254662A50030935A /* INFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38C3254662A50030935A /* INFPViewController.swift */; };
+		84BC38C6254662A50030935A /* INFPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38C4254662A50030935A /* INFPViewController.xib */; };
+		84BC38C9254662CE0030935A /* ENTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38C7254662CE0030935A /* ENTPViewController.swift */; };
+		84BC38CA254662CE0030935A /* ENTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38C8254662CE0030935A /* ENTPViewController.xib */; };
+		84BC38CD254662E90030935A /* ISTJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38CB254662E90030935A /* ISTJViewController.swift */; };
+		84BC38CE254662E90030935A /* ISTJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38CC254662E90030935A /* ISTJViewController.xib */; };
+		84BC38D1254662FD0030935A /* ENFJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38CF254662FD0030935A /* ENFJViewController.swift */; };
+		84BC38D2254662FD0030935A /* ENFJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38D0254662FD0030935A /* ENFJViewController.xib */; };
+		84BC38D5254663170030935A /* INFJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38D3254663170030935A /* INFJViewController.swift */; };
+		84BC38D6254663170030935A /* INFJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38D4254663170030935A /* INFJViewController.xib */; };
+		84BC38D9254663350030935A /* ISTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38D7254663350030935A /* ISTPViewController.swift */; };
+		84BC38DA254663350030935A /* ISTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38D8254663350030935A /* ISTPViewController.xib */; };
+		84BC38DD2546634C0030935A /* INTJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38DB2546634C0030935A /* INTJViewController.swift */; };
+		84BC38DE2546634C0030935A /* INTJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38DC2546634C0030935A /* INTJViewController.xib */; };
+		84BC38E1254663610030935A /* ENTJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38DF254663610030935A /* ENTJViewController.swift */; };
+		84BC38E2254663610030935A /* ENTJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38E0254663610030935A /* ENTJViewController.xib */; };
+		84BC38E5254663720030935A /* ESTJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38E3254663720030935A /* ESTJViewController.swift */; };
+		84BC38E6254663720030935A /* ESTJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38E4254663720030935A /* ESTJViewController.xib */; };
+		84BC38E92546638D0030935A /* ISFPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38E72546638D0030935A /* ISFPViewController.swift */; };
+		84BC38EA2546638D0030935A /* ISFPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38E82546638D0030935A /* ISFPViewController.xib */; };
+		84BC38ED254664600030935A /* ESTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38EB254664600030935A /* ESTPViewController.swift */; };
+		84BC38EE254664600030935A /* ESTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38EC254664600030935A /* ESTPViewController.xib */; };
 		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */; };
 		84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */; };
@@ -179,6 +208,35 @@
 		84BC38AC2543CDF70030935A /* myProfilePicFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myProfilePicFixViewController.xib; sourceTree = "<group>"; };
 		84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postingBoardChoiceViewController.swift; sourceTree = "<group>"; };
 		84BC38B02543DA530030935A /* postingBoardChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = postingBoardChoiceViewController.xib; sourceTree = "<group>"; };
+		84BC38B3254642100030935A /* loginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginResponse.swift; sourceTree = "<group>"; };
+		84BC38B52546625F0030935A /* ENFPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENFPViewController.swift; sourceTree = "<group>"; };
+		84BC38B62546625F0030935A /* ENFPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENFPViewController.xib; sourceTree = "<group>"; };
+		84BC38B9254662720030935A /* ESFPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPViewController.swift; sourceTree = "<group>"; };
+		84BC38BA254662720030935A /* ESFPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFPViewController.xib; sourceTree = "<group>"; };
+		84BC38BF254662950030935A /* ESFJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFJViewController.swift; sourceTree = "<group>"; };
+		84BC38C0254662950030935A /* ESFJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJViewController.xib; sourceTree = "<group>"; };
+		84BC38C3254662A50030935A /* INFPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFPViewController.swift; sourceTree = "<group>"; };
+		84BC38C4254662A50030935A /* INFPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INFPViewController.xib; sourceTree = "<group>"; };
+		84BC38C7254662CE0030935A /* ENTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENTPViewController.swift; sourceTree = "<group>"; };
+		84BC38C8254662CE0030935A /* ENTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENTPViewController.xib; sourceTree = "<group>"; };
+		84BC38CB254662E90030935A /* ISTJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTJViewController.swift; sourceTree = "<group>"; };
+		84BC38CC254662E90030935A /* ISTJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISTJViewController.xib; sourceTree = "<group>"; };
+		84BC38CF254662FD0030935A /* ENFJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENFJViewController.swift; sourceTree = "<group>"; };
+		84BC38D0254662FD0030935A /* ENFJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENFJViewController.xib; sourceTree = "<group>"; };
+		84BC38D3254663170030935A /* INFJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFJViewController.swift; sourceTree = "<group>"; };
+		84BC38D4254663170030935A /* INFJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INFJViewController.xib; sourceTree = "<group>"; };
+		84BC38D7254663350030935A /* ISTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTPViewController.swift; sourceTree = "<group>"; };
+		84BC38D8254663350030935A /* ISTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISTPViewController.xib; sourceTree = "<group>"; };
+		84BC38DB2546634C0030935A /* INTJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INTJViewController.swift; sourceTree = "<group>"; };
+		84BC38DC2546634C0030935A /* INTJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INTJViewController.xib; sourceTree = "<group>"; };
+		84BC38DF254663610030935A /* ENTJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENTJViewController.swift; sourceTree = "<group>"; };
+		84BC38E0254663610030935A /* ENTJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENTJViewController.xib; sourceTree = "<group>"; };
+		84BC38E3254663720030935A /* ESTJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTJViewController.swift; sourceTree = "<group>"; };
+		84BC38E4254663720030935A /* ESTJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESTJViewController.xib; sourceTree = "<group>"; };
+		84BC38E72546638D0030935A /* ISFPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISFPViewController.swift; sourceTree = "<group>"; };
+		84BC38E82546638D0030935A /* ISFPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISFPViewController.xib; sourceTree = "<group>"; };
+		84BC38EB254664600030935A /* ESTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTPViewController.swift; sourceTree = "<group>"; };
+		84BC38EC254664600030935A /* ESTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESTPViewController.xib; sourceTree = "<group>"; };
 		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageFixViewController.swift; sourceTree = "<group>"; };
 		84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageFixViewController.xib; sourceTree = "<group>"; };
@@ -428,6 +486,34 @@
 		84B04C85253069B2008DCB74 /* boardTypeB */ = {
 			isa = PBXGroup;
 			children = (
+				84BC38B52546625F0030935A /* ENFPViewController.swift */,
+				84BC38B62546625F0030935A /* ENFPViewController.xib */,
+				84BC38B9254662720030935A /* ESFPViewController.swift */,
+				84BC38BA254662720030935A /* ESFPViewController.xib */,
+				84BC38BF254662950030935A /* ESFJViewController.swift */,
+				84BC38C0254662950030935A /* ESFJViewController.xib */,
+				84BC38C3254662A50030935A /* INFPViewController.swift */,
+				84BC38C4254662A50030935A /* INFPViewController.xib */,
+				84BC38C7254662CE0030935A /* ENTPViewController.swift */,
+				84BC38C8254662CE0030935A /* ENTPViewController.xib */,
+				84BC38CB254662E90030935A /* ISTJViewController.swift */,
+				84BC38CC254662E90030935A /* ISTJViewController.xib */,
+				84BC38CF254662FD0030935A /* ENFJViewController.swift */,
+				84BC38D0254662FD0030935A /* ENFJViewController.xib */,
+				84BC38D3254663170030935A /* INFJViewController.swift */,
+				84BC38D4254663170030935A /* INFJViewController.xib */,
+				84BC38D7254663350030935A /* ISTPViewController.swift */,
+				84BC38D8254663350030935A /* ISTPViewController.xib */,
+				84BC38DB2546634C0030935A /* INTJViewController.swift */,
+				84BC38DC2546634C0030935A /* INTJViewController.xib */,
+				84BC38DF254663610030935A /* ENTJViewController.swift */,
+				84BC38E0254663610030935A /* ENTJViewController.xib */,
+				84BC38E3254663720030935A /* ESTJViewController.swift */,
+				84BC38E4254663720030935A /* ESTJViewController.xib */,
+				84BC38E72546638D0030935A /* ISFPViewController.swift */,
+				84BC38E82546638D0030935A /* ISFPViewController.xib */,
+				84BC38EB254664600030935A /* ESTPViewController.swift */,
+				84BC38EC254664600030935A /* ESTPViewController.xib */,
 			);
 			path = boardTypeB;
 			sourceTree = "<group>";
@@ -500,6 +586,7 @@
 			isa = PBXGroup;
 			children = (
 				BD75ABDF2301BE8200E0FC7A /* TutorialResponse.swift */,
+				84BC38B3254642100030935A /* loginResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -655,8 +742,11 @@
 				84D6E2642529B1C800B33ADD /* putReplyViewController.xib in Resources */,
 				845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */,
 				845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */,
+				84BC38CA254662CE0030935A /* ENTPViewController.xib in Resources */,
 				845D4B11254009D7001D682F /* recommendationCollectionViewCell.xib in Resources */,
+				84BC38EE254664600030935A /* ESTPViewController.xib in Resources */,
 				84B04C8E2532E170008DCB74 /* commentFIxViewController.xib in Resources */,
+				84BC38DE2546634C0030935A /* INTJViewController.xib in Resources */,
 				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				84D6E2682529B22400B33ADD /* putFeedViewController.xib in Resources */,
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
@@ -668,25 +758,36 @@
 				84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */,
 				84B04C7F25306880008DCB74 /* twoTeenBoardViewController.xib in Resources */,
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
+				84BC38EA2546638D0030935A /* ISFPViewController.xib in Resources */,
 				84FBA5A4253D9BE600F5799B /* matchingMessageTableViewCell.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
+				84BC38D2254662FD0030935A /* ENFJViewController.xib in Resources */,
+				84BC38E2254663610030935A /* ENTJViewController.xib in Resources */,
 				84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */,
+				84BC38E6254663720030935A /* ESTJViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
 				BD9BF18822F9DCC7009E47EB /* MainViewController.xib in Resources */,
 				84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */,
+				84BC38C2254662950030935A /* ESFJViewController.xib in Resources */,
 				8498F990250CE56C0039A25B /* messageViewController.xib in Resources */,
 				84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */,
 				84B04C962532EF66008DCB74 /* whoAmIViewController.xib in Resources */,
+				84BC38B82546625F0030935A /* ENFPViewController.xib in Resources */,
 				84B04C922532E3B6008DCB74 /* typeFixViewController.xib in Resources */,
 				8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */,
 				BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */,
 				84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */,
+				84BC38BC254662720030935A /* ESFPViewController.xib in Resources */,
 				84B04C8A2532D4C8008DCB74 /* nicknameCallViewController.xib in Resources */,
 				84D6E2502523237800B33ADD /* othersProfileViewController.xib in Resources */,
+				84BC38CE254662E90030935A /* ISTJViewController.xib in Resources */,
 				84D6E2582525C85800B33ADD /* myAppFixViewController.xib in Resources */,
 				84B04C5F2530633C008DCB74 /* anonyBoardViewController.xib in Resources */,
+				84BC38C6254662A50030935A /* INFPViewController.xib in Resources */,
+				84BC38DA254663350030935A /* ISTPViewController.xib in Resources */,
 				84D6E2602529B1A600B33ADD /* FeedViewController.xib in Resources */,
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
+				84BC38D6254663170030935A /* INFJViewController.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
 				845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */,
@@ -746,15 +847,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */,
+				84BC38D1254662FD0030935A /* ENFJViewController.swift in Sources */,
 				8498F9A2250F08E70039A25B /* matchingHomeViewController.swift in Sources */,
 				84FBA5A3253D9BE600F5799B /* matchingMessageTableViewCell.swift in Sources */,
 				84BC38A82543BFDF0030935A /* testIveFinishedCollectionViewCell.swift in Sources */,
 				84B04C822530688D008DCB74 /* threeTeenBoardViewController.swift in Sources */,
 				84E7D3DA250483A90033A1CF /* SplashChoiceViewController.swift in Sources */,
+				84BC38DD2546634C0030935A /* INTJViewController.swift in Sources */,
 				84D6E2532523250300B33ADD /* weavingViewController.swift in Sources */,
 				84B04C66253067BF008DCB74 /* teenBoardViewController.swift in Sources */,
 				84D6E24F2523237800B33ADD /* othersProfileViewController.swift in Sources */,
 				BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */,
+				84BC38C9254662CE0030935A /* ENTPViewController.swift in Sources */,
 				845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */,
 				BD9BF18722F9DCC7009E47EB /* MainViewController.swift in Sources */,
 				BD9BF17822F9C6CF009E47EB /* UIColor.swift in Sources */,
@@ -770,6 +874,7 @@
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
 				845D4B10254009D7001D682F /* recommendationCollectionViewCell.swift in Sources */,
 				845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */,
+				84BC38E1254663610030935A /* ENTJViewController.swift in Sources */,
 				84D6E2632529B1C800B33ADD /* putReplyViewController.swift in Sources */,
 				845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */,
 				84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */,
@@ -780,30 +885,41 @@
 				84B04C952532EF66008DCB74 /* whoAmIViewController.swift in Sources */,
 				845D4B02253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift in Sources */,
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
+				84BC38CD254662E90030935A /* ISTJViewController.swift in Sources */,
 				84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,
 				845D4B192540358A001D682F /* recentlyCollectionViewCell.swift in Sources */,
 				BD9BF17A22F9C6FF009E47EB /* UIButton.swift in Sources */,
 				84D6E2572525C85800B33ADD /* myAppFixViewController.swift in Sources */,
+				84BC38B4254642100030935A /* loginResponse.swift in Sources */,
 				84D6E2672529B22400B33ADD /* putFeedViewController.swift in Sources */,
 				84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */,
 				84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */,
 				84BC38AD2543CDF70030935A /* myProfilePicFixViewController.swift in Sources */,
+				84BC38BB254662720030935A /* ESFPViewController.swift in Sources */,
+				84BC38D5254663170030935A /* INFJViewController.swift in Sources */,
+				84BC38B72546625F0030935A /* ENFPViewController.swift in Sources */,
 				BD9BF17C22F9C737009E47EB /* UIViewController.swift in Sources */,
 				8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */,
 				845D4B0C253FCB15001D682F /* typeTestCollectionViewCell.swift in Sources */,
 				BD75ABE02301BE8200E0FC7A /* TutorialResponse.swift in Sources */,
 				84D6E25F2529B1A600B33ADD /* FeedViewController.swift in Sources */,
+				84BC38C5254662A50030935A /* INFPViewController.swift in Sources */,
 				84D6E24725231D0800B33ADD /* typeTestViewController.swift in Sources */,
 				8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */,
+				84BC38E5254663720030935A /* ESTJViewController.swift in Sources */,
 				84B04C7E25306880008DCB74 /* twoTeenBoardViewController.swift in Sources */,
 				84B04C8D2532E170008DCB74 /* commentFIxViewController.swift in Sources */,
 				84B04C6225306734008DCB74 /* freeBoardViewController.swift in Sources */,
 				84D6E25B2529B13600B33ADD /* boardCategoryViewController.swift in Sources */,
+				84BC38E92546638D0030935A /* ISFPViewController.swift in Sources */,
 				84D6E24B252321A000B33ADD /* resetProfileViewController.swift in Sources */,
 				84B04C5E2530633C008DCB74 /* anonyBoardViewController.swift in Sources */,
 				BDEF322F22F9B7CB00FEF8BD /* AppDelegate.swift in Sources */,
+				84BC38C1254662950030935A /* ESFJViewController.swift in Sources */,
+				84BC38ED254664600030935A /* ESTPViewController.swift in Sources */,
 				BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */,
+				84BC38D9254663350030935A /* ISTPViewController.swift in Sources */,
 				BD9BF18322F9D1A4009E47EB /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

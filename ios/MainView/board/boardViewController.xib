@@ -379,6 +379,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXa-pj-7TQ">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icenfpboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENFP:" destination="-1" eventType="touchUpInside" id="0ro-m4-e59"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -395,6 +398,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qh-HK-BqS">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
                                                                             <state key="normal" image="icESFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESFP:" destination="-1" eventType="touchUpInside" id="moa-Gi-imj"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -411,6 +417,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT4-iG-xp7">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icESTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESTP:" destination="-1" eventType="touchUpInside" id="av0-ym-F3B"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -443,6 +452,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAJ-3o-fF3">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icESFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESFJ:" destination="-1" eventType="touchUpInside" id="mMY-Dd-z19"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -459,6 +471,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyE-SY-WhO">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
                                                                             <state key="normal" image="icINFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="INFP:" destination="-1" eventType="touchUpInside" id="5sj-Dw-kyH"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -475,6 +490,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfM-3w-TnN">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icENTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENTP:" destination="-1" eventType="touchUpInside" id="yPo-uy-Pph"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -507,6 +525,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1i-Ya-n5O">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icISTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISTJ:" destination="-1" eventType="touchUpInside" id="OD2-r1-3Al"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -523,6 +544,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rx5-0b-WbY">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
                                                                             <state key="normal" image="icENFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENFJ:" destination="-1" eventType="touchUpInside" id="oiL-S5-HH8"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -539,6 +563,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6I-HL-Naf">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icINFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="INFJ:" destination="-1" eventType="touchUpInside" id="P2b-Yj-O6V"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -571,6 +598,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGF-N5-GlC">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icISTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISTP:" destination="-1" eventType="touchUpInside" id="Duq-Bn-kkJ"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -587,6 +617,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxC-9r-Czp">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
                                                                             <state key="normal" image="icINTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="INTJ:" destination="-1" eventType="touchUpInside" id="R2O-sD-k6Y"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -603,6 +636,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuA-Y0-rgE">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icENTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENTJ:" destination="-1" eventType="touchUpInside" id="oYH-3v-hpZ"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -635,6 +671,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA8-mp-7C0">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132.5" height="86"/>
                                                                             <state key="normal" image="icESTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="7TF-9k-dDw"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -651,6 +690,9 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLK-KB-CVB">
                                                                             <rect key="frame" x="0.0" y="0.0" width="132" height="86"/>
                                                                             <state key="normal" image="icISFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISFP:" destination="-1" eventType="touchUpInside" id="VeF-n7-kUA"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

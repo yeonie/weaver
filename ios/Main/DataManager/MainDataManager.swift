@@ -30,4 +30,31 @@ class MainDataManager {
                 }
             })
     }
+
+    func getLogin(_ loginViewController: SplashChoiceViewController){
+        let username = loginViewController.emailBox.text!
+        let password = loginViewController.passwordBox.text!
+        let parameter = ["username": username, "password": password]
+        Alamofire.request("\(self.appDelegate.baseUrl)/jwt", method:
+            .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
+            .validate(statusCode: 200..<600).responseObject(completionHandler: { (response: DataResponse<LoginResponse>) in
+                switch response.result {
+                case .success(let loginResponse):
+                    if loginResponse.code == 101{
+                        print("dddddddddddddddddddd")
+                        loginViewController.navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+                        
+                    }else if loginResponse.code == 506{
+                        print("dddddddddddddddddddd")
+                        
+                        loginViewController.presentAlert(title: "", message: loginResponse.message)
+                    }
+                    print(response)
+                    break
+                case .failure:
+                    print(response)
+                    
+                }
+            })
+    }
 }

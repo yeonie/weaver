@@ -20,4 +20,5 @@ class recommendationCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
 
+    
 }

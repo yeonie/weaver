@@ -44,7 +44,7 @@ class anonyBoardViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = false
         self.navigationItem.title = "익명 게시판"
         //        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "whiteBackground"), for: .default)
-        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 255/255, green: 109/255, blue: 107/255, alpha: 1.0)
+        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 240/255, green: 240/255, blue: 240/255, alpha: 1.0)
         //        self.navigationController?.navigationBar.backgroundColor = .black
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")

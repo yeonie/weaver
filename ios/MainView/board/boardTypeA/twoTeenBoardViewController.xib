@@ -22,7 +22,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AWw-4f-VSC">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                    <color key="backgroundColor" red="0.93091040849999995" green="0.46359485389999999" blue="0.43919700379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="backgroundColor" red="0.93333959579467773" green="0.93332201242446899" blue="0.93333393335342407" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="fue-Aj-V2u"/>
                     </constraints>
@@ -53,22 +53,43 @@
                         <constraint firstAttribute="bottom" secondItem="R0u-sR-kCq" secondAttribute="bottom" constant="24" id="wgF-XH-0ql"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="onN-Gx-veT">
+                    <rect key="frame" x="20" y="133" width="374" height="109"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lho-7h-H9d">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
+                            <state key="normal" image="banner2"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Lho-7h-H9d" secondAttribute="trailing" id="9m2-c5-Iaa"/>
+                        <constraint firstAttribute="bottom" secondItem="Lho-7h-H9d" secondAttribute="bottom" id="Jdq-v2-ZAU"/>
+                        <constraint firstItem="Lho-7h-H9d" firstAttribute="leading" secondItem="onN-Gx-veT" secondAttribute="leading" id="LDw-6a-Jfg"/>
+                        <constraint firstItem="Lho-7h-H9d" firstAttribute="top" secondItem="onN-Gx-veT" secondAttribute="top" id="fyI-bt-JEi"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="7vF-hq-HnL" firstAttribute="bottom" secondItem="cZn-6a-Yc2" secondAttribute="bottom" id="42c-nq-Zmw"/>
                 <constraint firstItem="7vF-hq-HnL" firstAttribute="trailing" secondItem="cZn-6a-Yc2" secondAttribute="trailing" id="EY9-2Z-tz8"/>
+                <constraint firstItem="cZn-6a-Yc2" firstAttribute="trailing" secondItem="onN-Gx-veT" secondAttribute="trailing" constant="20" id="KRU-qo-ixh"/>
                 <constraint firstItem="7vF-hq-HnL" firstAttribute="top" secondItem="AWw-4f-VSC" secondAttribute="bottom" constant="-1" id="QDP-PL-2fo"/>
                 <constraint firstItem="AWw-4f-VSC" firstAttribute="leading" secondItem="cZn-6a-Yc2" secondAttribute="leading" id="TAx-dB-Wxo"/>
+                <constraint firstItem="onN-Gx-veT" firstAttribute="top" secondItem="AWw-4f-VSC" secondAttribute="bottom" constant="-67" id="aB4-5j-bxj"/>
+                <constraint firstItem="onN-Gx-veT" firstAttribute="leading" secondItem="cZn-6a-Yc2" secondAttribute="leading" constant="20" id="aP9-eD-86g"/>
                 <constraint firstItem="AWw-4f-VSC" firstAttribute="top" secondItem="0Jz-ww-77Q" secondAttribute="top" id="jF4-8y-q5R"/>
                 <constraint firstItem="AWw-4f-VSC" firstAttribute="trailing" secondItem="cZn-6a-Yc2" secondAttribute="trailing" id="ldC-P8-wX6"/>
                 <constraint firstItem="7vF-hq-HnL" firstAttribute="leading" secondItem="cZn-6a-Yc2" secondAttribute="leading" id="tBb-C3-YQ2"/>
+                <constraint firstItem="onN-Gx-veT" firstAttribute="height" secondItem="cZn-6a-Yc2" secondAttribute="height" multiplier="1:7.5" id="zsN-5j-8EP"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="cZn-6a-Yc2"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
     <resources>
+        <image name="banner2" width="349" height="122"/>
         <image name="icwriteBtn" width="63" height="62"/>
     </resources>
 </document>

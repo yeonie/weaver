@@ -22,7 +22,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-QJ-1WI">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                    <color key="backgroundColor" red="0.93091040849999995" green="0.46359485389999999" blue="0.43919700379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="backgroundColor" red="0.96614569425582886" green="0.89201962947845459" blue="0.4626462459564209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="Daz-vM-LC5"/>
                     </constraints>
@@ -53,13 +53,33 @@
                         <constraint firstItem="aQe-j9-yFH" firstAttribute="leading" secondItem="uGO-wU-Vz5" secondAttribute="leading" id="l7Q-e9-jdx"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Agb-YT-RK1">
+                    <rect key="frame" x="20" y="133" width="374" height="109"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCg-hg-QVZ">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
+                            <state key="normal" image="banner2"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cCg-hg-QVZ" firstAttribute="leading" secondItem="Agb-YT-RK1" secondAttribute="leading" id="5Xv-yp-eni"/>
+                        <constraint firstAttribute="bottom" secondItem="cCg-hg-QVZ" secondAttribute="bottom" id="Dq4-73-CXm"/>
+                        <constraint firstAttribute="trailing" secondItem="cCg-hg-QVZ" secondAttribute="trailing" id="PwM-fK-CB4"/>
+                        <constraint firstItem="cCg-hg-QVZ" firstAttribute="top" secondItem="Agb-YT-RK1" secondAttribute="top" id="uSy-5z-i06"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="AHP-QJ-1WI" firstAttribute="leading" secondItem="nFS-Us-Ob8" secondAttribute="leading" id="9DB-De-9Ah"/>
+                <constraint firstItem="Agb-YT-RK1" firstAttribute="top" secondItem="AHP-QJ-1WI" secondAttribute="bottom" constant="-67" id="9IO-ds-3gj"/>
                 <constraint firstItem="AHP-QJ-1WI" firstAttribute="top" secondItem="Zn3-U7-mef" secondAttribute="top" id="G9t-Bs-PM6"/>
                 <constraint firstItem="AHP-QJ-1WI" firstAttribute="trailing" secondItem="nFS-Us-Ob8" secondAttribute="trailing" id="Guu-3J-WOI"/>
                 <constraint firstItem="uGO-wU-Vz5" firstAttribute="leading" secondItem="nFS-Us-Ob8" secondAttribute="leading" id="O1m-0y-Zbz"/>
+                <constraint firstItem="nFS-Us-Ob8" firstAttribute="trailing" secondItem="Agb-YT-RK1" secondAttribute="trailing" constant="20" id="bnb-1L-Qik"/>
+                <constraint firstItem="Agb-YT-RK1" firstAttribute="height" secondItem="nFS-Us-Ob8" secondAttribute="height" multiplier="1:7.5" id="dZm-EZ-IR0"/>
+                <constraint firstItem="Agb-YT-RK1" firstAttribute="leading" secondItem="nFS-Us-Ob8" secondAttribute="leading" constant="20" id="gJr-Fu-Bru"/>
                 <constraint firstItem="uGO-wU-Vz5" firstAttribute="trailing" secondItem="nFS-Us-Ob8" secondAttribute="trailing" id="j95-5E-Ih5"/>
                 <constraint firstItem="uGO-wU-Vz5" firstAttribute="bottom" secondItem="nFS-Us-Ob8" secondAttribute="bottom" id="ngo-GC-2G1"/>
                 <constraint firstItem="uGO-wU-Vz5" firstAttribute="top" secondItem="AHP-QJ-1WI" secondAttribute="bottom" constant="-1" id="yMp-ek-X3w"/>
@@ -69,6 +89,7 @@
         </view>
     </objects>
     <resources>
+        <image name="banner2" width="349" height="122"/>
         <image name="icwriteBtn" width="63" height="62"/>
     </resources>
 </document>

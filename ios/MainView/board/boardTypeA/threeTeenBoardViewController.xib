@@ -22,7 +22,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CYF-f2-o5d">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                    <color key="backgroundColor" red="0.93091040849999995" green="0.46359485389999999" blue="0.43919700379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="backgroundColor" red="0.94510442018508911" green="0.94508665800094604" blue="0.94509869813919067" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="200" id="AuD-MI-A9a"/>
                     </constraints>
@@ -53,22 +53,43 @@
                         <constraint firstAttribute="trailing" secondItem="KRH-oa-ueS" secondAttribute="trailing" id="k70-SI-Xyd"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0a-qB-sq3">
+                    <rect key="frame" x="20" y="133" width="374" height="109"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BNL-Iu-8Ig">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
+                            <state key="normal" image="banner2"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="BNL-Iu-8Ig" secondAttribute="bottom" id="Ghm-MZ-rMG"/>
+                        <constraint firstItem="BNL-Iu-8Ig" firstAttribute="top" secondItem="Y0a-qB-sq3" secondAttribute="top" id="QDX-Xh-4p7"/>
+                        <constraint firstItem="BNL-Iu-8Ig" firstAttribute="leading" secondItem="Y0a-qB-sq3" secondAttribute="leading" id="UqU-IU-tPN"/>
+                        <constraint firstAttribute="trailing" secondItem="BNL-Iu-8Ig" secondAttribute="trailing" id="soH-YM-j8C"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="eiR-F7-bgG" firstAttribute="top" secondItem="CYF-f2-o5d" secondAttribute="bottom" constant="-1" id="1zC-jQ-01b"/>
                 <constraint firstItem="CYF-f2-o5d" firstAttribute="trailing" secondItem="8UJ-Oj-Uvi" secondAttribute="trailing" id="A6i-RB-XXB"/>
+                <constraint firstItem="Y0a-qB-sq3" firstAttribute="top" secondItem="CYF-f2-o5d" secondAttribute="bottom" constant="-67" id="Etc-if-mZK"/>
+                <constraint firstItem="Y0a-qB-sq3" firstAttribute="leading" secondItem="8UJ-Oj-Uvi" secondAttribute="leading" constant="20" id="ZAK-1i-g7M"/>
                 <constraint firstItem="CYF-f2-o5d" firstAttribute="leading" secondItem="8UJ-Oj-Uvi" secondAttribute="leading" id="aeY-xI-6pF"/>
                 <constraint firstItem="eiR-F7-bgG" firstAttribute="bottom" secondItem="8UJ-Oj-Uvi" secondAttribute="bottom" id="bp1-sj-Ddx"/>
                 <constraint firstItem="CYF-f2-o5d" firstAttribute="top" secondItem="wD3-J5-qnW" secondAttribute="top" id="hEx-wG-htV"/>
                 <constraint firstItem="eiR-F7-bgG" firstAttribute="leading" secondItem="8UJ-Oj-Uvi" secondAttribute="leading" id="hzr-D3-SAJ"/>
+                <constraint firstItem="8UJ-Oj-Uvi" firstAttribute="trailing" secondItem="Y0a-qB-sq3" secondAttribute="trailing" constant="20" id="jl0-fr-EfT"/>
                 <constraint firstItem="eiR-F7-bgG" firstAttribute="trailing" secondItem="8UJ-Oj-Uvi" secondAttribute="trailing" id="qCJ-o8-xbG"/>
+                <constraint firstItem="Y0a-qB-sq3" firstAttribute="height" secondItem="8UJ-Oj-Uvi" secondAttribute="height" multiplier="1:7.5" id="s8N-5U-nvN"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="8UJ-Oj-Uvi"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
     <resources>
+        <image name="banner2" width="349" height="122"/>
         <image name="icwriteBtn" width="63" height="62"/>
     </resources>
 </document>

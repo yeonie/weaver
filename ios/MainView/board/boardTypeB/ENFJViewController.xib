@@ -53,22 +53,43 @@
                         <constraint firstAttribute="bottom" secondItem="cYe-S9-vus" secondAttribute="bottom" id="yhq-01-GuL"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfu-4f-305">
+                    <rect key="frame" x="20" y="133" width="374" height="109"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xB-eG-suZ">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
+                            <state key="normal" image="bannerOpenKakaoTalk"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="3xB-eG-suZ" secondAttribute="bottom" id="AX9-x3-fSQ"/>
+                        <constraint firstItem="3xB-eG-suZ" firstAttribute="top" secondItem="lfu-4f-305" secondAttribute="top" id="dag-0b-50M"/>
+                        <constraint firstItem="3xB-eG-suZ" firstAttribute="leading" secondItem="lfu-4f-305" secondAttribute="leading" id="mpF-BW-35d"/>
+                        <constraint firstAttribute="trailing" secondItem="3xB-eG-suZ" secondAttribute="trailing" id="wqc-3m-94G"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="7qb-eg-ekW" firstAttribute="trailing" secondItem="lfu-4f-305" secondAttribute="trailing" constant="20" id="8By-T8-9qT"/>
                 <constraint firstItem="g8e-Iw-nrA" firstAttribute="bottom" secondItem="7qb-eg-ekW" secondAttribute="bottom" id="BZP-mp-rFJ"/>
                 <constraint firstItem="g8e-Iw-nrA" firstAttribute="trailing" secondItem="7qb-eg-ekW" secondAttribute="trailing" id="Hez-Kh-e71"/>
                 <constraint firstItem="lWl-8s-PeD" firstAttribute="leading" secondItem="7qb-eg-ekW" secondAttribute="leading" id="ObD-TZ-KgM"/>
+                <constraint firstItem="lfu-4f-305" firstAttribute="leading" secondItem="7qb-eg-ekW" secondAttribute="leading" constant="20" id="OyG-20-QMc"/>
                 <constraint firstItem="lWl-8s-PeD" firstAttribute="trailing" secondItem="7qb-eg-ekW" secondAttribute="trailing" id="QnX-yQ-yua"/>
                 <constraint firstItem="lWl-8s-PeD" firstAttribute="top" secondItem="LTd-5V-Ox9" secondAttribute="top" id="WE8-df-hzW"/>
                 <constraint firstItem="g8e-Iw-nrA" firstAttribute="leading" secondItem="7qb-eg-ekW" secondAttribute="leading" id="eI2-dh-6IQ"/>
                 <constraint firstItem="g8e-Iw-nrA" firstAttribute="top" secondItem="lWl-8s-PeD" secondAttribute="bottom" constant="-1" id="h7M-nt-SMx"/>
+                <constraint firstItem="lfu-4f-305" firstAttribute="height" secondItem="7qb-eg-ekW" secondAttribute="height" multiplier="1:7.5" id="nI1-aH-PWk"/>
+                <constraint firstItem="lfu-4f-305" firstAttribute="top" secondItem="lWl-8s-PeD" secondAttribute="bottom" constant="-67" id="qgN-Vn-hUL"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="7qb-eg-ekW"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
     <resources>
+        <image name="bannerOpenKakaoTalk" width="349" height="122"/>
         <image name="icwriteBtn" width="63" height="62"/>
     </resources>
 </document>

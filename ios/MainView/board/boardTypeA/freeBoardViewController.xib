@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="freeBoardViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="freeFeedTableView" destination="aQe-j9-yFH" id="Psi-DO-N6L"/>
                 <outlet property="view" destination="Zn3-U7-mef" id="ekI-xV-5VP"/>
             </connections>
         </placeholder>

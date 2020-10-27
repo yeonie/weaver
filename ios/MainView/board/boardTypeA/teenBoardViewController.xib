@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="teenBoardViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="teenTableView" destination="4PU-Cp-Bf7" id="0aH-Uo-YfM"/>
                 <outlet property="view" destination="NxY-Ut-aUb" id="1wo-Kn-Nu6"/>
             </connections>
         </placeholder>

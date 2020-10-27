@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="threeTeenBoardViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="threeTeenTableView" destination="KRH-oa-ueS" id="ha8-KA-vhX"/>
                 <outlet property="view" destination="wD3-J5-qnW" id="hTC-Zb-ccF"/>
             </connections>
         </placeholder>

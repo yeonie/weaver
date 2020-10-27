@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="anonyBoardViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="anonyFeedTableView" destination="uJS-X8-9P5" id="Eja-dU-dsg"/>
                 <outlet property="view" destination="a1G-7e-UB4" id="mmc-OX-n9G"/>
             </connections>
         </placeholder>

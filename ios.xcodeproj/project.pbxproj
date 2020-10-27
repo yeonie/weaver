@@ -23,6 +23,21 @@
 		845D4B15254009E5001D682F /* equalTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */; };
 		845D4B192540358A001D682F /* recentlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B172540358A001D682F /* recentlyCollectionViewCell.swift */; };
 		845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B182540358A001D682F /* recentlyCollectionViewCell.xib */; };
+		848637F02546B1CD007FA1B1 /* freeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848637EE2546B1CD007FA1B1 /* freeTableViewCell.swift */; };
+		848637F12546B1CD007FA1B1 /* freeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848637EF2546B1CD007FA1B1 /* freeTableViewCell.xib */; };
+		848637F42546B313007FA1B1 /* teenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848637F22546B313007FA1B1 /* teenTableViewCell.swift */; };
+		848637F52546B313007FA1B1 /* teenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848637F32546B313007FA1B1 /* teenTableViewCell.xib */; };
+		848637F82546B33A007FA1B1 /* twoTeenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848637F62546B33A007FA1B1 /* twoTeenTableViewCell.swift */; };
+		848637F92546B33A007FA1B1 /* twoTeenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848637F72546B33A007FA1B1 /* twoTeenTableViewCell.xib */; };
+		848637FC2546B345007FA1B1 /* threeTeenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848637FA2546B345007FA1B1 /* threeTeenTableViewCell.swift */; };
+		848637FD2546B345007FA1B1 /* threeTeenTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848637FB2546B345007FA1B1 /* threeTeenTableViewCell.xib */; };
+		848638012546B71B007FA1B1 /* ENFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848637FF2546B71B007FA1B1 /* ENFPTableViewCell.swift */; };
+		848638022546B71B007FA1B1 /* ENFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */; };
+		848638052546B726007FA1B1 /* ESFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848638032546B726007FA1B1 /* ESFPTableViewCell.swift */; };
+		848638062546B726007FA1B1 /* ESFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638042546B726007FA1B1 /* ESFPTableViewCell.xib */; };
+		848638092546B734007FA1B1 /* ESFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848638072546B734007FA1B1 /* ESFJTableViewCell.swift */; };
+		8486380A2546B734007FA1B1 /* ESFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638082546B734007FA1B1 /* ESFJTableViewCell.xib */; };
+		8486380C2546B7BD007FA1B1 /* INFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -95,6 +110,8 @@
 		84BC38EA2546638D0030935A /* ISFPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38E82546638D0030935A /* ISFPViewController.xib */; };
 		84BC38ED254664600030935A /* ESTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38EB254664600030935A /* ESTPViewController.swift */; };
 		84BC38EE254664600030935A /* ESTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38EC254664600030935A /* ESTPViewController.xib */; };
+		84BC38F325468CE20030935A /* anonyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC38F125468CE20030935A /* anonyTableViewCell.swift */; };
+		84BC38F425468CE20030935A /* anonyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BC38F225468CE20030935A /* anonyTableViewCell.xib */; };
 		84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2052521A9CC00B33ADD /* Assets.xcassets */; };
 		84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */; };
 		84D6E20A2521DF3B00B33ADD /* myPageFixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */; };
@@ -165,6 +182,21 @@
 		845D4B13254009E5001D682F /* equalTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = equalTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B172540358A001D682F /* recentlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B182540358A001D682F /* recentlyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recentlyCollectionViewCell.xib; sourceTree = "<group>"; };
+		848637EE2546B1CD007FA1B1 /* freeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeTableViewCell.swift; sourceTree = "<group>"; };
+		848637EF2546B1CD007FA1B1 /* freeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = freeTableViewCell.xib; sourceTree = "<group>"; };
+		848637F22546B313007FA1B1 /* teenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teenTableViewCell.swift; sourceTree = "<group>"; };
+		848637F32546B313007FA1B1 /* teenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = teenTableViewCell.xib; sourceTree = "<group>"; };
+		848637F62546B33A007FA1B1 /* twoTeenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoTeenTableViewCell.swift; sourceTree = "<group>"; };
+		848637F72546B33A007FA1B1 /* twoTeenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = twoTeenTableViewCell.xib; sourceTree = "<group>"; };
+		848637FA2546B345007FA1B1 /* threeTeenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeTeenTableViewCell.swift; sourceTree = "<group>"; };
+		848637FB2546B345007FA1B1 /* threeTeenTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = threeTeenTableViewCell.xib; sourceTree = "<group>"; };
+		848637FF2546B71B007FA1B1 /* ENFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENFPTableViewCell.swift; sourceTree = "<group>"; };
+		848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENFPTableViewCell.xib; sourceTree = "<group>"; };
+		848638032546B726007FA1B1 /* ESFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPTableViewCell.swift; sourceTree = "<group>"; };
+		848638042546B726007FA1B1 /* ESFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFPTableViewCell.xib; sourceTree = "<group>"; };
+		848638072546B734007FA1B1 /* ESFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFJTableViewCell.swift; sourceTree = "<group>"; };
+		848638082546B734007FA1B1 /* ESFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJTableViewCell.xib; sourceTree = "<group>"; };
+		8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFPTableViewCell.swift; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +269,8 @@
 		84BC38E82546638D0030935A /* ISFPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISFPViewController.xib; sourceTree = "<group>"; };
 		84BC38EB254664600030935A /* ESTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTPViewController.swift; sourceTree = "<group>"; };
 		84BC38EC254664600030935A /* ESTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESTPViewController.xib; sourceTree = "<group>"; };
+		84BC38F125468CE20030935A /* anonyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anonyTableViewCell.swift; sourceTree = "<group>"; };
+		84BC38F225468CE20030935A /* anonyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = anonyTableViewCell.xib; sourceTree = "<group>"; };
 		84D6E2052521A9CC00B33ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D6E2072521DF3B00B33ADD /* myPageFixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageFixViewController.swift; sourceTree = "<group>"; };
 		84D6E2082521DF3B00B33ADD /* myPageFixViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPageFixViewController.xib; sourceTree = "<group>"; };
@@ -479,6 +513,7 @@
 				84B04C7D25306880008DCB74 /* twoTeenBoardViewController.xib */,
 				84B04C802530688D008DCB74 /* threeTeenBoardViewController.swift */,
 				84B04C812530688D008DCB74 /* threeTeenBoardViewController.xib */,
+				84BC38EF25468CA20030935A /* typeACell */,
 			);
 			path = boardTypeA;
 			sourceTree = "<group>";
@@ -514,6 +549,7 @@
 				84BC38E82546638D0030935A /* ISFPViewController.xib */,
 				84BC38EB254664600030935A /* ESTPViewController.swift */,
 				84BC38EC254664600030935A /* ESTPViewController.xib */,
+				84BC38F025468CB70030935A /* typeBcell */,
 			);
 			path = boardTypeB;
 			sourceTree = "<group>";
@@ -553,6 +589,37 @@
 				84BC38A72543BFDF0030935A /* testIveFinishedCollectionViewCell.xib */,
 			);
 			path = myPageCell;
+			sourceTree = "<group>";
+		};
+		84BC38EF25468CA20030935A /* typeACell */ = {
+			isa = PBXGroup;
+			children = (
+				84BC38F125468CE20030935A /* anonyTableViewCell.swift */,
+				84BC38F225468CE20030935A /* anonyTableViewCell.xib */,
+				848637EE2546B1CD007FA1B1 /* freeTableViewCell.swift */,
+				848637EF2546B1CD007FA1B1 /* freeTableViewCell.xib */,
+				848637F22546B313007FA1B1 /* teenTableViewCell.swift */,
+				848637F32546B313007FA1B1 /* teenTableViewCell.xib */,
+				848637F62546B33A007FA1B1 /* twoTeenTableViewCell.swift */,
+				848637F72546B33A007FA1B1 /* twoTeenTableViewCell.xib */,
+				848637FA2546B345007FA1B1 /* threeTeenTableViewCell.swift */,
+				848637FB2546B345007FA1B1 /* threeTeenTableViewCell.xib */,
+			);
+			path = typeACell;
+			sourceTree = "<group>";
+		};
+		84BC38F025468CB70030935A /* typeBcell */ = {
+			isa = PBXGroup;
+			children = (
+				848637FF2546B71B007FA1B1 /* ENFPTableViewCell.swift */,
+				848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */,
+				848638032546B726007FA1B1 /* ESFPTableViewCell.swift */,
+				848638042546B726007FA1B1 /* ESFPTableViewCell.xib */,
+				848638072546B734007FA1B1 /* ESFJTableViewCell.swift */,
+				848638082546B734007FA1B1 /* ESFJTableViewCell.xib */,
+				8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */,
+			);
+			path = typeBcell;
 			sourceTree = "<group>";
 		};
 		84E7D3D7250483950033A1CF /* SplashChoice */ = {
@@ -734,6 +801,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D6E25C2529B13600B33ADD /* boardCategoryViewController.xib in Resources */,
+				848637F92546B33A007FA1B1 /* twoTeenTableViewCell.xib in Resources */,
 				84D6E24C252321A000B33ADD /* resetProfileViewController.xib in Resources */,
 				8498F9A3250F08E70039A25B /* matchingHomeViewController.xib in Resources */,
 				84B04C6325306734008DCB74 /* freeBoardViewController.xib in Resources */,
@@ -746,6 +814,7 @@
 				845D4B11254009D7001D682F /* recommendationCollectionViewCell.xib in Resources */,
 				84BC38EE254664600030935A /* ESTPViewController.xib in Resources */,
 				84B04C8E2532E170008DCB74 /* commentFIxViewController.xib in Resources */,
+				848637FD2546B345007FA1B1 /* threeTeenTableViewCell.xib in Resources */,
 				84BC38DE2546634C0030935A /* INTJViewController.xib in Resources */,
 				8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */,
 				84D6E2682529B22400B33ADD /* putFeedViewController.xib in Resources */,
@@ -760,30 +829,36 @@
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
 				84BC38EA2546638D0030935A /* ISFPViewController.xib in Resources */,
 				84FBA5A4253D9BE600F5799B /* matchingMessageTableViewCell.xib in Resources */,
+				8486380A2546B734007FA1B1 /* ESFJTableViewCell.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
 				84BC38D2254662FD0030935A /* ENFJViewController.xib in Resources */,
 				84BC38E2254663610030935A /* ENTJViewController.xib in Resources */,
 				84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */,
 				84BC38E6254663720030935A /* ESTJViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
+				84BC38F425468CE20030935A /* anonyTableViewCell.xib in Resources */,
 				BD9BF18822F9DCC7009E47EB /* MainViewController.xib in Resources */,
 				84E7D3DB250483A90033A1CF /* SplashChoiceViewController.xib in Resources */,
 				84BC38C2254662950030935A /* ESFJViewController.xib in Resources */,
 				8498F990250CE56C0039A25B /* messageViewController.xib in Resources */,
 				84FFA34A252D424D00960090 /* boardTableViewCell.xib in Resources */,
 				84B04C962532EF66008DCB74 /* whoAmIViewController.xib in Resources */,
+				848638022546B71B007FA1B1 /* ENFPTableViewCell.xib in Resources */,
 				84BC38B82546625F0030935A /* ENFPViewController.xib in Resources */,
+				848637F12546B1CD007FA1B1 /* freeTableViewCell.xib in Resources */,
 				84B04C922532E3B6008DCB74 /* typeFixViewController.xib in Resources */,
 				8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */,
 				BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */,
 				84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */,
 				84BC38BC254662720030935A /* ESFPViewController.xib in Resources */,
 				84B04C8A2532D4C8008DCB74 /* nicknameCallViewController.xib in Resources */,
+				848638062546B726007FA1B1 /* ESFPTableViewCell.xib in Resources */,
 				84D6E2502523237800B33ADD /* othersProfileViewController.xib in Resources */,
 				84BC38CE254662E90030935A /* ISTJViewController.xib in Resources */,
 				84D6E2582525C85800B33ADD /* myAppFixViewController.xib in Resources */,
 				84B04C5F2530633C008DCB74 /* anonyBoardViewController.xib in Resources */,
 				84BC38C6254662A50030935A /* INFPViewController.xib in Resources */,
+				848637F52546B313007FA1B1 /* teenTableViewCell.xib in Resources */,
 				84BC38DA254663350030935A /* ISTPViewController.xib in Resources */,
 				84D6E2602529B1A600B33ADD /* FeedViewController.xib in Resources */,
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
@@ -869,7 +944,11 @@
 				8498F99A250CFDC40039A25B /* MainTabbarViewController.swift in Sources */,
 				84FFA349252D424D00960090 /* boardTableViewCell.swift in Sources */,
 				84B04C912532E3B6008DCB74 /* typeFixViewController.swift in Sources */,
+				848637F02546B1CD007FA1B1 /* freeTableViewCell.swift in Sources */,
+				84BC38F325468CE20030935A /* anonyTableViewCell.swift in Sources */,
 				BD9BF17E22F9CD60009E47EB /* ColorPalette.swift in Sources */,
+				848638012546B71B007FA1B1 /* ENFPTableViewCell.swift in Sources */,
+				848637F82546B33A007FA1B1 /* twoTeenTableViewCell.swift in Sources */,
 				8498F99E250D05540039A25B /* UIImage.swift in Sources */,
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
 				845D4B10254009D7001D682F /* recommendationCollectionViewCell.swift in Sources */,
@@ -877,6 +956,7 @@
 				84BC38E1254663610030935A /* ENTJViewController.swift in Sources */,
 				84D6E2632529B1C800B33ADD /* putReplyViewController.swift in Sources */,
 				845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */,
+				848637F42546B313007FA1B1 /* teenTableViewCell.swift in Sources */,
 				84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */,
 				BD75ABDE2301BCE600E0FC7A /* MainDataManager.swift in Sources */,
 				8498F9A8250F0EE10039A25B /* myPageViewController.swift in Sources */,
@@ -895,6 +975,7 @@
 				84D6E2672529B22400B33ADD /* putFeedViewController.swift in Sources */,
 				84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */,
 				84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */,
+				8486380C2546B7BD007FA1B1 /* INFPTableViewCell.swift in Sources */,
 				84BC38AD2543CDF70030935A /* myProfilePicFixViewController.swift in Sources */,
 				84BC38BB254662720030935A /* ESFPViewController.swift in Sources */,
 				84BC38D5254663170030935A /* INFJViewController.swift in Sources */,
@@ -913,6 +994,7 @@
 				84B04C6225306734008DCB74 /* freeBoardViewController.swift in Sources */,
 				84D6E25B2529B13600B33ADD /* boardCategoryViewController.swift in Sources */,
 				84BC38E92546638D0030935A /* ISFPViewController.swift in Sources */,
+				848638092546B734007FA1B1 /* ESFJTableViewCell.swift in Sources */,
 				84D6E24B252321A000B33ADD /* resetProfileViewController.swift in Sources */,
 				84B04C5E2530633C008DCB74 /* anonyBoardViewController.swift in Sources */,
 				BDEF322F22F9B7CB00FEF8BD /* AppDelegate.swift in Sources */,
@@ -920,7 +1002,9 @@
 				84BC38ED254664600030935A /* ESTPViewController.swift in Sources */,
 				BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */,
 				84BC38D9254663350030935A /* ISTPViewController.swift in Sources */,
+				848637FC2546B345007FA1B1 /* threeTeenTableViewCell.swift in Sources */,
 				BD9BF18322F9D1A4009E47EB /* SplashViewController.swift in Sources */,
+				848638052546B726007FA1B1 /* ESFPTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

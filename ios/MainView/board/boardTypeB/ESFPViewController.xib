@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DsX-hH-11G">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2q-Qx-OUh">
@@ -48,7 +48,7 @@
                         <constraint firstItem="DsX-hH-11G" firstAttribute="leading" secondItem="ulN-xe-dVg" secondAttribute="leading" id="4W9-tD-vGf"/>
                         <constraint firstAttribute="trailing" secondItem="m2q-Qx-OUh" secondAttribute="trailing" constant="22" id="KhR-FS-ah9"/>
                         <constraint firstAttribute="bottom" secondItem="DsX-hH-11G" secondAttribute="bottom" id="gtk-cX-Zva"/>
-                        <constraint firstItem="DsX-hH-11G" firstAttribute="top" secondItem="ulN-xe-dVg" secondAttribute="top" id="ltH-Fb-7nD"/>
+                        <constraint firstItem="DsX-hH-11G" firstAttribute="top" secondItem="ulN-xe-dVg" secondAttribute="top" constant="20" id="ltH-Fb-7nD"/>
                         <constraint firstAttribute="bottom" secondItem="m2q-Qx-OUh" secondAttribute="bottom" constant="24" id="pjN-E8-fPx"/>
                         <constraint firstAttribute="trailing" secondItem="DsX-hH-11G" secondAttribute="trailing" id="zb0-Zd-E31"/>
                     </constraints>

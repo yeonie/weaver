@@ -35,26 +35,67 @@ class MainDataManager {
         let username = loginViewController.emailBox.text!
         let password = loginViewController.passwordBox.text!
         let parameter = ["username": username, "password": password]
-        Alamofire.request("\(self.appDelegate.baseUrl)/jwt", method:
+        Alamofire.request("\(self.appDelegate.baseUrl)/login", method:
             .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
-            .validate(statusCode: 200..<600).responseObject(completionHandler: { (response: DataResponse<LoginResponse>) in
-                switch response.result {
-                case .success(let loginResponse):
-                    if loginResponse.code == 101{
-                        print("dddddddddddddddddddd")
-                        loginViewController.navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
-                        
-                    }else if loginResponse.code == 506{
-                        print("dddddddddddddddddddd")
-                        
-                        loginViewController.presentAlert(title: "", message: loginResponse.message)
-                    }
-                    print(response)
-                    break
-                case .failure:
-                    print(response)
-                    
+            .validate(statusCode: 200..<600).response { response in
+                let headers = response.response?.allHeaderFields as? [String: Any]
+                print(response.response?.statusCode)
+                print(headers)
+                if response.response?.statusCode == 200 {
+                    guard let token = headers?["Authorization"] as? String else { return }
+                    UserDefaults.standard.set(token, forKey: "LoginToken")
+                    loginViewController.navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+                } else {
+                    print("아이디/패스워드를 확인해주세요")
+                    loginViewController.presentAlert(title: "", message: "loginResponse.message")
                 }
-            })
+        }
+//        responseObject(completionHandler: { (response: DataResponse<LoginResponse>) in
+//                // Authorization code
+//                let headers = response.response?.allHeaderFields as? [String: Any]
+//                switch response.result {
+//                case .success(let loginResponse):
+//                    if loginResponse.code == 200{
+//                        print("로그인 성공")
+//                        //login 했을 때 토큰을 저장
+//                        guard let token = headers?["Authorization"] else { return }
+//                        UserDefaults.standard.set(token, forKey: "LoginToken")
+//                        loginViewController.navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+//
+//                    }else if loginResponse.code == 403{
+//                        print("아이디/패스워드를 확인해주세요")
+//
+//                        loginViewController.presentAlert(title: "", message: loginResponse.message)
+//                    }
+//                    print(response)
+//                    break
+//                case .failure:
+//                    print(response)
+//
+//                }
+//            })
     }
+    
+    
+    
+//    func getRegistrationEmail(_ RegistrationEmailViewController: RegistrationEmailViewController){
+//        let email = RegistrationEmailViewController.emailBox.text!
+//        let parameter = ["reqType": "0", "email": email]
+//        Alamofire.request("\(self.appDelegate.baseUrl)/user", method: .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil).validate(statusCode: 200..<600).responseObject(completionHandler: { (response: DataResponse<RegistrationEmailResponse>) in
+//            switch response.result {
+//            case .success(let SignEmailResponse):
+//                RegistrationEmailViewController.presentAlert(title: "", message: SignEmailResponse.message)
+//                print(response)
+//                break
+//            case .failure:
+//                print(response)
+//                self.newEmail = email
+//                RegistrationEmailViewController.navigationController!.pushViewController(RegistrationPWViewController(), animated: true)
+//                //loginViewController.presentAlert(title: "", message: "서버와의 연결이 원활하지 않습니다.")
+//            }
+//        })
+    }
+    
+func PostSignUp(_ SignUpViewController: SplashChoiceViewController){
+//    let 
 }

@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fKw-EY-L2s">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rul-76-T2J">
@@ -45,7 +45,7 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="fKw-EY-L2s" firstAttribute="top" secondItem="zTs-aR-dpx" secondAttribute="top" id="0PO-ZU-ykE"/>
+                        <constraint firstItem="fKw-EY-L2s" firstAttribute="top" secondItem="zTs-aR-dpx" secondAttribute="top" constant="20" id="0PO-ZU-ykE"/>
                         <constraint firstItem="fKw-EY-L2s" firstAttribute="leading" secondItem="zTs-aR-dpx" secondAttribute="leading" id="95X-pC-wwf"/>
                         <constraint firstAttribute="trailing" secondItem="rul-76-T2J" secondAttribute="trailing" constant="22" id="GFV-Vf-04n"/>
                         <constraint firstAttribute="bottom" secondItem="rul-76-T2J" secondAttribute="bottom" constant="24" id="IDV-r2-eoT"/>

@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vMn-tf-U31">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKz-3F-LsS">
@@ -47,7 +47,7 @@
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="vMn-tf-U31" secondAttribute="trailing" id="17u-Ru-wli"/>
                         <constraint firstAttribute="bottom" secondItem="vMn-tf-U31" secondAttribute="bottom" id="Sw4-iX-HkL"/>
-                        <constraint firstItem="vMn-tf-U31" firstAttribute="top" secondItem="RMz-HE-DZS" secondAttribute="top" id="aGc-Oq-ou9"/>
+                        <constraint firstItem="vMn-tf-U31" firstAttribute="top" secondItem="RMz-HE-DZS" secondAttribute="top" constant="20" id="aGc-Oq-ou9"/>
                         <constraint firstAttribute="bottom" secondItem="cKz-3F-LsS" secondAttribute="bottom" constant="24" id="gwM-07-AFI"/>
                         <constraint firstItem="vMn-tf-U31" firstAttribute="leading" secondItem="RMz-HE-DZS" secondAttribute="leading" id="rHN-JG-YXt"/>
                         <constraint firstAttribute="trailing" secondItem="cKz-3F-LsS" secondAttribute="trailing" constant="22" id="zxf-Ar-dJD"/>

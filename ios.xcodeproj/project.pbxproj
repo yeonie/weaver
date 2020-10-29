@@ -11,6 +11,8 @@
 		845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2A2504C5B200629DF3 /* SignUpViewController.xib */; };
 		845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B2D2E2504DE1E00629DF3 /* OwnTypeChoiceViewController.swift */; };
 		845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */; };
+		845D4483254A5A92002794A7 /* TTRunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845D4482254A5A87002794A7 /* TTRunGothic.ttf */; };
+		845D4485254A5BB2002794A7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845D4484254A5BAB002794A7 /* Montserrat-Bold.ttf */; };
 		845D4B02253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */; };
 		845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */; };
 		845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */; };
@@ -38,6 +40,7 @@
 		848638092546B734007FA1B1 /* ESFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848638072546B734007FA1B1 /* ESFJTableViewCell.swift */; };
 		8486380A2546B734007FA1B1 /* ESFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638082546B734007FA1B1 /* ESFJTableViewCell.xib */; };
 		8486380C2546B7BD007FA1B1 /* INFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */; };
+		848638702547E80A007FA1B1 /* BMDOHYEON_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8486386F2547E70E007FA1B1 /* BMDOHYEON_otf.otf */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
 		8498F98A250C8FFF0039A25B /* BoardHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */; };
@@ -170,6 +173,8 @@
 		845B2D2A2504C5B200629DF3 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		845B2D2E2504DE1E00629DF3 /* OwnTypeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnTypeChoiceViewController.swift; sourceTree = "<group>"; };
 		845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OwnTypeChoiceViewController.xib; sourceTree = "<group>"; };
+		845D4482254A5A87002794A7 /* TTRunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TTRunGothic.ttf; sourceTree = "<group>"; };
+		845D4484254A5BAB002794A7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howAboutMyTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = howAboutMyTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardMessageTableViewCell.swift; sourceTree = "<group>"; };
@@ -197,6 +202,7 @@
 		848638072546B734007FA1B1 /* ESFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFJTableViewCell.swift; sourceTree = "<group>"; };
 		848638082546B734007FA1B1 /* ESFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJTableViewCell.xib; sourceTree = "<group>"; };
 		8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFPTableViewCell.swift; sourceTree = "<group>"; };
+		8486386F2547E70E007FA1B1 /* BMDOHYEON_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMDOHYEON_otf.otf; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
 		8498F988250C8FFF0039A25B /* BoardHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHomeViewController.swift; sourceTree = "<group>"; };
@@ -732,6 +738,9 @@
 				BD9BF17022F9C318009E47EB /* Splash */,
 				BD9BF16F22F9C314009E47EB /* Main */,
 				BDEF322E22F9B7CB00FEF8BD /* AppDelegate.swift */,
+				8486386F2547E70E007FA1B1 /* BMDOHYEON_otf.otf */,
+				845D4484254A5BAB002794A7 /* Montserrat-Bold.ttf */,
+				845D4482254A5A87002794A7 /* TTRunGothic.ttf */,
 				84D6E2052521A9CC00B33ADD /* Assets.xcassets */,
 				BDEF323A22F9B7CB00FEF8BD /* LaunchScreen.storyboard */,
 				BDEF323D22F9B7CB00FEF8BD /* Info.plist */,
@@ -833,6 +842,7 @@
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
 				84BC38D2254662FD0030935A /* ENFJViewController.xib in Resources */,
 				84BC38E2254663610030935A /* ENTJViewController.xib in Resources */,
+				848638702547E80A007FA1B1 /* BMDOHYEON_otf.otf in Resources */,
 				84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */,
 				84BC38E6254663720030935A /* ESTJViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
@@ -861,11 +871,13 @@
 				848637F52546B313007FA1B1 /* teenTableViewCell.xib in Resources */,
 				84BC38DA254663350030935A /* ISTPViewController.xib in Resources */,
 				84D6E2602529B1A600B33ADD /* FeedViewController.xib in Resources */,
+				845D4483254A5A92002794A7 /* TTRunGothic.ttf in Resources */,
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				84BC38D6254663170030935A /* INFJViewController.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
 				845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */,
+				845D4485254A5BB2002794A7 /* Montserrat-Bold.ttf in Resources */,
 				845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */,
 				845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */,
 				84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */,

@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x3h-fr-tbX">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfl-RQ-3uV">
@@ -48,7 +48,7 @@
                         <constraint firstAttribute="bottom" secondItem="sfl-RQ-3uV" secondAttribute="bottom" constant="24" id="Cq1-Iy-4h6"/>
                         <constraint firstItem="x3h-fr-tbX" firstAttribute="leading" secondItem="zF7-rh-p2n" secondAttribute="leading" id="Jw2-dM-neC"/>
                         <constraint firstAttribute="bottom" secondItem="x3h-fr-tbX" secondAttribute="bottom" id="d4Y-y6-lbz"/>
-                        <constraint firstItem="x3h-fr-tbX" firstAttribute="top" secondItem="zF7-rh-p2n" secondAttribute="top" id="hsC-JH-P2s"/>
+                        <constraint firstItem="x3h-fr-tbX" firstAttribute="top" secondItem="zF7-rh-p2n" secondAttribute="top" constant="20" id="hsC-JH-P2s"/>
                         <constraint firstAttribute="trailing" secondItem="sfl-RQ-3uV" secondAttribute="trailing" constant="22" id="jWB-dd-XzC"/>
                         <constraint firstAttribute="trailing" secondItem="x3h-fr-tbX" secondAttribute="trailing" id="xQ8-uo-wGb"/>
                     </constraints>

@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cYe-S9-vus">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q14-5k-nQn">
@@ -46,7 +46,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="cYe-S9-vus" secondAttribute="trailing" id="aGt-dj-TAE"/>
-                        <constraint firstItem="cYe-S9-vus" firstAttribute="top" secondItem="g8e-Iw-nrA" secondAttribute="top" id="dLi-D6-USz"/>
+                        <constraint firstItem="cYe-S9-vus" firstAttribute="top" secondItem="g8e-Iw-nrA" secondAttribute="top" constant="20" id="dLi-D6-USz"/>
                         <constraint firstAttribute="bottom" secondItem="q14-5k-nQn" secondAttribute="bottom" constant="24" id="mo8-Ya-i5X"/>
                         <constraint firstAttribute="trailing" secondItem="q14-5k-nQn" secondAttribute="trailing" constant="22" id="sdC-56-2pZ"/>
                         <constraint firstItem="cYe-S9-vus" firstAttribute="leading" secondItem="g8e-Iw-nrA" secondAttribute="leading" id="uGL-ws-QRj"/>

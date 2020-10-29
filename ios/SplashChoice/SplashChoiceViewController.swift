@@ -10,6 +10,9 @@ import UIKit
 
 class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     
+//    앱 딜리게이트-> 키 값은 아무거나 해서
+    
+    
     let picker = UIImagePickerController()
     
     var slided = true
@@ -36,7 +39,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     
     
     @IBAction func loginBtnPressed(_ sender: UIButton) {
-        navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+        MainDataManager().getLogin(self)
     }
     @IBAction func signUpBtnPressed(_ sender: Any) {
         navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
@@ -69,7 +72,8 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
             giveMeRightRex.isHidden = true
             
         } else {
-            loginBtn.isEnabled = false
+//            loginBtn.isEnabled = false
+            loginBtn.isEnabled = true
             giveMeRightRex.isHidden = false
         }
 //        회원가입 part
@@ -78,7 +82,8 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
             giveMeRightRexSU.isHidden = true
             
         } else {
-            signUpBtn.isEnabled = false
+//            signUpBtn.isEnabled = false
+            signUpBtn.isEnabled = true
             giveMeRightRexSU.isHidden = false
         }
         
@@ -173,6 +178,13 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         giveMeRightRexSU.isHidden = true
         loginBtn.isEnabled = true
         
+        
+//        if !UserDefaults.standard.bool(forKey: "isFirstLunch") {
+//            UserDefaults.standard.set(true, forKey: "isFirstLunch")
+////            처음에 띄워주고싶은화면/ /
+//        } else {
+////            두번째로 켰을때부터 보여주고싶은 화면 / /
+//        }
         
 
     }

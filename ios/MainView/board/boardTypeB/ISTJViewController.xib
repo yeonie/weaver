@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zIL-Q9-psC">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stp-VN-R9t">
@@ -47,7 +47,7 @@
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="zIL-Q9-psC" secondAttribute="bottom" id="0rM-cV-UYr"/>
                         <constraint firstItem="zIL-Q9-psC" firstAttribute="leading" secondItem="Jq0-I8-jPA" secondAttribute="leading" id="7fc-hf-XUr"/>
-                        <constraint firstItem="zIL-Q9-psC" firstAttribute="top" secondItem="Jq0-I8-jPA" secondAttribute="top" id="Gqg-aB-hok"/>
+                        <constraint firstItem="zIL-Q9-psC" firstAttribute="top" secondItem="Jq0-I8-jPA" secondAttribute="top" constant="20" id="Gqg-aB-hok"/>
                         <constraint firstAttribute="trailing" secondItem="stp-VN-R9t" secondAttribute="trailing" constant="22" id="eoZ-w8-m1X"/>
                         <constraint firstAttribute="trailing" secondItem="zIL-Q9-psC" secondAttribute="trailing" id="re2-y7-ye2"/>
                         <constraint firstAttribute="bottom" secondItem="stp-VN-R9t" secondAttribute="bottom" constant="24" id="teq-gT-y5E"/>

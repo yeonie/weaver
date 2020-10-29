@@ -32,13 +32,13 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uJS-X8-9P5">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="uJS-X8-9P5" firstAttribute="top" secondItem="vLc-R1-jep" secondAttribute="top" id="Kgs-x3-uCV"/>
+                        <constraint firstItem="uJS-X8-9P5" firstAttribute="top" secondItem="vLc-R1-jep" secondAttribute="top" constant="20" id="Kgs-x3-uCV"/>
                         <constraint firstAttribute="trailing" secondItem="uJS-X8-9P5" secondAttribute="trailing" id="OjS-tW-RPg"/>
                         <constraint firstAttribute="bottom" secondItem="uJS-X8-9P5" secondAttribute="bottom" id="QVS-ne-uzS"/>
                         <constraint firstItem="uJS-X8-9P5" firstAttribute="leading" secondItem="vLc-R1-jep" secondAttribute="leading" id="zFo-0h-TQU"/>

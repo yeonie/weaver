@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-CF-l6E">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KxL-rl-rJZ">
@@ -47,7 +47,7 @@
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="8oQ-CF-l6E" secondAttribute="trailing" id="6bd-ZW-99Q"/>
                         <constraint firstAttribute="bottom" secondItem="KxL-rl-rJZ" secondAttribute="bottom" constant="24" id="Nkm-nK-mHl"/>
-                        <constraint firstItem="8oQ-CF-l6E" firstAttribute="top" secondItem="nlI-CH-JFj" secondAttribute="top" id="QVj-aV-Vcq"/>
+                        <constraint firstItem="8oQ-CF-l6E" firstAttribute="top" secondItem="nlI-CH-JFj" secondAttribute="top" constant="20" id="QVj-aV-Vcq"/>
                         <constraint firstAttribute="trailing" secondItem="KxL-rl-rJZ" secondAttribute="trailing" constant="22" id="YoM-Dg-FJj"/>
                         <constraint firstItem="8oQ-CF-l6E" firstAttribute="leading" secondItem="nlI-CH-JFj" secondAttribute="leading" id="p4q-Va-RU9"/>
                         <constraint firstAttribute="bottom" secondItem="8oQ-CF-l6E" secondAttribute="bottom" id="sKA-Wx-N92"/>

@@ -32,7 +32,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PEm-mO-SAk">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0u-sR-kCq">
@@ -50,7 +50,7 @@
                         <constraint firstAttribute="trailing" secondItem="R0u-sR-kCq" secondAttribute="trailing" constant="22" id="YRa-vH-tIF"/>
                         <constraint firstAttribute="trailing" secondItem="PEm-mO-SAk" secondAttribute="trailing" id="exP-rw-gXa"/>
                         <constraint firstItem="PEm-mO-SAk" firstAttribute="leading" secondItem="7vF-hq-HnL" secondAttribute="leading" id="hjU-if-P4w"/>
-                        <constraint firstItem="PEm-mO-SAk" firstAttribute="top" secondItem="7vF-hq-HnL" secondAttribute="top" id="uFg-TT-YZa"/>
+                        <constraint firstItem="PEm-mO-SAk" firstAttribute="top" secondItem="7vF-hq-HnL" secondAttribute="top" constant="20" id="uFg-TT-YZa"/>
                         <constraint firstAttribute="bottom" secondItem="R0u-sR-kCq" secondAttribute="bottom" constant="24" id="wgF-XH-0ql"/>
                     </constraints>
                 </view>

@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FeZ-OT-e5A">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="et6-EY-oa4">
@@ -49,7 +49,7 @@
                         <constraint firstAttribute="trailing" secondItem="FeZ-OT-e5A" secondAttribute="trailing" id="QE8-qG-qoF"/>
                         <constraint firstAttribute="bottom" secondItem="et6-EY-oa4" secondAttribute="bottom" constant="24" id="UtK-xc-qD3"/>
                         <constraint firstAttribute="bottom" secondItem="FeZ-OT-e5A" secondAttribute="bottom" id="aai-wx-zkP"/>
-                        <constraint firstItem="FeZ-OT-e5A" firstAttribute="top" secondItem="etI-I6-BGb" secondAttribute="top" id="fbI-U6-Fqq"/>
+                        <constraint firstItem="FeZ-OT-e5A" firstAttribute="top" secondItem="etI-I6-BGb" secondAttribute="top" constant="20" id="fbI-U6-Fqq"/>
                         <constraint firstItem="FeZ-OT-e5A" firstAttribute="leading" secondItem="etI-I6-BGb" secondAttribute="leading" id="woE-XJ-4YW"/>
                     </constraints>
                 </view>

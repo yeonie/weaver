@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jpt-Du-Ai6">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWj-ht-vRb">
@@ -49,7 +49,7 @@
                         <constraint firstAttribute="trailing" secondItem="jpt-Du-Ai6" secondAttribute="trailing" id="HZr-bQ-Io5"/>
                         <constraint firstAttribute="bottom" secondItem="jpt-Du-Ai6" secondAttribute="bottom" id="JHQ-iA-V3a"/>
                         <constraint firstAttribute="trailing" secondItem="AWj-ht-vRb" secondAttribute="trailing" constant="22" id="gOH-py-VrU"/>
-                        <constraint firstItem="jpt-Du-Ai6" firstAttribute="top" secondItem="Ece-Jq-Bs6" secondAttribute="top" id="pAS-yL-pzQ"/>
+                        <constraint firstItem="jpt-Du-Ai6" firstAttribute="top" secondItem="Ece-Jq-Bs6" secondAttribute="top" constant="20" id="pAS-yL-pzQ"/>
                         <constraint firstAttribute="bottom" secondItem="AWj-ht-vRb" secondAttribute="bottom" constant="24" id="vKF-Mr-MKw"/>
                     </constraints>
                 </view>

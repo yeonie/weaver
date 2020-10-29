@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ERE-Mn-saH">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mj-hL-KMg">
@@ -48,7 +48,7 @@
                         <constraint firstAttribute="bottom" secondItem="ERE-Mn-saH" secondAttribute="bottom" id="DlX-A8-bfM"/>
                         <constraint firstAttribute="trailing" secondItem="5Mj-hL-KMg" secondAttribute="trailing" constant="22" id="FTg-Yq-3Fu"/>
                         <constraint firstAttribute="trailing" secondItem="ERE-Mn-saH" secondAttribute="trailing" id="Vdj-bu-lNj"/>
-                        <constraint firstItem="ERE-Mn-saH" firstAttribute="top" secondItem="zqN-yT-RLI" secondAttribute="top" id="lyp-mv-Llq"/>
+                        <constraint firstItem="ERE-Mn-saH" firstAttribute="top" secondItem="zqN-yT-RLI" secondAttribute="top" constant="20" id="lyp-mv-Llq"/>
                         <constraint firstItem="ERE-Mn-saH" firstAttribute="leading" secondItem="zqN-yT-RLI" secondAttribute="leading" id="mI6-aE-cvV"/>
                         <constraint firstAttribute="bottom" secondItem="5Mj-hL-KMg" secondAttribute="bottom" constant="24" id="tS5-qt-hpH"/>
                     </constraints>

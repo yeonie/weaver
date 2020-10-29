@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="199" width="414" height="663"/>
                     <subviews>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZfP-86-fPu">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="663"/>
+                            <rect key="frame" x="0.0" y="20" width="414" height="643"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </tableView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3O-os-KyF">
@@ -46,7 +46,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="ZfP-86-fPu" secondAttribute="bottom" id="3Nm-xt-cZp"/>
-                        <constraint firstItem="ZfP-86-fPu" firstAttribute="top" secondItem="Tr7-CV-oZs" secondAttribute="top" id="5Ne-aU-NRB"/>
+                        <constraint firstItem="ZfP-86-fPu" firstAttribute="top" secondItem="Tr7-CV-oZs" secondAttribute="top" constant="20" id="5Ne-aU-NRB"/>
                         <constraint firstAttribute="trailing" secondItem="S3O-os-KyF" secondAttribute="trailing" constant="22" id="Qil-gl-L4B"/>
                         <constraint firstAttribute="bottom" secondItem="S3O-os-KyF" secondAttribute="bottom" constant="24" id="SSl-tb-7JG"/>
                         <constraint firstAttribute="trailing" secondItem="ZfP-86-fPu" secondAttribute="trailing" id="XMb-20-u7O"/>

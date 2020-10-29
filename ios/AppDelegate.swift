@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Production 서버
 //    let baseUrl = 
     // Dev 서버
-    let baseUrl = "http://54.180.163.198"
+    let baseUrl = "http://54.180.163.198:8080"
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

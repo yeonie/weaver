@@ -118,7 +118,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-JR-q7I">
-                    <rect key="frame" x="0.0" y="896" width="414" height="520"/>
+                    <rect key="frame" x="0.0" y="296" width="414" height="520"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle117" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-Yg-LYX">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="520"/>
@@ -197,7 +197,7 @@
                                     </constraints>
                                 </imageView>
                                 <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ci0-pi-Zh5">
-                                    <rect key="frame" x="47" y="38" width="254" height="27"/>
+                                    <rect key="frame" x="47" y="38" width="288" height="27"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="27" id="YCq-X9-HeF"/>
                                     </constraints>
@@ -218,6 +218,14 @@
                                     <color key="textColor" red="0.98192101720000002" green="0.76066662009999997" blue="0.3737187736" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbw-D3-MTW">
+                                    <rect key="frame" x="281" y="8" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="보기"/>
+                                    <connections>
+                                        <action selector="PwShowHide:" destination="-1" eventType="touchUpInside" id="4cY-FF-tVK"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -509,7 +517,7 @@
                 <constraint firstAttribute="bottom" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="mIQ-MQ-lWJ"/>
                 <constraint firstItem="ZcC-pt-5dn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="o6u-xH-Zbx"/>
                 <constraint firstItem="pBx-ye-xKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ohw-vg-Yso"/>
-                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="osD-aa-tlL"/>
+                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" constant="-600" id="osD-aa-tlL"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>

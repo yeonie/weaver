@@ -19,6 +19,8 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     var slideoff = false
     var slideoffForSignIn = true
     
+    var ShowHide = true
+    
 
     @IBOutlet weak var slideSignInView: UIView!
     @IBOutlet weak var slideSginUpView: UIView!
@@ -36,6 +38,20 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var signUpBtn: UIButton!
+    
+//    비밀번호 보기
+    @IBAction func PwShowHide(_ sender: UIButton) {
+        if ShowHide{
+            passwordBoxSU.isSecureTextEntry = false
+
+        }
+        else{
+            passwordBoxSU.isSecureTextEntry = true
+
+        }
+        ShowHide = !ShowHide
+    }
+    
     
     
     @IBAction func loginBtnPressed(_ sender: UIButton) {

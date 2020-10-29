@@ -118,7 +118,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-JR-q7I">
-                    <rect key="frame" x="0.0" y="296" width="414" height="520"/>
+                    <rect key="frame" x="0.0" y="896" width="414" height="520"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle117" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-Yg-LYX">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="520"/>
@@ -517,7 +517,7 @@
                 <constraint firstAttribute="bottom" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="mIQ-MQ-lWJ"/>
                 <constraint firstItem="ZcC-pt-5dn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="o6u-xH-Zbx"/>
                 <constraint firstItem="pBx-ye-xKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ohw-vg-Yso"/>
-                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" constant="-600" id="osD-aa-tlL"/>
+                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="osD-aa-tlL"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>

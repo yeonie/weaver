@@ -10,6 +10,10 @@ import UIKit
 
 class boardCategoryViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate{
     
+    @IBAction func openKakaotalk(_ sender: UIButton) {
+        UIApplication.shared.openURL(NSURL(string: "http://www.naver.com/")! as URL)
+        
+        }
     let carArray = ["Benz-GLS","Benz-SLS","Benz-G-barin","Benz-GT 43","BMW X6"]
     
     let contentTitle = ["estj의 오지는 계획성","폰팔이 특징","이 직업은 이게 맞는 것 같더라","ㅋㅋ루 ㅋㅋ 삥뽕","강하늘","지푸라기라도 잡고싶은 짐승들"]
@@ -133,8 +137,7 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
             , target: nil, action: nil)
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.tintColor = .black
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.isTranslucent = true
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Montserrat-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
 
             }
@@ -144,7 +147,8 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 255/255, green: 255/255, blue: 255/255, alpha: 0.7)
+
     }
 }
 

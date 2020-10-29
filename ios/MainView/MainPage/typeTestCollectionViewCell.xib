@@ -24,6 +24,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIK-WR-pdd">
                                 <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="t0Q-hN-8FF"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-ZA-NMK">
                                 <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>

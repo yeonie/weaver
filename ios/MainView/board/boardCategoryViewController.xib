@@ -63,6 +63,9 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yph-6H-AVP">
                             <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
                             <state key="normal" image="bannerOpenKakaoTalk"/>
+                            <connections>
+                                <action selector="openKakaotalk:" destination="-1" eventType="touchUpInside" id="Qel-tg-Zlp"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

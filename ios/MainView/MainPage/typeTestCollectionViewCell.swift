@@ -15,5 +15,8 @@ class typeTestCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        
+    }
+    
 }

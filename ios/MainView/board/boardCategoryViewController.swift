@@ -28,7 +28,11 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
     
 //    var profileImageList = ["dismissBtn.png", "dismissBtn.png", "dismissBtn.png", "dismissBtn.png", "dismissBtn.png"]
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+        
+        navigationController!.pushViewController(putReplyViewController(), animated: true)
+    }
 
     
     
@@ -129,7 +133,8 @@ class boardCategoryViewController: BaseViewController, UITableViewDataSource, UI
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
             , target: nil, action: nil)
         self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.navigationBar.tintColor = .black
+        self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Montserrat-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
 
             }

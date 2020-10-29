@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ISTPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ISTPfeedTableView" destination="ZfP-86-fPu" id="TLH-H7-jtp"/>
                 <outlet property="view" destination="gzv-f4-xNh" id="m6D-au-Bin"/>
             </connections>
         </placeholder>

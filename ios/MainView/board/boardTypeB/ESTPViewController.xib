@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ESTPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ESTPfeedTableView" destination="wGH-Cw-WqT" id="QQ7-mx-wqE"/>
                 <outlet property="view" destination="wVH-rG-Jo5" id="Max-em-X4l"/>
             </connections>
         </placeholder>

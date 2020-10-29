@@ -456,6 +456,6 @@
     </objects>
     <resources>
         <image name="icAnonymousBoard2" width="20" height="21"/>
-        <image name="icFreeboard" width="21" height="21"/>
+        <image name="icFreeboard" width="103" height="80"/>
     </resources>
 </document>

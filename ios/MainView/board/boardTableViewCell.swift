@@ -22,7 +22,7 @@ class boardTableViewCell: UITableViewCell {
     
     
     @IBAction func replyBtnPressed(_ sender: UIButton) {
-    
+        
     }
     
     override func awakeFromNib() {

@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="INFPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="INFPfeedTableView" destination="FeZ-OT-e5A" id="3Fv-Kq-aS6"/>
                 <outlet property="view" destination="o0j-9c-1EL" id="Hzn-Vu-sWT"/>
             </connections>
         </placeholder>

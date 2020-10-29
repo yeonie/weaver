@@ -12,6 +12,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="putReplyViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="chatView" destination="4EE-ww-zkV" id="oSR-f9-CxQ"/>
+                <outlet property="feed" destination="YTQ-HT-huO" id="GoA-zi-eV5"/>
+                <outlet property="replyFeedView" destination="baW-NE-D0K" id="A2D-WP-AVR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,8 +22,78 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="putReplyViewController" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="baW-NE-D0K">
+                    <rect key="frame" x="0.0" y="490" width="414" height="290"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTu-kl-7iX">
+                    <rect key="frame" x="0.0" y="780" width="414" height="82"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4EE-ww-zkV">
+                            <rect key="frame" x="15" y="0.0" width="384" height="82"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="댓글을 남겨보세요!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5O5-Ot-ke5">
+                                    <rect key="frame" x="25" y="17" width="302" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="a30-yX-eTr"/>
+                                    </constraints>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPV-Yc-Lhg">
+                                    <rect key="frame" x="335" y="24" width="34" height="34"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="34" id="BhX-LR-bsE"/>
+                                        <constraint firstAttribute="height" constant="34" id="ozZ-Pe-W6T"/>
+                                    </constraints>
+                                    <state key="normal" image="replyBtn"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.88903870558375631" green="0.88903870558375631" blue="0.88903870558375631" alpha="0.83834546232876717" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstItem="5O5-Ot-ke5" firstAttribute="leading" secondItem="4EE-ww-zkV" secondAttribute="leading" constant="25" id="0wF-F1-3YF"/>
+                                <constraint firstItem="OPV-Yc-Lhg" firstAttribute="leading" secondItem="5O5-Ot-ke5" secondAttribute="trailing" constant="8" id="9nH-5d-yGj"/>
+                                <constraint firstItem="5O5-Ot-ke5" firstAttribute="centerY" secondItem="OPV-Yc-Lhg" secondAttribute="centerY" id="IT3-cp-XiM"/>
+                                <constraint firstItem="OPV-Yc-Lhg" firstAttribute="centerY" secondItem="4EE-ww-zkV" secondAttribute="centerY" id="YDa-A3-yaB"/>
+                                <constraint firstAttribute="trailing" secondItem="OPV-Yc-Lhg" secondAttribute="trailing" constant="15" id="x1G-cG-LEY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4EE-ww-zkV" secondAttribute="trailing" constant="15" id="Oin-LH-eG8"/>
+                        <constraint firstItem="4EE-ww-zkV" firstAttribute="leading" secondItem="qTu-kl-7iX" secondAttribute="leading" constant="15" id="Sz6-cV-cvh"/>
+                        <constraint firstItem="4EE-ww-zkV" firstAttribute="top" secondItem="qTu-kl-7iX" secondAttribute="top" id="meX-OR-bhL"/>
+                        <constraint firstAttribute="bottom" secondItem="4EE-ww-zkV" secondAttribute="bottom" id="r75-Tw-5x2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTQ-HT-huO">
+                    <rect key="frame" x="0.0" y="44" width="414" height="448"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="YTQ-HT-huO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="0gL-Cj-Arq"/>
+                <constraint firstItem="qTu-kl-7iX" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" multiplier="1:10" id="5TF-Wi-1J5"/>
+                <constraint firstItem="baW-NE-D0K" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="CXj-Ry-1bS"/>
+                <constraint firstItem="YTQ-HT-huO" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1:2" id="H7K-Z4-BlO"/>
+                <constraint firstItem="qTu-kl-7iX" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="JBc-x5-zKG"/>
+                <constraint firstItem="YTQ-HT-huO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fy2-82-WNm"/>
+                <constraint firstItem="qTu-kl-7iX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jLr-Xg-quO"/>
+                <constraint firstItem="baW-NE-D0K" firstAttribute="top" secondItem="YTQ-HT-huO" secondAttribute="bottom" constant="-2" id="kDG-0I-gRi"/>
+                <constraint firstItem="qTu-kl-7iX" firstAttribute="top" secondItem="baW-NE-D0K" secondAttribute="bottom" id="lh3-r5-vov"/>
+                <constraint firstItem="qTu-kl-7iX" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" id="m3o-cL-W7n"/>
+                <constraint firstItem="baW-NE-D0K" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="nyJ-VQ-eFM"/>
+                <constraint firstItem="YTQ-HT-huO" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="zlX-Z0-zhN"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="121.875"/>
         </view>
     </objects>
+    <resources>
+        <image name="replyBtn" width="34" height="34"/>
+    </resources>
 </document>

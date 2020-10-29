@@ -15,7 +15,10 @@ class SplashViewController: BaseViewController {
         
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func testBtn(_ sender: Any) {
+        navigationController?.pushViewController(putReplyViewController(), animated: true)
+    }
+    
     @IBAction func pressedPresentMainViewController(_ sender: UIButton) {
         let customAction = UIAlertAction(title: "확인", style: .destructive) { _ in
             guard let navigationViewController = self.navigationController else {

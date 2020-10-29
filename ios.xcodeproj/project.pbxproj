@@ -13,6 +13,32 @@
 		845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */; };
 		845D4483254A5A92002794A7 /* TTRunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845D4482254A5A87002794A7 /* TTRunGothic.ttf */; };
 		845D4485254A5BB2002794A7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845D4484254A5BAB002794A7 /* Montserrat-Bold.ttf */; };
+		845D4488254A6AC1002794A7 /* ENTPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4486254A6AC1002794A7 /* ENTPTableViewCell.swift */; };
+		845D4489254A6AC1002794A7 /* ENTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4487254A6AC1002794A7 /* ENTPTableViewCell.xib */; };
+		845D448C254A6AE7002794A7 /* ISTJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D448A254A6AE7002794A7 /* ISTJTableViewCell.swift */; };
+		845D448D254A6AE7002794A7 /* ISTJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D448B254A6AE7002794A7 /* ISTJTableViewCell.xib */; };
+		845D4490254A6AFB002794A7 /* ENFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D448E254A6AFB002794A7 /* ENFJTableViewCell.swift */; };
+		845D4491254A6AFB002794A7 /* ENFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D448F254A6AFB002794A7 /* ENFJTableViewCell.xib */; };
+		845D4494254A6B0B002794A7 /* INFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4492254A6B0B002794A7 /* INFJTableViewCell.swift */; };
+		845D4495254A6B0B002794A7 /* INFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4493254A6B0B002794A7 /* INFJTableViewCell.xib */; };
+		845D4498254A6B27002794A7 /* ISTPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4496254A6B27002794A7 /* ISTPTableViewCell.swift */; };
+		845D4499254A6B27002794A7 /* ISTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4497254A6B27002794A7 /* ISTPTableViewCell.xib */; };
+		845D449C254A6B3A002794A7 /* INTJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D449A254A6B3A002794A7 /* INTJTableViewCell.swift */; };
+		845D449D254A6B3A002794A7 /* INTJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D449B254A6B3A002794A7 /* INTJTableViewCell.xib */; };
+		845D44A0254A6B4D002794A7 /* ENTJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D449E254A6B4D002794A7 /* ENTJTableViewCell.swift */; };
+		845D44A1254A6B4D002794A7 /* ENTJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D449F254A6B4D002794A7 /* ENTJTableViewCell.xib */; };
+		845D44A4254A6B6D002794A7 /* ESTJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44A2254A6B6D002794A7 /* ESTJTableViewCell.swift */; };
+		845D44A5254A6B6D002794A7 /* ESTJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44A3254A6B6D002794A7 /* ESTJTableViewCell.xib */; };
+		845D44A8254A6BC6002794A7 /* ISFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44A6254A6BC6002794A7 /* ISFPTableViewCell.swift */; };
+		845D44A9254A6BC6002794A7 /* ISFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44A7254A6BC6002794A7 /* ISFPTableViewCell.xib */; };
+		845D44AC254A6BDA002794A7 /* ESTPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44AA254A6BDA002794A7 /* ESTPTableViewCell.swift */; };
+		845D44AD254A6BDA002794A7 /* ESTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44AB254A6BDA002794A7 /* ESTPTableViewCell.xib */; };
+		845D44B0254A6C84002794A7 /* INFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44AE254A6C84002794A7 /* INFPTableViewCell.swift */; };
+		845D44B1254A6C84002794A7 /* INFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44AF254A6C84002794A7 /* INFPTableViewCell.xib */; };
+		845D44B4254A89B9002794A7 /* ESFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44B2254A89B9002794A7 /* ESFJTableViewCell.swift */; };
+		845D44B5254A89B9002794A7 /* ESFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44B3254A89B9002794A7 /* ESFJTableViewCell.xib */; };
+		845D44B8254A8FBF002794A7 /* replyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44B6254A8FBF002794A7 /* replyCellTableViewCell.swift */; };
+		845D44B9254A8FBF002794A7 /* replyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44B7254A8FBF002794A7 /* replyCellTableViewCell.xib */; };
 		845D4B02253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */; };
 		845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */; };
 		845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */; };
@@ -37,9 +63,6 @@
 		848638022546B71B007FA1B1 /* ENFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */; };
 		848638052546B726007FA1B1 /* ESFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848638032546B726007FA1B1 /* ESFPTableViewCell.swift */; };
 		848638062546B726007FA1B1 /* ESFPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638042546B726007FA1B1 /* ESFPTableViewCell.xib */; };
-		848638092546B734007FA1B1 /* ESFJTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848638072546B734007FA1B1 /* ESFJTableViewCell.swift */; };
-		8486380A2546B734007FA1B1 /* ESFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848638082546B734007FA1B1 /* ESFJTableViewCell.xib */; };
-		8486380C2546B7BD007FA1B1 /* INFPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */; };
 		848638702547E80A007FA1B1 /* BMDOHYEON_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8486386F2547E70E007FA1B1 /* BMDOHYEON_otf.otf */; };
 		8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */; };
 		8498F985250C89A80039A25B /* mainThemeChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */; };
@@ -175,6 +198,32 @@
 		845B2D2F2504DE1E00629DF3 /* OwnTypeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OwnTypeChoiceViewController.xib; sourceTree = "<group>"; };
 		845D4482254A5A87002794A7 /* TTRunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TTRunGothic.ttf; sourceTree = "<group>"; };
 		845D4484254A5BAB002794A7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		845D4486254A6AC1002794A7 /* ENTPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENTPTableViewCell.swift; sourceTree = "<group>"; };
+		845D4487254A6AC1002794A7 /* ENTPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENTPTableViewCell.xib; sourceTree = "<group>"; };
+		845D448A254A6AE7002794A7 /* ISTJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTJTableViewCell.swift; sourceTree = "<group>"; };
+		845D448B254A6AE7002794A7 /* ISTJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISTJTableViewCell.xib; sourceTree = "<group>"; };
+		845D448E254A6AFB002794A7 /* ENFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENFJTableViewCell.swift; sourceTree = "<group>"; };
+		845D448F254A6AFB002794A7 /* ENFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENFJTableViewCell.xib; sourceTree = "<group>"; };
+		845D4492254A6B0B002794A7 /* INFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFJTableViewCell.swift; sourceTree = "<group>"; };
+		845D4493254A6B0B002794A7 /* INFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INFJTableViewCell.xib; sourceTree = "<group>"; };
+		845D4496254A6B27002794A7 /* ISTPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISTPTableViewCell.swift; sourceTree = "<group>"; };
+		845D4497254A6B27002794A7 /* ISTPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISTPTableViewCell.xib; sourceTree = "<group>"; };
+		845D449A254A6B3A002794A7 /* INTJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INTJTableViewCell.swift; sourceTree = "<group>"; };
+		845D449B254A6B3A002794A7 /* INTJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INTJTableViewCell.xib; sourceTree = "<group>"; };
+		845D449E254A6B4D002794A7 /* ENTJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENTJTableViewCell.swift; sourceTree = "<group>"; };
+		845D449F254A6B4D002794A7 /* ENTJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENTJTableViewCell.xib; sourceTree = "<group>"; };
+		845D44A2254A6B6D002794A7 /* ESTJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTJTableViewCell.swift; sourceTree = "<group>"; };
+		845D44A3254A6B6D002794A7 /* ESTJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESTJTableViewCell.xib; sourceTree = "<group>"; };
+		845D44A6254A6BC6002794A7 /* ISFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISFPTableViewCell.swift; sourceTree = "<group>"; };
+		845D44A7254A6BC6002794A7 /* ISFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ISFPTableViewCell.xib; sourceTree = "<group>"; };
+		845D44AA254A6BDA002794A7 /* ESTPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTPTableViewCell.swift; sourceTree = "<group>"; };
+		845D44AB254A6BDA002794A7 /* ESTPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESTPTableViewCell.xib; sourceTree = "<group>"; };
+		845D44AE254A6C84002794A7 /* INFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFPTableViewCell.swift; sourceTree = "<group>"; };
+		845D44AF254A6C84002794A7 /* INFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = INFPTableViewCell.xib; sourceTree = "<group>"; };
+		845D44B2254A89B9002794A7 /* ESFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFJTableViewCell.swift; sourceTree = "<group>"; };
+		845D44B3254A89B9002794A7 /* ESFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJTableViewCell.xib; sourceTree = "<group>"; };
+		845D44B6254A8FBF002794A7 /* replyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replyCellTableViewCell.swift; sourceTree = "<group>"; };
+		845D44B7254A8FBF002794A7 /* replyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = replyCellTableViewCell.xib; sourceTree = "<group>"; };
 		845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howAboutMyTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = howAboutMyTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardMessageTableViewCell.swift; sourceTree = "<group>"; };
@@ -199,9 +248,6 @@
 		848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ENFPTableViewCell.xib; sourceTree = "<group>"; };
 		848638032546B726007FA1B1 /* ESFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPTableViewCell.swift; sourceTree = "<group>"; };
 		848638042546B726007FA1B1 /* ESFPTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFPTableViewCell.xib; sourceTree = "<group>"; };
-		848638072546B734007FA1B1 /* ESFJTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFJTableViewCell.swift; sourceTree = "<group>"; };
-		848638082546B734007FA1B1 /* ESFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJTableViewCell.xib; sourceTree = "<group>"; };
-		8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFPTableViewCell.swift; sourceTree = "<group>"; };
 		8486386F2547E70E007FA1B1 /* BMDOHYEON_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMDOHYEON_otf.otf; sourceTree = "<group>"; };
 		8498F982250C89A80039A25B /* mainThemeChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainThemeChoiceViewController.swift; sourceTree = "<group>"; };
 		8498F983250C89A80039A25B /* mainThemeChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainThemeChoiceViewController.xib; sourceTree = "<group>"; };
@@ -498,6 +544,8 @@
 				84D6E25E2529B1A600B33ADD /* FeedViewController.xib */,
 				84D6E2612529B1C800B33ADD /* putReplyViewController.swift */,
 				84D6E2622529B1C800B33ADD /* putReplyViewController.xib */,
+				845D44B6254A8FBF002794A7 /* replyCellTableViewCell.swift */,
+				845D44B7254A8FBF002794A7 /* replyCellTableViewCell.xib */,
 				84D6E2652529B22400B33ADD /* putFeedViewController.swift */,
 				84D6E2662529B22400B33ADD /* putFeedViewController.xib */,
 				84BC38AF2543DA530030935A /* postingBoardChoiceViewController.swift */,
@@ -621,9 +669,30 @@
 				848638002546B71B007FA1B1 /* ENFPTableViewCell.xib */,
 				848638032546B726007FA1B1 /* ESFPTableViewCell.swift */,
 				848638042546B726007FA1B1 /* ESFPTableViewCell.xib */,
-				848638072546B734007FA1B1 /* ESFJTableViewCell.swift */,
-				848638082546B734007FA1B1 /* ESFJTableViewCell.xib */,
-				8486380B2546B7BD007FA1B1 /* INFPTableViewCell.swift */,
+				845D4486254A6AC1002794A7 /* ENTPTableViewCell.swift */,
+				845D4487254A6AC1002794A7 /* ENTPTableViewCell.xib */,
+				845D448A254A6AE7002794A7 /* ISTJTableViewCell.swift */,
+				845D448B254A6AE7002794A7 /* ISTJTableViewCell.xib */,
+				845D448E254A6AFB002794A7 /* ENFJTableViewCell.swift */,
+				845D448F254A6AFB002794A7 /* ENFJTableViewCell.xib */,
+				845D4492254A6B0B002794A7 /* INFJTableViewCell.swift */,
+				845D4493254A6B0B002794A7 /* INFJTableViewCell.xib */,
+				845D4496254A6B27002794A7 /* ISTPTableViewCell.swift */,
+				845D4497254A6B27002794A7 /* ISTPTableViewCell.xib */,
+				845D449A254A6B3A002794A7 /* INTJTableViewCell.swift */,
+				845D449B254A6B3A002794A7 /* INTJTableViewCell.xib */,
+				845D449E254A6B4D002794A7 /* ENTJTableViewCell.swift */,
+				845D449F254A6B4D002794A7 /* ENTJTableViewCell.xib */,
+				845D44A2254A6B6D002794A7 /* ESTJTableViewCell.swift */,
+				845D44A3254A6B6D002794A7 /* ESTJTableViewCell.xib */,
+				845D44A6254A6BC6002794A7 /* ISFPTableViewCell.swift */,
+				845D44A7254A6BC6002794A7 /* ISFPTableViewCell.xib */,
+				845D44AA254A6BDA002794A7 /* ESTPTableViewCell.swift */,
+				845D44AB254A6BDA002794A7 /* ESTPTableViewCell.xib */,
+				845D44AE254A6C84002794A7 /* INFPTableViewCell.swift */,
+				845D44AF254A6C84002794A7 /* INFPTableViewCell.xib */,
+				845D44B2254A89B9002794A7 /* ESFJTableViewCell.swift */,
+				845D44B3254A89B9002794A7 /* ESFJTableViewCell.xib */,
 			);
 			path = typeBcell;
 			sourceTree = "<group>";
@@ -810,11 +879,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D6E25C2529B13600B33ADD /* boardCategoryViewController.xib in Resources */,
+				845D44AD254A6BDA002794A7 /* ESTPTableViewCell.xib in Resources */,
+				845D448D254A6AE7002794A7 /* ISTJTableViewCell.xib in Resources */,
 				848637F92546B33A007FA1B1 /* twoTeenTableViewCell.xib in Resources */,
 				84D6E24C252321A000B33ADD /* resetProfileViewController.xib in Resources */,
 				8498F9A3250F08E70039A25B /* matchingHomeViewController.xib in Resources */,
 				84B04C6325306734008DCB74 /* freeBoardViewController.xib in Resources */,
 				84D6E2542523250300B33ADD /* weavingViewController.xib in Resources */,
+				845D4491254A6AFB002794A7 /* ENFJTableViewCell.xib in Resources */,
+				845D449D254A6B3A002794A7 /* INTJTableViewCell.xib in Resources */,
 				84BC38B22543DA530030935A /* postingBoardChoiceViewController.xib in Resources */,
 				84D6E2642529B1C800B33ADD /* putReplyViewController.xib in Resources */,
 				845D4B07253FB5DE001D682F /* boardMessageTableViewCell.xib in Resources */,
@@ -830,6 +903,7 @@
 				845B2D312504DE1E00629DF3 /* OwnTypeChoiceViewController.xib in Resources */,
 				BDEF323C22F9B7CB00FEF8BD /* LaunchScreen.storyboard in Resources */,
 				84D6E2062521A9CC00B33ADD /* Assets.xcassets in Resources */,
+				845D44A9254A6BC6002794A7 /* ISFPTableViewCell.xib in Resources */,
 				84BC38A92543BFDF0030935A /* testIveFinishedCollectionViewCell.xib in Resources */,
 				84D6E24825231D0800B33ADD /* typeTestViewController.xib in Resources */,
 				84BC38AE2543CDF70030935A /* myProfilePicFixViewController.xib in Resources */,
@@ -838,12 +912,13 @@
 				8498F98B250C8FFF0039A25B /* BoardHomeViewController.xib in Resources */,
 				84BC38EA2546638D0030935A /* ISFPViewController.xib in Resources */,
 				84FBA5A4253D9BE600F5799B /* matchingMessageTableViewCell.xib in Resources */,
-				8486380A2546B734007FA1B1 /* ESFJTableViewCell.xib in Resources */,
 				845B2D2C2504C5B200629DF3 /* SignUpViewController.xib in Resources */,
 				84BC38D2254662FD0030935A /* ENFJViewController.xib in Resources */,
 				84BC38E2254663610030935A /* ENTJViewController.xib in Resources */,
 				848638702547E80A007FA1B1 /* BMDOHYEON_otf.otf in Resources */,
+				845D4495254A6B0B002794A7 /* INFJTableViewCell.xib in Resources */,
 				84B04C67253067BF008DCB74 /* teenBoardViewController.xib in Resources */,
+				845D4489254A6AC1002794A7 /* ENTPTableViewCell.xib in Resources */,
 				84BC38E6254663720030935A /* ESTJViewController.xib in Resources */,
 				BD9BF18422F9D1A4009E47EB /* SplashViewController.xib in Resources */,
 				84BC38F425468CE20030935A /* anonyTableViewCell.xib in Resources */,
@@ -857,6 +932,7 @@
 				84BC38B82546625F0030935A /* ENFPViewController.xib in Resources */,
 				848637F12546B1CD007FA1B1 /* freeTableViewCell.xib in Resources */,
 				84B04C922532E3B6008DCB74 /* typeFixViewController.xib in Resources */,
+				845D44B1254A6C84002794A7 /* INFPTableViewCell.xib in Resources */,
 				8498F9A9250F0EE10039A25B /* myPageViewController.xib in Resources */,
 				BD75ABDC2301B7B500E0FC7A /* NoticePopUp.storyboard in Resources */,
 				84B04C9A2532F3AB008DCB74 /* interestedInViewController.xib in Resources */,
@@ -868,19 +944,24 @@
 				84D6E2582525C85800B33ADD /* myAppFixViewController.xib in Resources */,
 				84B04C5F2530633C008DCB74 /* anonyBoardViewController.xib in Resources */,
 				84BC38C6254662A50030935A /* INFPViewController.xib in Resources */,
+				845D4499254A6B27002794A7 /* ISTPTableViewCell.xib in Resources */,
 				848637F52546B313007FA1B1 /* teenTableViewCell.xib in Resources */,
 				84BC38DA254663350030935A /* ISTPViewController.xib in Resources */,
 				84D6E2602529B1A600B33ADD /* FeedViewController.xib in Resources */,
+				845D44A1254A6B4D002794A7 /* ENTJTableViewCell.xib in Resources */,
 				845D4483254A5A92002794A7 /* TTRunGothic.ttf in Resources */,
 				84B04C832530688D008DCB74 /* threeTeenBoardViewController.xib in Resources */,
 				84BC38D6254663170030935A /* INFJViewController.xib in Resources */,
+				845D44B9254A8FBF002794A7 /* replyCellTableViewCell.xib in Resources */,
 				84FBA5AC253DB3E300F5799B /* namedBoardCollectionViewCell.xib in Resources */,
 				8498F9AD250F0EF40039A25B /* boardViewController.xib in Resources */,
 				845D4B1A2540358A001D682F /* recentlyCollectionViewCell.xib in Resources */,
 				845D4485254A5BB2002794A7 /* Montserrat-Bold.ttf in Resources */,
 				845D4B0D253FCB15001D682F /* typeTestCollectionViewCell.xib in Resources */,
 				845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */,
+				845D44B5254A89B9002794A7 /* ESFJTableViewCell.xib in Resources */,
 				84B04C9F253343EA008DCB74 /* onboardingViewController.xib in Resources */,
+				845D44A5254A6B6D002794A7 /* ESTJTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -933,6 +1014,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845D4490254A6AFB002794A7 /* ENFJTableViewCell.swift in Sources */,
 				8498F984250C89A80039A25B /* mainThemeChoiceViewController.swift in Sources */,
 				84BC38D1254662FD0030935A /* ENFJViewController.swift in Sources */,
 				8498F9A2250F08E70039A25B /* matchingHomeViewController.swift in Sources */,
@@ -947,9 +1029,11 @@
 				BDEF323722F9B7CB00FEF8BD /* ios.xcdatamodeld in Sources */,
 				84BC38C9254662CE0030935A /* ENTPViewController.swift in Sources */,
 				845B2D302504DE1E00629DF3 /* OwnTypeChoiceViewController.swift in Sources */,
+				845D44B4254A89B9002794A7 /* ESFJTableViewCell.swift in Sources */,
 				BD9BF18722F9DCC7009E47EB /* MainViewController.swift in Sources */,
 				BD9BF17822F9C6CF009E47EB /* UIColor.swift in Sources */,
 				BD9BF18022F9CDEF009E47EB /* String.swift in Sources */,
+				845D44B0254A6C84002794A7 /* INFPTableViewCell.swift in Sources */,
 				84FBA5AB253DB3E300F5799B /* namedBoardCollectionViewCell.swift in Sources */,
 				84B04C892532D4C8008DCB74 /* nicknameCallViewController.swift in Sources */,
 				845B2D2B2504C5B200629DF3 /* SignUpViewController.swift in Sources */,
@@ -962,14 +1046,18 @@
 				848638012546B71B007FA1B1 /* ENFPTableViewCell.swift in Sources */,
 				848637F82546B33A007FA1B1 /* twoTeenTableViewCell.swift in Sources */,
 				8498F99E250D05540039A25B /* UIImage.swift in Sources */,
+				845D44A8254A6BC6002794A7 /* ISFPTableViewCell.swift in Sources */,
 				BD9BF17322F9C3D5009E47EB /* BaseViewController.swift in Sources */,
 				845D4B10254009D7001D682F /* recommendationCollectionViewCell.swift in Sources */,
 				845D4B14254009E5001D682F /* equalTypeCollectionViewCell.swift in Sources */,
 				84BC38E1254663610030935A /* ENTJViewController.swift in Sources */,
 				84D6E2632529B1C800B33ADD /* putReplyViewController.swift in Sources */,
 				845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */,
+				845D4494254A6B0B002794A7 /* INFJTableViewCell.swift in Sources */,
+				845D44A0254A6B4D002794A7 /* ENTJTableViewCell.swift in Sources */,
 				848637F42546B313007FA1B1 /* teenTableViewCell.swift in Sources */,
 				84BC38B12543DA530030935A /* postingBoardChoiceViewController.swift in Sources */,
+				845D44B8254A8FBF002794A7 /* replyCellTableViewCell.swift in Sources */,
 				BD75ABDE2301BCE600E0FC7A /* MainDataManager.swift in Sources */,
 				8498F9A8250F0EE10039A25B /* myPageViewController.swift in Sources */,
 				8498F98F250CE56C0039A25B /* messageViewController.swift in Sources */,
@@ -979,6 +1067,7 @@
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
 				84BC38CD254662E90030935A /* ISTJViewController.swift in Sources */,
 				84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */,
+				845D449C254A6B3A002794A7 /* INTJTableViewCell.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,
 				845D4B192540358A001D682F /* recentlyCollectionViewCell.swift in Sources */,
 				BD9BF17A22F9C6FF009E47EB /* UIButton.swift in Sources */,
@@ -987,7 +1076,6 @@
 				84D6E2672529B22400B33ADD /* putFeedViewController.swift in Sources */,
 				84D6E2092521DF3B00B33ADD /* myPageFixViewController.swift in Sources */,
 				84B04C992532F3AB008DCB74 /* interestedInViewController.swift in Sources */,
-				8486380C2546B7BD007FA1B1 /* INFPTableViewCell.swift in Sources */,
 				84BC38AD2543CDF70030935A /* myProfilePicFixViewController.swift in Sources */,
 				84BC38BB254662720030935A /* ESFPViewController.swift in Sources */,
 				84BC38D5254663170030935A /* INFJViewController.swift in Sources */,
@@ -995,6 +1083,7 @@
 				BD9BF17C22F9C737009E47EB /* UIViewController.swift in Sources */,
 				8498F9AC250F0EF40039A25B /* boardViewController.swift in Sources */,
 				845D4B0C253FCB15001D682F /* typeTestCollectionViewCell.swift in Sources */,
+				845D4488254A6AC1002794A7 /* ENTPTableViewCell.swift in Sources */,
 				BD75ABE02301BE8200E0FC7A /* TutorialResponse.swift in Sources */,
 				84D6E25F2529B1A600B33ADD /* FeedViewController.swift in Sources */,
 				84BC38C5254662A50030935A /* INFPViewController.swift in Sources */,
@@ -1006,13 +1095,16 @@
 				84B04C6225306734008DCB74 /* freeBoardViewController.swift in Sources */,
 				84D6E25B2529B13600B33ADD /* boardCategoryViewController.swift in Sources */,
 				84BC38E92546638D0030935A /* ISFPViewController.swift in Sources */,
-				848638092546B734007FA1B1 /* ESFJTableViewCell.swift in Sources */,
 				84D6E24B252321A000B33ADD /* resetProfileViewController.swift in Sources */,
+				845D4498254A6B27002794A7 /* ISTPTableViewCell.swift in Sources */,
 				84B04C5E2530633C008DCB74 /* anonyBoardViewController.swift in Sources */,
 				BDEF322F22F9B7CB00FEF8BD /* AppDelegate.swift in Sources */,
+				845D44A4254A6B6D002794A7 /* ESTJTableViewCell.swift in Sources */,
+				845D44AC254A6BDA002794A7 /* ESTPTableViewCell.swift in Sources */,
 				84BC38C1254662950030935A /* ESFJViewController.swift in Sources */,
 				84BC38ED254664600030935A /* ESTPViewController.swift in Sources */,
 				BD75ABD82301B5F600E0FC7A /* NoticePopUp.swift in Sources */,
+				845D448C254A6AE7002794A7 /* ISTJTableViewCell.swift in Sources */,
 				84BC38D9254663350030935A /* ISTPViewController.swift in Sources */,
 				848637FC2546B345007FA1B1 /* threeTeenTableViewCell.swift in Sources */,
 				BD9BF18322F9D1A4009E47EB /* SplashViewController.swift in Sources */,

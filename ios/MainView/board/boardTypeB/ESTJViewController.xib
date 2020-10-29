@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ESTJViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ESTJfeedTableView" destination="jpt-Du-Ai6" id="QyU-Ty-ids"/>
                 <outlet property="view" destination="nco-Ib-iEJ" id="aET-uo-eVr"/>
             </connections>
         </placeholder>

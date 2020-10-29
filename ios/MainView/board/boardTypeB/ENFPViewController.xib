@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ENFPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ENFPfeedTableView" destination="vMn-tf-U31" id="t0z-tU-OtL"/>
                 <outlet property="view" destination="cVT-wL-cdB" id="Xob-qa-wwB"/>
             </connections>
         </placeholder>

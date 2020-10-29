@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ENTJViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ENTJfeedTableView" destination="OBW-7h-fys" id="Bbv-FI-ngd"/>
                 <outlet property="view" destination="GDA-cD-jD9" id="OQp-wn-oF9"/>
             </connections>
         </placeholder>

@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ENTPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ENTPfeedTableView" destination="8oQ-CF-l6E" id="sLc-nE-gRL"/>
                 <outlet property="view" destination="XSm-ta-a97" id="d8D-1b-ujG"/>
             </connections>
         </placeholder>

@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ISFPViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ISFPfeedTableView" destination="x3h-fr-tbX" id="W4R-Dr-Eh6"/>
                 <outlet property="view" destination="aHv-MR-dQx" id="mqZ-ME-Olj"/>
             </connections>
         </placeholder>

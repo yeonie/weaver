@@ -58,7 +58,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         MainDataManager().getLogin(self)
     }
     @IBAction func signUpBtnPressed(_ sender: Any) {
-        navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
+        MainDataManager().PostSignUp(self, OwnTypeChoiceViewController())
 
     }
     //프로필 사진 박기

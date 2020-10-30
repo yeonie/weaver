@@ -10,6 +10,8 @@ import UIKit
 
 class OwnTypeChoiceViewController: BaseViewController {
     
+    var personality = ["Never Selected"]
+    
     @IBOutlet weak var ISTJ: UIButton!
     @IBOutlet weak var ISFJ: UIButton!
     @IBOutlet weak var INFJ: UIButton!
@@ -34,6 +36,7 @@ class OwnTypeChoiceViewController: BaseViewController {
     
     
     @IBAction func ISTJ(_ sender: UIButton) {
+        personality = ["ISTJ"]
         if let image = UIImage(named: "istjOn"){
             ISTJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -57,6 +60,7 @@ class OwnTypeChoiceViewController: BaseViewController {
     
     @IBAction func ISFJ(_ sender: Any) {
         if let image = UIImage(named: "isfjOn"){
+            personality = ["ISFJ"]
             ISFJ.setImage(image, for : .normal)
             INFJ.setImage(UIImage(named: "infj60Off"), for : .normal)
             INTJ.setImage(UIImage(named: "intj60Off"), for : .normal)
@@ -79,6 +83,7 @@ class OwnTypeChoiceViewController: BaseViewController {
     }
     
     @IBAction func INFJ(_ sender: Any) {
+        personality = ["INFJ"]
         if let image = UIImage(named: "infjOn"){
             INFJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -102,6 +107,7 @@ class OwnTypeChoiceViewController: BaseViewController {
     }
     
     @IBAction func INTJ(_ sender: Any) {
+        personality = ["INTJ"]
         if let image = UIImage(named: "intjOn"){
             INTJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -124,6 +130,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ISTP(_ sender: Any) {
+        personality = ["ISTP"]
         if let image = UIImage(named: "istpOn"){
             ISTP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -146,6 +153,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ISFP(_ sender: Any) {
+        personality = ["ISFP"]
         if let image = UIImage(named: "isfpOn"){
             ISFP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -168,6 +176,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func INFP(_ sender: Any) {
+        personality = ["INFP"]
         if let image = UIImage(named: "infpOn"){
             INFP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -190,6 +199,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func INTP(_ sender: Any) {
+        personality = ["INTP"]
         if let image = UIImage(named: "intpOn"){
             INTP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -211,6 +221,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ESTP(_ sender: Any) {
+        personality = ["ESTP"]
         if let image = UIImage(named: "estpOn"){
             ESTP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -233,6 +244,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ESFP(_ sender: Any) {
+        personality = ["ESFP"]
         if let image = UIImage(named: "esfpOn"){
             ESFP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -255,6 +267,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ENFP(_ sender: Any) {
+        personality = ["ENFP"]
         if let image = UIImage(named: "enfpOn"){
             ENFP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -277,6 +290,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ENTP(_ sender: Any) {
+        personality = ["ENTP"]
         if let image = UIImage(named: "entpOn"){
             ENTP.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -299,6 +313,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ESTJ(_ sender: Any) {
+        personality = ["ESTJ"]
         if let image = UIImage(named: "estjOn"){
             ESTJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -321,6 +336,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ESFJ(_ sender: Any) {
+        personality = ["ESFJ"]
         if let image = UIImage(named: "esfjOn"){
             ESFJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -343,6 +359,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ENFJ(_ sender: Any) {
+        personality = ["ENFJ"]
         if let image = UIImage(named: "enfjOn"){
             ENFJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)
@@ -365,6 +382,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         }
     }
     @IBAction func ENTJ(_ sender: Any) {
+        personality = ["ENTJ"]
         if let image = UIImage(named: "entjOn"){
             ENTJ.setImage(image, for : .normal)
             ISFJ.setImage(UIImage(named: "isfj60Off"), for : .normal)

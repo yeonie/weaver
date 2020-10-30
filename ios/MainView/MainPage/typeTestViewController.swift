@@ -24,6 +24,10 @@ class typeTestViewController: BaseViewController, UICollectionViewDelegate, UICo
         cell.typeTestImg.sizeToFit()
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        navigationController!.pushViewController(BoardHomeViewController(), animated: true)
+        print("씨발 왜안댐?")
+    }
     
 
     @IBOutlet weak var typeTest: UICollectionView!

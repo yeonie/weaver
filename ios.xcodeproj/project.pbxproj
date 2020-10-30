@@ -39,6 +39,7 @@
 		845D44B5254A89B9002794A7 /* ESFJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44B3254A89B9002794A7 /* ESFJTableViewCell.xib */; };
 		845D44B8254A8FBF002794A7 /* replyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44B6254A8FBF002794A7 /* replyCellTableViewCell.swift */; };
 		845D44B9254A8FBF002794A7 /* replyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D44B7254A8FBF002794A7 /* replyCellTableViewCell.xib */; };
+		845D44BD254BACB2002794A7 /* SignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D44BC254BACB2002794A7 /* SignUpResponse.swift */; };
 		845D4B02253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */; };
 		845D4B03253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */; };
 		845D4B06253FB5DE001D682F /* boardMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */; };
@@ -224,6 +225,7 @@
 		845D44B3254A89B9002794A7 /* ESFJTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ESFJTableViewCell.xib; sourceTree = "<group>"; };
 		845D44B6254A8FBF002794A7 /* replyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replyCellTableViewCell.swift; sourceTree = "<group>"; };
 		845D44B7254A8FBF002794A7 /* replyCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = replyCellTableViewCell.xib; sourceTree = "<group>"; };
+		845D44BC254BACB2002794A7 /* SignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponse.swift; sourceTree = "<group>"; };
 		845D4B00253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howAboutMyTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		845D4B01253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = howAboutMyTypeCollectionViewCell.xib; sourceTree = "<group>"; };
 		845D4B04253FB5DE001D682F /* boardMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardMessageTableViewCell.swift; sourceTree = "<group>"; };
@@ -729,6 +731,7 @@
 			children = (
 				BD75ABDF2301BE8200E0FC7A /* TutorialResponse.swift */,
 				84BC38B3254642100030935A /* loginResponse.swift */,
+				845D44BC254BACB2002794A7 /* SignUpResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -1066,6 +1069,7 @@
 				845D4B02253DF4FA001D682F /* howAboutMyTypeCollectionViewCell.swift in Sources */,
 				8498F99C250D03F10039A25B /* RoundShadowView.swift in Sources */,
 				84BC38CD254662E90030935A /* ISTJViewController.swift in Sources */,
+				845D44BD254BACB2002794A7 /* SignUpResponse.swift in Sources */,
 				84B04C9E253343EA008DCB74 /* onboardingViewController.swift in Sources */,
 				845D449C254A6B3A002794A7 /* INTJTableViewCell.swift in Sources */,
 				BD9BF17522F9C494009E47EB /* CusomIndicatorView.swift in Sources */,

@@ -10,6 +10,82 @@ import UIKit
 
 class postingBoardChoiceViewController: UIViewController {
     
+    @IBOutlet weak var boardSelectType: UIImageView!
+    
+    @IBOutlet weak var boardSelectFree: UIImageView!
+    
+    @IBOutlet weak var boardSelectAnony: UIImageView!
+    
+    @IBOutlet weak var boardSelectTeen: UIImageView!
+    
+    @IBOutlet weak var boardSelect2Teen: UIImageView!
+    
+    @IBOutlet weak var boardSelect3Teen: UIImageView!
+    
+    @IBAction func typeBoardPsd(_ sender: Any) {
+        boardSelectType.isHidden = false
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = true
+
+    }
+    
+    @IBAction func freeBoardPsd(_ sender: UIButton) {
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = false
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = true
+
+    }
+    
+    @IBAction func anonyBoardPsd(_ sender: Any) {
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = false
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = true
+
+    }
+    
+    @IBAction func teenBoardPsd(_ sender: Any) {
+        
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = false
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = true
+
+    }
+    
+    @IBAction func teen2BoardPsd(_ sender: Any) {
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = false
+        boardSelect3Teen.isHidden = true
+
+    }
+    
+    @IBAction func teen3BoardPsd(_ sender: Any) {
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = false
+
+    }
+    
+    
+    
+    
     
     //   버튼 두개
     //     Create left UIBarButtonItem.
@@ -27,7 +103,7 @@ class postingBoardChoiceViewController: UIViewController {
         if let button = sender as? UIBarButtonItem {
             switch button.tag {
             case 2:
-                self.navigationController!.pushViewController(myPageFixViewController(), animated: true)
+                self.navigationController!.pushViewController(putFeedViewController(), animated: true)
             default:
                 print("error")
             } } }
@@ -37,7 +113,16 @@ class postingBoardChoiceViewController: UIViewController {
         
         // Set it to the right of the navigation bar.
         self.navigationItem.rightBarButtonItem = self.rightButton
-
+        
+        
+        
+        
+        boardSelectType.isHidden = true
+        boardSelectFree.isHidden = true
+        boardSelectAnony.isHidden = true
+        boardSelectTeen.isHidden = true
+        boardSelect2Teen.isHidden = true
+        boardSelect3Teen.isHidden = true
 
         // Do any additional setup after loading the view.
     }

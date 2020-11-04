@@ -12,6 +12,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="postingBoardChoiceViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="boardSelect2Teen" destination="qoW-d5-tR4" id="tIa-6e-dI9"/>
+                <outlet property="boardSelect3Teen" destination="JuH-78-elW" id="eE6-4j-GhJ"/>
+                <outlet property="boardSelectAnony" destination="Jwk-Vm-FXt" id="kZ5-bJ-Xkb"/>
+                <outlet property="boardSelectFree" destination="AI7-a3-2Yg" id="Kym-3H-mSG"/>
+                <outlet property="boardSelectTeen" destination="tsT-I6-Opy" id="5xs-QZ-qSv"/>
+                <outlet property="boardSelectType" destination="Wwa-R1-VuC" id="dgX-qb-DWi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -41,7 +47,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jVu-6g-Lat">
                                             <rect key="frame" x="15" y="21.5" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OA5-3z-clx">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelectType" translatesAutoresizingMaskIntoConstraints="NO" id="OA5-3z-clx">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                     <color key="backgroundColor" red="0.98192101720000002" green="0.76066662009999997" blue="0.3737187736" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </imageView>
@@ -58,16 +64,28 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiq-Xi-ekL">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                            <connections>
+                                                <action selector="typeBoardPsd:" destination="-1" eventType="touchUpInside" id="zEg-Up-BGd"/>
+                                            </connections>
                                         </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="Wwa-R1-VuC">
+                                            <rect key="frame" x="379" y="24" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="XvE-Ez-0Bn"/>
+                                                <constraint firstAttribute="height" constant="20" id="clO-I2-SOf"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstItem="Wwa-R1-VuC" firstAttribute="centerY" secondItem="bHq-0u-czd" secondAttribute="centerY" id="82G-qJ-2Zx"/>
                                         <constraint firstItem="kiq-Xi-ekL" firstAttribute="top" secondItem="bHq-0u-czd" secondAttribute="top" id="GvC-50-3HW"/>
                                         <constraint firstItem="9CH-BR-tvp" firstAttribute="leading" secondItem="jVu-6g-Lat" secondAttribute="trailing" constant="18" id="NRB-Pw-KAZ"/>
                                         <constraint firstAttribute="trailing" secondItem="kiq-Xi-ekL" secondAttribute="trailing" id="Not-qr-Vru"/>
                                         <constraint firstItem="jVu-6g-Lat" firstAttribute="leading" secondItem="bHq-0u-czd" secondAttribute="leading" constant="15" id="PSG-qZ-ZWB"/>
                                         <constraint firstItem="9CH-BR-tvp" firstAttribute="centerY" secondItem="bHq-0u-czd" secondAttribute="centerY" id="S7p-7H-Wlz"/>
                                         <constraint firstAttribute="bottom" secondItem="kiq-Xi-ekL" secondAttribute="bottom" id="VOo-4e-okc"/>
+                                        <constraint firstAttribute="trailing" secondItem="Wwa-R1-VuC" secondAttribute="trailing" constant="15" id="ZzT-oK-zXy"/>
                                         <constraint firstItem="kiq-Xi-ekL" firstAttribute="leading" secondItem="bHq-0u-czd" secondAttribute="leading" id="eAj-f3-zMC"/>
                                         <constraint firstItem="jVu-6g-Lat" firstAttribute="centerY" secondItem="bHq-0u-czd" secondAttribute="centerY" id="rs1-6S-h7w"/>
                                     </constraints>
@@ -109,7 +127,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Qh-fl-F8i">
                                             <rect key="frame" x="15" y="22" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icFreeboard" translatesAutoresizingMaskIntoConstraints="NO" id="rkb-MX-5UF">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelectFree" translatesAutoresizingMaskIntoConstraints="NO" id="rkb-MX-5UF">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                 </imageView>
                                             </subviews>
@@ -125,13 +143,25 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXc-vq-Yab">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68.5"/>
+                                            <connections>
+                                                <action selector="freeBoardPsd:" destination="-1" eventType="touchUpInside" id="hoA-pt-st1"/>
+                                            </connections>
                                         </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="AI7-a3-2Yg">
+                                            <rect key="frame" x="379" y="24.5" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="C51-xC-Upb"/>
+                                                <constraint firstAttribute="width" constant="20" id="sUy-g0-ywc"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="oXc-vq-Yab" secondAttribute="trailing" id="5Cv-7y-8BH"/>
+                                        <constraint firstItem="AI7-a3-2Yg" firstAttribute="centerY" secondItem="xhl-wy-GjP" secondAttribute="centerY" id="70E-0O-al0"/>
                                         <constraint firstItem="e5l-M7-ciC" firstAttribute="leading" secondItem="3Qh-fl-F8i" secondAttribute="trailing" constant="18" id="KiY-TS-hQo"/>
                                         <constraint firstItem="oXc-vq-Yab" firstAttribute="top" secondItem="xhl-wy-GjP" secondAttribute="top" id="VmV-FM-h4Z"/>
+                                        <constraint firstAttribute="trailing" secondItem="AI7-a3-2Yg" secondAttribute="trailing" constant="15" id="Xz2-XI-0Ss"/>
                                         <constraint firstAttribute="bottom" secondItem="oXc-vq-Yab" secondAttribute="bottom" id="Ypy-2v-C0U"/>
                                         <constraint firstItem="oXc-vq-Yab" firstAttribute="leading" secondItem="xhl-wy-GjP" secondAttribute="leading" id="Zug-Kb-KJR"/>
                                         <constraint firstItem="e5l-M7-ciC" firstAttribute="centerY" secondItem="xhl-wy-GjP" secondAttribute="centerY" id="f4H-qF-mdI"/>
@@ -176,7 +206,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-gd-zyS">
                                             <rect key="frame" x="15" y="21.5" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icAnonymousBoard2" translatesAutoresizingMaskIntoConstraints="NO" id="m46-n0-gEZ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelectAnony" translatesAutoresizingMaskIntoConstraints="NO" id="m46-n0-gEZ">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                 </imageView>
                                             </subviews>
@@ -192,15 +222,27 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5s-nO-GEv">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                            <connections>
+                                                <action selector="anonyBoardPsd:" destination="-1" eventType="touchUpInside" id="bIc-fI-baU"/>
+                                            </connections>
                                         </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="Jwk-Vm-FXt">
+                                            <rect key="frame" x="379" y="24" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="1Se-A2-EQe"/>
+                                                <constraint firstAttribute="width" constant="20" id="oPC-Dy-80Q"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="sXP-gd-zyS" firstAttribute="leading" secondItem="b6n-2K-bfl" secondAttribute="leading" constant="15" id="1wS-Oo-Vdj"/>
                                         <constraint firstAttribute="trailing" secondItem="e5s-nO-GEv" secondAttribute="trailing" id="5HA-P7-b4q"/>
+                                        <constraint firstAttribute="trailing" secondItem="Jwk-Vm-FXt" secondAttribute="trailing" constant="15" id="Fz9-hX-lN2"/>
                                         <constraint firstItem="E3R-ev-K66" firstAttribute="centerY" secondItem="b6n-2K-bfl" secondAttribute="centerY" id="GAa-HY-efQ"/>
                                         <constraint firstItem="e5s-nO-GEv" firstAttribute="leading" secondItem="b6n-2K-bfl" secondAttribute="leading" id="Wjy-eu-yR0"/>
                                         <constraint firstItem="e5s-nO-GEv" firstAttribute="top" secondItem="b6n-2K-bfl" secondAttribute="top" id="XUo-ul-n8N"/>
+                                        <constraint firstItem="Jwk-Vm-FXt" firstAttribute="centerY" secondItem="b6n-2K-bfl" secondAttribute="centerY" id="g6Q-wV-3V4"/>
                                         <constraint firstItem="E3R-ev-K66" firstAttribute="leading" secondItem="sXP-gd-zyS" secondAttribute="trailing" constant="18" id="hoq-DW-Rgm"/>
                                         <constraint firstItem="sXP-gd-zyS" firstAttribute="centerY" secondItem="b6n-2K-bfl" secondAttribute="centerY" id="qNO-CK-KQT"/>
                                         <constraint firstAttribute="bottom" secondItem="e5s-nO-GEv" secondAttribute="bottom" id="sCO-7b-EMX"/>
@@ -243,7 +285,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8es-X4-OGc">
                                             <rect key="frame" x="15" y="21.5" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Ax-eW-C9R">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelectTeen" translatesAutoresizingMaskIntoConstraints="NO" id="1Ax-eW-C9R">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                 </imageView>
                                             </subviews>
@@ -259,16 +301,28 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFt-qE-mdU">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                            <connections>
+                                                <action selector="teenBoardPsd:" destination="-1" eventType="touchUpInside" id="zQq-iU-b0l"/>
+                                            </connections>
                                         </button>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="tsT-I6-Opy">
+                                            <rect key="frame" x="379" y="24" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="Vud-rI-Hcc"/>
+                                                <constraint firstAttribute="height" constant="20" id="qgI-6Y-8Lw"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="CFt-qE-mdU" secondAttribute="bottom" id="2QW-0V-sEC"/>
                                         <constraint firstItem="8es-X4-OGc" firstAttribute="leading" secondItem="HdF-AB-RDV" secondAttribute="leading" constant="15" id="5Ym-WY-r3v"/>
+                                        <constraint firstItem="tsT-I6-Opy" firstAttribute="centerY" secondItem="HdF-AB-RDV" secondAttribute="centerY" id="BoT-lh-nCN"/>
                                         <constraint firstItem="jGG-L9-xtg" firstAttribute="centerY" secondItem="HdF-AB-RDV" secondAttribute="centerY" id="JEf-uB-hOJ"/>
                                         <constraint firstItem="CFt-qE-mdU" firstAttribute="leading" secondItem="HdF-AB-RDV" secondAttribute="leading" id="P2R-u1-3uM"/>
                                         <constraint firstAttribute="trailing" secondItem="CFt-qE-mdU" secondAttribute="trailing" id="R6N-uw-1pZ"/>
                                         <constraint firstItem="jGG-L9-xtg" firstAttribute="leading" secondItem="8es-X4-OGc" secondAttribute="trailing" constant="18" id="TmF-kd-GBb"/>
+                                        <constraint firstAttribute="trailing" secondItem="tsT-I6-Opy" secondAttribute="trailing" constant="15" id="aVd-vE-f6M"/>
                                         <constraint firstItem="8es-X4-OGc" firstAttribute="centerY" secondItem="HdF-AB-RDV" secondAttribute="centerY" id="eKo-xj-hAE"/>
                                         <constraint firstItem="CFt-qE-mdU" firstAttribute="top" secondItem="HdF-AB-RDV" secondAttribute="top" id="wik-FM-9Gl"/>
                                     </constraints>
@@ -310,7 +364,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Di6-Lx-W1J">
                                             <rect key="frame" x="15" y="22" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nh3-tj-bZy">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelect2Teen" translatesAutoresizingMaskIntoConstraints="NO" id="nh3-tj-bZy">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                 </imageView>
                                             </subviews>
@@ -326,6 +380,10 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIe-bB-Ueu">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68.5"/>
+                                            <connections>
+                                                <action selector="teen2BoardPsd:" destination="-1" eventType="touchUpInside" id="zBD-0b-jAq"/>
+                                                <action selector="teenBoardPsd:" destination="-1" eventType="touchUpInside" id="fo3-pS-kNX"/>
+                                            </connections>
                                         </button>
                                         <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tlx-fN-GHn">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
@@ -334,6 +392,13 @@
                                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="Wg3-sQ-yRa"/>
                                             </constraints>
                                         </view>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="qoW-d5-tR4">
+                                            <rect key="frame" x="379" y="24.5" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="9Oh-cy-zzL"/>
+                                                <constraint firstAttribute="height" constant="20" id="Gpe-6z-n3k"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
@@ -343,8 +408,10 @@
                                         <constraint firstItem="9Oa-ZJ-Yl9" firstAttribute="leading" secondItem="Di6-Lx-W1J" secondAttribute="trailing" constant="18" id="8LV-0G-Qg7"/>
                                         <constraint firstAttribute="trailing" secondItem="yIe-bB-Ueu" secondAttribute="trailing" id="IiD-h8-GR2"/>
                                         <constraint firstItem="yIe-bB-Ueu" firstAttribute="leading" secondItem="s6n-8e-xCb" secondAttribute="leading" id="LEv-cS-wf1"/>
+                                        <constraint firstItem="qoW-d5-tR4" firstAttribute="centerY" secondItem="s6n-8e-xCb" secondAttribute="centerY" id="SUU-Db-xOT"/>
                                         <constraint firstItem="Tlx-fN-GHn" firstAttribute="top" secondItem="s6n-8e-xCb" secondAttribute="top" id="VWt-qF-mwx"/>
                                         <constraint firstItem="Di6-Lx-W1J" firstAttribute="centerY" secondItem="s6n-8e-xCb" secondAttribute="centerY" id="ppH-jf-sip"/>
+                                        <constraint firstAttribute="trailing" secondItem="qoW-d5-tR4" secondAttribute="trailing" constant="15" id="qiQ-IK-QZD"/>
                                         <constraint firstAttribute="trailing" secondItem="Tlx-fN-GHn" secondAttribute="trailing" id="s8B-RA-MW8"/>
                                         <constraint firstItem="Di6-Lx-W1J" firstAttribute="leading" secondItem="s6n-8e-xCb" secondAttribute="leading" constant="15" id="wYP-ZA-PMs"/>
                                         <constraint firstAttribute="bottom" secondItem="yIe-bB-Ueu" secondAttribute="bottom" id="x5R-zE-x8l"/>
@@ -377,7 +444,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ps-oS-i9u">
                                             <rect key="frame" x="15" y="21.5" width="25" height="25"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tpQ-1E-Pk4">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icBoardSelect3Teen" translatesAutoresizingMaskIntoConstraints="NO" id="tpQ-1E-Pk4">
                                                     <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
                                                 </imageView>
                                             </subviews>
@@ -393,6 +460,10 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4B-qw-J7p">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                                            <connections>
+                                                <action selector="teen3BoardPsd:" destination="-1" eventType="touchUpInside" id="6At-hG-qC7"/>
+                                                <action selector="teenBoardPsd:" destination="-1" eventType="touchUpInside" id="Dei-Hg-EiA"/>
+                                            </connections>
                                         </button>
                                         <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3i-UE-g5e">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="0.5"/>
@@ -401,6 +472,13 @@
                                                 <constraint firstAttribute="height" constant="0.59999999999999998" id="DPI-Lr-qQK"/>
                                             </constraints>
                                         </view>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icCheck" translatesAutoresizingMaskIntoConstraints="NO" id="JuH-78-elW">
+                                            <rect key="frame" x="379" y="24" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="HyE-K5-DfX"/>
+                                                <constraint firstAttribute="height" constant="20" id="rvu-Fp-5nT"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
@@ -408,12 +486,14 @@
                                         <constraint firstItem="7Ps-oS-i9u" firstAttribute="centerY" secondItem="hNB-y2-weY" secondAttribute="centerY" id="8oj-mx-FPm"/>
                                         <constraint firstItem="K4B-qw-J7p" firstAttribute="leading" secondItem="hNB-y2-weY" secondAttribute="leading" id="Ivb-0n-79i"/>
                                         <constraint firstItem="Adi-bk-oQw" firstAttribute="centerY" secondItem="hNB-y2-weY" secondAttribute="centerY" id="LPt-fr-wk0"/>
+                                        <constraint firstAttribute="trailing" secondItem="JuH-78-elW" secondAttribute="trailing" constant="15" id="NhD-XN-Han"/>
                                         <constraint firstAttribute="trailing" secondItem="w3i-UE-g5e" secondAttribute="trailing" id="bQz-I3-wWz"/>
                                         <constraint firstItem="w3i-UE-g5e" firstAttribute="top" secondItem="hNB-y2-weY" secondAttribute="top" id="fDt-51-J9C"/>
                                         <constraint firstItem="w3i-UE-g5e" firstAttribute="leading" secondItem="hNB-y2-weY" secondAttribute="leading" id="lxy-sK-M4p"/>
                                         <constraint firstItem="Adi-bk-oQw" firstAttribute="leading" secondItem="7Ps-oS-i9u" secondAttribute="trailing" constant="18" id="qkw-ME-jd3"/>
                                         <constraint firstItem="K4B-qw-J7p" firstAttribute="top" secondItem="hNB-y2-weY" secondAttribute="top" id="s89-CO-crf"/>
                                         <constraint firstAttribute="trailing" secondItem="K4B-qw-J7p" secondAttribute="trailing" id="upu-0v-gBQ"/>
+                                        <constraint firstItem="JuH-78-elW" firstAttribute="centerY" secondItem="K4B-qw-J7p" secondAttribute="centerY" id="yyK-aC-9dV"/>
                                         <constraint firstItem="7Ps-oS-i9u" firstAttribute="leading" secondItem="hNB-y2-weY" secondAttribute="leading" constant="15" id="zSR-4i-w2y"/>
                                     </constraints>
                                 </view>
@@ -455,7 +535,12 @@
         </view>
     </objects>
     <resources>
-        <image name="icAnonymousBoard2" width="20" height="21"/>
-        <image name="icFreeboard" width="103" height="80"/>
+        <image name="icBoardSelect2Teen" width="28" height="28"/>
+        <image name="icBoardSelect3Teen" width="24" height="24"/>
+        <image name="icBoardSelectAnony" width="28" height="28"/>
+        <image name="icBoardSelectFree" width="28" height="28"/>
+        <image name="icBoardSelectTeen" width="28" height="28"/>
+        <image name="icBoardSelectType" width="28" height="28"/>
+        <image name="icCheck" width="16" height="16"/>
     </resources>
 </document>

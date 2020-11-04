@@ -57,7 +57,7 @@ class putFeedViewController: BaseViewController {
         // Set the title of NavigationController.
         //        self.title = "navigationVC"
         // Set it to the left of the navigation bar.
-        self.navigationItem.leftBarButtonItem = self.leftButton
+//        self.navigationItem.leftBarButtonItem = self.leftButton
         // Set it to the right of the navigation bar.
         self.navigationItem.rightBarButtonItem = self.rightButton
         // Add back button on view self.view.addSubview(self.backButton

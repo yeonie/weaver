@@ -24,4 +24,16 @@ class BaseViewController: UIViewController {
     func dismissIndicator() {
         CustomIndicatorView.shared.dismiss()
     }
+    
+    //카메라 툴
+    let picker = UIImagePickerController()
+    func openLibrary(){
+        picker.sourceType = .photoLibrary
+        present(picker, animated: false, completion: nil)
+    }
+    
+    func openCamera(){
+        picker.sourceType = .camera
+        present(picker, animated: false, completion: nil)
+    }
 }

@@ -31,6 +31,7 @@ class MainDataManager {
             })
     }
 
+//    로그인
     func getLogin(_ loginViewController: SplashChoiceViewController){
         let username = loginViewController.emailBox.text!
         let password = loginViewController.passwordBox.text!
@@ -55,7 +56,7 @@ class MainDataManager {
         }
     }
     
-        
+//    회원가입
     func PostSignUp(_ SignUpViewController: SplashChoiceViewController, _ PersonalityViewController: OwnTypeChoiceViewController){
             let username = SignUpViewController.emailBoxSU.text!
             let password1 = SignUpViewController.passwordBoxSU.text!
@@ -76,6 +77,10 @@ class MainDataManager {
                     }
                     
             }
+    }
+    
+    func CreatePost(_ boardViewController: boardCategoryViewController){
+        
     }
 
     

@@ -10,7 +10,7 @@ import UIKit
 
 class myProfilePicFixViewController: BaseViewController {
     
-    let picker = UIImagePickerController()
+    
 
     @IBOutlet weak var mainImageBtn: UIButton!
     @IBOutlet weak var subImageBtn: UIButton!
@@ -19,14 +19,7 @@ class myProfilePicFixViewController: BaseViewController {
     @IBOutlet weak var subImageBtn4: UIButton!
     
     
-    func openLibrary(){
-        picker.sourceType = .photoLibrary
-        present(picker, animated: false, completion: nil)
-    }
-    func openCamera(){
-        picker.sourceType = .camera
-        present(picker, animated: false, completion: nil)
-    }
+    
 
     
     override func viewDidLoad() {

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ios/Main/DataManager/MainDataManager.swift"
-            timestampString = "625720622.940038"
+            timestampString = "626146296.143577"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "getLogin(_:)"
             landmarkType = "7">
          </BreakpointContent>

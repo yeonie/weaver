@@ -13,7 +13,6 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
 //    앱 딜리게이트-> 키 값은 아무거나 해서
     
     
-    let picker = UIImagePickerController()
     
     var slided = true
     var slideoff = false
@@ -162,16 +161,6 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         self.slideSginUpView.layer.shadowColor = UIColor.white.cgColor
         self.slideSignInView.layer.shadowOffset = CGSize(width: 0, height: 0)
         self.slideSginUpView.layer.shadowOffset = CGSize(width: 0, height: 0)
-    }
-    
-    //카메라 라이브러리
-    func openLibrary(){
-        picker.sourceType = .photoLibrary
-        present(picker, animated: false, completion: nil)
-    }
-    func openCamera(){
-        picker.sourceType = .camera
-        present(picker, animated: false, completion: nil)
     }
     
     override func viewDidLoad() {

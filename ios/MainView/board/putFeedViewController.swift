@@ -8,8 +8,12 @@
 
 import UIKit
 
-class putFeedViewController: BaseViewController {
-
+class putFeedViewController: BaseViewController, UITextFieldDelegate {
+    
+    @IBOutlet weak var titles: UITextField!
+    
+    @IBOutlet weak var content: UITextField!
+    
     //   버튼 두개
     //     Create left UIBarButtonItem.
     lazy var leftButton: UIBarButtonItem = {
@@ -50,6 +54,9 @@ class putFeedViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.titles.delegate = self
+        self.content.delegate = self
         
         //        여기가 추가한부분2
         // Set the background color to Green.

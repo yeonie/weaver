@@ -12,6 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="putFeedViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="content" destination="BKz-OX-TPX" id="pmm-eu-INF"/>
+                <outlet property="title" destination="Fd9-Dn-Kp8" id="hDY-2x-041"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

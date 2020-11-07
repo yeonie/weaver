@@ -11,8 +11,8 @@ import ObjectMapper
 struct SignUpResponse{
     
     var username : String!
-    var password1 : String!
-    var password2 : String!
+    var password : String!
+    var nickname : String!
     var personality : String!
 //    let Personality: OwnTypeChoiceViewController
 //    Personality.personality = personality
@@ -25,8 +25,8 @@ extension SignUpResponse: Mappable{
     }
     mutating func mapping(map: Map) {
         username <- map["username"]
-        password1 <- map["password1"]
-        password2 <- map["password2"]
+        password <- map["password"]
+        nickname <- map["nickname"]
         personality <- map["personality"]
         //tutorials <- map["result"]
     }

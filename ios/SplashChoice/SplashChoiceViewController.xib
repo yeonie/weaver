@@ -13,7 +13,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashChoiceViewController" customModule="ios" customModuleProvider="target">
             <connections>
                 <outlet property="emailBox" destination="ue7-sf-bhv" id="Xx1-eK-hcb"/>
-                <outlet property="emailBoxSU" destination="Rvr-Zf-bpc" id="Y9g-VK-0Hr"/>
                 <outlet property="giveMeRightRex" destination="dR0-vB-thV" id="f3H-pm-hHE"/>
                 <outlet property="giveMeRightRexSU" destination="x0I-Sx-OsU" id="FWn-xg-3iQ"/>
                 <outlet property="loginBtn" destination="okx-s6-kCS" id="PkX-DO-PwM"/>
@@ -23,6 +22,7 @@
                 <outlet property="signUpBtn" destination="7Db-QE-5aU" id="cal-V4-Gri"/>
                 <outlet property="slideSginUpView" destination="JlU-Yk-ii4" id="1Jg-pz-N1e"/>
                 <outlet property="slideSignInView" destination="gmX-JR-q7I" id="J42-kh-qYb"/>
+                <outlet property="username" destination="Rvr-Zf-bpc" id="LcU-Wn-d7R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

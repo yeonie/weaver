@@ -57,30 +57,94 @@ class MainDataManager {
     }
     
 //    회원가입
-    func PostSignUp(_ SignUpViewController: SplashChoiceViewController, _ PersonalityViewController: OwnTypeChoiceViewController){
-            let username = SignUpViewController.emailBoxSU.text!
-            let password1 = SignUpViewController.passwordBoxSU.text!
-            let password2 = SignUpViewController.passwordBoxSU.text!
-            let personality = PersonalityViewController.personality
-        let parameter = ["username": username, "password1": password1, "password2": password2, "personality": personality] as [String : Any]
-            Alamofire.request("\(self.appDelegate.baseUrl)/api/user/signup", method:
-                .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
-                .validate(statusCode: 200..<600).response { response in
-//                    let headers = response.response?.allHeaderFields as? [String: Any]
-                    if response.response?.statusCode == 200{
-                        
-                        SignUpViewController.navigationController!.pushViewController(OwnTypeChoiceViewController(), animated: true)
-                    }else if response.response?.statusCode == 400{
-                        SignUpViewController.presentAlert(title: "존재하는 아이디", message: "이미 존재하는 아이디입니다.")
-                    }else{
-                        SignUpViewController.presentAlert(title: "정보", message: "제대로 입력해주세요.")
-                    }
+    func sginIn(fromVC vc: SplashChoiceViewController, email: String, password: String, nickname: String){
+        let headers = ["Content-Type": "application/json"]
+        let parameters: Parameters = [
+            "email": "\(email)",
+            "password": "\(password)",
+            "nickname":"\(nickname)"]
+        Alamofire.request("\(self.appDelegate.baseUrl)/api/user/signup", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
+        }
+    
+    func signIn1(fromSpVC vc: SplashChoiceViewController, username: String, password: String, nickname: String, fromOwnVC vc2: OwnTypeChoiceViewController, personality: [String]){
+        let headers = ["Content-Type": "application/json"]
+        
+        let parameters: Parameters = [
+            "username": "\(username)",
+            "password": "\(password)",
+            "nickname":"\(nickname)",
+            "personality":"\(personality[0])"]
+        
+        Alamofire.request("\(self.appDelegate.baseUrl)/api/user/signup", method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
+            .validate(statusCode: 200..<600)
+            .response {response in
+//                print(response.response?.statusCode)
+//                print(response.response?.allHeaderFields)
+//                print(response.response?.accessibilityContainerType.rawValue)
+//                print(response.response?.copy())
+//                if let data = response.data {
+//                    let json = String(data: data, encoding: String.Encoding.utf8)
+//                    print("Failure Response: \(json)")
+//                }
+                if response.response?.statusCode == 200 {
+                    let window = UIApplication.shared.windows.first { $0.isKeyWindow }
+                    window?.rootViewController = MainTabbarViewController()
+                    vc.navigationController!.pushViewController(MainTabbarViewController(), animated: true)
                     
-            }
+                } else {
+                    print("아이디/패스워드를 확인해주세요")
+                    vc.navigationController?.pushViewController(SplashChoiceViewController(), animated: true)
+                    vc.presentAlert(title: "", message: "아이디 / 패스워드를 확인해주세요.")
+                    
+                }
+        }
     }
     
-    func CreatePost(_ boardViewController: boardCategoryViewController){
+    func putPersonality(fromVC vc: OwnTypeChoiceViewController, personality: String){
+        let headers = ["Content-Type": "application/json"]
+        let parameter: Parameters = [
+            "personality": "\(personality)"]
+        Alamofire.request("\(self.appDelegate.baseUrl)/api/user/signup", method: .post, parameters: parameter, encoding: JSONEncoding.default, headers: headers)
+            .validate(statusCode: 200..<600).response{response in
+                if response.response?.statusCode == 200 {
+                    let window = UIApplication.shared.windows.first { $0.isKeyWindow }
+                    window?.rootViewController = MainTabbarViewController()
+                    vc.navigationController!.pushViewController(MainTabbarViewController(), animated: true)
+                    
+                } else {
+                    print("아이디/패스워드를 확인해주세요")
+                    vc.presentAlert(title: "", message: "아이디 / 패스워드를 확인해주세요.")
+                }
+
+        }
         
+    }
+    
+//    게시물 등록
+    func CreatePost(_ boardViewController: putFeedViewController){
+        let title = boardViewController.titles.text!
+        let content = boardViewController.content.text!
+//        let category = boardViewController
+        let parameter = ["title": title, "content": content]
+        let headers = ["Content-Type": "application/json"]
+        Alamofire.request("\(self.appDelegate.baseUrl)/community/board", method:
+            .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
+            .validate(statusCode: 200..<600).response { response in
+                let headers = response.response?.allHeaderFields as? [String: Any]
+                print(response.response?.statusCode)
+                print(headers)
+                if response.response?.statusCode == 200 {
+                    guard let token = headers?["Authorization"] as? String else { return }
+                    UserDefaults.standard.set(token, forKey: "postToken")
+                    let window = UIApplication.shared.windows.first { $0.isKeyWindow }
+                    window?.rootViewController = MainTabbarViewController()
+                    boardViewController.navigationController!.pushViewController(boardCategoryViewController(), animated: true)
+                    
+                } else {
+                    print("Oops sry..!")
+                    boardViewController.presentAlert(title: "", message: "제대로 입력해주세요.")
+                }
+        }
     }
 
     
@@ -102,4 +166,4 @@ class MainDataManager {
 //                //loginViewController.presentAlert(title: "", message: "서버와의 연결이 원활하지 않습니다.")
 //            }
 //        })
-    }
+}

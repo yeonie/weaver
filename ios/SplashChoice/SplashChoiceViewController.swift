@@ -29,7 +29,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     @IBOutlet weak var emailBox: UITextField!
     @IBOutlet weak var passwordBox: UITextField!
     //    회원가입 텍스트 박스
-    @IBOutlet weak var emailBoxSU: UITextField!
+    @IBOutlet weak var username: UITextField!
     @IBOutlet weak var nicknameBoxSU: UITextField!
     @IBOutlet weak var passwordBoxSU: UITextField!
     
@@ -56,11 +56,15 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     @IBAction func loginBtnPressed(_ sender: UIButton) {
         MainDataManager().getLogin(self)
     }
+   
+    
     @IBAction func signUpBtnPressed(_ sender: Any) {
-        MainDataManager().PostSignUp(self, OwnTypeChoiceViewController())
+        let ownTypeChoiceViewController = OwnTypeChoiceViewController()
+        ownTypeChoiceViewController.splashChoiceViewController = self
+        navigationController?.pushViewController(ownTypeChoiceViewController, animated: true)
 
     }
-    //프로필 사진 박기
+        //프로필 사진 박기
     @IBAction func profileBtnPressed(_ sender: UIButton) {
         let alert =  UIAlertController(title: "원하는 타이틀", message: "원하는 메세지", preferredStyle: .actionSheet)
         let library =  UIAlertAction(title: "사진앨범", style: .default)
@@ -92,7 +96,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
             giveMeRightRex.isHidden = false
         }
 //        회원가입 part
-        if isValidEmail(emailBox: emailBoxSU.text!) && (passwordBoxSU.text!.count > 3) && nicknameBoxSU.text!.count > 2 {
+        if isValidEmail(emailBox: username.text!) && (passwordBoxSU.text!.count > 3) && nicknameBoxSU.text!.count > 2 {
             signUpBtn.isEnabled = true
             giveMeRightRexSU.isHidden = true
             
@@ -103,7 +107,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         }
         
         print(emailBox.text!, passwordBox.text!, range.location, range.length)
-        print(emailBoxSU.text!,nicknameBoxSU.text!, passwordBoxSU.text!, range.location, range.length) // 이 부분은 확인을 위해 만든 부분입니다.
+        print(username.text!,nicknameBoxSU.text!, passwordBoxSU.text!, range.location, range.length) // 이 부분은 확인을 위해 만든 부분입니다.
         return true
     }
     
@@ -169,9 +173,13 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         
         emailBox.delegate = self
         passwordBox.delegate = self
-        emailBoxSU.delegate = self
+        username.delegate = self
         passwordBoxSU.delegate = self
         nicknameBoxSU.delegate = self
+        
+//        let username: String = username
+        let password: String = passwordBoxSU.text!
+        let nickname: String = nicknameBoxSU.text!
 //        수정
 //        self.loginBtn.isEnabled = false
 //        self.signUpBtn.isEnabled = false

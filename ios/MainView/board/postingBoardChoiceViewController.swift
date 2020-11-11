@@ -22,6 +22,8 @@ class postingBoardChoiceViewController: UIViewController {
     
     @IBOutlet weak var boardSelect3Teen: UIImageView!
     
+    var boardType = ["freeBoard"]
+    
     @IBAction func typeBoardPsd(_ sender: UIButton) {
         boardSelectType.isHidden = false
         boardSelectFree.isHidden = true
@@ -29,7 +31,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = true
         boardSelect2Teen.isHidden = true
         boardSelect3Teen.isHidden = true
-
+        boardType = ["ESTJ"]
     }
     
     @IBAction func freeBoardPsd(_ sender: UIButton) {
@@ -39,7 +41,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = true
         boardSelect2Teen.isHidden = true
         boardSelect3Teen.isHidden = true
-
+        boardType = ["freeBoard"]
     }
     
     @IBAction func anonyBoardPsd(_ sender: Any) {
@@ -49,7 +51,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = true
         boardSelect2Teen.isHidden = true
         boardSelect3Teen.isHidden = true
-
+        boardType = ["anonyBoard"]
     }
     
     @IBAction func teenBoardPsd(_ sender: Any) {
@@ -60,7 +62,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = false
         boardSelect2Teen.isHidden = true
         boardSelect3Teen.isHidden = true
-
+        boardType = ["teenBoard"]
     }
     
     @IBAction func teen2BoardPsd(_ sender: UIButton) {
@@ -70,7 +72,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = true
         boardSelect2Teen.isHidden = false
         boardSelect3Teen.isHidden = true
-
+        boardType = ["2teenBoard"]
     }
     
     @IBAction func teen3BoardPsd(_ sender: Any) {
@@ -80,7 +82,7 @@ class postingBoardChoiceViewController: UIViewController {
         boardSelectTeen.isHidden = true
         boardSelect2Teen.isHidden = true
         boardSelect3Teen.isHidden = false
-
+        boardType = ["3teenBoard"]
     }
     
     

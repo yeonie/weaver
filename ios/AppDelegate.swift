@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //FirebaseApp.configure()
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let splashViewController = postingBoardChoiceViewController()
+        let splashViewController = SplashChoiceViewController()
         self.window?.rootViewController = UINavigationController(rootViewController: splashViewController)
         self.window?.makeKeyAndVisible()
 

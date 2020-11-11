@@ -118,7 +118,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmX-JR-q7I">
-                    <rect key="frame" x="0.0" y="896" width="414" height="520"/>
+                    <rect key="frame" x="0.0" y="376" width="414" height="520"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle117" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-Yg-LYX">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="520"/>
@@ -218,10 +218,13 @@
                                     <color key="textColor" red="0.98192101720000002" green="0.76066662009999997" blue="0.3737187736" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbw-D3-MTW">
-                                    <rect key="frame" x="281" y="8" width="30" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="보기"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbw-D3-MTW">
+                                    <rect key="frame" x="307" y="40" width="24" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="24" id="E6e-sE-361"/>
+                                        <constraint firstAttribute="height" constant="24" id="Jdb-ON-e7b"/>
+                                    </constraints>
+                                    <state key="normal" image="icPwShowHide"/>
                                     <connections>
                                         <action selector="PwShowHide:" destination="-1" eventType="touchUpInside" id="4cY-FF-tVK"/>
                                     </connections>
@@ -235,6 +238,8 @@
                                 <constraint firstItem="ci0-pi-Zh5" firstAttribute="centerY" secondItem="IyY-nI-qEO" secondAttribute="centerY" constant="1" id="JU6-KW-eQT"/>
                                 <constraint firstAttribute="height" constant="100" id="TEO-Gv-XmQ"/>
                                 <constraint firstItem="RhB-1n-L1n" firstAttribute="leading" secondItem="IyY-nI-qEO" secondAttribute="leading" constant="15" id="abx-6J-oXd"/>
+                                <constraint firstAttribute="trailing" secondItem="cbw-D3-MTW" secondAttribute="trailing" constant="4" id="ce1-Ts-tFm"/>
+                                <constraint firstItem="cbw-D3-MTW" firstAttribute="centerY" secondItem="pGN-G2-H7G" secondAttribute="centerY" id="cnr-f3-rML"/>
                                 <constraint firstAttribute="trailing" secondItem="RhB-1n-L1n" secondAttribute="trailing" id="dNo-di-Aau"/>
                                 <constraint firstItem="ifV-oK-uQW" firstAttribute="leading" secondItem="IyY-nI-qEO" secondAttribute="leading" constant="12" id="guM-GQ-6t8"/>
                                 <constraint firstItem="pGN-G2-H7G" firstAttribute="top" secondItem="ifV-oK-uQW" secondAttribute="bottom" constant="15" id="j7t-N9-6eo"/>
@@ -517,7 +522,7 @@
                 <constraint firstAttribute="bottom" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="mIQ-MQ-lWJ"/>
                 <constraint firstItem="ZcC-pt-5dn" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="o6u-xH-Zbx"/>
                 <constraint firstItem="pBx-ye-xKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ohw-vg-Yso"/>
-                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="osD-aa-tlL"/>
+                <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" constant="-520" id="osD-aa-tlL"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
@@ -526,6 +531,7 @@
     <resources>
         <image name="cameraBtn" width="58" height="58"/>
         <image name="emailIC" width="14" height="10"/>
+        <image name="icPwShowHide" width="24" height="24"/>
         <image name="kakaoLoginBtn" width="24" height="24"/>
         <image name="loginBtnAtHome" width="304.5" height="60"/>
         <image name="loginBtnNew" width="279" height="60"/>

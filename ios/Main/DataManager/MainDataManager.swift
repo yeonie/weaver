@@ -58,6 +58,7 @@ class MainDataManager {
     
 //    회원가입
     func signUp(fromSpVC vc: SplashChoiceViewController, username: String, password: String, nickname: String, fromOwnVC vc2: OwnTypeChoiceViewController, personality: [String]){
+        
         let headers = ["Content-Type": "application/json"]
         
         let parameters: Parameters = [
@@ -94,9 +95,8 @@ class MainDataManager {
     
     
 //    게시물 등록
-    func CreatePost(_ boardViewController: putFeedViewController){
-        let title = boardViewController.titles.text!
-        let content = boardViewController.content.text!
+    func CreatePost(fromPutVC: putFeedViewController, title: String, content: String, fromCatgoryVC: postingBoardChoiceViewController, boardType: [String]){
+        
 //        let category = boardViewController
         let parameter = ["title": title, "content": content]
         let headers = ["Content-Type": "application/json"]
@@ -111,11 +111,11 @@ class MainDataManager {
                     UserDefaults.standard.set(token, forKey: "postToken")
                     let window = UIApplication.shared.windows.first { $0.isKeyWindow }
                     window?.rootViewController = MainTabbarViewController()
-                    boardViewController.navigationController!.pushViewController(boardCategoryViewController(), animated: true)
+//                    boardViewController.navigationController!.pushViewController(boardCategoryViewController(), animated: true)
                     
                 } else {
                     print("Oops sry..!")
-                    boardViewController.presentAlert(title: "", message: "제대로 입력해주세요.")
+//                    boardViewController.presentAlert(title: "", message: "제대로 입력해주세요.")
                 }
         }
     }

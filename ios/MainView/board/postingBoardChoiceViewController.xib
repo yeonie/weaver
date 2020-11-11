@@ -382,7 +382,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68.5"/>
                                             <connections>
                                                 <action selector="teen2BoardPsd:" destination="-1" eventType="touchUpInside" id="zBD-0b-jAq"/>
-                                                <action selector="teenBoardPsd:" destination="-1" eventType="touchUpInside" id="fo3-pS-kNX"/>
                                             </connections>
                                         </button>
                                         <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tlx-fN-GHn">
@@ -462,7 +461,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
                                             <connections>
                                                 <action selector="teen3BoardPsd:" destination="-1" eventType="touchUpInside" id="6At-hG-qC7"/>
-                                                <action selector="teenBoardPsd:" destination="-1" eventType="touchUpInside" id="Dei-Hg-EiA"/>
                                             </connections>
                                         </button>
                                         <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3i-UE-g5e">

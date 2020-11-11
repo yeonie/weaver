@@ -436,7 +436,7 @@ class OwnTypeChoiceViewController: BaseViewController {
         let password = splashChoiceViewController.passwordBoxSU.text!
         let nickname = splashChoiceViewController.nicknameBoxSU.text!
         let type = self.personality
-        MainDataManager().signIn1(fromSpVC: splashChoiceViewController, username: username, password: password, nickname: nickname, fromOwnVC: self, personality: type)
+        MainDataManager().signUp(fromSpVC: splashChoiceViewController, username: username, password: password, nickname: nickname, fromOwnVC: self, personality: type)
         //        self.navigationItem.backBarButtonItem = UIBarButtonItem(image: UIImage(named: "dismissBtn"), style: nil, target: nil, action: nil)
         
         

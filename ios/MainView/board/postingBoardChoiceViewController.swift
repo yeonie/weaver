@@ -22,7 +22,7 @@ class postingBoardChoiceViewController: UIViewController {
     
     @IBOutlet weak var boardSelect3Teen: UIImageView!
     
-    @IBAction func typeBoardPsd(_ sender: Any) {
+    @IBAction func typeBoardPsd(_ sender: UIButton) {
         boardSelectType.isHidden = false
         boardSelectFree.isHidden = true
         boardSelectAnony.isHidden = true
@@ -63,7 +63,7 @@ class postingBoardChoiceViewController: UIViewController {
 
     }
     
-    @IBAction func teen2BoardPsd(_ sender: Any) {
+    @IBAction func teen2BoardPsd(_ sender: UIButton) {
         boardSelectType.isHidden = true
         boardSelectFree.isHidden = true
         boardSelectAnony.isHidden = true

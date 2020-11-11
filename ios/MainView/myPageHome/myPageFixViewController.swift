@@ -9,10 +9,21 @@
 import UIKit
 
 class myPageFixViewController: BaseViewController {
+    
+    var ownTypeChoiceViewController : OwnTypeChoiceViewController? = nil
+    var scViewController : SplashChoiceViewController? = nil
 
+    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var nicknameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        guard let OwnTypeChoiceViewController = self.ownTypeChoiceViewController else { return }
+        guard let scViewController = self.scViewController else {return}
+        typeLabel.text = OwnTypeChoiceViewController.personality[0]
+        nicknameLabel.text = scViewController.nicknameBoxSU.text!
+        
+        
         
         self.navigationController?.navigationBar.barTintColor = .white
     }

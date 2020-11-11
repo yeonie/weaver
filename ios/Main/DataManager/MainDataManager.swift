@@ -95,7 +95,7 @@ class MainDataManager {
     
     
 //    게시물 등록
-    func CreatePost(fromPutVC: putFeedViewController, title: String, content: String, fromCatgoryVC: postingBoardChoiceViewController, boardType: [String]){
+    func CreatePost(fromPutVC putvc: putFeedViewController, title: String, content: String, fromCatgoryVC categoryvc: postingBoardChoiceViewController, boardType: [String]){
         
 //        let category = boardViewController
         let parameter = ["title": title, "content": content]

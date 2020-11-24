@@ -35,10 +35,6 @@ class myPageFixViewController: BaseViewController {
         self.navigationController?.navigationBar.isTranslucent = true
 
         self.navigationItem.title = "프로필 수정"
-        
-
-        
-
         //   프로필에 점점점 메뉴
         self.navigationController?.navigationBar.barTintColor = .white
         self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")

@@ -14,6 +14,7 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
     
     
     
+        
     var slided = true
     var slideoff = false
     var slideoffForSignIn = true
@@ -192,18 +193,25 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         loginBtn.isEnabled = true
         
         
-//        if !UserDefaults.standard.bool(forKey: "isFirstLunch") {
-//            UserDefaults.standard.set(true, forKey: "isFirstLunch")
-////            처음에 띄워주고싶은화면/ /
-//        } else {
-////            두번째로 켰을때부터 보여주고싶은 화면 / /
-//        }
+        //keyboard UI
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillAppear(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillDisappear(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
 
     }
+    
+    //keyboard UI 가리기/보여주기
+    @objc func keyboardWillAppear(_ sender: NotificationCenter){
+            self.view.frame.origin.y -= 200
+        }
+    @objc func keyboardWillDisappear(_ sender: NotificationCenter){
+            self.view.frame.origin.y += 200
+        }
     override func viewWillAppear(_ animated: Bool) {
         
         self.navigationController!.navigationBar.isHidden = true
+        
 
     }
     override func viewWillDisappear(_ animated: Bool) {

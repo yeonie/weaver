@@ -194,20 +194,48 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
         
         
         //keyboard UI
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillAppear(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillAppear(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+//
+//        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillDisappear(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillDisappear(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
 
     }
+    private func addKeyboardNotification() {
+        NotificationCenter.default.addObserver(
+          self,
+          selector: #selector(keyboardWillShow),
+          name: UIResponder.keyboardWillShowNotification,
+          object: nil
+        )
+        
+        NotificationCenter.default.addObserver(
+          self,
+          selector: #selector(keyboardWillHide),
+          name: UIResponder.keyboardWillHideNotification,
+          object: nil
+        )
+      }
     
     //keyboard UI 가리기/보여주기
-    @objc func keyboardWillAppear(_ sender: NotificationCenter){
-            self.view.frame.origin.y -= 200
-        }
-    @objc func keyboardWillDisappear(_ sender: NotificationCenter){
-            self.view.frame.origin.y += 200
-        }
+    @objc private func keyboardWillShow(_ notification: Notification) {
+      if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
+        let keybaordRectangle = keyboardFrame.cgRectValue
+        let keyboardHeight = keybaordRectangle.height
+        self.view.frame.origin.y -= keyboardHeight
+      }
+    }
+      
+    @objc private func keyboardWillHide(_ notification: Notification) {
+      if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
+        let keybaordRectangle = keyboardFrame.cgRectValue
+        let keyboardHeight = keybaordRectangle.height
+        self.view.frame.origin.y += keyboardHeight
+      }
+    }
+    
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         
         self.navigationController!.navigationBar.isHidden = true

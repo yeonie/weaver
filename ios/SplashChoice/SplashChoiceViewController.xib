@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,8 +18,8 @@
                 <outlet property="passwordBox" destination="rFy-KM-4tw" id="ctw-yL-hoP"/>
                 <outlet property="passwordBoxSU" destination="ci0-pi-Zh5" id="6e4-jU-R0T"/>
                 <outlet property="signUpBtn" destination="7Db-QE-5aU" id="cal-V4-Gri"/>
-                <outlet property="slideSginUpView" destination="JlU-Yk-ii4" id="1Jg-pz-N1e"/>
-                <outlet property="slideSignInView" destination="gmX-JR-q7I" id="J42-kh-qYb"/>
+                <outlet property="slideLoginView" destination="JlU-Yk-ii4" id="wNP-kS-fF8"/>
+                <outlet property="slideSignUpView" destination="gmX-JR-q7I" id="2GV-uK-Qny"/>
                 <outlet property="username" destination="Rvr-Zf-bpc" id="LcU-Wn-d7R"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,7 +32,7 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashChoiceBackground" translatesAutoresizingMaskIntoConstraints="NO" id="HD8-7R-FUF">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcC-pt-5dn">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcC-pt-5dn">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="481"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="481" id="Hf8-LB-IwQ"/>
@@ -53,7 +51,7 @@
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
                             <connections>
-                                <action selector="slideOffSginIn:" destination="-1" eventType="touchUpInside" id="2KV-fM-iyW"/>
+                                <action selector="LoginBtn:" destination="-1" eventType="touchUpInside" id="NKN-n0-lPG"/>
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKj-ub-cSv">
@@ -154,7 +152,6 @@
                                         <constraint firstAttribute="width" constant="310" id="lda-Wi-Q0G"/>
                                         <constraint firstAttribute="height" constant="27" id="sHc-49-bcC"/>
                                     </constraints>
-                                    <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
@@ -201,7 +198,6 @@
                                     <constraints>
                                         <constraint firstAttribute="height" constant="27" id="YCq-X9-HeF"/>
                                     </constraints>
-                                    <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 </textField>
@@ -293,7 +289,6 @@
                                         <constraint firstAttribute="height" constant="27" id="ebn-hT-963"/>
                                         <constraint firstAttribute="width" constant="310" id="gFz-0y-Ssv"/>
                                     </constraints>
-                                    <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
@@ -372,7 +367,6 @@
                                         <constraint firstAttribute="height" constant="27" id="2w2-20-XAf"/>
                                         <constraint firstAttribute="width" constant="310" id="FEf-n7-WGE"/>
                                     </constraints>
-                                    <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
@@ -420,7 +414,6 @@
                                         <constraint firstAttribute="height" constant="27" id="I2E-Rs-PqB"/>
                                         <constraint firstAttribute="width" constant="310" id="s7u-yS-ltR"/>
                                     </constraints>
-                                    <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 </textField>
@@ -502,6 +495,7 @@
                     </constraints>
                 </view>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="pGJ-kQ-EPT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="88" id="3hJ-wf-XYF"/>
@@ -524,7 +518,6 @@
                 <constraint firstItem="pBx-ye-xKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="ohw-vg-Yso"/>
                 <constraint firstItem="gmX-JR-q7I" firstAttribute="top" secondItem="HD8-7R-FUF" secondAttribute="bottom" id="osD-aa-tlL"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="145.98214285714286"/>
         </view>
     </objects>

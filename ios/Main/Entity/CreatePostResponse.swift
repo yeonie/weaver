@@ -12,8 +12,7 @@ struct CreatePostResponse{
     
     var title : String!
     var content : String!
-    var category : String!
-    var id : String!
+    var category : Categroy!
     //    let Personality: OwnTypeChoiceViewController
     //    Personality.personality = personality
 }
@@ -26,9 +25,19 @@ extension CreatePostResponse: Mappable{
     mutating func mapping(map: Map) {
         title <- map["title"]
         content <- map["content"]
-        category <- map["category"]
-        id <- map["id"]
+        category <- map["category"]//이케하면되녀?아ㅓㄴㄷ
+//        id <- map["id"] //<- 이거 잘못만듬
         //tutorials <- map["result"]
     }
 }
 
+struct Categroy {
+    var id: String!
+}
+extension Categroy: Mappable {
+    init?(map: Map) {
+    }
+    mutating func mapping(map: Map) {
+        id <- map["id"]
+    }
+}

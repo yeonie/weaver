@@ -20,7 +20,6 @@ class typeTestViewController: BaseViewController, UICollectionViewDelegate, UICo
         var cell :typeTestCollectionViewCell!
         cell = collectionView.dequeueReusableCell(withReuseIdentifier: "typeTestCell", for: indexPath) as? typeTestCollectionViewCell
         cell.typeTestImg.image = UIImage(named: typeTestImage[indexPath.row])
-        
         cell.typeTestImg.sizeToFit()
         return cell
     }

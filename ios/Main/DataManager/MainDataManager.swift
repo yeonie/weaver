@@ -94,29 +94,25 @@ class MainDataManager {
     }
     
     
+    
+    
 //    게시물 등록
     func CreatePost(fromPutVC putvc: putFeedViewController, title: String, content: String, fromCatgoryVC categoryvc: postingBoardChoiceViewController, boardType: [String]){
         
-//        let category = boardViewController
+        guard let token = UserDefaults.standard.string(forKey: "LoginToken") else { return }
         let parameter = ["title": title, "content": content]
-        let headers = ["Content-Type": "application/json"]
+        let headers = ["Content-Type": "application/json",
+                       "Authorization": "\(token)"]
         Alamofire.request("\(self.appDelegate.baseUrl)/community/board", method:
             .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
-            .validate(statusCode: 200..<600).response { response in
-                let headers = response.response?.allHeaderFields as? [String: Any]
-                print(response.response?.statusCode)
-                print(headers)
-                if response.response?.statusCode == 200 {
-                    guard let token = headers?["Authorization"] as? String else { return }
-                    UserDefaults.standard.set(token, forKey: "postToken")
-                    let window = UIApplication.shared.windows.first { $0.isKeyWindow }
-                    window?.rootViewController = MainTabbarViewController()
-//                    boardViewController.navigationController!.pushViewController(boardCategoryViewController(), animated: true)
-                    
-                } else {
-                    print("Oops sry..!")
-//                    boardViewController.presentAlert(title: "", message: "제대로 입력해주세요.")
-                }
+            .validate(statusCode: 200..<600)
+            .responseObject { (response: DataResponse<CreatePostResponse>) in
+                switch response.result {
+                case .success(let res):
+                    print(res)
+                case .failure(let error):
+                    dump(error)
+            }
         }
     }
 

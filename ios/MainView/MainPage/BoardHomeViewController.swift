@@ -115,6 +115,10 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
         super.viewWillAppear(animated)
         navigationController?.navigationBar.isHidden = true
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.isHidden = false
+    }
     @IBAction func freeBoardPressed(_ sender: UIButton) {
         navigationController?.pushViewController(freeBoardViewController(), animated: true)
     }

@@ -26,6 +26,8 @@ class MainTabbarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("------")
+        print(UserDefaults.standard.string(forKey: "LoginToken"))
         
         view.backgroundColor = .white
         tabBar.backgroundImage = UIImage.from(.clear)

@@ -1255,6 +1255,7 @@
 			baseConfigurationReference = D52E2D8320870120DBBF4DF3 /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 234KYHSB3Y;
 				INFOPLIST_FILE = ios/Info.plist;
@@ -1265,6 +1266,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litong.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1275,6 +1277,7 @@
 			baseConfigurationReference = 56DE891A8DE4AEB4ED1D1105 /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 234KYHSB3Y;
 				INFOPLIST_FILE = ios/Info.plist;
@@ -1285,6 +1288,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litong.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

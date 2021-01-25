@@ -14,17 +14,10 @@ var images = ["banner1","banner2","banner1", "banner2"]
 class boardViewController: BaseViewController {
     
     @IBOutlet weak var boardSearchBar: UISearchBar!
-    @IBOutlet weak var imgView: UIImageView!
+    
+    @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
-    @IBOutlet weak var whatIwrote: UIView!
-    @IBOutlet weak var whatIwrote2: UIView!
-    @IBOutlet weak var whatIwrote3: UIView!
     
-    
-    @IBAction func pageChanged(_ sender: UIPageControl) {
-        imgView.image = UIImage(named: images[pageControl.currentPage])
-        
-    }
     
     var searchBar = false
     
@@ -51,16 +44,33 @@ class boardViewController: BaseViewController {
         self.navigationItem.rightBarButtonItem = self.rightButton
         self.boardSearchBar.isHidden = true
         
-        pageControl.numberOfPages = images.count
-        pageControl.currentPage = 0
-        pageControl.pageIndicatorTintColor = UIColor.lightGray
-        pageControl.currentPageIndicatorTintColor = UIColor.darkGray
-        imgView.image = UIImage(named: images[0])
-        whatIwrote.layer.cornerRadius = 10
-        whatIwrote2.layer.cornerRadius = 10
-        whatIwrote3.layer.cornerRadius = 10
+        //pagination
+        for index in 0...3{
+            let subView = UIView()
+            subView.backgroundColor = UIColor(
+                            red: CGFloat(index * 50) / 255.0,
+                            green: CGFloat(index * 50) / 255.0,
+                            blue: CGFloat(index * 50) / 255.0,
+                            alpha: 1
+                        )
+            subView.frame.origin.x = UIScreen.main.bounds.width * CGFloat(index)
+            scrollView.addSubview(subView)
         }
-    override func viewWillAppear(_ animated: Bool) {
+        // scrollView에서 페이징이 가능하도록 설정
+        scrollView.isPagingEnabled = true
+        // scrollView의 contentSize를 5 페이지 만큼으로 설정
+        scrollView.contentSize = CGSize(
+            width: UIScreen.main.bounds.width * 3,
+            height: UIScreen.main.bounds.height
+        )
+        scrollView.alwaysBounceVertical = false // 수직 스크롤 바운스 안되게 설정
+                
+        pageControl.numberOfPages = 3
+        
+//        imgView.image = UIImage(named: images[0])
+
+    }
+        override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.isNavigationBarHidden = false
         self.navigationController?.navigationBar.isTranslucent = false
@@ -158,4 +168,12 @@ class boardViewController: BaseViewController {
     }
     
 }
+//extension BaseViewController: UIScrollViewDelegate {
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        // floor 내림, ceil 올림
+//        // contentOffset는 현재 스크롤된 좌표
+//        pageControl.currentPage = Int(floor(scrollView.contentOffset.x / UIScreen.main.bounds.width))
+//    }
+//}
+
 

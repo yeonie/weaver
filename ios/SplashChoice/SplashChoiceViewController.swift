@@ -196,8 +196,6 @@ class SplashChoiceViewController: BaseViewController, UITextFieldDelegate {
       }
     }
     
-    
-    
     override func viewWillAppear(_ animated: Bool) {
         
         self.navigationController!.navigationBar.isHidden = true

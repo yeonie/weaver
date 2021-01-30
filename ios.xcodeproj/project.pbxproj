@@ -754,8 +754,9 @@
 		BD9BF17022F9C318009E47EB /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				BD9BF18122F9D1A4009E47EB /* SplashViewController.swift */,
+				BD9BF17622F9C6BA009E47EB /* extensions */,
 				BD9BF18222F9D1A4009E47EB /* SplashViewController.xib */,
+				BD9BF18122F9D1A4009E47EB /* SplashViewController.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -763,7 +764,6 @@
 		BD9BF17122F9C31D009E47EB /* config */ = {
 			isa = PBXGroup;
 			children = (
-				BD9BF17622F9C6BA009E47EB /* extensions */,
 				BD9BF17222F9C3D5009E47EB /* BaseViewController.swift */,
 				BD9BF17422F9C494009E47EB /* CusomIndicatorView.swift */,
 				BD9BF17D22F9CD60009E47EB /* ColorPalette.swift */,

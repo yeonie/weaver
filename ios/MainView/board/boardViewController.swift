@@ -13,38 +13,45 @@ var images = ["banner1","banner2","banner1", "banner2"]
 
 class boardViewController: BaseViewController {
     
-//    @IBOutlet weak var boardSearchBar: UISearchBar!
+    @IBOutlet weak var IveWrote1: UIView!
+    @IBOutlet weak var IveWrote2: UIView!
+    @IBOutlet weak var IveWrote3: UIView!
+        @IBOutlet weak var boardSearchBar: UISearchBar!
 //    
 //    @IBOutlet weak var scrollView: UIScrollView!
 //    @IBOutlet weak var pageControl: UIPageControl!
 //    
 //    
-//    var searchBar = false
+    var searchBar = false
 //    
 //    
 //    
-//    lazy var rightButton: UIBarButtonItem = {
-//        let button = UIBarButtonItem(image: UIImage(named: "boardSearchIc"), style: .plain, target: self, action: #selector(buttonPressed(_:)))
-//        self.navigationController?.navigationBar.tintColor = .black
-//        return button
-//        
-//    }()
-//
-//    @objc private func buttonPressed(_ sender: Any) {
-//        searchBar = !searchBar
-//        if searchBar{
-//            self.boardSearchBar.isHidden = false
-//        }
-//        else{
-//            self.boardSearchBar.isHidden = true
-//        }
-//    }
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        self.navigationItem.rightBarButtonItem = self.rightButton
-//        self.boardSearchBar.isHidden = true
-//        
-//        //pagination
+    lazy var rightButton: UIBarButtonItem = {
+        let button = UIBarButtonItem(image: UIImage(named: "boardSearchIc"), style: .plain, target: self, action: #selector(buttonPressed(_:)))
+        self.navigationController?.navigationBar.tintColor = .black
+        return button
+        
+    }()
+
+    @objc private func buttonPressed(_ sender: Any) {
+        searchBar = !searchBar
+        if searchBar{
+            self.boardSearchBar.isHidden = false
+        }
+        else{
+            self.boardSearchBar.isHidden = true
+        }
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationItem.rightBarButtonItem = self.rightButton
+        self.boardSearchBar.isHidden = true
+        
+        self.IveWrote1.layer.cornerRadius = 15;
+        self.IveWrote2.layer.cornerRadius = 15;
+        self.IveWrote3.layer.cornerRadius = 15;
+        
+        //pagination
 //        for index in 0...3{
 //            let subView = UIView()
 //            subView.backgroundColor = UIColor(
@@ -64,31 +71,31 @@ class boardViewController: BaseViewController {
 //            height: UIScreen.main.bounds.height
 //        )
 //        scrollView.alwaysBounceVertical = false // 수직 스크롤 바운스 안되게 설정
-//                
-//        pageControl.numberOfPages = 3
-//        
-////        imgView.image = UIImage(named: images[0])
 //
-//    }
-//        override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        self.navigationController?.isNavigationBarHidden = false
+//        pageControl.numberOfPages = 3
+        
+//        imgView.image = UIImage(named: images[0])
+
+    }
+        override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.navigationBar.isTranslucent = false
+        
+        self.navigationItem.title = "게시판"
+        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
+            , target: nil, action: nil)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        
+//        UINavigationBar.appearance().barTintColor = UIColor.white
 //        self.navigationController?.navigationBar.isTranslucent = false
-//        
-//        self.navigationItem.title = "게시판"
-//        
-//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
-//            , target: nil, action: nil)
-//        self.navigationController?.navigationBar.shadowImage = UIImage()
-//        
-////        UINavigationBar.appearance().barTintColor = UIColor.white
-////        self.navigationController?.navigationBar.isTranslucent = false
-//        
-//        
-//        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
-//    }
-//    
+        
+        
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
+    }
+    
 ////    type A
 //    @IBAction func estjBoardPressed(_ sender: UIButton) {
 //        navigationController?.pushViewController(boardCategoryViewController(), animated: true)

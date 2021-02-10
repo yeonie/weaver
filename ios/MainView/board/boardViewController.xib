@@ -339,27 +339,139 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S6X-9q-wuf">
                                     <rect key="frame" x="0.0" y="1250" width="414" height="550"/>
                                     <subviews>
-                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="sAL-Y8-pkd">
-                                            <rect key="frame" x="13" y="41" width="388" height="489"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wRo-GX-YTA">
+                                            <rect key="frame" x="8" y="40" width="398" height="496"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="w70-p8-tlX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="398" height="496"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TUb-cW-Ha9">
+                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="496"/>
+                                                            <subviews>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WrC-GD-R3D">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="496"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MS2-sp-mLd">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
+                                                                            <state key="normal" image="icenfpboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTQ-TK-kt4">
+                                                                            <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icESFJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSy-bd-X8K">
+                                                                            <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
+                                                                            <state key="normal" image="icISTJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rm-iv-twE">
+                                                                            <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icISTPboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaU-TJ-xcA">
+                                                                            <rect key="frame" x="0.0" y="405" width="130" height="91"/>
+                                                                            <state key="normal" image="icESTJboard"/>
+                                                                        </button>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <constraints>
+                                                                <constraint firstItem="WrC-GD-R3D" firstAttribute="leading" secondItem="TUb-cW-Ha9" secondAttribute="leading" id="7Ft-N3-3Qs"/>
+                                                                <constraint firstAttribute="bottom" secondItem="WrC-GD-R3D" secondAttribute="bottom" id="SEB-Iv-Fo8"/>
+                                                                <constraint firstItem="WrC-GD-R3D" firstAttribute="top" secondItem="TUb-cW-Ha9" secondAttribute="top" id="U0s-b2-WLE"/>
+                                                                <constraint firstAttribute="trailing" secondItem="WrC-GD-R3D" secondAttribute="trailing" id="jPG-k6-UcR"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iup-8o-zsv">
+                                                            <rect key="frame" x="134" y="0.0" width="130" height="496"/>
+                                                            <subviews>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="H1z-5h-B1a">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="496"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIu-th-vrI">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
+                                                                            <state key="normal" image="icESFPboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4q-uk-SIM">
+                                                                            <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icINFPboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCs-IS-0a4">
+                                                                            <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
+                                                                            <state key="normal" image="icENFJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-UM-D5P">
+                                                                            <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icINTJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1u-TW-6Bl">
+                                                                            <rect key="frame" x="0.0" y="405" width="130" height="91"/>
+                                                                            <state key="normal" image="icISFPboard"/>
+                                                                        </button>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <constraints>
+                                                                <constraint firstItem="H1z-5h-B1a" firstAttribute="leading" secondItem="iup-8o-zsv" secondAttribute="leading" id="J45-Dh-CqC"/>
+                                                                <constraint firstAttribute="trailing" secondItem="H1z-5h-B1a" secondAttribute="trailing" id="VKy-FL-Ekm"/>
+                                                                <constraint firstAttribute="bottom" secondItem="H1z-5h-B1a" secondAttribute="bottom" id="kJe-ej-Vtb"/>
+                                                                <constraint firstItem="H1z-5h-B1a" firstAttribute="top" secondItem="iup-8o-zsv" secondAttribute="top" id="zwa-jA-3It"/>
+                                                            </constraints>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AHQ-tc-wZ1">
+                                                            <rect key="frame" x="268" y="0.0" width="130" height="496"/>
+                                                            <subviews>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3nX-gJ-Wds">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="130" height="496"/>
+                                                                    <subviews>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjx-Ln-cri">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
+                                                                            <state key="normal" image="icESTPboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7i-Po-KVA">
+                                                                            <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icENTPboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thl-gq-PBr">
+                                                                            <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
+                                                                            <state key="normal" image="icINFJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDy-op-0XD">
+                                                                            <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
+                                                                            <state key="normal" image="icENTJboard"/>
+                                                                        </button>
+                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCX-Ox-g03">
+                                                                            <rect key="frame" x="0.0" y="405" width="130" height="91"/>
+                                                                        </button>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <constraints>
+                                                                <constraint firstItem="3nX-gJ-Wds" firstAttribute="top" secondItem="AHQ-tc-wZ1" secondAttribute="top" id="7N2-O5-65e"/>
+                                                                <constraint firstAttribute="trailing" secondItem="3nX-gJ-Wds" secondAttribute="trailing" id="BNg-hh-Qx6"/>
+                                                                <constraint firstItem="3nX-gJ-Wds" firstAttribute="leading" secondItem="AHQ-tc-wZ1" secondAttribute="leading" id="uuL-zz-gcB"/>
+                                                                <constraint firstAttribute="bottom" secondItem="3nX-gJ-Wds" secondAttribute="bottom" id="wXy-s1-NEH"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aTe-bD-3bs">
-                                                <size key="itemSize" width="128" height="128"/>
-                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                            </collectionViewFlowLayout>
-                                        </collectionView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dm-J5-x08">
-                                            <rect key="frame" x="40" y="54" width="46" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button"/>
-                                        </button>
+                                            <constraints>
+                                                <constraint firstItem="w70-p8-tlX" firstAttribute="leading" secondItem="wRo-GX-YTA" secondAttribute="leading" id="1lZ-yG-i82"/>
+                                                <constraint firstItem="w70-p8-tlX" firstAttribute="top" secondItem="wRo-GX-YTA" secondAttribute="top" id="IE5-KI-mBq"/>
+                                                <constraint firstAttribute="bottom" secondItem="w70-p8-tlX" secondAttribute="bottom" id="bjJ-Ad-Aiq"/>
+                                                <constraint firstAttribute="trailing" secondItem="w70-p8-tlX" secondAttribute="trailing" id="dEg-fI-5nV"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
                                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="sAL-Y8-pkd" secondAttribute="bottom" constant="20" id="Z9o-mp-8Ol"/>
-                                        <constraint firstItem="sAL-Y8-pkd" firstAttribute="leading" secondItem="S6X-9q-wuf" secondAttribute="leading" constant="13" id="fie-bj-OkR"/>
-                                        <constraint firstAttribute="trailing" secondItem="sAL-Y8-pkd" secondAttribute="trailing" constant="13" id="ldm-uB-hsM"/>
+                                        <constraint firstAttribute="trailing" secondItem="wRo-GX-YTA" secondAttribute="trailing" constant="8" id="FaG-GT-616"/>
+                                        <constraint firstAttribute="bottom" secondItem="wRo-GX-YTA" secondAttribute="bottom" constant="14" id="VUk-rW-g7B"/>
+                                        <constraint firstItem="wRo-GX-YTA" firstAttribute="leading" secondItem="S6X-9q-wuf" secondAttribute="leading" constant="8" id="rNs-kp-KJo"/>
                                         <constraint firstAttribute="height" constant="550" id="ybX-NO-Rpr"/>
                                     </constraints>
                                 </view>
@@ -378,12 +490,12 @@
                                 <constraint firstAttribute="trailing" secondItem="8Hf-eR-Ur0" secondAttribute="trailing" id="71C-WR-YZ2"/>
                                 <constraint firstItem="d3n-Gh-ywR" firstAttribute="top" secondItem="8Hf-eR-Ur0" secondAttribute="bottom" constant="10" id="7EE-3Y-46w"/>
                                 <constraint firstItem="x5Q-Pa-bWm" firstAttribute="leading" secondItem="DzC-YV-2g8" secondAttribute="leading" id="EGc-21-FFL"/>
-                                <constraint firstItem="sAL-Y8-pkd" firstAttribute="top" secondItem="d3n-Gh-ywR" secondAttribute="bottom" constant="7" id="bOa-JU-dwP"/>
                                 <constraint firstItem="S6X-9q-wuf" firstAttribute="leading" secondItem="DzC-YV-2g8" secondAttribute="leading" id="jSh-vG-HAc"/>
                                 <constraint firstAttribute="trailing" secondItem="S6X-9q-wuf" secondAttribute="trailing" id="jYu-SJ-ra0"/>
                                 <constraint firstAttribute="trailing" secondItem="x5Q-Pa-bWm" secondAttribute="trailing" id="jkJ-Zg-oPz"/>
                                 <constraint firstItem="d3n-Gh-ywR" firstAttribute="leading" secondItem="DzC-YV-2g8" secondAttribute="leading" constant="14" id="p0a-Kj-vZN"/>
                                 <constraint firstItem="8Hf-eR-Ur0" firstAttribute="top" secondItem="x5Q-Pa-bWm" secondAttribute="bottom" id="rBd-1e-aYE"/>
+                                <constraint firstItem="wRo-GX-YTA" firstAttribute="top" secondItem="d3n-Gh-ywR" secondAttribute="bottom" constant="6" id="unO-n3-2VF"/>
                                 <constraint firstAttribute="height" constant="1800" id="zDa-DC-fDz"/>
                             </constraints>
                         </view>
@@ -414,6 +526,20 @@
         <image name="anonyBoard" width="343" height="70"/>
         <image name="estjBoard" width="343" height="70"/>
         <image name="freeBoard" width="343" height="70"/>
+        <image name="icENFJboard" width="104" height="70"/>
+        <image name="icENTJboard" width="104" height="70"/>
+        <image name="icENTPboard" width="104" height="70"/>
+        <image name="icESFJboard" width="104" height="70"/>
+        <image name="icESFPboard" width="104" height="70"/>
+        <image name="icESTJboard" width="104" height="70"/>
+        <image name="icESTPboard" width="104" height="70"/>
+        <image name="icINFJboard" width="104" height="70"/>
+        <image name="icINFPboard" width="104" height="70"/>
+        <image name="icINTJboard" width="104" height="70"/>
+        <image name="icISFPboard" width="104" height="70"/>
+        <image name="icISTJboard" width="104" height="70"/>
+        <image name="icISTPboard" width="104" height="70"/>
+        <image name="icenfpboard" width="104" height="70"/>
         <image name="teenBoard" width="343" height="70"/>
         <image name="tempBoardPic" width="692" height="222"/>
         <systemColor name="separatorColor">

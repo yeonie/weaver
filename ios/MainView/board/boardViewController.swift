@@ -96,83 +96,83 @@ class boardViewController: BaseViewController {
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 23)!,NSAttributedString.Key.foregroundColor: UIColor.black]
     }
     
-////    type A
-//    @IBAction func estjBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(boardCategoryViewController(), animated: true)
-//    }
-//    @IBAction func anonyBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(anonyBoardViewController(), animated: true)
-//    }
-//    
-//    @IBAction func freeBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(freeBoardViewController(), animated: true)
-//    }
-//    @IBAction func teenBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(teenBoardViewController(), animated: true)
-//    }
-//    @IBAction func twoTeenBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(twoTeenBoardViewController(), animated: true)
-//    }
-//    @IBAction func threeTeenBoardPressed(_ sender: UIButton) {
-//        navigationController?.pushViewController(threeTeenBoardViewController(), animated: true)
-//    }
-//    
-////    type B
-//    @IBAction func ENFP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ENFPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ESFP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ESFPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ESTP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ESTPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ESFJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(ESFJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func INFP(_ sender: UIButton) {
-//        navigationController?.pushViewController(INFPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ENTP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ENTPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ISTJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(ISTJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ENFJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(ENFJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func INFJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(INFJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ISTP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ISTPViewController(), animated: true)
-//    }
-//    
-//    @IBAction func INTJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(INTJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ENTJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(ENTJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ESTJ(_ sender: UIButton) {
-//        navigationController?.pushViewController(ESTJViewController(), animated: true)
-//    }
-//    
-//    @IBAction func ISFP(_ sender: UIButton) {
-//        navigationController?.pushViewController(ISFPViewController(), animated: true)
-//    }
+//    type A
+    @IBAction func estjBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(boardCategoryViewController(), animated: true)
+    }
+    @IBAction func anonyBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(anonyBoardViewController(), animated: true)
+    }
+
+    @IBAction func freeBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(freeBoardViewController(), animated: true)
+    }
+    @IBAction func teenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(teenBoardViewController(), animated: true)
+    }
+    @IBAction func twoTeenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(twoTeenBoardViewController(), animated: true)
+    }
+    @IBAction func threeTeenBoardPressed(_ sender: UIButton) {
+        navigationController?.pushViewController(threeTeenBoardViewController(), animated: true)
+    }
+
+//    type B
+    @IBAction func ENFP(_ sender: UIButton) {
+        navigationController?.pushViewController(ENFPViewController(), animated: true)
+    }
+
+    @IBAction func ESFP(_ sender: UIButton) {
+        navigationController?.pushViewController(ESFPViewController(), animated: true)
+    }
+
+    @IBAction func ESTP(_ sender: UIButton) {
+        navigationController?.pushViewController(ESTPViewController(), animated: true)
+    }
+
+    @IBAction func ESFJ(_ sender: UIButton) {
+        navigationController?.pushViewController(ESFJViewController(), animated: true)
+    }
+
+    @IBAction func INFP(_ sender: UIButton) {
+        navigationController?.pushViewController(INFPViewController(), animated: true)
+    }
+
+    @IBAction func ENTP(_ sender: UIButton) {
+        navigationController?.pushViewController(ENTPViewController(), animated: true)
+    }
+
+    @IBAction func ISTJ(_ sender: UIButton) {
+        navigationController?.pushViewController(ISTJViewController(), animated: true)
+    }
+
+    @IBAction func ENFJ(_ sender: UIButton) {
+        navigationController?.pushViewController(ENFJViewController(), animated: true)
+    }
+
+    @IBAction func INFJ(_ sender: UIButton) {
+        navigationController?.pushViewController(INFJViewController(), animated: true)
+    }
+
+    @IBAction func ISTP(_ sender: UIButton) {
+        navigationController?.pushViewController(ISTPViewController(), animated: true)
+    }
+
+    @IBAction func INTJ(_ sender: UIButton) {
+        navigationController?.pushViewController(INTJViewController(), animated: true)
+    }
+
+    @IBAction func ENTJ(_ sender: UIButton) {
+        navigationController?.pushViewController(ENTJViewController(), animated: true)
+    }
+
+    @IBAction func ESTJ(_ sender: UIButton) {
+        navigationController?.pushViewController(ESTJViewController(), animated: true)
+    }
+
+    @IBAction func ISFP(_ sender: UIButton) {
+        navigationController?.pushViewController(ISFPViewController(), animated: true)
+    }
     
 }
 //extension BaseViewController: UIScrollViewDelegate {

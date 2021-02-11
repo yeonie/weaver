@@ -230,6 +230,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKM-s5-96F">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="71.5"/>
                                                             <state key="normal" image="estjBoard"/>
+                                                            <connections>
+                                                                <action selector="estjBoardPressed:" destination="-1" eventType="touchUpInside" id="BpY-9k-azY"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -246,6 +249,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtR-zo-jcp">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="72"/>
                                                             <state key="normal" image="freeBoard"/>
+                                                            <connections>
+                                                                <action selector="freeBoardPressed:" destination="-1" eventType="touchUpInside" id="nsJ-FP-xjA"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -262,6 +268,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJI-5l-t7W">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="71.5"/>
                                                             <state key="normal" image="anonyBoard"/>
+                                                            <connections>
+                                                                <action selector="anonyBoardPressed:" destination="-1" eventType="touchUpInside" id="H2M-nY-M0l"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -278,6 +287,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1X-G6-Zgi">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="71.5"/>
                                                             <state key="normal" image="teenBoard"/>
+                                                            <connections>
+                                                                <action selector="teenBoardPressed:" destination="-1" eventType="touchUpInside" id="tb3-4M-cdP"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -294,6 +306,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-Ek-pa3">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="72"/>
                                                             <state key="normal" image="2teenBoard"/>
+                                                            <connections>
+                                                                <action selector="twoTeenBoardPressed:" destination="-1" eventType="touchUpInside" id="m3n-cm-qhc"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -310,6 +325,9 @@
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsA-6b-7GL">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="71.5"/>
                                                             <state key="normal" image="3teenBoard"/>
+                                                            <connections>
+                                                                <action selector="threeTeenBoardPressed:" destination="-1" eventType="touchUpInside" id="AJZ-O8-7C5"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -354,22 +372,37 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MS2-sp-mLd">
                                                                             <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
                                                                             <state key="normal" image="icenfpboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENFP:" destination="-1" eventType="touchUpInside" id="JTP-fJ-3Jo"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PTQ-TK-kt4">
                                                                             <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
                                                                             <state key="normal" image="icESFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESFJ:" destination="-1" eventType="touchUpInside" id="7y2-om-Wb0"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSy-bd-X8K">
                                                                             <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
                                                                             <state key="normal" image="icISTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISTJ:" destination="-1" eventType="touchUpInside" id="Fc7-pE-xVk"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rm-iv-twE">
                                                                             <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
                                                                             <state key="normal" image="icISTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISTP:" destination="-1" eventType="touchUpInside" id="78c-IU-1G5"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaU-TJ-xcA">
                                                                             <rect key="frame" x="0.0" y="405" width="130" height="91"/>
                                                                             <state key="normal" image="icESTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="jF7-wa-neE"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                 </stackView>
@@ -391,22 +424,37 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIu-th-vrI">
                                                                             <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
                                                                             <state key="normal" image="icESFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESFP:" destination="-1" eventType="touchUpInside" id="GAl-EU-ce0"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4q-uk-SIM">
                                                                             <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
                                                                             <state key="normal" image="icINFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="INFP:" destination="-1" eventType="touchUpInside" id="CDx-1c-ZZf"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCs-IS-0a4">
                                                                             <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
                                                                             <state key="normal" image="icENFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENFJ:" destination="-1" eventType="touchUpInside" id="jLJ-xQ-aNI"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNt-UM-D5P">
                                                                             <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
                                                                             <state key="normal" image="icINTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="INTJ:" destination="-1" eventType="touchUpInside" id="tDj-bq-zgg"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1u-TW-6Bl">
                                                                             <rect key="frame" x="0.0" y="405" width="130" height="91"/>
                                                                             <state key="normal" image="icISFPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ISFP:" destination="-1" eventType="touchUpInside" id="LcP-fs-udz"/>
+                                                                            </connections>
                                                                         </button>
                                                                     </subviews>
                                                                 </stackView>
@@ -428,18 +476,30 @@
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjx-Ln-cri">
                                                                             <rect key="frame" x="0.0" y="0.0" width="130" height="91"/>
                                                                             <state key="normal" image="icESTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ESTP:" destination="-1" eventType="touchUpInside" id="ihq-w1-UJd"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7i-Po-KVA">
                                                                             <rect key="frame" x="0.0" y="101" width="130" height="91.5"/>
                                                                             <state key="normal" image="icENTPboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENTP:" destination="-1" eventType="touchUpInside" id="rbc-pv-lq7"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thl-gq-PBr">
                                                                             <rect key="frame" x="0.0" y="202.5" width="130" height="91"/>
                                                                             <state key="normal" image="icINFJboard"/>
+                                                                            <connections>
+                                                                                <action selector="INFJ:" destination="-1" eventType="touchUpInside" id="9Dz-Ax-ziO"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDy-op-0XD">
                                                                             <rect key="frame" x="0.0" y="303.5" width="130" height="91.5"/>
                                                                             <state key="normal" image="icENTJboard"/>
+                                                                            <connections>
+                                                                                <action selector="ENTJ:" destination="-1" eventType="touchUpInside" id="PtJ-3S-jdt"/>
+                                                                            </connections>
                                                                         </button>
                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCX-Ox-g03">
                                                                             <rect key="frame" x="0.0" y="405" width="130" height="91"/>

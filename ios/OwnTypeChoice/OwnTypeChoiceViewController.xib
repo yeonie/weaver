@@ -10,6 +10,23 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OwnTypeChoiceViewController" customModule="ios" customModuleProvider="target">
             <connections>
+                <outlet property="ENFJ" destination="1zc-7k-UsR" id="A7c-Nj-i71"/>
+                <outlet property="ENFP" destination="uGN-IX-yqv" id="CJq-z9-cL7"/>
+                <outlet property="ENTJ" destination="Kz0-ZX-DTL" id="9Id-Dp-8br"/>
+                <outlet property="ENTP" destination="Fuz-NG-lch" id="8Z5-uP-OKo"/>
+                <outlet property="ESFJ" destination="6ul-hl-K5d" id="xPX-qk-wRl"/>
+                <outlet property="ESFP" destination="alo-Kb-gzp" id="WAy-U0-xzO"/>
+                <outlet property="ESTJ" destination="qIG-Sv-3pR" id="ySk-nV-qiW"/>
+                <outlet property="ESTP" destination="wdG-Uh-clw" id="5Ag-Vc-Nuu"/>
+                <outlet property="INFJ" destination="m5o-dn-s2G" id="FSg-21-zPQ"/>
+                <outlet property="INFP" destination="DzH-WD-BkK" id="pNU-9P-aAQ"/>
+                <outlet property="INTJ" destination="xEf-r9-mKI" id="H0W-IU-MYx"/>
+                <outlet property="INTP" destination="Mew-hA-xip" id="YPC-FH-Vjv"/>
+                <outlet property="ISFJ" destination="JOD-jB-Ld9" id="EqE-RH-Rtb"/>
+                <outlet property="ISFP" destination="PeQ-TG-IFX" id="nSJ-V1-msm"/>
+                <outlet property="ISTJ" destination="b4m-CR-vcm" id="Brh-75-dLe"/>
+                <outlet property="ISTP" destination="uOq-MI-c1x" id="ylg-wA-nTk"/>
+                <outlet property="expanation" destination="E0n-rb-8zt" id="Tda-wn-67x"/>
                 <outlet property="typeComment" destination="E0n-rb-8zt" id="Ym2-Ih-Qy2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -112,6 +129,7 @@
                                                     <state key="normal" image="intj60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="bim-hv-9Kn"/>
+                                                        <action selector="INTJ:" destination="-1" eventType="touchUpInside" id="vVE-YP-4WP"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5o-dn-s2G">
@@ -119,6 +137,7 @@
                                                     <state key="normal" image="infj60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="ZM3-ta-TUu"/>
+                                                        <action selector="INFJ:" destination="-1" eventType="touchUpInside" id="La1-3B-uwM"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4m-CR-vcm">
@@ -126,6 +145,7 @@
                                                     <state key="normal" image="istj60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="3kT-Ph-j7A"/>
+                                                        <action selector="ISTJ:" destination="-1" eventType="touchUpInside" id="FvG-XH-hlo"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOD-jB-Ld9">
@@ -133,6 +153,7 @@
                                                     <state key="normal" image="isfj60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="mz8-Dg-lz9"/>
+                                                        <action selector="ISFJ:" destination="-1" eventType="touchUpInside" id="ima-Kz-yMk"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -145,6 +166,7 @@
                                                     <state key="normal" image="intp60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="aeg-8L-nyb"/>
+                                                        <action selector="INTP:" destination="-1" eventType="touchUpInside" id="p5W-tc-zdD"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzH-WD-BkK">
@@ -152,6 +174,7 @@
                                                     <state key="normal" image="infp60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="FLW-ta-H92"/>
+                                                        <action selector="INFP:" destination="-1" eventType="touchUpInside" id="DYg-MW-TbA"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOq-MI-c1x">
@@ -159,6 +182,7 @@
                                                     <state key="normal" image="istp60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="dQN-hx-8kX"/>
+                                                        <action selector="ISTP:" destination="-1" eventType="touchUpInside" id="aYx-Ov-aEY"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeQ-TG-IFX">
@@ -166,6 +190,7 @@
                                                     <state key="normal" image="isfp60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="M4n-GW-k0G"/>
+                                                        <action selector="ISFP:" destination="-1" eventType="touchUpInside" id="aVO-GB-FsL"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -177,6 +202,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="81" height="39"/>
                                                     <state key="normal" image="entj60Off"/>
                                                     <connections>
+                                                        <action selector="ENTJ:" destination="-1" eventType="touchUpInside" id="Qdk-W8-nvo"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="GXY-XA-JxI"/>
                                                     </connections>
                                                 </button>
@@ -184,6 +210,7 @@
                                                     <rect key="frame" x="0.0" y="63" width="81" height="39"/>
                                                     <state key="normal" image="enfj60Off"/>
                                                     <connections>
+                                                        <action selector="ENFJ:" destination="-1" eventType="touchUpInside" id="7qM-od-40s"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="Mht-GQ-UbF"/>
                                                     </connections>
                                                 </button>
@@ -198,6 +225,7 @@
                                                     <rect key="frame" x="0.0" y="189" width="81" height="39"/>
                                                     <state key="normal" image="esfj60Off"/>
                                                     <connections>
+                                                        <action selector="ESFJ:" destination="-1" eventType="touchUpInside" id="LxK-ZD-PXk"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="szN-1o-iDF"/>
                                                     </connections>
                                                 </button>
@@ -210,6 +238,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="81" height="39"/>
                                                     <state key="normal" image="entp60Off"/>
                                                     <connections>
+                                                        <action selector="ENTP:" destination="-1" eventType="touchUpInside" id="Ej3-ti-mIh"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="p9J-nq-Xfs"/>
                                                     </connections>
                                                 </button>
@@ -217,6 +246,7 @@
                                                     <rect key="frame" x="0.0" y="63" width="81" height="39"/>
                                                     <state key="normal" image="enfp60Off"/>
                                                     <connections>
+                                                        <action selector="ENFP:" destination="-1" eventType="touchUpInside" id="eqA-Es-fdL"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="Elk-kv-yzG"/>
                                                     </connections>
                                                 </button>
@@ -225,12 +255,14 @@
                                                     <state key="normal" image="estp60Off"/>
                                                     <connections>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="LmE-WD-gXs"/>
+                                                        <action selector="ESTP:" destination="-1" eventType="touchUpInside" id="AZj-4v-Hnr"/>
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alo-Kb-gzp">
                                                     <rect key="frame" x="0.0" y="189" width="81" height="39"/>
                                                     <state key="normal" image="esfp60Off"/>
                                                     <connections>
+                                                        <action selector="ESFP:" destination="-1" eventType="touchUpInside" id="W04-mq-Sne"/>
                                                         <action selector="ESTJ:" destination="-1" eventType="touchUpInside" id="cM5-1f-YaU"/>
                                                     </connections>
                                                 </button>

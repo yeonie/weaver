@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
 //        let splashViewController = onboardingViewController()
-        let splashViewController = boardViewController()
+        let splashViewController = SplashChoiceViewController()
         self.window?.rootViewController = UINavigationController(rootViewController: splashViewController)
         self.window?.makeKeyAndVisible()
 

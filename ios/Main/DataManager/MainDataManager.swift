@@ -40,11 +40,12 @@ class MainDataManager {
             .post, parameters: parameter,encoding: JSONEncoding.default, headers: nil)
             .validate(statusCode: 200..<600).response { response in
                 let headers = response.response?.allHeaderFields as? [String: Any]
-//                print(response.response?.statusCode)
+                print(response.response?.statusCode)
 //                print(headers)
                 if response.response?.statusCode == 200 {
                     guard let token = headers?["Authorization"] as? String else { return }
                     UserDefaults.standard.set(token, forKey: "LoginToken")
+
                     let window = UIApplication.shared.windows.first { $0.isKeyWindow }
                     window?.rootViewController = MainTabbarViewController()
                     loginViewController.navigationController!.pushViewController(MainTabbarViewController(), animated: true)

@@ -117,7 +117,13 @@ class BoardHomeViewController: BaseViewController, UICollectionViewDelegate, UIC
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain
+            , target: nil, action: nil)
+        self.navigationController?.navigationBar.backIndicatorImage = UIImage(named: "dismissBtn")
+        self.navigationController?.navigationBar.tintColor = .black
+        
     }
     @IBAction func freeBoardPressed(_ sender: UIButton) {
         navigationController?.pushViewController(freeBoardViewController(), animated: true)

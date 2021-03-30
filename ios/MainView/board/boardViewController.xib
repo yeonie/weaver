@@ -43,14 +43,14 @@
                                             </constraints>
                                             <textInputTraits key="textInputTraits"/>
                                         </searchBar>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="X9r-sf-tnK">
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="X9r-sf-tnK">
                                             <rect key="frame" x="8" y="235.5" width="398" height="65"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TwM-M4-bSq">
-                                                    <rect key="frame" x="0.0" y="0.0" width="129.5" height="65"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="126" height="65"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQy-4t-aNr">
-                                                            <rect key="frame" x="13" y="16.5" width="39" height="32"/>
+                                                            <rect key="frame" x="13" y="16.5" width="38" height="32"/>
                                                             <string key="text">내가 쓴
 게시글</string>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
@@ -58,7 +58,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-38-BZ1">
-                                                            <rect key="frame" x="73" y="20.5" width="19.5" height="24"/>
+                                                            <rect key="frame" x="72" y="20.5" width="19.5" height="24"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -75,7 +75,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Sa-1g-3f8">
-                                                    <rect key="frame" x="134.5" y="0.0" width="129" height="65"/>
+                                                    <rect key="frame" x="136" y="0.0" width="126" height="65"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-4T-0ct">
                                                             <rect key="frame" x="13" y="16.5" width="37.5" height="31.5"/>
@@ -101,7 +101,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9l2-nc-oYx">
-                                                    <rect key="frame" x="268.5" y="0.0" width="129.5" height="65"/>
+                                                    <rect key="frame" x="272" y="0.0" width="126" height="65"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-Ty-eyd">
                                                             <rect key="frame" x="13" y="0.0" width="37.5" height="65"/>
@@ -128,12 +128,10 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" systemColor="systemGray3Color"/>
                                             <constraints>
                                                 <constraint firstItem="Vgz-Ty-eyd" firstAttribute="width" secondItem="Tyh-4T-0ct" secondAttribute="width" id="B55-ib-v9E"/>
                                                 <constraint firstItem="Tyh-4T-0ct" firstAttribute="height" secondItem="fQy-4t-aNr" secondAttribute="height" multiplier="0.984375" id="JMD-iS-9Fd"/>
                                                 <constraint firstAttribute="height" constant="65" id="TQi-sd-Bwd"/>
-                                                <constraint firstItem="Vgz-Ty-eyd" firstAttribute="height" secondItem="Tyh-4T-0ct" secondAttribute="height" multiplier="2.06349" id="gwB-Ey-DLw"/>
                                             </constraints>
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESTJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0Y-1D-AHy">
@@ -184,7 +182,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="250" id="vGy-PL-dND"/>
                                             </constraints>
@@ -229,13 +227,15 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKM-s5-96F">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="71.5"/>
-                                                            <state key="normal" image="estjBoard"/>
+                                                            <state key="normal" image="estjBoard">
+                                                                <color key="titleShadowColor" systemColor="systemGray3Color"/>
+                                                            </state>
                                                             <connections>
                                                                 <action selector="estjBoardPressed:" destination="-1" eventType="touchUpInside" id="BpY-9k-azY"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="GKM-s5-96F" firstAttribute="leading" secondItem="Ss3-tZ-g8q" secondAttribute="leading" id="WYA-eA-c1h"/>
                                                         <constraint firstAttribute="bottom" secondItem="GKM-s5-96F" secondAttribute="bottom" id="XRO-qN-CGf"/>
@@ -248,13 +248,15 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtR-zo-jcp">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="72"/>
-                                                            <state key="normal" image="freeBoard"/>
+                                                            <state key="normal" image="freeBoard">
+                                                                <color key="titleShadowColor" systemColor="systemGray4Color"/>
+                                                            </state>
                                                             <connections>
                                                                 <action selector="freeBoardPressed:" destination="-1" eventType="touchUpInside" id="nsJ-FP-xjA"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="vtR-zo-jcp" firstAttribute="leading" secondItem="DZX-iQ-Mxn" secondAttribute="leading" id="DvB-1K-dFG"/>
                                                         <constraint firstAttribute="trailing" secondItem="vtR-zo-jcp" secondAttribute="trailing" id="JlN-gF-m35"/>
@@ -273,7 +275,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="pJI-5l-t7W" secondAttribute="trailing" id="2gj-PI-Y2u"/>
                                                         <constraint firstAttribute="bottom" secondItem="pJI-5l-t7W" secondAttribute="bottom" id="WU5-Wn-Qyz"/>
@@ -292,7 +294,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="C1X-G6-Zgi" firstAttribute="leading" secondItem="Pds-sc-ANA" secondAttribute="leading" id="Fcn-Tp-rYI"/>
                                                         <constraint firstItem="C1X-G6-Zgi" firstAttribute="top" secondItem="Pds-sc-ANA" secondAttribute="top" id="OZp-MZ-Mdf"/>
@@ -311,7 +313,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="3Oc-Ek-pa3" firstAttribute="top" secondItem="Z8E-p0-ycj" secondAttribute="top" id="4PU-Pf-Eci"/>
                                                         <constraint firstItem="3Oc-Ek-pa3" firstAttribute="leading" secondItem="Z8E-p0-ycj" secondAttribute="leading" id="aWS-w4-a0K"/>
@@ -330,7 +332,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="LsA-6b-7GL" firstAttribute="top" secondItem="Qvb-HI-tK3" secondAttribute="top" id="6KH-XB-ayd"/>
                                                         <constraint firstItem="LsA-6b-7GL" firstAttribute="leading" secondItem="Qvb-HI-tK3" secondAttribute="leading" id="RLC-wE-SZK"/>
@@ -344,7 +346,7 @@
                                             </constraints>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="separatorColor"/>
+                                    <color key="backgroundColor" systemColor="systemGray6Color"/>
                                     <constraints>
                                         <constraint firstItem="unX-J4-yC7" firstAttribute="leading" secondItem="8Hf-eR-Ur0" secondAttribute="leading" constant="16" id="C7l-r5-qvJ"/>
                                         <constraint firstItem="vi4-sA-e1n" firstAttribute="leading" secondItem="8Hf-eR-Ur0" secondAttribute="leading" constant="16" id="a0d-JM-klF"/>
@@ -527,7 +529,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="wRo-GX-YTA" secondAttribute="trailing" constant="8" id="FaG-GT-616"/>
                                         <constraint firstAttribute="bottom" secondItem="wRo-GX-YTA" secondAttribute="bottom" constant="14" id="VUk-rW-g7B"/>
@@ -602,9 +604,6 @@
         <image name="icenfpboard" width="104" height="70"/>
         <image name="teenBoard" width="343" height="70"/>
         <image name="tempBoardPic" width="692" height="222"/>
-        <systemColor name="separatorColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -614,11 +613,11 @@
         <systemColor name="systemGray3Color">
             <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

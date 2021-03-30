@@ -44,6 +44,7 @@ class typeTestViewController: BaseViewController, UICollectionViewDelegate, UICo
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
         self.navigationItem.title = "유형테스트"
         navigationController?.navigationBar.isHidden = false
         self.navigationController?.isNavigationBarHidden = false

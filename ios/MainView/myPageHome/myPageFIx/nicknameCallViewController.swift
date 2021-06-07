@@ -9,12 +9,15 @@
 import UIKit
 
 class nicknameCallViewController: BaseViewController, UITextFieldDelegate {
+    
+    var nicknameLabel = myPageFixViewController.nicknameLabel.text!
 
     @IBOutlet weak var nicknameBox: UITextField!
     
     
+    @IBAction func nicknameFixCompleted(_ sender: UIButton) {
+    }
     
-
     
     
     override func viewDidLoad() {

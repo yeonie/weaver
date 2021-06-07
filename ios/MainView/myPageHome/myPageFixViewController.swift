@@ -16,6 +16,9 @@ class myPageFixViewController: BaseViewController {
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var nicknameLabel: UILabel!
     
+    @IBOutlet weak var fixedNickname: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let OwnTypeChoiceViewController = self.ownTypeChoiceViewController else { return }
